@@ -24,6 +24,12 @@
 				"url": "/activites/",
 				"title": "Activités"
 			}
+		},
+		{
+			"item": {
+				"url": "/contact/",
+				"title": "Contact"
+			}
 		}
 	],
 	"logo_link_title": "Page d'accueil",
