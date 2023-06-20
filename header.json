@@ -1,0 +1,29 @@
+{
+	"logo": "/res/img/logo.svg",
+	"menu": [
+		{
+			"item": {
+				"url": "/messes/",
+				"title": "Messes"
+			}
+		},
+		{
+			"item": {
+				"url": "/actualites/",
+				"title": "Actualités"
+			}
+		},
+		{
+			"item": {
+				"url": "/agenda/",
+				"title": "Agenda"
+			}
+		},
+		{
+			"item": {
+				"url": "/activites/",
+				"title": "Activités"
+			}
+		}
+	]
+}
