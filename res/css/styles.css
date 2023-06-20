@@ -6,7 +6,7 @@
   --rouge: #a32900;
   --cyan: #5bc0eb;
 }
-[mv-permissions~="login"] .mv-bar, [mv-permissions~="login"] .loggued {
+[mv-permissions~="login"] .mv-bar, [mv-permissions~="login"] .loggued [mv-mode~="edit"] {
   display: none;
 }
 html {
