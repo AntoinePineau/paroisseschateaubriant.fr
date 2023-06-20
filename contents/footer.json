@@ -1,28 +1,4 @@
 {
-	"permanence": [
-		{
-			"title": "Permanences Saint-Croix",
-			"adresse": [
-				"Presbytère",
-				"5 rue Joseph Hervouët",
-				"44110 Châteaubriant"
-			],
-			"phone": "02 40 81 02 92",
-			"mail": "paroisse.chateaubriant@gmail.com",
-			"horaires": "Du lundi au samedi de 9h30 à 11h30 et du lundi au vendredi de 14h30 à 17h30"
-		},
-		{
-			"title": "Permanences Saint-Joseph",
-			"adresse": [
-				"Presbytère",
-				"7 rue du Pont Neuf",
-				"44520 Moisdon-la-Rivière"
-			],
-			"phone": "02 40 07 62 51",
-			"mail": "paroisse.moisdon@gmail.com",
-			"horaires": "Du lundi au samedi de 9h30 à 11h30"
-		}
-	],
 	"paroisse": [
 		{
 			"permanence": [
