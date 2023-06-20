@@ -3,14 +3,14 @@
 	"menu": [
 		{
 			"item": {
-				"url": "/actualites/",
-				"title": "Actualités"
+				"url": "/messes/",
+				"title": "Messes"
 			}
 		},
 		{
 			"item": {
-				"url": "/messes/",
-				"title": "Messes"
+				"url": "/actualites/",
+				"title": "Actualités"
 			}
 		},
 		{
