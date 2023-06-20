@@ -19,9 +19,15 @@
     <script src="/res/js/mavo-tinymce.js"></script>
   </head>
   <body>
-    <header mv-app="header" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/header.json" mv-autosave mv-upload-url="https://paroissechateaubriant.netlify.app">
-      <a href="/" title="">
-        <img src="/contents/images/logo.png" alt="[image_alt]" title="[image_title]" property="logo" mv-upload-path="contents/images">  
+    <header mv-app="header" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/header.json" mv-autosave="0" mv-upload-url="https://paroissechateaubriant.netlify.app">
+      
+      <span class="loggued">
+        <span property="logo_link_title"></span>
+        <span property="logo_alt"></span>
+        <span property="logo_title"></span>
+      </span>
+      <a href="/" title="[logo_link_title]">
+        <img src="#" alt="[logo_alt]" title="[logo_title]" property="logo" mv-upload-path="contents/images">  
       </a>
       <nav>
         <ul property="menu" mv-list>
@@ -33,10 +39,10 @@
         </ul>
       </nav>
     </header>
-    <main mv-app="accueil" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/accueil.json" mv-autosave mv-upload-url="https://paroissechateaubriant.netlify.app">
-      <h1 property="title">Paroisses du pays de Châteaubriant</h1>
+    <main mv-app="accueil" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/accueil.json" mv-autosave="0" mv-upload-url="https://paroissechateaubriant.netlify.app">
+      <h1 property="title"></h1>
     </main>
-    <footer mv-app="footer" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/footer.json" mv-autosave mv-upload-url="https://paroissechateaubriant.netlify.app">
+    <footer mv-app="footer" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/footer.json" mv-autosave="0" mv-upload-url="https://paroissechateaubriant.netlify.app">
 
     </footer>
   </body>
