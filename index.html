@@ -21,7 +21,7 @@
   <body>
     <header mv-app="header" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/data/header.json" mv-autosave mv-upload-url="https://paroissechateaubriant.netlify.app">
       <a href="/" title="">
-        <img src="/res/img/logo.svg" alt="Logo" title="" property="logo" mv-upload-path="images">  
+        <img src="/res/img/logo.svg" alt="[image_alt]" title="[image_title]" property="logo" mv-upload-path="images">  
       </a>
       <nav>
         <ul property="menu" mv-list>
@@ -33,9 +33,11 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <h1>Paroisses du pays de Châteaubriant</h1>
+    <main mv-app="accueil" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/data/accueil.json" mv-autosave mv-upload-url="https://paroissechateaubriant.netlify.app">
+      <h1 property="title">Paroisses du pays de Châteaubriant</h1>
     </main>
-    <footer mv-app="footer"></footer>
+    <footer mv-app="footer" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/data/footer.json" mv-autosave mv-upload-url="https://paroissechateaubriant.netlify.app">
+
+    </footer>
   </body>
 </html>
