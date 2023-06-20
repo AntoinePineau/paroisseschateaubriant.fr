@@ -5,31 +5,41 @@
 			"item": {
 				"url": "/messes/",
 				"title": "Messes"
-			}
+			},
+			"url": "/messes/",
+			"title": "Messes"
 		},
 		{
 			"item": {
 				"url": "/actualites/",
 				"title": "Actualités"
-			}
+			},
+			"url": "/actualites/",
+			"title": "Actualités"
 		},
 		{
 			"item": {
 				"url": "/agenda/",
 				"title": "Agenda"
-			}
+			},
+			"url": "/agenda/",
+			"title": "Agenda"
 		},
 		{
 			"item": {
 				"url": "/activites/",
 				"title": "Activités"
-			}
+			},
+			"url": "/activites/",
+			"title": "Activités"
 		},
 		{
 			"item": {
 				"url": "/contact/",
 				"title": "Contact"
-			}
+			},
+			"url": "/contact/",
+			"title": "Contact"
 		}
 	],
 	"logo_link_title": "Page d'accueil",
