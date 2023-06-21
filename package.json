@@ -1,0 +1,22 @@
+{
+  "name": "paroisseschateaubriant.fr",
+  "version": "1.0.0",
+  "description": "Site pour les paroisses du Pays de Châteaubriant",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "github.com/AntoinePineau/paroisseschateaubriant.fr"
+  },
+  "author": "Antoine Pineau",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-extend": "^1.1.6",
+    "gulp-inject-file": "^0.0.19",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.63.5"
+  }
+}

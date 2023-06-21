@@ -1,0 +1,14 @@
+{
+    "name": "Paroisses Ch\u00e2teaubriant",
+    "short_name": "Paroisses Ch\u00e2teaubriant",
+    "icons": [
+        {
+            "src": "/img/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#0a1128",
+    "background_color": "#0a1128",
+    "display": "standalone"
+}

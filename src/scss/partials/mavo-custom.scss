@@ -1,0 +1,3 @@
+[mv-permissions~="login"] .mv-bar, .loggued:not([mv-mode~="edit"]) {
+  display: none;
+}
