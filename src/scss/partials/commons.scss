@@ -1,0 +1,47 @@
+$font: "Cambria";
+$blanc: #fefcfb;
+$bleu: #0a1128;
+$jaune: #f3a539;
+$rouge: #a32900;
+$cyan: #5bc0eb;
+
+html {
+    background-color: $blanc;
+    color: $bleu;
+    font-family: $font;
+    body {
+      a {
+        color: $rouge;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      button, a[role=button] {
+        color: $blanc;
+        background-color: $rouge;
+        &:hover {
+          background-color: $bleu;
+        }
+      }
+      header, footer {
+        background-color: $bleu;
+        color: $blanc;
+        a {
+          color: $blanc;
+          text-decoration: none;
+          &:hover {
+            color: $jaune;
+            text-decoration: underline;
+          }
+        }
+        button, a[role=button] {
+          color: $bleu;
+          background-color: $cyan;
+          &:hover {
+            background-color: $jaune;
+          }
+        }
+      }
+    }
+}
