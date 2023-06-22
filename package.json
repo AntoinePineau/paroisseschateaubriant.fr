@@ -2,7 +2,7 @@
   "name": "paroisseschateaubriant.fr",
   "version": "1.0.0",
   "description": "Site pour les paroisses du Pays de Châteaubriant",
-  "main": "index.js",
+  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "github.com/AntoinePineau/paroisseschateaubriant.fr"

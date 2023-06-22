@@ -4,14 +4,16 @@ const uglify = require('gulp-uglify');
 const sass = require('gulp-sass')(require('sass'));
 const htmlExtend = require('gulp-html-extend');
 const browserSync = require('browser-sync').create();
-const reload = ()=>{
-  console.log("watch hit");
-  browserSync.reload;
+function reload(done){
+  console.log('file changed', data);
+  browserSync.reload();
+  done();
 }
+
 // Task to build the HTML files with includes
 gulp.task('html', () => {
   return gulp.src(['src/html/**/*.html', '!src/html/includes/*.html'])
-    .pipe(htmlExtend({annotations:true, verbose:true}))
+    .pipe(htmlExtend({annotations:true, verbose:false}))
     .pipe(gulp.dest((file)=>{
       return file.base.replace('src/html', 'dist')
     }))
@@ -36,20 +38,21 @@ gulp.task('js', () => {
     .pipe(browserSync.stream());
 });
 
+// Tasks to directly copy files from src to dist
 gulp.task('copy-css-map', () => {
   return gulp.src('src/res/scss/lib/maps/mavo.css.map')
     .pipe(gulp.dest('dist/res/css/lib/maps'));
-})
+});
 
 gulp.task('copy-js-map', () => {
   return gulp.src('src/res/js/lib/maps/mavo.js.map')
     .pipe(gulp.dest('dist/res/js/lib/maps'));
-})
+});
 
 gulp.task('copy-img', () => {
   return gulp.src('src/res/img/*')
     .pipe(gulp.dest('dist/res/img/'));
-})
+});
 
 gulp.task('copy-files', gulp.series(['copy-css-map', 'copy-js-map', 'copy-img']));
 
@@ -65,7 +68,6 @@ gulp.task('serve', () => {
     },
     open: false
   });
- 
   gulp.watch('src/html/**/*.html', gulp.series('html')).on('change', reload);
   gulp.watch('src/res/scss/**/*.scss', gulp.series('scss')).on('change', reload);
   gulp.watch('src/res/js/**/*.js', gulp.series('js')).on('change', reload);

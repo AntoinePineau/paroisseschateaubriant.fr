@@ -1,0 +1,84 @@
+{
+	"titre": "Horaires des messes",
+	"dimanches": [
+	    {
+			"titre": "1<sup>er</sup> dimanche du mois",
+			"samedi": [
+				"Messe à <b>18h00</b> à Ruffigné, Fercé, Noyal-sur-Brutz ou Soulvache (selon les mois)",
+				"Messe à <b>18h00</b> à La Chapelle-Glain"
+			],
+			"dimanche": [
+				"Messe des familles à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant",
+				"Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière"
+			]
+		},
+	    {
+			"titre": "2<sup>e</sup> dimanche du mois",
+			"samedi": [
+				"Messe à <b>18h00</b> à Rougé",
+				"Messe à <b>18h00</b> à Erbray"
+			],
+			"dimanche": [
+				"Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant",
+				"Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière"
+			]
+		},
+	    {
+			"titre": "3<sup>e</sup> dimanche du mois",
+			"samedi": [
+				"Messe à <b>18h00</b> à Saint-Aubin-des-Châteaux",
+				"Messe à <b>18h00</b> à Issé"
+			],
+			"dimanche": [
+				"Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant",
+				"Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière",
+				"Messe <i>Maranatha</i> à <b>17h</b> à l'église Saint-Nicolas de Châteaubriant avec les chants de Glorious"
+			]
+		},
+	    {
+			"titre": "4<sup>e</sup> dimanche du mois",
+			"samedi": [
+				"Messe à <b>18h00</b> à Soudan",
+				"Messe à <b>18h00</b> à Grand-Auverné"
+			],
+			"dimanche": [
+				"Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant",
+				"Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière"
+			]
+		},
+	    {
+			"titre": "5<sup>e</sup> dimanche du mois",
+			"samedi": [
+				"Messe à <b>18h00</b> à Villepôt",
+				"Messe à <b>18h00</b> à Saint-Julien-de-Vouvantes"
+			],
+			"dimanche": [
+				"Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant",
+				"Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière"
+			]
+		}
+	],
+	"semaine": {
+		"titre": "Les messes de la semaine",
+		"mardi": [
+			"Messe à <b>9h00</b> à Soudan ",
+			"Messe à <b>18h30</b> à l'église de Béré de Châteaubriant"
+		],
+		"mercredi": [
+			"Messe à <b>9h00</b> à l'église Saint-Nicolas de Châteaubriant",
+			"Messe à <b>18h30</b> à la Meilleraye de Bretagne"
+		],
+		"jeudi": [
+			"Dans les Maisons de Retraite",
+			"Messe à <b>18h30</b> à Juigné-les-Moutiers le 1er jeudi du mois",
+			"Messe à <b>9h00</b> à Villepôt le 2ème jeudi du mois"
+		],
+		"vendredi": [
+			"Messe à <b>9h00</b> à Saint-Aubin-des-Châteaux",
+			"Messe à <b>9h00</b> à Erbray"
+		],
+		"samedi": [
+			"Messe à <b>9h00</b> à l'église Saint-Nicolas de Châteaubriant le 1er samedi du mois"
+		]
+	}
+}
