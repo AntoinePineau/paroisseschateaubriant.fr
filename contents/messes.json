@@ -82,6 +82,13 @@
 		],
 		"jour": [
 			{
+				"messe": [
+					"<div class=\"mv-item-bar mv-ui\" hidden=\"\">&nbsp;</div>"
+				],
+				"titre": "Le mardi"
+			},
+			{
+				"titre": "La merd",
 				"messe": []
 			}
 		]
