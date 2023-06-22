@@ -3,7 +3,7 @@
 		{
 			"permanence": [
 				{
-					"title": "Permanences Sainte-Croix",
+					"titre": "Permanences Sainte-Croix",
 					"url_google_maps": "https://goo.gl/maps/Doxdq8tjsZw",
 					"adresse": [
 						"Presbytère",
@@ -26,7 +26,7 @@
 		{
 			"permanence": [
 				{
-					"title": "Permanences Saint-Joseph",
+					"titre": "Permanences Saint-Joseph",
 					"url_google_maps": "https://goo.gl/maps/gJemsMKAbY92",
 					"adresse": [
 						"Presbytère",

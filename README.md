@@ -37,4 +37,6 @@ npm i
 
 ## Development
 
+If you use WSL on Windows, ensure to work only on WSL (repository included) to be more efficient (quick and live reloading working)
+
 Launch `gulp` to serve you local development server and build automagically the final files to serve in the Production environment.

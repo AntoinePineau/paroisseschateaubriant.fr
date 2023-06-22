@@ -3,26 +3,26 @@
 	"menu": [
 		{
 			"url": "/messes/",
-			"title": "Messes"
+			"titre": "Messes"
 		},
 		{
 			"url": "/actualites/",
-			"title": "Actualités"
+			"titre": "Actualités"
 		},
 		{
 			"url": "/agenda/",
-			"title": "Agenda"
+			"titre": "Agenda"
 		},
 		{
 			"url": "/activites/",
-			"title": "Activités"
+			"titre": "Activités"
 		},
 		{
 			"url": "/contact/",
-			"title": "Contact"
+			"titre": "Contact"
 		}
 	],
-	"logo_link_title": "Page d'accueil",
+	"logo_link_titre": "Page d'accueil",
 	"logo_alt": "Logo Paroisses Châteaubriant",
-	"logo_title": "Logo Paroisses Châteaubriant"
+	"logo_titre": "Logo Paroisses Châteaubriant"
 }
