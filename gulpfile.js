@@ -5,9 +5,8 @@ const sass = require('gulp-sass')(require('sass'));
 const htmlExtend = require('gulp-html-extend');
 const browserSync = require('browser-sync').create();
 function reload(done){
-  console.log('file changed', data);
+  console.log('file changed', done);
   browserSync.reload();
-  done();
 }
 
 // Task to build the HTML files with includes
