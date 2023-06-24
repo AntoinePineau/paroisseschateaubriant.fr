@@ -60,36 +60,41 @@
 	],
 	"semaine": {
 		"titre": "Les messes de la semaine",
-		"mardi": [
-			"Messe à <b>9h00</b> à Soudan ",
-			"Messe à <b>18h30</b> à l'église de Béré de Châteaubriant"
-		],
-		"mercredi": [
-			"Messe à <b>9h00</b> à l'église Saint-Nicolas de Châteaubriant",
-			"Messe à <b>18h30</b> à la Meilleraye de Bretagne"
-		],
-		"jeudi": [
-			"Dans les Maisons de Retraite",
-			"Messe à <b>18h30</b> à Juigné-les-Moutiers le 1er jeudi du mois",
-			"Messe à <b>9h00</b> à Villepôt le 2ème jeudi du mois"
-		],
-		"vendredi": [
-			"Messe à <b>9h00</b> à Saint-Aubin-des-Châteaux",
-			"Messe à <b>9h00</b> à Erbray"
-		],
-		"samedi": [
-			"Messe à <b>9h00</b> à l'église Saint-Nicolas de Châteaubriant le 1er samedi du mois"
-		],
 		"jour": [
 			{
+				"titre": "Le mardi",
 				"messe": [
-					"<div class=\"mv-item-bar mv-ui\" hidden=\"\">&nbsp;</div>"
-				],
-				"titre": "Le mardi"
+					"Messe à <b>9h00</b> à Soudan ",
+					"Messe à <b>18h30</b> à l'église de Béré de Châteaubriant"
+				]
 			},
 			{
-				"titre": "La merd",
-				"messe": []
+				"titre": "Le mercredi",
+				"messe": [
+					"Messe à <b>9h00</b> à l'église Saint-Nicolas de Châteaubriant",
+					"Messe à <b>18h30</b> à la Meilleraye de Bretagne"
+				]
+			},
+			{
+				"titre": "Le jeudi",
+				"messe": [
+					"Dans les Maisons de Retraite",
+					"Messe à <b>18h30</b> à Juigné-les-Moutiers le 1er jeudi du mois",
+					"Messe à <b>9h00</b> à Villepôt le 2ème jeudi du mois"
+				]
+			},
+			{
+				"titre": "Le vendredi",
+				"messe": [
+					"Messe à <b>9h00</b> à Saint-Aubin-des-Châteaux",
+					"Messe à <b>9h00</b> à Erbray"
+				]
+			},
+			{
+				"titre": "Le samedi",
+				"messe": [
+					"Messe à <b>9h00</b> à l'église Saint-Nicolas de Châteaubriant le 1<sup>er</sup> samedi du mois"
+				]
 			}
 		]
 	}
