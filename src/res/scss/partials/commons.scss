@@ -6,10 +6,12 @@ $rouge: #a32900;
 $cyan: #5bc0eb;
 
 html {
+
     background-color: $blanc;
     color: $bleu;
     font-family: $font;
     body {
+      margin: 0;
       a {
         color: $rouge;
         text-decoration: none;

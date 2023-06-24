@@ -30,7 +30,7 @@ gulp.task('scss', () => {
 
 // Task to build and minify JavaScript files
 gulp.task('js', () => {
-  return gulp.src(['src/res/js/lib/mavo.js', 'src/res/js/lib/mavo-locale-fr.js', 'src/res/js/main.js'])
+  return gulp.src(['src/res/js/lib/mavo.js', 'src/res/js/lib/mavo-locale-fr.js', 'src/res/js/lib/mavo-cropper.js', 'src/res/js/main.js'])
     .pipe(concat('main.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('dist/res/js'))

@@ -2,5 +2,32 @@
 <!-- @@block main -->
     <main mv-app="messes" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/messes.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
+      <section mv-list="dimanches">
+        <div mv-list-items>
+          <h2 property="titre" class="tinymce"></h2>
+          <div class="dimanche">
+            <div mv-list="dimanche">
+              <div mv-list-items class="tinymce"></div>
+            </div>
+          </div>
+          <div class="samedi">
+            <h3>Le samedi soir (la veille)</h3>
+            <div mv-list="samedi">
+              <div mv-list-items class="tinymce"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section property="semaine">
+        <h2 property="titre"></h2>
+        <div mv-list="jour">
+          <div mv-list-items>
+            <h3 property="titre"></h3>
+            <div mv-list="messe">
+              <div mv-list-items class="tinymce"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 <!-- @@close -->
