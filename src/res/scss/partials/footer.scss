@@ -4,23 +4,9 @@ footer {
         width: calc(100% - 4em);
         div#paroisse {
             width: 100%;
-            columns: 2;
             &>div {
                 break-inside: avoid-column;
                 margin-top:-1em;
-            }
-            .fa-phone, .fa-envelope, .fa-location-dot {
-                display: block;
-                letter-spacing: 2px;
-                font-family: $font;
-                margin: .5em 0;
-                &:not(:empty)::before {
-                    margin-right:1em;
-                    font-family: "Font Awesome 6 Free";
-                }
-                &:empty::before {
-                    display: none;
-                }
             }
             .permanence:first-child .adresse {
                 font-weight: initial;
@@ -37,8 +23,6 @@ footer {
                 border-top: solid 1px $blanc;
                 margin-top: 1em;
                 padding-top: 1em;
-                width: calc(50% - 2em);
-                float: left;
                 &::before {
                     content: '✥';
                     margin-right:1em;
@@ -59,6 +43,8 @@ footer {
     }
     #social {
         margin-bottom: -1em;
+        display: flex;
+        background: $noir;
         li {
             padding: 0 1em;
             float: left;
@@ -70,5 +56,22 @@ footer {
         background: $noir;
         font-size: 0.85em;
         padding: 1em 0;
+    }
+}
+
+@media (min-width: $tablet) {
+    footer {
+        #footer {
+            div#paroisse {
+                columns: 2;
+                .permanence:not(:first-child) {
+                    width: calc(50% - 2em);
+                    float: left;
+                }
+            }
+        }
+        #social {
+            margin-bottom: -3em;
+        }
     }
 }

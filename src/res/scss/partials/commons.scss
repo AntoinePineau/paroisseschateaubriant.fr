@@ -5,6 +5,7 @@ $jaune: #f3a539;
 $rouge: #a32900;
 $cyan: #5bc0eb;
 $noir: #15171e;
+$gris: lightgrey;
 
 $tablet: 768px;
 
@@ -73,8 +74,35 @@ html {
       }
       main {
         h1 {
-          margin-left: 2em;
+          font-size: 2.5em;
+        }
+        h2 {
+          font-size: 2.2em;
+        }
+        h3 {
+          font-size: 1.8em;
+        }
+        h4 {
+          font-size: 1.5em;
+        }
+        h5 {
+          font-size: 1.1em;
         }
       }
     }
+    
+    .fa-phone, .fa-envelope, .fa-location-dot {
+      display: block;
+      letter-spacing: 2px;
+      font-family: $font;
+      margin: .5em 0;
+      font-size: 0.85em;
+      &:not(:empty)::before {
+          margin-right:1em;
+          font-family: "Font Awesome 6 Free";
+      }
+      &:empty::before {
+          display: none;
+      }
+  }
 }

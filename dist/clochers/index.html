@@ -66,8 +66,8 @@
               <article>
                 <h5 property="nom"></h5>
                 <div property="adresse"></div>
-                <a class="fa-solid fa-phone" href="tel:+[idify(telephone)]" property="telephone"></a>
-                <a class="fa-solid fa-envelope" href="mailto:[email]" property="email"></a>
+                <a href="tel:+[idify(telephone)]"><span property="telephone" class="fa-solid fa-phone"></span></a>
+                <a href="mailto:[email]"><span property="email" class="fa-solid fa-envelope"></span></a>
               </article>
             </li>
           </ul>
@@ -101,9 +101,9 @@
           <option>YouTube</option>
         </datalist>
       </section>
-      <div id="social" mv-list>
-        <ul mv-list-items>
-          <li property="reseau">
+      <div id="social">
+        <ul mv-list="social">
+          <li mv-list-items property="reseau">
             <span class="loggued" property="type" mv-editor-list="social-networks"></span>
             <span class="loggued" property="lien"></span>
             <a href="[lien]" target="_blank" title="[type]"><i class="fa-brands fa-[lowercase(type)]"></i></a>
