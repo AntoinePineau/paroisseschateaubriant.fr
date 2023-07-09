@@ -44,8 +44,35 @@
     </header>
 <!-- end header.html-->
 <!-- start main -->
-    <main mv-app="agenda" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/agenda.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
+    <main mv-app="clochers" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/clochers.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
+      <figure>
+        <img src="/res/img/carte-clochers.png" title="Sainte-Croix en Châteaubriant et de Saint-Joseph du Don" alt="Carte des clochers de Sainte-Croix en Châteaubriant et de Saint-Joseph du Don"/>
+        <figcaption>
+          En <span style="color:blue">bleu</span> les clochers de <a href="#sainte-croix-en-chateaubriant">Sainte-Croix en Châteaubriant</a>.<br/>
+          En <span style="color:red">rouge</span> les clochers de <a href="#saint-joseph-du-don">Saint-Joseph du Don</a>.
+        </figcaption>
+      </figure>
+      <h2>Référents de clochers</h2>
+      <div>
+        Dans chaque clocher, un référent assure le lien avec la coordinatrice paroissiale, et est, aux yeux de la municipalité et de la communauté chrétienne, le délégué paroissial pour le clocher.
+      </div>
+      <section property="paroisse" mv-list>
+        <div mv-list-item>
+          <h3 id="[idify(nom)]" property="nom"></h3>
+          <ul property="clocher" mv-list>
+            <li mv-list-item>      
+              <h4 property="ville"></h4>
+              <article>
+                <h5 property="nom"></h5>
+                <div property="adresse"></div>
+                <a class="fa-solid fa-phone" href="tel:+[idify(telephone)]" property="telephone"></a>
+                <a class="fa-solid fa-envelope" href="mailto:[email]" property="email"></a>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
 <!-- end main -->
