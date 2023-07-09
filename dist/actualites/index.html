@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <title>Accueil | Paroisses du Pays de Châteaubriant</title>
-    <meta name="description" content="Bienvenue sur le site des Paroisses du Pays de Châteaubriant, Sainte-Croix en Châteaubriant et Saint-Joseph du Don">
+    <title>Actualités | Paroisses du Pays de Châteaubriant</title>
+    <meta name="description" content="Les actualités des paroisses de Saint-Croix en Châteaubriant et Saint-Joseph du Don">
 <!-- start metas.html-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,13 +23,19 @@
       <span class="loggued" property="logo_link_titre"></span>
       <span class="loggued" property="logo_alt"></span>
       <span class="loggued" property="logo_titre"></span>
+      <!-- Logo -->
       <a href="/" title="[logo_link_titre]">
         <img src="#" alt="[logo_alt]" title="[logo_titre]" property="logo" mv-upload-path="res/img">  
       </a>
+     <!-- Menu -->
       <nav>
-        <ul mv-list="menu">
-          <li mv-list-items>
-            <a property="url" href="#">
+        <button aria-expanded="false" aria-controls="menu">
+          <label class="sr-only">Menu</label>
+          <span aria-hidden="true">☰</span>
+        </button>
+        <ul id="menu" mv-list role="menu">
+          <li mv-list-item role="presentation">
+            <a property="url" href="#" role="menuitem">
               <span property="titre"></span>
             </a>
           </li>
@@ -38,34 +44,48 @@
     </header>
 <!-- end header.html-->
 <!-- start main -->
-    <main mv-app="accueil" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/accueil.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
+    <main mv-app="actualites" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/actualites.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
+      <div class="taggbox" style="width:100%;height:100%;" data-widget-id="111377" data-tags="false"></div>
+      <script src="https://widget.taggbox.com/embed-lite.min.js" type="text/javascript"></script>		
     </main>
 
 <!-- end main -->
 <!-- start footer.html-->
     <footer mv-app="footer" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/footer.json" mv-autosave="1" mv-plugins="tinymce">
-      <div mv-list="paroisse">
-        <div mv-list-items>
-          <div mv-list="permanence">
-            <div mv-list-items>
-              <h2 property="titre"></h2>
-              <span class="loggued" property="url_google_maps"></span>
-              <a mv-list="adresse" href="[url_google_maps]" target="_blank" title="Voir sur Google Maps">
-                <div mv-list-items></div>
-              </a>
-              <a href="tel:[idify(phone)]"><span property="phone"></span></a>
-              <a href="mailto:[mail]"><span property="mail"></span></a>
-              <div property="horaires" class="tinymce"></div>
+      <section id="footer">
+        <div id="paroisse" mv-list>
+          <div mv-list-items>
+            <div mv-list="permanence">
+              <div mv-list-items class="permanence">
+                <h2 property="titre"></h2>
+                <span class="loggued" property="url_google_maps"></span>
+                <a class="adresse fa-solid fa-location-dot" mv-list="adresse" href="[url_google_maps]" target="_blank" title="Voir sur Google Maps">
+                  <div mv-list-items></div>
+                </a>
+                <a href="tel:[idify(phone)]"><span property="phone" class="fa-solid fa-phone"></span></a>
+                <a href="mailto:[mail]"><span property="mail" class="fa-solid fa-envelope"></span></a>
+                <div property="horaires" class="tinymce horaires"></div>
+              </div>
             </div>
           </div>
         </div>
+        <datalist id="social-networks" hidden>
+          <option>Facebook</option>
+          <option>Instagram</option>
+          <option>YouTube</option>
+        </datalist>
+      </section>
+      <div id="social" mv-list>
+        <ul mv-list-items>
+          <li property="reseau">
+            <span class="loggued" property="type" mv-editor-list="social-networks"></span>
+            <span class="loggued" property="lien"></span>
+            <a href="[lien]" target="_blank" title="[type]"><i class="fa-brands fa-[lowercase(type)]"></i></a>
+          </li>
+        </ul>
       </div>
-      <div mv-list="social">
-        <div mv-list-items>
-        </div>
-        <span hidden></span>
-      </div>
+      <div id="copyright" property></div>
     </footer>
 <!-- end footer.html-->
   </body>

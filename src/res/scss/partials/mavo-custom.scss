@@ -1,3 +1,11 @@
 [mv-permissions~="login"] .mv-bar, .loggued:not([mv-mode~="edit"]) {
   display: none;
 }
+button.mv-ui {
+  background: $cyan;
+  color: $bleu;
+  &:hover {
+    background: $jaune;
+    color: $bleu;
+  }
+}

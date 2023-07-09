@@ -2411,8 +2411,14 @@ let _ = Mavo.Plugins = {
 					try {
 						return await $.include(_.loaded[plugin.id], url);
 					} catch(e) {
-						// If there is no such version, fallback to the latest one (or the latest commit)
-						url = `https://cdn.jsdelivr.net/gh/${plugin.repo}/${filename}`;
+						// Try to load the requested version of a plugin
+							url = `https://cdn.jsdelivr.net/gh/${plugin.repo}/${filename}`;
+						try {
+							return await $.include(_.loaded[plugin.id], url);
+						} catch(e) {
+							// If it does not exist load the local one
+						    url = `/res/js/lib/${filename}`;
+						}
 					}
 				}
 				else {
