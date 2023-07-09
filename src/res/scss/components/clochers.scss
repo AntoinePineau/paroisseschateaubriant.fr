@@ -1,0 +1,35 @@
+main[mv-app=clochers] {
+    margin: 0 1em;
+    figure {
+        text-align: center;
+        img {
+            max-width: 100%
+        }
+    }
+    ul {
+        padding: 0;
+    }
+    article {
+        background: $gris;
+        border: solid 1px $bleu;
+        padding: .5em;
+        break-inside: avoid-column;
+    }
+    h4 {
+        margin:.5em 0 0;
+    }
+    h5 {
+        margin: 0;
+    }
+}
+
+@media (min-width: $tablet) {
+    main[mv-app=clochers] {
+        ul {
+            columns: 2;
+        }
+        article {
+            padding: 1em;
+        }
+    }
+}
