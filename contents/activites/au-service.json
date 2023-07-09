@@ -1,3 +1,90 @@
 {
-	"titre": "Paroisses du Pays de Châteaubriant"
+	"titre": "Une paroisse qui se met au service des personnes fragiles",
+	"service": [
+		{
+			"titre": "Au service des personnes âgées en Maison de retraite",
+			"paragraphe": [
+				{
+					"texte": "Dans chacune des maisons de retraite une équipe d'aumônerie assure la présence fraternelle de la paroisse auprès des personnes âgées. Elle anime des temps de prière réguliers et des eucharisties.<br><br><ul><li>pour Rougé, Christiane Lépicier</li><li>pour la Mapa et Béré, Annick-Marie Bucquet</li><li>pour Moisdon-la-Rivière, Sœur Imelda Piton</li><li>pour St Julien de Vouvantes, Annie Halet</li><li>pour Issé et St Vincent des Landes: P.Roger Roul</li><ul>",
+					"contact": [
+						"christiane-lepicier",
+						"annick-marie-bucquet",
+						"soeur-imelda-piton",
+						"annie-halet",
+						"p-roger-roul"
+					]
+				}
+			]
+		},
+		{
+			"titre": "Au service des malades en hôpital",
+			"paragraphe": [
+				{
+					"texte": "Il existe une aumônerie à l'hôpital de Châteaubriant",
+					"contact": [
+						"annick-marie-bucquet"
+					]
+				}
+			]
+		},
+		{
+			"titre": "Au service des malades ou personnes âgées à domicile",
+			"paragraphe": [ 
+				{
+					"texte": "Si l'âge ou la maladie vous retient chez vous, et si vous désirez recevoir la communion ou tout simplement une visite, l'équipe de visite à domicile est à votre disposition.",
+					"contact": [
+						"marie-claude-luette",
+						"marie-madeleine-boissinot",
+						"marie-cochet",
+						"soeur-jeannette-ollivier",
+						"joel-macario"
+					]
+				}
+			]
+		},
+		{
+			"titre": "Au service des personnes handicapées",
+			"paragraphe": [
+				{
+					"texte": "La PPH (Pastorale des personnes handicapées) se réunit régulièrement pour des temps d'échanges et pour participer ensemble à l'eucharistie dominicale.",
+					"contact": [
+						"alain-esnault"
+					]
+				}
+			]
+		},
+		{
+			"titre": "Au service des personnes en précarité",
+			"paragraphe": [
+				{
+					"titre": "La société Saint Vincent de Paul",
+					"texte": "9 rue du Prieuré de Béré, Châteaubriant ; chaque mardi : de 8h30 à 11h30 , réception de vêtements, bibelots ou divers. De 13h30 à 16h30 : accueil des familles. Le 3ème samedi de chaque mois : de 9h à 12h, ouverture du  vestiaire à tous.",
+					"contact": [
+						"societe-saint-vincent-de-paul"
+					]
+				},
+				{
+					"titre": "Le Secours Catholique",
+					"texte": "A Châteaubriant, le local est rue Pasteur (en face MMA) ; permanence chaque 1er jeudi du mois, de 14h à 17h",
+					"contact": [
+						"christiane-lepicier",
+						"nicole-masse"
+					]
+				}
+			]
+		},
+		{
+			"titre": "Service au-delà de nos frontières…",
+			"paragraphe": [
+				{
+					"texte": "Le CCFD (Comité Catholique contre la Faim et pour le Développement) sensibilise à la coopération avec les pays du Sud.",
+					"contact": [
+						"jean-francois-blin",
+						"beatrice-davenas",
+						"marie-france-menard"
+					]
+				}
+			]
+		}
+	]
 }

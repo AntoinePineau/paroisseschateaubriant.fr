@@ -77,16 +77,16 @@
 		},
 		{
 			"reseau": {
-				"type": "YouTube",
-				"lien": "https://www.youtube.com/@paroissechateaubriant8873"
+				"type": "Instagram",
+				"lien": "https://www.instagram.com/paroissesdupaysdechateaubriant/"
 			}
 		},
 		{
 			"reseau": {
-				"type": "Instagram",
-				"lien": "https://www.instagram.com/paroissesdupaysdechateaubriant/"
+				"type": "YouTube",
+				"lien": "https://www.youtube.com/@paroissechateaubriant8873"
 			}
 		}
 	],
-	"copyright": "©2023 Paroisses Sainte Croix en Châteaubriant et Saint Joseph du Don"
+	"copyright": "©2023 Paroisses Sainte-Croix en Châteaubriant et Saint-Joseph du Don"
 }

@@ -1,0 +1,74 @@
+footer {
+    #footer {
+        padding: 2em;
+        width: calc(100% - 4em);
+        div#paroisse {
+            width: 100%;
+            columns: 2;
+            &>div {
+                break-inside: avoid-column;
+                margin-top:-1em;
+            }
+            .fa-phone, .fa-envelope, .fa-location-dot {
+                display: block;
+                letter-spacing: 2px;
+                font-family: $font;
+                margin: .5em 0;
+                &:not(:empty)::before {
+                    margin-right:1em;
+                    font-family: "Font Awesome 6 Free";
+                }
+                &:empty::before {
+                    display: none;
+                }
+            }
+            .permanence:first-child .adresse {
+                font-weight: initial;
+                margin: .5em 0;
+                &>div {
+                    display: inline;
+                    margin-top: -1em;
+                    &:not(:first-child)::before {
+                        content: " - "
+                    }
+                }
+            }
+            .permanence:not(:first-child) {
+                border-top: solid 1px $blanc;
+                margin-top: 1em;
+                padding-top: 1em;
+                width: calc(50% - 2em);
+                float: left;
+                &::before {
+                    content: '✥';
+                    margin-right:1em;
+                    margin-top:.25em;
+                    float: left;
+                }
+                .fa-location-dot{
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+            .horaires {
+                margin: 1em 2em;
+                font-style: italic;
+            }
+        }
+    }
+    #social {
+        margin-bottom: -1em;
+        li {
+            padding: 0 1em;
+            float: left;
+        }
+    }
+    #copyright {
+        text-align: center;
+        vertical-align: middle;
+        background: $noir;
+        font-size: 0.85em;
+        padding: 1em 0;
+    }
+}

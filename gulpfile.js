@@ -44,6 +44,10 @@ gulp.task('copy-css-map', () => {
 });
 
 gulp.task('copy-js-map', () => {
+  gulp.src('src/res/js/lib/maps/mavo-offline.js.map')
+      .pipe(gulp.dest('dist/res/js/lib/maps'));
+  gulp.src('src/res/js/lib/mavo-offline.js')
+      .pipe(gulp.dest('dist/res/js/lib'));
   return gulp.src('src/res/js/lib/maps/mavo.js.map')
     .pipe(gulp.dest('dist/res/js/lib/maps'));
 });
@@ -53,7 +57,12 @@ gulp.task('copy-img', () => {
     .pipe(gulp.dest('dist/res/img/'));
 });
 
-gulp.task('copy-files', gulp.series(['copy-css-map', 'copy-js-map', 'copy-img']));
+gulp.task('copy-fonts', () => {
+  return gulp.src('src/res/webfonts/*')
+    .pipe(gulp.dest('dist/res/webfonts/'));
+});
+
+gulp.task('copy-files', gulp.series(['copy-css-map', 'copy-js-map', 'copy-img', 'copy-fonts']));
 
 // Task to serve the development environment
 gulp.task('serve', () => {
@@ -67,10 +76,10 @@ gulp.task('serve', () => {
     },
     open: false
   });
-  gulp.watch('src/html/**/*.html', gulp.series('html')).on('change', reload);
-  gulp.watch('src/res/scss/**/*.scss', gulp.series('scss')).on('change', reload);
-  gulp.watch('src/res/js/**/*.js', gulp.series('js')).on('change', reload);
-  gulp.watch('gulpfile.js').on('change', reload);
+  gulp.watch('src/html/**/*.html', gulp.series('html', 'copy-files')).on('change', reload);
+  gulp.watch('src/res/scss/**/*.scss', gulp.series('scss', 'copy-files')).on('change', reload);
+  gulp.watch('src/res/js/**/*.js', gulp.series('js', 'copy-files')).on('change', reload);
+  gulp.watch('gulpfile.js', gulp.series('html', 'copy-files')).on('change', reload);
 });
 
 // Default task

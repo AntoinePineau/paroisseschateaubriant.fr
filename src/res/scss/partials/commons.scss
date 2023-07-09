@@ -4,9 +4,32 @@ $bleu: #0a1128;
 $jaune: #f3a539;
 $rouge: #a32900;
 $cyan: #5bc0eb;
+$noir: #15171e;
+
+$tablet: 768px;
+
+$transition: all .5s ease-out;
+
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
 
 html {
-
+    a {
+      color: $rouge;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    ul {
+      list-style: none;
+    }
     background-color: $blanc;
     color: $bleu;
     font-family: $font;
@@ -22,6 +45,8 @@ html {
       button, a[role=button] {
         color: $blanc;
         background-color: $rouge;
+        border: 0;
+        cursor: pointer;
         &:hover {
           background-color: $bleu;
         }
@@ -29,20 +54,26 @@ html {
       header, footer {
         background-color: $bleu;
         color: $blanc;
+        box-shadow: 1px 1px 5px 0px $bleu;
         a {
           color: $blanc;
           text-decoration: none;
           &:hover {
             color: $jaune;
-            text-decoration: underline;
+            text-decoration: none;
           }
         }
-        button, a[role=button] {
-          color: $bleu;
-          background-color: $cyan;
+        button {
+          background: transparent;
+          color: $blanc;
           &:hover {
-            background-color: $jaune;
+            color: $jaune;
           }
+        }
+      }
+      main {
+        h1 {
+          margin-left: 2em;
         }
       }
     }

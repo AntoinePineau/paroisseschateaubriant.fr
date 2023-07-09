@@ -2,13 +2,19 @@
       <span class="loggued" property="logo_link_titre"></span>
       <span class="loggued" property="logo_alt"></span>
       <span class="loggued" property="logo_titre"></span>
+      <!-- Logo -->
       <a href="/" title="[logo_link_titre]">
         <img src="#" alt="[logo_alt]" title="[logo_titre]" property="logo" mv-upload-path="res/img">  
       </a>
+     <!-- Menu -->
       <nav>
-        <ul mv-list="menu">
-          <li mv-list-items>
-            <a property="url" href="#">
+        <button aria-expanded="false" aria-controls="menu">
+          <label class="sr-only">Menu</label>
+          <span aria-hidden="true">☰</span>
+        </button>
+        <ul id="menu" mv-list role="menu">
+          <li mv-list-item role="presentation">
+            <a property="url" href="#" role="menuitem">
               <span property="titre"></span>
             </a>
           </li>
