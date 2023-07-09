@@ -1,3 +1,15 @@
 {
-	"titre": "Paroisses du Pays de Châteaubriant"
+	"titre": "Paroisses du Pays de Châteaubriant",
+	"paroisse": [
+		{
+			"nom": "Sainte-Croix en Châteaubriant",
+			"clocher": [
+				{
+					"ville": "Fercé",
+					"nom": "Marie FERRON",
+					"adresse": "8, rue des Etangs"
+				}
+			]
+		}
+	]
 }
