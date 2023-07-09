@@ -1,5 +1,5 @@
 {
-	"titre": "Paroisses du Pays de Châteaubriant",
+	"titre": "Les clochers du Pays de Châteaubriant",
 	"paroisse": [
 		{
 			"nom": "Sainte-Croix en Châteaubriant",
@@ -7,9 +7,130 @@
 				{
 					"ville": "Fercé",
 					"nom": "Marie FERRON",
-					"adresse": "8, rue des Etangs"
+					"adresse": "8, rue des Etangs",
+					"telephone": "02 40 28 86 43"
+				},				
+				{
+					"ville": "Noyal-sur-Brutz",
+					"nom": "Hélène BARAT",
+					"adresse": "Villeneuve",
+					"telephone": "06 83 08 50 25",
+					"email": "helene.barat@orange.fr"
+				},
+				{
+					"ville": "Rougé",
+					"nom": "Annick DUCLOS",
+					"adresse": "La Gare",
+					"telephone": "02 40 28 84 33"
+				},
+				{
+					"ville": "Ruffigné",
+					"nom": "Louis SIMONEAU",
+					"adresse": "1 rue du Cos Fleuri",
+					"telephone": "02 40 28 89 43",
+					"email": "louis.simoneau@orange.fr"
+				},
+				{
+					"ville": "Saint-Aubin-des-Châteaux",
+					"nom": "Josette BAUTRAIS",
+					"adresse": "8, rue de la Vigne",
+					"telephone": "02 40 28 47 26",
+					"email": "marcel.bautrais@orange.fr"
+				},
+				{
+					"ville": "Soudan",
+					"nom": "Michel BRECHETEAU",
+					"adresse": "16 rue Joseph Belliot",
+					"telephone": "02 40 28 60 79",
+					"email": "mcbrecheteau@hotmail.com"
+				},
+				{
+					"ville": "Soulvache",
+					"nom": "Marie-Noëlle RINFRAY",
+					"adresse": "La Rousselais",
+					"telephone": "02 40 28 86 55",
+					"email": "gerard.rinfray@orange.fr"
+				},
+				{
+					"ville": "Villepôt",
+					"nom": "Marie-Claude LUETTE",
+					"adresse": "8 rue Saint Charles",
+					"telephone": "06 74 50 54 84",
+					"email": "marieclaude.luette@orange.fr"
 				}
 			]
+		},
+		{
+			"nom": "Saint-Joseph du Don",
+			"clocher": [
+				{
+					"ville": "Erbray",
+					"nom": "Annie HALET",
+					"adresse": "25 rue de l'Outre",
+					"telephone": "02 40 55 07 57",
+					"email": "clauan.halet19@orange.fr"
+				},
+				{
+					"ville": "Grand-Auverné",
+					"nom": "Marie COCHET",
+					"adresse": "Le Cleux",
+					"telephone": "02 40 07 56 85",
+					"email": "cochetmarie@orange.fr"
+				},
+				{
+					"ville": "Issé",
+					"nom": "Marie-Paule GUERIN",
+					"adresse": "20 rue de la Coutrie",
+					"telephone": "02 40 55 10 98",
+					"email": "mariepaul.guerin@orange.fr"
+				},
+				{
+					"ville": "Juigné-les-Moutiers",
+					"nom": "Ginette RICAUD",
+					"adresse": "20 rue d'Ancenis",
+					"telephone": "02 40 55 38 82"
+				},
+				{
+					"ville": "La Chapelle Glain",
+					"nom": "Marie-Thérèse CHARLES",
+					"adresse": "4 impasse Commères",
+					"telephone": "02 40 55 57 30",
+					"email": "charles.robert@orange.fr"
+				},
+				{
+					"ville": "La Meilleraye de Bretagne",
+					"nom": "Yannick CHANTOME",
+					"adresse": "3 Tartifume",
+					"telephone": "02 40 55 23 47",
+					"email": "jean-luc.chantome@wanadoo.fr"
+				},
+				{
+					"ville": "Louisfert",
+					"nom": "Jean-René LOYER",
+					"adresse": "4 rue des Frênes",
+					"telephone": "06 49 32 53 13",
+					"email": "jr.loyer@orange.fr"
+				},
+				{
+					"ville": "Moisdon-la-Rivière",
+					"nom": "Marie-Anne LALLOUE",
+					"adresse": "12 la Touche",
+					"telephone": "02 40 07 68 62",
+					"email": "jean-joseph.lalloue@orange.fr"
+				},
+				{
+					"ville": "Petit-Auverné",
+					"nom": "Joseph PEIGNE",
+					"telephone": "02 40 55 54 93"
+				},
+				{
+					"ville": "Saint-Julien-de-Vouvantes",
+					"nom": "Jean-Yves CHARLES",
+					"telephone": "06 30 01 43 13",
+					"email": "jean-yves.charles0169@orange.fr"
+				}
+			]
+			
 		}
 	]
 }
