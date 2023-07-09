@@ -72,12 +72,12 @@
 		{
 			"reseau": {
 				"lien": "https://www.facebook.com/pages/Sainte-Croix-en-Ch%C3%A2teaubriant/161344020586714",
-				"type": "Facebook"
+				"type": "facebook"
 			}
 		},
 		{
 			"reseau": {
-				"type": "YouTube",
+				"type": "youtube",
 				"lien": "https://www.youtube.com/@paroissechateaubriant8873"
 			}
 		}
