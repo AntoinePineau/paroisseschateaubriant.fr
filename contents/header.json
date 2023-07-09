@@ -18,6 +18,10 @@
 			"titre": "Activités"
 		},
 		{
+			"url": "/clochers/",
+			"titre": "Les clochers"
+		},
+		{
 			"url": "/contact/",
 			"titre": "Contact"
 		}
