@@ -45,8 +45,8 @@
 <!-- end header.html-->
 <!-- start main -->
     <main mv-app="messes" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/messes.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
-      <h1 property="titre"></h1>
-      <section mv-list="dimanches">
+      <h1 property="titre"></h1>  
+      <section mv-list id="dimanches">
         <div mv-list-items>
           <h2 property="titre" class="tinymce"></h2>
           <div class="dimanche">
@@ -72,6 +72,11 @@
             </div>
           </div>
         </div>
+      </section>
+      <section id="dernieres-messes" property>
+        <h2 property="titre" class="tinymce"></h2>
+        <div property="YouTubeChannelID" class="loggued">UCDHkX3EPqwCMjRu83U4V1fA</div>
+        <iframe width="600" height="340" src="https://www.youtube.com/embed?listType=user_uploads&list=[YouTubeChannelID]" frameborder="0" allowfullscreen></iframe> 
       </section>
     </main>
 

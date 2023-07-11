@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <title>Accueil | Paroisses du Pays de Châteaubriant</title>
-    <meta name="description" content="Bienvenue sur le site des Paroisses du Pays de Châteaubriant, Sainte-Croix en Châteaubriant et Saint-Joseph du Don">
+    <title>Agenda | Paroisses du Pays de Châteaubriant</title>
+    <meta name="description" content="Agenda: les rendez-vous de l'année sur les paroisses de Sainte-Croix en Châteaubriant et Saint-Joseph du Don">
 <!-- start metas.html-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,8 +44,14 @@
     </header>
 <!-- end header.html-->
 <!-- start main -->
-    <main mv-app="accueil" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/accueil.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
+    <main mv-app="agenda" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/agenda.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
+      <section property="bloc" mv-list>
+        <div mv-list-items>
+          <h2 property="titre"></h2>
+          <div property="texte" class="tinymce"></div>
+        </div>
+      </section>
     </main>
 
 <!-- end main -->
