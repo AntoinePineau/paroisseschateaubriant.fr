@@ -2,29 +2,20 @@
 <!-- @@block main -->
     <main mv-app="activites" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/activites.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>      
-      <section id="maison-de-marie" property>
-        <h2 property="titre"></h2>
-        <div property="texte" class="tinymce"></div>
-      </section>
-      <section id="au-service" property>
-        <h2 property="titre"></h2>
-        <div property="texte" class="tinymce"></div>
-      </section>
-      <section id="celebrations" property>
-        <h2 property="titre"></h2>
-        <div property="texte" class="tinymce"></div>
-      </section>
-      <section id="formations" property>
-        <h2 property="titre"></h2>
-        <div property="texte" class="tinymce"></div>
-      </section>
-      <section id="prieres" property>
-        <h2 property="titre"></h2>
-        <div property="texte" class="tinymce"></div>
-      </section>
-      <section id="rencontres" property>
-        <h2 property="titre"></h2>
-        <div property="texte" class="tinymce"></div>
+      <section property="activite" mv-list>
+        <div mv-list-items>
+          <span class="loggued">
+            <div property="lien"></div>
+            <div property="image"></div>
+            <div property="imageAlt"></div>
+            <div property="imageTitre"></div>
+          </span>
+          <a href="[lien]">
+            <h2 property="titre"></h2>
+          </a>
+          <img src="[lien]" alt="[imageAlt]" titre="[imageTitre]"/>
+          <div property="texte" class="tinymce"></div>
+        </div>
       </section>
     </main>
 <!-- @@close -->
