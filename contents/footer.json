@@ -20,6 +20,18 @@
 						"Rougé"
 					],
 					"horaires": "le mardi de 10h à 11h30"
+				},
+				{
+					"adresse": []
+				},
+				{
+					"titre": "Maison de Marie",
+					"url_google_maps": "https://goo.gl/maps/idrb4VryD2u",
+					"adresse": [
+						"Centre Paroissial",
+						"23 rue Saint Georges",
+						"44110 Châteaubriant"
+					]
 				}
 			]
 		},
