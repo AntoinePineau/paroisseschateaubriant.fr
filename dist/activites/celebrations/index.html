@@ -46,7 +46,27 @@
 <!-- start main -->
     <main mv-app="celebrations" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/activites/celebrations.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
+      <div property="description" class="tinymce"></div>
+      <section mv-list="blocs">
+        <div mv-list-items>
+          <h2 property="titre"></h2>
+          <div mv-list="paragraphe">
+            <h3 property="titre"></h3>
+            <div property="texte" class="tinymce"></div>
+            <aside mv-list="contact">
+              <div mv-list-items>
+                <span property="id" mv-editor-list="contacts"></span>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
     </main>
+    <aside mv-app="contacts" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/contacts.json">
+      <datalist id="contacts" property="contact">
+        <option mv-list-item value="[idify(nom)]"><span property="nom"></span></option>
+      </datalist>
+    </aside>
 
 <!-- end main -->
 <!-- start footer.html-->
