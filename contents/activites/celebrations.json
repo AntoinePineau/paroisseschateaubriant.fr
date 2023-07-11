@@ -9,7 +9,7 @@
 					"titre": "Le baptême des petits-enfants (bébés + maternelles)",
 					"texte": "Les baptêmes sont célébrés le dimanche, à 12h, ou plusieurs fois dans l'année pendant la messe de 10h30.<br/>Pour préparer le baptême de votre enfant, vous serez conviés à 1 samedi de préparation.",
 					"contact": [
-						"helene-barat"
+						{ "id": "helene-barat" }
 					]
 				},
 				{
@@ -19,19 +19,19 @@
 				{
 					"titre": "Le baptême des enfants en primaire",
 					"contact": [
-						"anne-laure-fresson"
+						{ "id": "anne-laure-fresson" }
 					]
 				},
 				{
 					"titre": "Le baptême des collégiens et lycéens",
 					"contact": [
-						"jean-louis-gomis"
+						{ "id": "jean-louis-gomis" }
 					]
 				},
 				{
 					"titre": "Le bBaptême des adultes",
 					"contact": [
-						"catherine-viguerie"
+						{ "id": "catherine-viguerie" }
 					]
 				}
 			]
@@ -43,14 +43,14 @@
 					"titre": "Pour les enfants",
 					"texte": "La préparation à la <b>première communion pour les enfants</b> se fait dans le cadre de la catéchèse paroissiale (au terme de deux années de catéchèse).",
 					"contact": [
-						"anne-laure-fresson"
+						{ "id": "anne-laure-fresson" }
 					]
 				},
 				{
 					"titre": "Pour les adultes",
 					"texte": "On peut aussi préparer sa <b>première communion à l'âge adulte</b>",
 					"contact": [
-						"catherine-viguerie"
+						{ "id": "catherine-viguerie" }
 					]
 				}
 			]
@@ -62,14 +62,14 @@
 					"titre": "Pour les jeunes",
 					"texte": "<b>La Confirmation des jeunes</b> se prépare dans le cadre de l'aumônerie-Fraternité des jeunes.",
 					"contact": [
-						"marie-claire-fougere"
+						{ "id": "marie-claire-fougere" }
 					]
 				},
 				{
 					"titre": "Pour les adultes",
 					"texte": "<b>La Confirmation des adultes</b> : Recevoir le sacrement de confirmation est une nécessité pour chaque chrétien. Si vous n'avez pas été confirmé, il n'est jamais trop tard. Chaque année, l'évêque rassemble les adultes du diocèse pour célébrer leur confirmation.",
 					"contact": [
-						"beatrice-yonger"
+						{ "id": "beatrice-yonger" }
 					]
 				}
 			]
@@ -81,13 +81,13 @@
 					"titre": "Inscription",
 					"texte": "Vous avez décidé de vous marier à l'église. Bravo !<br/>En plus des rencontres avec le prêtre ou le diacre qui célèbrera votre mariage, la paroisse vous propose un parcours de préparation de 6 rencontres.",
 					"contact": [
-						"joel-macario"
+						{ "id": "joel-macario" }
 					]
 				},
 				{
 					"titre": "Informations sur le parcours",
 					"contact": [
-						"etienne-de-pontbriand"
+						{ "id": "etienne-de-pontbriand" }
 					]
 				}
 			]
@@ -98,13 +98,13 @@
 				{
 					"texte": "L'onction des malades est célébrée pour donner force et réconfort aux personnes affaiblies dans leur santé. N'hésitez pas à demander pour vous-même ou pour un de vos proches.",
 					"contact": [
-						"beatrice-macario"
+						{ "id": "beatrice-macario" }
 					]
 				},
 				{
 					"texte": "Si vous êtes hospitalisé, vous pouvez aussi vous adresser à l'Aumônerie de l'hôpital.",
 					"contact": [
-						"annick-marie-bucquet"
+						{ "id": "annick-marie-bucquet" }
 					]
 				}
 			]
