@@ -29,7 +29,7 @@
 		},
 		{
 			"titre": "Au service des malades ou personnes âgées à domicile",
-			"paragraphe": [ 
+			"paragraphe": [
 				{
 					"texte": "Si l'âge ou la maladie vous retient chez vous, et si vous désirez recevoir la communion ou tout simplement une visite, l'équipe de visite à domicile est à votre disposition.",
 					"contact": [
@@ -82,6 +82,26 @@
 						"jean-francois-blin",
 						"beatrice-davenas",
 						"marie-france-menard"
+					]
+				}
+			]
+		}
+	],
+	"description": "<p>bla bla bla</p>",
+	"blocs": [
+		{
+			"titre": "Titre H2",
+			"paragraphe": [
+				{
+					"titre": "Titre H3",
+					"texte": "<p>Rich Text</p>",
+					"contact": [
+						{
+							"prop": "Contact 1"
+						},
+						{
+							"prop": "Contact 2"
+						}
 					]
 				}
 			]
