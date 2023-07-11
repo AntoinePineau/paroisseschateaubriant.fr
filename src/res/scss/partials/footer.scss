@@ -49,6 +49,10 @@ footer {
             padding: 0 1em;
             float: left;
         }
+        li[mv-mode=edit] {
+            clear: both;
+            margin-bottom: 30px;
+        }
     }
     #copyright {
         text-align: center;
