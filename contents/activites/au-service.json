@@ -87,25 +87,5 @@
 				}
 			]
 		}
-	],
-	"description": "<p>bla bla bla</p>",
-	"blocs": [
-		{
-			"titre": "Titre H2",
-			"paragraphe": [
-				{
-					"titre": "Titre H3",
-					"texte": "<p>Rich Text</p>",
-					"contact": [
-						{
-							{ "id": "prop" }: "Contact 1"
-						},
-						{
-							{ "id": "prop" }: "Contact 2"
-						}
-					]
-				}
-			]
-		}
 	]
 }
