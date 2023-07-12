@@ -1,6 +1,6 @@
 <!-- @@master ../../includes/template.html {"titre":"Les célébrations", "description":"Les célébrations dans les Paroisses du Pays de Châteaubriant"} -->
 <!-- @@block main -->
-    <main mv-app="celebrations" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/activites/celebrations.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
+    <main mv-app="activites" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/activites/celebrations.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
       <div property="description" class="tinymce"></div>
       <section mv-list="blocs">
@@ -11,16 +11,13 @@
             <div property="texte" class="tinymce"></div>
             <aside mv-list="contact">
               <div mv-list-items>
-                <span property="id" mv-editor-list="contacts"></span>
+                <span property="id" mv-editor-list="contacts" class="loggued"></span>
               </div>
             </aside>
           </div>
         </div>
       </section>
-    </main>
-    <aside mv-app="contacts" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/contacts.json">
-      <datalist id="contacts" property="contact">
-        <option mv-list-item value="[idify(nom)]"><span property="nom"></span></option>
+      <datalist id="contacts">
       </datalist>
-    </aside>
+    </main>
 <!-- @@close -->

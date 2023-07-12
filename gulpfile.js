@@ -78,7 +78,7 @@ gulp.task('serve', () => {
   });
   gulp.watch('src/html/**/*.html', gulp.series('html', 'copy-files')).on('change', reload);
   gulp.watch('src/res/scss/**/*.scss', gulp.series('scss', 'copy-files')).on('change', reload);
-  gulp.watch('src/res/js/**/*.js', gulp.series('js', 'copy-files')).on('change', reload);
+  gulp.watch('src/res/js/*.js', gulp.series('js', 'copy-files')).on('change', reload);
   gulp.watch('gulpfile.js', gulp.series('html', 'copy-files')).on('change', reload);
 });
 

@@ -1,3 +1,113 @@
 {
-	"titre": "Paroisses du Pays de Châteaubriant"
+	"titre": "Une paroisse qui prie",
+	"description": "Vous désirez rejoindre d'autres paroissiens pour prier ensemble. Voici diverses propositions.",
+	"blocs": [
+		{
+			"titre": "La prière de Laudes",
+			"paragraphe": [
+				{
+					"texte": "chaque matin (sauf dimanche) de 8h30 à 8h45 à l'église Saint-Nicolas de Châteaubriant"
+				}
+			]
+		},
+		{
+			"titre": "La prière d'adoration",
+			"paragraphe": [
+				{
+					"texte": "A l'église Saint-Nicolas de Châteaubriant, tous les mercredis de 9h45 à 19h30, et  tous les soirs du lundi au vendredi, de 18h30 à 19h30. Vous venez quand vous le désirez, mais si, le mercredi, vous voulez assurer une « heure de garde »",
+					"contact": [
+						{ "id" : "marie-therese-roux"}
+					]
+				}
+			]
+		},	
+		{
+			"titre": "LLa prière du chapelet",
+			"paragraphe": [
+				{
+					"texte": "<ul><li>Tous les mercredis, à 17h30, à l'église Saint-Nicolas</li><li>Tous les mardis à 9h30, à l'église de Soudan</li><li>Le dernier mercredi du mois, à 17h45, à l'église de la Meilleraye</li></ul>"
+				}
+			]
+		},
+		{
+			"titre": "La prière du Renouveau charismatique",
+			"paragraphe": [
+				{
+					"texte": "Tous les jeudis après-midi à l'église Saint Nicolas",
+					"contact": [
+						{ "id" : "marie-annick-marceteau"}
+					]
+				}
+			]
+		},
+		{
+			"titre": "La prière pour les défunts (Monligeon)",
+			"paragraphe": [
+				{
+					"contact": [
+						{ "id" : "marie-mousseau"},
+						{ "id" : "maguy-castaing"}
+					]
+				}
+			]
+		},
+		{
+			"titre": "La prière des Mères",
+			"paragraphe": [
+				{
+					"texte": "Plusieurs groupes de prière des Mères existent sur nos paroisses.",
+					"contact": [
+						{ "id" : "marie-therese-roux"}
+					]
+				}
+			]
+		},
+		{
+			"titre": "La prière œcuménique",
+			"paragraphe": [
+				{
+					"texte": "Au cours du mois de Janvier, protestants, orthodoxes et catholiques de la région organisent une rencontre de prière.",
+					"contact": [
+						{ "id" : "marie-annick-marceteau"}
+					]
+				}
+			]
+		},
+		{
+			"titre": "Les soirées de louange",
+			"paragraphe": [
+				{
+					"texte": "Un vendredi soir par mois, à 19h45, dans un des clochers de la paroisse à tour de rôle, un groupe de paroissiens anime une soirée louange.",
+					"contact": [
+						{ "id" : "jean-louis-gomis"}
+					]
+				},
+				{
+					"texte": "Si vous ne pouvez pas, ou ne désirez pas, rejoindre un groupe ou une assemblée de prière, vous pouvez toujours prier chez vous, en communion avec d'autres paroissiens"
+				}
+			]
+		},
+		{
+			"titre": "Le réseau de prière pour les vocations",
+			"paragraphe": [
+				{
+					"texte": "Une cinquantaine de paroissiens parrainent chacun spirituellement un séminariste du diocèse en priant pour lui, à domicile.",
+					"contact": [
+						{ "id" : "evelyne-denieul"}
+					]
+				}
+			]
+		},
+		{
+			"titre": "Les Maisons de Marie",
+			"paragraphe": [
+				{
+					"texte": "Une « Maison de Marie », ce n'est rien d'autre que la maison que vous habitez. Il suffit que vous y aménagiez un « coin de prière » avec une statuette de la Vierge, ou une icône de la Sainte Famille. Vous pouvez alors demander à un prêtre ou un diacre de la paroisse de venir bénir ce petit oratoire. Vous mettez ainsi votre maison sous la protection de la Vierge Marie. Et vous vous engagez à prendre, une fois par semaine, un temps de prière devant votre oratoire marial, en disant la prière des « Maisons de Marie » aux intentions de votre famille, de vos voisins et des paroissiens. C'est la mission des « Maisons de Marie ». Une lettre mensuelle vous sera envoyée pour vous soutenir dans cette prière.",
+					"contact": [
+						{ "id" : "beatrice-macario"}
+					]
+				}
+			]
+		}
+	]
 }
