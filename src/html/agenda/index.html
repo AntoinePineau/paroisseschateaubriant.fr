@@ -2,11 +2,22 @@
 <!-- @@block main -->
     <main mv-app="agenda" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/agenda.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
-      <section property="bloc" mv-list>
+      <div property="description" class="tinymce"></div>
+      <section mv-list="blocs">
         <div mv-list-items>
           <h2 property="titre"></h2>
-          <div property="texte" class="tinymce"></div>
+          <div mv-list="paragraphe">
+            <h3 property="titre"></h3>
+            <div property="texte" class="tinymce"></div>
+            <aside mv-list="contact">
+              <div mv-list-items>
+                <span property="id" mv-editor-list="contacts" class="loggued"></span>
+              </div>
+            </aside>
+          </div>
         </div>
       </section>
+      <datalist id="contacts">
+      </datalist>
     </main>
 <!-- @@close -->

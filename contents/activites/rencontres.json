@@ -1,3 +1,15 @@
 {
-	"titre": "Paroisses du Pays de Châteaubriant"
+	"titre": "Une paroisse qui se rencontre fraternellement",
+	"description": "",
+	"blocs": [
+		{
+			"titre": "Le Baptême",
+			"paragraphe": [
+				{
+					"titre": "Le baptême des petits-enfants (bébés + maternelles)",
+					"texte": "Les baptêmes sont célébrés le dimanche, à 12h, ou plusieurs fois dans l'année pendant la messe de 10h30.<br/>Pour préparer le baptême de votre enfant, vous serez conviés à 1 samedi de préparation.",
+					"contact": [
+						{ "id": "helene-barat" }
+					]
+				},
 }

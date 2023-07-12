@@ -1,3 +1,150 @@
 {
-	"titre": "Paroisses du Pays de Châteaubriant"
+	"titre": "Une paroisse qui forme à la foi",
+	"description": "",
+	"blocs": [
+		{
+			"titre": "La formation des enfants",
+			"paragraphe": [
+				{
+					"titre": "L'éveil à la foi de votre enfant",
+					"texte": "Lors des messes des familles:<ul><li>Le 1er dimanche du mois à St Nicolas: Contactez  Anne-Laure Fresson</li><li>Le 2ème dimanche du mois à Moisdon: Contactez  Marie-Madeleine Delaunay</li></ul>",
+					"contact": [
+						{ "id": "anne-laure-fresson" },
+						{ "id": "marie-madeleine-delaunay" }
+					]
+				},
+				{
+					"titre": "Les servants d'autel",
+					"texte": "Aux messes du dimanche",
+					"contact": [
+						{ "id": "jean-louis-gomis" }
+					]
+				},
+				{
+					"titre": "La catéchèse de votre enfant",
+					"texte": "Elle a lieu un dimanche après-midi par mois au Centre de vie paroissiale <a href=\"/activites/maison-de-marie\">« La Maison de Marie »</a>, <a title=\"Voir sur Google Maps\" href=\"https://goo.gl/maps/GEowiKv56yzx86Fw7\" target=\"_blank\" rel=\"noopener\">25 bis rue St Georges, Châteaubriant</a>",
+					"contact": [
+						{ "id": "anne-laure-fresson" }
+					]
+				},
+				{
+					"titre": "La préparation à la 1ère confession et à la 1ère communion de votre enfant",
+					"texte": "Se fait dans le cadre de la catéchèse au Centre de vie paroissiale <a href=\"/activites/maison-de-marie\">« La Maison de Marie »</a>, <a title=\"Voir sur Google Maps\" href=\"https://goo.gl/maps/GEowiKv56yzx86Fw7\" target=\"_blank\" rel=\"noopener\">25 bis rue St Georges, Châteaubriant</a>",
+				},
+				{
+					"titre": "En lien avec les écoles catholiques de nos paroisses",
+					"texte": "Pour connaitre les propositions pastorales des écoles catholiques, contactez les chefs d'établissement ou:<ul><li>pour Sainte Croix en Châteaubriant: Anne-Laure Fresson</li><li>pour St Joseph du Don: Marie-Madeleine Delaunay</li></ul>",
+					"contact": [
+						{ "id": "anne-laure-fresson" },
+						{ "id": "marie-madeleine-delaunay" }
+					]
+				}
+			]
+		},
+		{
+			"titre": "La formation des adolescents",
+			"paragraphe": [
+				{
+					"titre": "« Cana », l'aumônerie/Fraternité des jeunes",
+					"texte": "Au Centre paroissial <a href=\"/activites/maison-de-marie\">« La Maison de Marie »</a>, <a title=\"Voir sur Google Maps\" href=\"https://goo.gl/maps/GEowiKv56yzx86Fw7\" target=\"_blank\" rel=\"noopener\">25 bis rue St Georges, Châteaubriant</a>",
+					"contact": [
+						{ "id": "jean-louis-gomis" }
+					]
+				},
+				{
+					"titre": "La préparation à la Profession de foi et à la Confirmation",
+					"texte": "Au Centre paroissial <a href=\"/activites/maison-de-marie\">« La Maison de Marie »</a>, <a title=\"Voir sur Google Maps\" href=\"https://goo.gl/maps/GEowiKv56yzx86Fw7\" target=\"_blank\" rel=\"noopener\">25 bis rue St Georges, Châteaubriant</a>",
+					"contact": [
+						{ "id": "marie-claire-fougere" }
+					]
+				},
+				{
+					"titre": "La Pastorale Scolaire",
+					"texte": "Au collège et Lycée Saint Joseph",
+					"contact": [
+						{ "id": "jean-paul-horhant" }
+					]
+				},
+				{
+					"titre": "Le Pélé-Flash à Paris",
+					"contact": [
+						{ "id": "jean-paul-horhant" }
+					]
+				},
+				{
+					"titre": "Le Pélé diocésain à Lourdes",
+					"contact": [
+						{ "id": "jean-louis-gomis" }
+					]
+				},
+				{
+					"titre": "Le Mini Camp d'été",
+					"texte": "Pour les collégiens et lycéens à l'abbaye de Meilleraye",
+					"contact": [
+						{ "id": "jean-louis-gomis" }
+					]
+				},
+				{
+					"titre": "Les JMJ",
+					"contact": [
+						{ "id": "jean-louis-gomis" }
+					]
+				},
+				{
+					"titre": "Le Scoutisme",
+					"texte": "Voici les groupes scouts les plus proches de la paroisse: <ul><li><b>Pouancé</b>: Scouts et Guides de France, <a href=\"https://sites.sgdf.fr/haut-anjou-pouance/\" target=\"_blank\">https://sites.sgdf.fr/haut-anjou-pouance/</a><li><li><b>Nort-sur-Erdre</b>: Scouts et Guides d'Europe, <a href=\"http://1e-2e-nortsurerdre.agse.fr\" target=\"_blank\">http://1e-2e-nortsurerdre.agse.fr</a></li></ul>"
+				},
+				{
+					"titre": "Des questions ?",
+					"texte": "Jeunes, vous vous interrogez sur le sens à donner à votre vie, sur un appel à servir dans l'église d'une manière particulière, par exemple en vous consacrant dans la vie religieuse, ou en vue de devenir prêtre ?<br/>N'hésitez pas à en parler à un membre de la paroisse, à un prêtre, ou à contacter le <b>service diocésain des vocations</b>",
+					"contact": [
+						{ "id": "service-diocesain-des-vocations" }
+					]
+				}
+			]
+		},
+		{			
+			"titre": "La formation des adultes",
+			"paragraphe": [
+				{
+					"titre": "Le parcours Alpha classique",
+					"texte": "Pour découvrir ou redécouvrir la foi chrétienne au Centre paroissial <a href=\"/activites/maison-de-marie\">« La Maison de Marie »</a>, <a title=\"Voir sur Google Maps\" href=\"https://goo.gl/maps/GEowiKv56yzx86Fw7\" target=\"_blank\" rel=\"noopener\">25 bis rue St Georges, Châteaubriant</a>",
+					"contact": [
+						{ "id": "anne-de-la-bretesche" }
+					]
+				},
+				{
+					"titre": "Le parcours Alpha parents",
+					"texte": "Pour s'entraider dans l'éducation des enfants de 0 à 10 ans au Centre paroissial <a href=\"/activites/maison-de-marie\">« La Maison de Marie »</a>, <a title=\"Voir sur Google Maps\" href=\"https://goo.gl/maps/GEowiKv56yzx86Fw7\" target=\"_blank\" rel=\"noopener\">25 bis rue St Georges, Châteaubriant</a>",
+					"contact": [
+						{ "id": "morgane-pineau-morin" }
+					]
+				},
+				{
+					"titre": "Le parcours biblique",
+					"texte": "Étude biblique d'un livre de l'Ecriture au Centre paroissial <a href=\"/activites/maison-de-marie\">« La Maison de Marie »</a>, <a title=\"Voir sur Google Maps\" href=\"https://goo.gl/maps/GEowiKv56yzx86Fw7\" target=\"_blank\" rel=\"noopener\">25 bis rue St Georges, Châteaubriant</a>",
+					"contact": [
+						{ "id": "bernard-albert" }
+					]
+				},
+				{
+					"titre": "L'initiation à la prière intérieure",
+					"texte": "Au Centre paroissial <a href=\"/activites/maison-de-marie\">« La Maison de Marie »</a>, <a title=\"Voir sur Google Maps\" href=\"https://goo.gl/maps/GEowiKv56yzx86Fw7\" target=\"_blank\" rel=\"noopener\">25 bis rue St Georges, Châteaubriant</a>",
+					"contact": [
+						{ "id": "jean-louis-gomis" }
+					]
+				},
+				{
+					"titre": "Les conférences-témoignages",
+					"texte": "Au Centre paroissial <a href=\"/activites/maison-de-marie\">« La Maison de Marie »</a>, <a title=\"Voir sur Google Maps\" href=\"https://goo.gl/maps/GEowiKv56yzx86Fw7\" target=\"_blank\" rel=\"noopener\">25 bis rue St Georges, Châteaubriant</a>",
+					"contact": [
+						{ "id": "jean-paul-horhant" }
+					]
+				},
+				{
+					"texte": "Vous pouvez trouver d'autres formations sur le site du diocèse : <a href=\"https://diocese44.fr/formations-diocesaines\" target=\"_blank\">https://diocese44.fr/formations-diocesaines</a>"
+				}
+			]
+		}
+	]	
 }
