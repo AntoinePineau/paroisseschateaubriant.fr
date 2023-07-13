@@ -1,3 +1,7 @@
+aside[mv-list=contact] {
+  display: flex;
+  flex-wrap: wrap;
+}
 div.contact {
   border: solid 1px $bleu;
   border-radius: 5px;
@@ -5,4 +9,27 @@ div.contact {
   display: inline-block;
   padding: 1em;
   margin: 1em;
+  break-inside: avoid-column;  
+  h5 {
+    margin: 0;
+  }
+  div[property=fonction]{
+    font-style: italic;
+    letter-spacing: 2px;
+  }
+  ul {
+    padding: .5em 0 0;
+    padding-left: .5em;
+    list-style: inside;
+    li {
+      font-size: .85em;
+      &:first-child:not(:empty)::before {
+        content: "Activités";
+        margin-top:-1.25em;
+        float:left;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+    }
+  }
 }

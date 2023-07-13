@@ -9,17 +9,8 @@ main[mv-app=clochers] {
     ul {
         padding: 0;
     }
-    article {
-        background: $gris;
-        border: solid 1px $bleu;
-        padding: .5em;
-        break-inside: avoid-column;
-    }
     h4 {
         margin:.5em 0 0;
-    }
-    h5 {
-        margin: 0;
     }
 }
 
