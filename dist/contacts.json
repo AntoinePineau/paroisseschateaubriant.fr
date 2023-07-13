@@ -1,54 +1,379 @@
 {
-    "titre": "Les personnes investies dans nos paroisses",
-    "contact": [
-        { "id": "alain-esnault", "nom":"Alain ESNAULT", "fonction": "Diacre", "activite": ["Pastorale des personnes handicapées"], "email":"alain.esn@gmail.com", "telephone":"06 72 08 98 09" },
-        { "id": "anne-de-la-bretesche", "nom":"Anne DE LA BRETESCHE", "email":"alpha.chateaubriant@gmail.com", "telephone":"06 79 73 22 32" },
-        { "id": "anne-laure-fresson", "nom":"Anne-Laure FRESSON", "fonction": "Lème", "activite": ["Responsable de la catéchèse", "Préparation au baptême"], "email":"ktparoissial@gmail.com", "telephone":"07 81 78 99 06" },
-        { "id": "annick-marie-bucquet", "nom":"Annick-Marie BUCQUET", "activite": ["Aumônerie de l'hôpital"], "email":"aumonerie.chateaubriant@ch-cnp.fr", "telephone":"06 42 09 80 17" },
-        { "id": "annie-halet", "nom":"Annie HALET", "email":"clauan.halet19@orange.fr", "telephone":"02 40 55 07 57" },
-        { "id": "beatrice-davenas", "nom":"Béatrice DAVENAS", "email":"vdavenas@free.fr", "telephone":"02 40 28 23 12" },
-        { "id": "beatrice-macario", "nom":"Béatrice MACARIO", "fonction": "Lème", "activite": ["Coordinatrice Paroissiale"], "email":"beacoordinatrice044@gmail.com", "telephone":"07 66 48 48 73" },
-        { "id": "beatrice-yonger", "nom":"Béatrice YONGER", "activite": ["Confirmation des adultes"], "email":"beatrice.yonger@wanadoo.fr", "telephone":"06 12 84 40 22" },
-        { "id": "bernard-albert", "nom":"Bernard ALBERT", "email":"bernardchristine.albert@orange.fr", "telephone":"02 40 28 89 45" },
-        { "id": "catherine-viguerie", "nom":"Catherine VIGUERIE", "activite": ["Préparation au Baptême"], "email":"catherineviguerie44@gmail.com", "telephone":"06 19 71 91 69" },
-        { "id": "christiane-lepicier", "nom":"Christiane LEPICIER", "telephone":"06 50 17 46 76" },
-        { "id": "damien-girardeau", "nom":"Damien GIRARDEAU", "email":"comm.paroissechateaubriant@gmail.com", "telephone":"06 17 42 01 03" },
-        { "id": "david", "nom":"David", "email":"oralite@free.fr" },
-        { "id": "edith-desprez", "nom":"Edith DESPREZ", "email":"edith.desprez@sfr.fr", "telephone":"02 40 81 45 81" },
-        { "id": "etienne-de-pontbriand", "nom":"Valérie et Etienne DE PONTBRIAND", "activite": ["Préparation au mariage"], "email":"etiennedbl@wanadoo.fr", "telephone":"06 12 93 35 51" },
-        { "id": "evelyne-denieul", "nom":"Evelyne DENIEUL", "email":"evelyne.denieul@hotmail.fr", "telephone":"06 28 54 18 83" },
-        { "id": "gabrielle-caro", "nom":"Gabrielle CARO", "email":"gabrielle.caro@sfr.fr" },
-        { "id": "genevieve", "nom":"Geneviève", "email":"gouterlaparole@free.fr" },
-        { "id": "helene-barat", "nom":"Hélène BARAT", "activite": ["Baptême des petits enfants (bébés + maternelles)"], "email":"sccsjdbaptemes@gmail.com", "telephone":"06 72 08 98 09" },
-        { "id": "jean-et-michelle-meslet", "nom":"Jean et Michelle MESLET", "email":"jean.meslet@free.fr", "telephone":"02 40 81 16 15" },
-        { "id": "jean-francois-blin", "nom":"Jean-François BLIN", "email":"blin-jbo@orange.fr", "telephone":"06 35 25 15 55" },
-        { "id": "jean-louis-gomis", "nom":"Jean-Louis GOMIS", "fonction": "Abbé", "activite": ["Préparation au Baptême"], "email":"gomis.jeanlouis@outlook.fr", "telephone":"06 95 54 25 62" },
-        { "id": "jean-paul-horhant", "nom":"Jean-Paul HORHANT", "fonction": "Diacre", "email":"horhant.jeanpaul@gmail.com", "telephone":"06 28 30 72 44" },
-        { "id": "jean-pierre-legrais", "nom":"Jean-Pierre LEGRAIS", "email":"legraisjp@orange.fr", "telephone":"06 84 53 46 94" },
-        { "id": "joel-macario", "nom":"Joël MACARIO", "fonction": "Diacre", "activite": ["Préparation au mariage"], "email":"joel-macario@orange.fr", "telephone":"06 61 45 80 91" },
-        { "id": "kate-arrowsmith", "nom":"Kate ARROWSMITH", "fonction": "Lème", "activite": ["Catéchèse", "Eveil à la foi", "1ère communion"], "email":"jjkate@hotmail.fr", "telephone":"02 40 28 53 09" },
-        { "id": "maguy-castaing", "nom":"Maguy CASTAING", "email":"marguy.castaing@gmail.com", "telephone":"06 59 61 13 14" },
-        { "id": "marcel-et-michelle-robert", "nom":"Marcel et Michelle ROBERT", "email":"michellerobert@wanadoo.fr" },
-        { "id": "marie-ange-burin", "nom":"Marie-Ange BURIN", "email":"marieangeburin44@gmail.com", "telephone":"06 08 42 04 70" },
-        { "id": "marie-annick-marceteau", "nom":"Marie-Annick MARCETEAU", "email":"marie-annick_marceteau@hotmail.fr", "telephone":"02 40 81 02 92" },
-        { "id": "marie-claire-fougere", "nom":"Marie-Claire FOUGÈRE", "fonction": "Lème", "activite": ["Responsable de la préparation à la Profession de foi et la Confirmation"], "email":"aumoneriechato@gmail.com", "telephone":"07 81 78 99 06" },
-        { "id": "marie-claude-luette", "nom":"Marie-Claude LUETTE", "email":"marieclaude.luette@orange.fr", "telephone":"02 40 28 64 37" },
-        { "id": "marie-cochet", "nom":"Marie COCHET", "email":"cochetmarie@orange.fr", "telephone":"02 40 07 56 85" },
-        { "id": "marie-france-menard", "nom":"Marie-France MÉNARD", "email":"mariefran44@free.fr", "telephone":"02 40 55 01 07" },
-        { "id": "marie-helene-lepretre", "nom":"Marie-Hélène LEPRETRE", "email":"guy.lepretre0770@orange.fr", "telephone":"06 76 56 06 34" },
-        { "id": "marie-madeleine-boissinot", "nom":"Marie-Madeleine BOISSINOT", "email":"mboissinot@aliceadsl.fr", "telephone":"06 19 67 04 83" },
-        { "id": "marie-madeleine-delaunay", "nom":"Marie-Madeleine DELAUNAY", "email":"miemadel@orange.fr", "telephone":"07 71 04 62 32" },
-        { "id": "marie-mousseau", "nom":"Marie MOUSSEAU", "telephone":"02 40 55 06 50" },
-        { "id": "marie-therese-roux", "nom":"Marie-Thérèse ROUX", "email":"lagelardiere@wanadoo.fr", "telephone":"06 72 85 47 13" },
-        { "id": "morgane-pineau-morin", "nom":"Morgane et Antoine PINEAU-MORIN", "activite":["Parcours Alpha Parents"], "email":"famille@pineau.pm", "telephone":"06 08 36 64 03" },
-        { "id": "nicole-masse", "nom":"Nicole MASSÉ", "email":"nicole.masse3@wanadoo.fr", "telephone":"06 71 83 92 92" },
-        { "id": "odile-renouard", "nom":"Odile RENOUARD", "email":"renouard.odile@wanadoo.fr", "telephone":"06 32 57 22 29" },
-        { "id": "pere-herve-nicq", "nom":"Père Hervé NICQ", "fonction":"Coopérateur", "email":"herve.nicq@jesuites.com", "telephone":"02 40 81 02 92" },
-        { "id": "pere-patrice-eon", "nom":"Père Patrice EON", "fonction": "Curé", "email":"patrice.eon@free.fr", "telephone":"02 40 81 02 92" },
-        { "id": "p-roger-roul", "nom":"P.Roger ROUL", "telephone":"02 40 55 10 80" },
-        { "id": "service-diocesain-des-vocations", "nom":"Service diocésain des vocations", "email":"vocations44@nantes.cef.fr" },
-        { "id": "societe-saint-vincent-de-paul", "nom":"Société Saint Vincent de Paul", "email":"svp.chateaubriant@wanadoo.fr", "telephone":"02 40 28 10 18" },
-        { "id": "soeur-imelda-piton", "nom":"Sœur Imelda Piton", "email":"imelda.piton@hotmail.fr", "telephone":"06 78 97 26 02" },
-        { "id": "soeur-jeannette-ollivier", "nom":"Sœur Jeannette OLLIVIER", "email":"jeannolivier48@gmail.com", "telephone":"02 40 28 42 75" }
-    ]
+	"titre": "Les personnes investies dans nos paroisses",
+	"contact": [
+		{
+			"id": "alain-esnault",
+			"nom": "Alain ESNAULT",
+			"fonction": "Diacre",
+			"activite": [
+				"Pastorale des personnes handicapées"
+			],
+			"email": "alain.esn@gmail.com",
+			"telephone": "06 72 08 98 09"
+		},
+		{
+			"id": "anne-de-la-bretesche",
+			"nom": "Anne DE LA BRETESCHE",
+			"email": "alpha.chateaubriant@gmail.com",
+			"telephone": "06 79 73 22 32",
+			"activite": []
+		},
+		{
+			"id": "anne-laure-fresson",
+			"nom": "Anne-Laure FRESSON",
+			"fonction": "Lème",
+			"activite": [
+				"Responsable de la catéchèse",
+				"Préparation au baptême"
+			],
+			"email": "ktparoissial@gmail.com",
+			"telephone": "07 81 78 99 06"
+		},
+		{
+			"id": "annick-marie-bucquet",
+			"nom": "Annick-Marie BUCQUET",
+			"activite": [
+				"Aumônerie de l'hôpital"
+			],
+			"email": "aumonerie.chateaubriant@ch-cnp.fr",
+			"telephone": "06 42 09 80 17"
+		},
+		{
+			"id": "annie-halet",
+			"nom": "Annie HALET",
+			"email": "clauan.halet19@orange.fr",
+			"telephone": "02 40 55 07 57",
+			"activite": []
+		},
+		{
+			"id": "beatrice-davenas",
+			"nom": "Béatrice DAVENAS",
+			"email": "vdavenas@free.fr",
+			"telephone": "02 40 28 23 12",
+			"activite": []
+		},
+		{
+			"id": "beatrice-macario",
+			"nom": "Béatrice MACARIO",
+			"fonction": "Lème",
+			"activite": [
+				"Coordinatrice Paroissiale"
+			],
+			"email": "beacoordinatrice044@gmail.com",
+			"telephone": "07 66 48 48 73"
+		},
+		{
+			"id": "beatrice-yonger",
+			"nom": "Béatrice YONGER",
+			"activite": [
+				"Confirmation des adultes"
+			],
+			"email": "beatrice.yonger@wanadoo.fr",
+			"telephone": "06 12 84 40 22"
+		},
+		{
+			"id": "bernard-albert",
+			"nom": "Bernard ALBERT",
+			"email": "bernardchristine.albert@orange.fr",
+			"telephone": "02 40 28 89 45",
+			"activite": []
+		},
+		{
+			"id": "catherine-viguerie",
+			"nom": "Catherine VIGUERIE",
+			"activite": [
+				"Préparation au Baptême"
+			],
+			"email": "catherineviguerie44@gmail.com",
+			"telephone": "06 19 71 91 69"
+		},
+		{
+			"id": "christiane-lepicier",
+			"nom": "Christiane LEPICIER",
+			"telephone": "06 50 17 46 76",
+			"activite": []
+		},
+		{
+			"id": "damien-girardeau",
+			"nom": "Damien GIRARDEAU",
+			"email": "comm.paroissechateaubriant@gmail.com",
+			"telephone": "06 17 42 01 03",
+			"activite": []
+		},
+		{
+			"id": "david",
+			"nom": "David",
+			"email": "oralite@free.fr",
+			"activite": []
+		},
+		{
+			"id": "edith-desprez",
+			"nom": "Edith DESPREZ",
+			"email": "edith.desprez@sfr.fr",
+			"telephone": "02 40 81 45 81",
+			"activite": []
+		},
+		{
+			"id": "etienne-de-pontbriand",
+			"nom": "Valérie et Etienne DE PONTBRIAND",
+			"activite": [
+				"Préparation au mariage"
+			],
+			"email": "etiennedbl@wanadoo.fr",
+			"telephone": "06 12 93 35 51"
+		},
+		{
+			"id": "evelyne-denieul",
+			"nom": "Evelyne DENIEUL",
+			"email": "evelyne.denieul@hotmail.fr",
+			"telephone": "06 28 54 18 83",
+			"activite": []
+		},
+		{
+			"id": "gabrielle-caro",
+			"nom": "Gabrielle CARO",
+			"email": "gabrielle.caro@sfr.fr",
+			"activite": []
+		},
+		{
+			"id": "genevieve",
+			"nom": "Geneviève",
+			"email": "gouterlaparole@free.fr",
+			"activite": []
+		},
+		{
+			"id": "helene-barat",
+			"nom": "Hélène BARAT",
+			"activite": [
+				"Baptême des petits enfants (bébés + maternelles)"
+			],
+			"email": "sccsjdbaptemes@gmail.com",
+			"telephone": "06 72 08 98 09"
+		},
+		{
+			"id": "jean-et-michelle-meslet",
+			"nom": "Jean et Michelle MESLET",
+			"email": "jean.meslet@free.fr",
+			"telephone": "02 40 81 16 15",
+			"activite": []
+		},
+		{
+			"id": "jean-francois-blin",
+			"nom": "Jean-François BLIN",
+			"email": "blin-jbo@orange.fr",
+			"telephone": "06 35 25 15 55",
+			"activite": []
+		},
+		{
+			"id": "jean-louis-gomis",
+			"nom": "Jean-Louis GOMIS",
+			"fonction": "Abbé",
+			"activite": [
+				"Préparation au Baptême"
+			],
+			"email": "gomis.jeanlouis@outlook.fr",
+			"telephone": "06 95 54 25 62"
+		},
+		{
+			"id": "jean-paul-horhant",
+			"nom": "Jean-Paul HORHANT",
+			"fonction": "Diacre",
+			"email": "horhant.jeanpaul@gmail.com",
+			"telephone": "06 28 30 72 44",
+			"activite": []
+		},
+		{
+			"id": "jean-pierre-legrais",
+			"nom": "Jean-Pierre LEGRAIS",
+			"email": "legraisjp@orange.fr",
+			"telephone": "06 84 53 46 94",
+			"activite": []
+		},
+		{
+			"id": "joel-macario",
+			"nom": "Joël MACARIO",
+			"fonction": "Diacre",
+			"activite": [
+				"Préparation au mariage"
+			],
+			"email": "joel-macario@orange.fr",
+			"telephone": "06 61 45 80 91"
+		},
+		{
+			"id": "kate-arrowsmith",
+			"nom": "Kate ARROWSMITH",
+			"fonction": "Lème",
+			"activite": [
+				"Catéchèse",
+				"Eveil à la foi",
+				"1ère communion"
+			],
+			"email": "jjkate@hotmail.fr",
+			"telephone": "02 40 28 53 09"
+		},
+		{
+			"id": "maguy-castaing",
+			"nom": "Maguy CASTAING",
+			"email": "marguy.castaing@gmail.com",
+			"telephone": "06 59 61 13 14",
+			"activite": []
+		},
+		{
+			"id": "marcel-et-michelle-robert",
+			"nom": "Marcel et Michelle ROBERT",
+			"email": "michellerobert@wanadoo.fr",
+			"activite": []
+		},
+		{
+			"id": "marie-ange-burin",
+			"nom": "Marie-Ange BURIN",
+			"email": "marieangeburin44@gmail.com",
+			"telephone": "06 08 42 04 70",
+			"activite": []
+		},
+		{
+			"id": "marie-annick-marceteau",
+			"nom": "Marie-Annick MARCETEAU",
+			"email": "marie-annick_marceteau@hotmail.fr",
+			"telephone": "02 40 81 02 92",
+			"activite": []
+		},
+		{
+			"id": "marie-claire-fougere",
+			"nom": "Marie-Claire FOUGÈRE",
+			"fonction": "Lème",
+			"activite": [
+				"Responsable de la préparation à la Profession de foi et la Confirmation"
+			],
+			"email": "aumoneriechato@gmail.com",
+			"telephone": "07 81 78 99 06"
+		},
+		{
+			"id": "marie-claude-luette",
+			"nom": "Marie-Claude LUETTE",
+			"email": "marieclaude.luette@orange.fr",
+			"telephone": "02 40 28 64 37",
+			"activite": []
+		},
+		{
+			"id": "marie-cochet",
+			"nom": "Marie COCHET",
+			"email": "cochetmarie@orange.fr",
+			"telephone": "02 40 07 56 85",
+			"activite": []
+		},
+		{
+			"id": "marie-france-menard",
+			"nom": "Marie-France MÉNARD",
+			"email": "mariefran44@free.fr",
+			"telephone": "02 40 55 01 07",
+			"activite": []
+		},
+		{
+			"id": "marie-helene-lepretre",
+			"nom": "Marie-Hélène LEPRETRE",
+			"email": "guy.lepretre0770@orange.fr",
+			"telephone": "06 76 56 06 34",
+			"activite": []
+		},
+		{
+			"id": "marie-madeleine-boissinot",
+			"nom": "Marie-Madeleine BOISSINOT",
+			"email": "mboissinot@aliceadsl.fr",
+			"telephone": "06 19 67 04 83",
+			"activite": []
+		},
+		{
+			"id": "marie-madeleine-delaunay",
+			"nom": "Marie-Madeleine DELAUNAY",
+			"email": "miemadel@orange.fr",
+			"telephone": "07 71 04 62 32",
+			"activite": []
+		},
+		{
+			"id": "marie-mousseau",
+			"nom": "Marie MOUSSEAU",
+			"telephone": "02 40 55 06 50",
+			"activite": []
+		},
+		{
+			"id": "marie-therese-roux",
+			"nom": "Marie-Thérèse ROUX",
+			"email": "lagelardiere@wanadoo.fr",
+			"telephone": "06 72 85 47 13",
+			"activite": []
+		},
+		{
+			"id": "morgane-pineau-morin",
+			"nom": "Morgane PINEAU-MORIN",
+			"activite": [
+				"Parcours Alpha Parents"
+			],
+			"email": "famille@pineau.pm",
+			"telephone": "06 08 36 64 03"
+		},
+		{
+			"id": "nicole-masse",
+			"nom": "Nicole MASSÉ",
+			"email": "nicole.masse3@wanadoo.fr",
+			"telephone": "06 71 83 92 92",
+			"activite": []
+		},
+		{
+			"id": "odile-renouard",
+			"nom": "Odile RENOUARD",
+			"email": "renouard.odile@wanadoo.fr",
+			"telephone": "06 32 57 22 29",
+			"activite": []
+		},
+		{
+			"id": "pere-herve-nicq",
+			"nom": "Père Hervé NICQ",
+			"fonction": "Coopérateur",
+			"email": "herve.nicq@jesuites.com",
+			"telephone": "02 40 81 02 92",
+			"activite": []
+		},
+		{
+			"id": "pere-patrice-eon",
+			"nom": "Père Patrice EON",
+			"fonction": "Curé",
+			"email": "patrice.eon@free.fr",
+			"telephone": "02 40 81 02 92",
+			"activite": []
+		},
+		{
+			"id": "p-roger-roul",
+			"nom": "P.Roger ROUL",
+			"telephone": "02 40 55 10 80",
+			"activite": []
+		},
+		{
+			"id": "service-diocesain-des-vocations",
+			"nom": "Service diocésain des vocations",
+			"email": "vocations44@nantes.cef.fr",
+			"activite": []
+		},
+		{
+			"id": "societe-saint-vincent-de-paul",
+			"nom": "Société Saint Vincent de Paul",
+			"email": "svp.chateaubriant@wanadoo.fr",
+			"telephone": "02 40 28 10 18",
+			"activite": []
+		},
+		{
+			"id": "soeur-imelda-piton",
+			"nom": "Sœur Imelda Piton",
+			"email": "imelda.piton@hotmail.fr",
+			"telephone": "06 78 97 26 02",
+			"activite": []
+		},
+		{
+			"id": "soeur-jeannette-ollivier",
+			"nom": "Sœur Jeannette OLLIVIER",
+			"email": "jeannolivier48@gmail.com",
+			"telephone": "02 40 28 42 75",
+			"activite": []
+		}
+	]
 }
