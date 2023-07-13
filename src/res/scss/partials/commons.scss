@@ -5,7 +5,7 @@ $jaune: #f3a539;
 $rouge: #a32900;
 $cyan: #5bc0eb;
 $noir: #15171e;
-$gris: lightgrey;
+$gris: #e8f5f7;
 
 $tablet: 768px;
 
@@ -73,6 +73,7 @@ html {
         }
       }
       main {
+        padding-bottom: 2em;
         h1 {
           font-size: 2.5em;
         }
@@ -87,6 +88,18 @@ html {
         }
         h5 {
           font-size: 1.1em;
+        }
+        .tinymce {
+          ul {
+            list-style: none;
+            li {
+              &::before {
+                content: '✞';
+                padding-right: .5em;
+                line-height:  2em;
+              }
+            }
+          }
         }
       }
     }
