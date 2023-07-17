@@ -3,16 +3,27 @@
     <main mv-app="contact" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contacts.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
       <div property="description" class="tinymce"></div>
+      <aside class="search-form">
+        <span>Rechercher</span>
+        <div class="search-fields">
+          <label><input type="text" id="fulltext" placeholder="Par nom, activité, e-mail, téléphone..."/></label>
+          <label>Par fonction: <select id="fonction"><option value="">Non spécifiée</option></select></label>
+        </div>
+      </aside>
       <section id="contact" mv-list>
         <div mv-list-item>          
-          <div class="contact">
-            <h5 property="nom"></h5>
-            <div property="fonction"></div>
-            <ul property="activite" mv-list>
-              <li mv-list-items></li>
-            </ul>
-            <a href="tel:+[idify(telephone)]"><span property="telephone" class="fa-solid fa-phone"></span></a>
-            <a href="mailto:[email]"><span property="email" class="fa-solid fa-envelope"></span></a>
+          <div class="contact" data-fonction="[fonction]" data-fulltext="[idify(nom)] [idify(fonction)] [idify(telephone)] [idify(email)] [idify(activite)]">
+            <div class="presentation">
+              <h5 property="nom"></h5>
+              <div property="fonction"></div>
+              <ul property="activite" mv-list>
+                <li mv-list-items></li>
+              </ul>
+            </div>
+            <div class="coordonnees">
+              <a href="tel:+[idify(telephone)]"><span property="telephone" class="fa-solid fa-phone"></span></a>
+              <a href="mailto:[email]"><span property="email" class="fa-solid fa-envelope"></span></a>
+            </div>
           </div>
         </div>
       </section>
