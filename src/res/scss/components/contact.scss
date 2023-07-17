@@ -1,3 +1,10 @@
+main[mv-app=contact] {
+  margin: 0 1em;
+  #contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 aside[mv-list=contact] {
   display: flex;
   flex-wrap: wrap;
@@ -10,6 +17,7 @@ div.contact {
   padding: 1em;
   margin: 1em;
   break-inside: avoid-column;  
+  height: 65%;
   h5 {
     margin: 0;
   }
@@ -21,6 +29,9 @@ div.contact {
     padding: .5em 0 0;
     padding-left: .5em;
     list-style: inside;
+    &:not(:has(li)) {
+      padding: 0;
+    }
     li {
       font-size: .85em;
       &:first-child:not(:empty)::before {
