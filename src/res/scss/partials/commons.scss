@@ -9,7 +9,9 @@ $gris: #e8f5f7;
 
 $tablet: 768px;
 
-$transition: all .5s ease-out;
+@mixin transition($property: all, $duration: 0.5s, $ease: ease-out) {
+  transition: $property $duration $ease;
+}
 
 .sr-only {
   position:absolute;
@@ -24,8 +26,16 @@ html {
     a {
       color: $rouge;
       text-decoration: none;
+      display: flex;
+      flex-wrap: wrap;
+      @include transition();
       &:hover {
-        text-decoration: underline;
+        @include transition();
+        letter-spacing: 1px;
+        padding: 0 .5em;
+        color: $blanc;
+        background: $rouge;
+        border-radius: .5em;
       }
     }
     ul {
@@ -36,13 +46,6 @@ html {
     font-family: $font;
     body {
       margin: 0;
-      a {
-        color: $rouge;
-        text-decoration: none;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
       button, a[role=button] {
         color: $blanc;
         background-color: $rouge;
@@ -106,7 +109,6 @@ html {
     
     .fa-phone, .fa-envelope, .fa-location-dot {
       display: block;
-      letter-spacing: 2px;
       font-family: $font;
       margin: .5em 0;
       font-size: 0.85em;

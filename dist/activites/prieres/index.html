@@ -86,17 +86,17 @@
           </div>
         </div>
         <datalist id="social-networks" hidden>
-          <option>Facebook</option>
+          <option>Facebook-f</option>
           <option>Instagram</option>
           <option>YouTube</option>
         </datalist>
       </section>
       <div id="social">
         <ul mv-list="social">
-          <li mv-list-items property="reseau">
+          <li mv-list-items property="reseau" class="[get(split(lowercase(type),'-'),0)]">
             <span class="loggued" property="type" mv-editor-list="social-networks"></span>
             <span class="loggued" property="lien"></span>
-            <a href="[lien]" target="_blank" title="[type]"><i class="fa-brands fa-[lowercase(type)]"></i></a>
+            <a href="[lien]" target="_blank" title="[get(split(type,'-'),0)]"><i class="fab fa-[lowercase(type)] icon"></i></a>
           </li>
         </ul>
       </div>

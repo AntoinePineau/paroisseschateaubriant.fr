@@ -42,6 +42,7 @@ footer {
         }
     }
     #social {
+        padding: 1em;
         margin-bottom: -1em;
         display: flex;
         background: $noir;
@@ -53,6 +54,77 @@ footer {
             clear: both;
             margin-bottom: 30px;
         }
+        ul {
+            display: flex;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+          
+          ul li {
+            list-style: none;
+          }
+          
+          ul li a {
+            width: 30px;
+            height: 30px;
+            background-color: $blanc;
+            text-align: center;
+            line-height: 30px;
+            font-size: 1.1em;
+            margin: 0 1em;
+            display: block;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+            border: 3px solid $blanc;
+            z-index: 1;
+          }
+          
+          ul li a .icon {
+            position: relative;
+            color: $noir;
+            @include transition();
+            z-index: 3;
+          }
+          
+          ul li a:hover .icon {
+            color: $blanc;
+            transform: rotateY(360deg);
+          }
+          
+          ul li a:before {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #3b5999;
+            @include transition();
+            z-index: 2;
+          }
+          
+          ul li a:hover:before {
+            top: 0;
+          }
+          
+          ul li.facebook a:before{
+            background: #3b5999;
+          }
+          
+          ul li.instagram a:before{
+            background: #f09433; 
+            background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+            background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+            background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+          }
+          
+          ul li.youtube a:before {
+            background: #ff0000;
+          }
     }
     #copyright {
         text-align: center;
