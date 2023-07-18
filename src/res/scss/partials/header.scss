@@ -22,19 +22,19 @@ header {
         left: 0;
         button {
             transform: rotate(0deg);
-            transition: $transition;
+            @include transition();
             position: absolute;
             span {
                 font-size: 30px;
                 font-weight: bold;
             }
             &:hover {
-                    transform: scale(.9);
-                    transition: $transition;
+                transform: scale(.9);
+                @include transition();
             }
             &[aria-expanded='true'] {
                 width: 100%;
-                transition: $transition;
+                @include transition();
                 transform: rotate(90deg);
                 & ~ ul {
                     display: flex;
