@@ -64,35 +64,37 @@ footer {
           
           ul li {
             list-style: none;
+            a {
+                width: 30px;
+                height: 30px;
+                background-color: $blanc;
+                text-align: center;
+                line-height: 30px;
+                font-size: 1.1em;
+                margin: 0 1em;
+                display: block;
+                border-radius: 50%;
+                position: relative;
+                overflow: hidden;
+                border: 3px solid $blanc;
+                z-index: 1;
+                &:hover {
+                    padding: 0;
+                    .icon {
+                        color: $blanc;
+                        transform: rotateY(360deg);
+                      }
+                }
+          
+                .icon {
+                  position: relative;
+                  color: $noir;
+                  @include transition();
+                  z-index: 3;
+                }
+            }
           }
           
-          ul li a {
-            width: 30px;
-            height: 30px;
-            background-color: $blanc;
-            text-align: center;
-            line-height: 30px;
-            font-size: 1.1em;
-            margin: 0 1em;
-            display: block;
-            border-radius: 50%;
-            position: relative;
-            overflow: hidden;
-            border: 3px solid $blanc;
-            z-index: 1;
-          }
-          
-          ul li a .icon {
-            position: relative;
-            color: $noir;
-            @include transition();
-            z-index: 3;
-          }
-          
-          ul li a:hover .icon {
-            color: $blanc;
-            transform: rotateY(360deg);
-          }
           
           ul li a:before {
             content: "";
