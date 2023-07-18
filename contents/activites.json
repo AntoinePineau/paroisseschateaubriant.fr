@@ -1,3 +1,53 @@
 {
-	"titre": "Les activités au sein de nos paroisses"
+	"titre": "Les activités au sein de nos paroisses",
+	"activite": [
+		{
+			"titre": "La Maison de Marie",
+			"texte": "Le centre de vie paroissiale accueille à Châteaubriant un grand nombre d'activités",
+			"lien": "/activites/maison-de-marie/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Les rencontres",
+			"texte": "Une paroisse qui se rencontre fraternellement",
+			"lien": "/activites/rencontres/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Les célébrations",
+			"texte": "Une paroisse qui célèbre",
+			"lien": "/activites/celebrations/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Les formations",
+			"texte": "Une paroisse qui forme à la foi",
+			"lien": "/activites/formations/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Les prières",
+			"texte": "Une paroisse qui prie",
+			"lien": "/activites/prieres/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Les services",
+			"texte": "Une paroisse qui se met au service des personnes fragiles",
+			"lien": "/activites/au-service/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		}
+	]
 }

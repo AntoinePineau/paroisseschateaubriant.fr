@@ -1,8 +1,32 @@
 main[mv-app=contact] {
   margin: 0 1em;
+  h1 {
+    text-align: center;
+  }
   #contact {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  aside.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em;
+    font-size: 1.5em;
+    line-height: 2em;
+    .search-fields {
+      font-size: .85em;
+      margin-left: 1em;
+      select, input {
+        font-size: .85em;
+        padding: .5em;
+      }
+      input {
+        width: 300px;
+        margin-right: 1em;
+      }
+    }
   }
 }
 aside[mv-list=contact] {
@@ -15,9 +39,8 @@ div.contact {
   background: $gris;
   display: inline-block;
   padding: 1em;
-  margin: 1em;
-  break-inside: avoid-column;  
-  height: 65%;
+  margin: 1em -.75em;
+  break-inside: avoid-column;
   h5 {
     margin: 0;
   }
@@ -42,5 +65,11 @@ div.contact {
         font-weight: bold;
       }
     }
+  }
+}
+@media (min-width: $tablet) {
+  div.contact {
+    margin: 1em;
+    height: 66%;
   }
 }

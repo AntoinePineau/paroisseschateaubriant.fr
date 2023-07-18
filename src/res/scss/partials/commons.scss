@@ -36,6 +36,11 @@ html {
         color: $blanc;
         background: $rouge;
         border-radius: .5em;
+        .fa-solid::before {
+          @include transition(all,0.2s);
+          transform: rotateZ(30deg);
+          display: inline-block;
+        }
       }
     }
     ul {
