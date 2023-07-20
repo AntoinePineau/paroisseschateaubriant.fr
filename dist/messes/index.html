@@ -27,20 +27,24 @@
       <a href="/" title="[logo_link_titre]">
         <img src="#" alt="[logo_alt]" title="[logo_titre]" property="logo" mv-upload-path="res/img">  
       </a>
+      <button aria-expanded="false" aria-controls="menu">
+        <label class="sr-only">Menu</label>
+        <span aria-hidden="true">☰</span>
+      </button>
      <!-- Menu -->
-      <nav>
-        <button aria-expanded="false" aria-controls="menu">
-          <label class="sr-only">Menu</label>
-          <span aria-hidden="true">☰</span>
-        </button>
+      <nav class="loggued">
         <ul id="menu" mv-list role="menu">
           <li mv-list-item role="presentation">
+            <span property="icon" mv-editor-list="icons" class="loggued"></span>
             <a property="url" href="#" role="menuitem">
+              <i class="[icon] icon"></i>
               <span property="titre"></span>
             </a>
           </li>
         </ul>
       </nav>
+      <datalist id="icons">
+      </datalist>
     </header>
 <!-- end header.html-->
 <!-- start main -->
@@ -76,9 +80,9 @@
       <section id="dernieres-messes" property>
         <h2 property="titre" class="tinymce"></h2>
         <div property="YouTubeChannelID" class="loggued"></div> 
-        <iframe width="600" height="340" src="https://www.youtube.com/embed?listType=playlist&list=[YouTubeChannelID]&index=1" frameborder="0" allowfullscreen></iframe> 
-        <iframe width="600" height="340" src="https://www.youtube.com/embed?listType=playlist&list=[YouTubeChannelID]&index=2" frameborder="0" allowfullscreen></iframe>
-        <iframe width="600" height="340" src="https://www.youtube.com/embed?listType=playlist&list=[YouTubeChannelID]&index=3" frameborder="0" allowfullscreen></iframe>
+        <iframe width="33%" height="340" src="https://www.youtube.com/embed?listType=playlist&list=[YouTubeChannelID]&index=1" frameborder="0" allowfullscreen></iframe> 
+        <iframe width="33%" height="340" src="https://www.youtube.com/embed?listType=playlist&list=[YouTubeChannelID]&index=2" frameborder="0" allowfullscreen></iframe>
+        <iframe width="33%" height="340" src="https://www.youtube.com/embed?listType=playlist&list=[YouTubeChannelID]&index=3" frameborder="0" allowfullscreen></iframe>
       </section>
     </main>
 

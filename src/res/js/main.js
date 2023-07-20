@@ -2,7 +2,7 @@
 String.prototype.replaceAll=function(s,r){return this.replace(new RegExp(s,'gm'),r)};
 
 function addMenuInteraction() {
-    var navButton = document.querySelector('nav button');
+    var navButton = document.querySelector('header button');
     navButton.addEventListener('click', function() {
         let expanded = this.getAttribute('aria-expanded') === 'true' || false;
         this.setAttribute('aria-expanded', !expanded);
@@ -10,6 +10,23 @@ function addMenuInteraction() {
         navButton.querySelector('span').innerText = expanded ? '☰' : '✕';
     });
 }
+
+function loadIcons() {
+    let $datalist = document.getElementById('icons');
+    if($datalist) {
+        fetch('/icons.json')
+        .then(r => r.json())
+        .then(r => {
+            let icons = {};
+            r.icons.forEach(c => {
+                $datalist.innerHTML += '<option>'+c.id+'</option>';
+                icons[c.id] = c;
+            });
+        })
+        .catch(e => {console.error('Error:', e)});
+    }
+}
+
 
 function loadContacts() {
     let $datalist = document.getElementById('contacts');
@@ -87,6 +104,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     Mavo.inited
     .then(() => Mavo.all[0].dataLoaded)
     .then(()=>{
+      loadIcons();
       loadContacts();
       addContactsSearch();
     });
