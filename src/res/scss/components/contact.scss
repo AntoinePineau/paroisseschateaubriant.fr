@@ -41,6 +41,10 @@ div.contact {
   padding: 1em;
   margin: 1em -.75em;
   break-inside: avoid-column;
+  a {
+    display: flex;
+    flex-wrap: wrap;
+  }
   h5 {
     margin: 0;
   }

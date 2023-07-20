@@ -26,8 +26,6 @@ html {
     a {
       color: $rouge;
       text-decoration: none;
-      display: flex;
-      flex-wrap: wrap;
       @include transition();
       &:hover {
         @include transition();
@@ -67,10 +65,8 @@ html {
         a {
           color: $blanc;
           text-decoration: none;
-          &:hover {
-            color: $jaune;
-            text-decoration: none;
-          }
+          display: flex;
+          flex-wrap: wrap;
         }
         button {
           background: transparent;

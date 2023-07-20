@@ -27,20 +27,24 @@
       <a href="/" title="[logo_link_titre]">
         <img src="#" alt="[logo_alt]" title="[logo_titre]" property="logo" mv-upload-path="res/img">  
       </a>
+      <button aria-expanded="false" aria-controls="menu">
+        <label class="sr-only">Menu</label>
+        <span aria-hidden="true">☰</span>
+      </button>
      <!-- Menu -->
-      <nav>
-        <button aria-expanded="false" aria-controls="menu">
-          <label class="sr-only">Menu</label>
-          <span aria-hidden="true">☰</span>
-        </button>
+      <nav class="loggued">
         <ul id="menu" mv-list role="menu">
           <li mv-list-item role="presentation">
+            <span property="icon" mv-editor-list="icons" class="loggued"></span>
             <a property="url" href="#" role="menuitem">
+              <i class="[icon] icon"></i>
               <span property="titre"></span>
             </a>
           </li>
         </ul>
       </nav>
+      <datalist id="icons">
+      </datalist>
     </header>
 <!-- end header.html-->
 <!-- start main -->
@@ -56,9 +60,9 @@
           </span>
           <a href="[lien]">
             <h2 property="titre"></h2>
+            <img src="[lien]" alt="[imageAlt]" titre="[imageTitre]"/>
+            <div property="texte" class="tinymce"></div>
           </a>
-          <img src="[lien]" alt="[imageAlt]" titre="[imageTitre]"/>
-          <div property="texte" class="tinymce"></div>
         </div>
       </section>
     </main>
