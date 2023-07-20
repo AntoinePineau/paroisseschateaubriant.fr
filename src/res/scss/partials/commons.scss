@@ -26,11 +26,11 @@ html {
     a {
       color: $rouge;
       text-decoration: none;
+      padding: .25em .5em;
       @include transition();
       &:hover {
         @include transition();
         letter-spacing: 1px;
-        padding: 0 .5em;
         color: $blanc;
         background: $rouge;
         border-radius: .5em;
@@ -67,6 +67,9 @@ html {
           text-decoration: none;
           display: flex;
           flex-wrap: wrap;
+          &:has(span:empty) {
+            display:none;
+          }
         }
         button {
           background: transparent;

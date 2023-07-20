@@ -11795,7 +11795,8 @@ function delay(ms) {
 }
 
 let _ = Mavo.Backend.register(class Github extends Mavo.Backend {
-	id = "Github"
+	id = "Github";
+	devMode = true
 
 	constructor (url, o) {
 		super(url, o);
@@ -11842,7 +11843,22 @@ let _ = Mavo.Backend.register(class Github extends Mavo.Backend {
 	}
 
 	async get (url) {
-		if (this.isAuthenticated() || !this.path || url) {
+		if(this.devMode) {
+			let info = url? _.parseURL(url) : this.info;
+			console.log(info.apiCall.split('/').slice(4).join('/'));			
+			fetch('/'+info.apiCall.split('/').slice(4).join('/'))
+			.then(function(response) {
+				if (response.ok) {
+					return response.text();
+				} else {
+					throw new Error('Error: ' + response.status);
+				}
+			})
+			.then(function(fileContents) {
+				return JSON.parse(fileContents);
+			});
+		}
+		else if (this.isAuthenticated() || !this.path || url) {
 			// Authenticated or raw API call
 			let info = url? _.parseURL(url) : this.info;
 

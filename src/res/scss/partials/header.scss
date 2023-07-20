@@ -20,29 +20,29 @@ header {
         z-index: 10;
         width: calc(100% - 70px);
         left: 0;
-        button {
-            transform: rotate(0deg);
-            @include transition();
-            position: absolute;
-            span {
-                font-size: 30px;
-                font-weight: bold;
-            }
-            &:hover {
-                transform: scale(.9);
-                @include transition();
-            }
-            &[aria-expanded='true'] {
-                width: 100%;
-                @include transition();
-                transform: rotate(90deg);
-                & ~ ul {
-                    display: flex;
-                }
-            }
-        }
         ul {
             display: none;
+        }
+    }
+    button {
+        transform: rotate(0deg);
+        @include transition();
+        position: absolute;
+        span {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        &:hover {
+            transform: scale(.9);
+            @include transition();
+        }
+        &[aria-expanded='true'] {
+            width: 100%;
+            @include transition();
+            transform: rotate(90deg);
+            & ~ ul {
+                display: flex;
+            }
         }
     }
 }
