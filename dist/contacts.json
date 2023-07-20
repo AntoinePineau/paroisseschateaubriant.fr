@@ -107,6 +107,13 @@
 			"activite": []
 		},
 		{
+			"id": "didier-blanc",
+			"nom": "Didier BLANC",
+			"email": "sabbaghgitton@gmail.com",
+			"telephone": "06 44 07 14 97",
+			"activite": []
+		},
+		{
 			"id": "edith-desprez",
 			"nom": "Edith DESPREZ",
 			"email": "edith.desprez@sfr.fr",
@@ -180,6 +187,13 @@
 			"fonction": "Diacre",
 			"email": "horhant.jeanpaul@gmail.com",
 			"telephone": "06 28 30 72 44",
+			"activite": []
+		},
+		{
+			"id": "jean-paul-thomas",
+			"nom": "Jean-Paul Thomas",
+			"email": "jptho35@wanadoo.fr",
+			"telephone": "06 07 44 92 27",
 			"activite": []
 		},
 		{
