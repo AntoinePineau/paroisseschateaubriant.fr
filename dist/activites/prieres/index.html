@@ -19,7 +19,7 @@
   </head>
   <body>
 <!-- start header.html-->
-    <header mv-app="header" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/header.json" mv-autosave="0" mv-upload-url="https://paroissechateaubriant.netlify.app">
+    <header mv-app="header" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/header.json" mv-autosave="0" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <span class="loggued" property="logo_link_titre"></span>
       <span class="loggued" property="logo_alt"></span>
       <span class="loggued" property="logo_titre"></span>
@@ -48,7 +48,7 @@
     </header>
 <!-- end header.html-->
 <!-- start main -->
-    <main mv-app="activites" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/activites/prieres.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
+    <main mv-app="activites" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/activites/prieres.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
       <div property="description" class="tinymce"></div>
       <section mv-list="blocs">
@@ -71,7 +71,7 @@
 
 <!-- end main -->
 <!-- start footer.html-->
-    <footer mv-app="footer" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/contents/footer.json" mv-autosave="1" mv-plugins="tinymce">
+    <footer mv-app="footer" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/footer.json" mv-autosave="1" mv-plugins="tinymce">
       <section id="footer">
         <div id="paroisse" mv-list>
           <div mv-list-items>
@@ -79,8 +79,10 @@
               <div mv-list-items class="permanence">
                 <h2 property="titre"></h2>
                 <span class="loggued" property="url_google_maps"></span>
-                <a class="adresse fa-solid fa-location-dot" mv-list="adresse" href="[url_google_maps]" target="_blank" title="Voir sur Google Maps">
-                  <div mv-list-items></div>
+                <a href="[url_google_maps]" target="_blank" title="Voir sur Google Maps">
+                  <span class="adresse fa-solid fa-location-dot" mv-list="adresse">
+                    <div mv-list-items></div>
+                  </span>
                 </a>
                 <a href="tel:[idify(phone)]"><span property="phone" class="fa-solid fa-phone"></span></a>
                 <a href="mailto:[mail]"><span property="mail" class="fa-solid fa-envelope"></span></a>

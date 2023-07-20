@@ -34,7 +34,7 @@ footer {
                 }
             }
             .horaires {
-                margin: 1em 2em;
+                margin: 0 2em;
                 font-style: italic;
             }
         }
@@ -70,6 +70,7 @@ footer {
                 line-height: 30px;
                 font-size: 1.1em;
                 margin: 0 1em;
+                padding: 0;
                 display: block;
                 border-radius: 50%;
                 position: relative;

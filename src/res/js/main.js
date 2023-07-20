@@ -14,7 +14,7 @@ function addMenuInteraction() {
 function loadIcons() {
     let $datalist = document.getElementById('icons');
     if($datalist) {
-        fetch('/icons.json')
+        fetch('/contents/icons.json')
         .then(r => r.json())
         .then(r => {
             let icons = {};
@@ -31,7 +31,7 @@ function loadIcons() {
 function loadContacts() {
     let $datalist = document.getElementById('contacts');
     if($datalist) {
-        fetch('/contacts.json')
+        fetch('/contents/contacts.json')
         .then(r => r.json())
         .then(r => {
             let contacts = {};
