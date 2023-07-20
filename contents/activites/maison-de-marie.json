@@ -11,6 +11,7 @@
 							"id": "jean-paul-thomas"
 						}
 					],
+					"texte": "Contacter:",
 					"titre": "Un jardin paroissial"
 				},
 				{
@@ -19,7 +20,7 @@
 							"id": "didier-blanc"
 						}
 					],
-					"texte": "(légumes, fruits et pain) ouverte le jeudi de 10h à 12h30",
+					"texte": "(légumes, fruits et pain) ouverte le jeudi de 10h à 12h30.<p>Contacter:</p>",
 					"titre": "\"L'épicerie avec Marie\""
 				},
 				{
@@ -28,6 +29,7 @@
 							"id": "didier-blanc"
 						}
 					],
+					"texte": "Contacter:",
 					"titre": "Des ateliers de couture, de tricot et de cuisine"
 				}
 			]
@@ -42,7 +44,6 @@
 						}
 					],
 					"texte": "<ul><li>Catéchèse des enfants</li><li>Aumônerie des jeunes</li><li>Formations aux adultes</li></ul><a title=\"Voir plus de formations\" href=\"/activites/formations/\" rel=\"noopener\">Voir toutes les formations</a><p>Pour tout renseignement g&eacute;n&eacute;ral sur la Maison de Marie, contacter notre coordinatrice paroissiale <strong>B&eacute;atrice MACARIO</strong></p>",
-					"titre": "Un jardin paroissial"
 				}
 			]
 				
