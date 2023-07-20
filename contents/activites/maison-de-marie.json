@@ -7,8 +7,11 @@
 			"paragraphe": [
 				{
 					"contact": [
-						{}
-					]
+						{
+							"id": "jean-paul-thomas"
+						}
+					],
+					"titre": "Un jardin paroissial"
 				}
 			]
 		}
