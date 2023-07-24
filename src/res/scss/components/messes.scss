@@ -13,13 +13,17 @@ main[mv-app=messes] {
         display:flex;
         flex-wrap: wrap;
     }
+    .samedi{
+        color: $jaune;
+    }
     div[property=dimanches] {
         flex-grow: 1;
         margin: 1em;
         padding: 1em;
-        border: solid 1px $bleu;
-        border-radius: 5px;
-        background: $gris;
+        border: solid 5px $jaune;
+        border-radius: 20px;
+        background: $bleu;
+        color: $blanc;
     }
     section[property=semaine], #dernieres-messes {
         margin-top: 2em;
