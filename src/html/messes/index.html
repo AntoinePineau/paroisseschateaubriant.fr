@@ -5,17 +5,21 @@
       <section mv-list id="dimanches">
         <div mv-list-items>
           <h2 property="titre" class="tinymce"></h2>
-          <div class="dimanche">
-            <div mv-list="dimanche">
-              <div mv-list-items class="tinymce"></div>
+          <aside class="folded-corner flip-card">
+            <div class="flip-card-inner">
+              <div class="dimanche flip-card-front">
+                <div mv-list="dimanche">
+                  <div mv-list-items class="tinymce"></div>
+                </div>
+              </div>
+              <div class="samedi flip-card-back">
+                <h3>Le samedi soir (la veille)</h3>
+                <div mv-list="samedi">
+                  <div mv-list-items class="tinymce"></div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="samedi">
-            <h3>Le samedi soir (la veille)</h3>
-            <div mv-list="samedi">
-              <div mv-list-items class="tinymce"></div>
-            </div>
-          </div>
+          </aside>
         </div>
       </section>
       <section property="semaine">
