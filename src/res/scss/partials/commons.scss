@@ -1,4 +1,4 @@
-$font: "Cambria";
+// https://ap2cu.com/palette/#fefcfb-0a1128-f3a539-a32900-5bc0eb-15171e-e8f5f7
 $blanc: #fefcfb;
 $bleu: #0a1128;
 $jaune: #f3a539;
@@ -11,6 +11,12 @@ $tablet: 768px;
 
 @mixin transition($property: all, $duration: 0.5s, $ease: ease-out) {
   transition: $property $duration $ease;
+}
+@mixin font1() {
+  font-family: "Cambria";
+}
+@mixin font2() {
+  font-family: 'Peristiwa', sans-serif;
 }
 
 .sr-only {
@@ -26,7 +32,8 @@ html {
     a {
       color: $rouge;
       text-decoration: none;
-      padding: .25em .5em;
+      padding: .125em .5em;
+      width: fit-content;
       @include transition();
       &:hover {
         @include transition();
@@ -46,7 +53,7 @@ html {
     }
     background-color: $blanc;
     color: $bleu;
-    font-family: $font;
+    @include font1();
     body {
       margin: 0;
       button, a[role=button] {
@@ -82,16 +89,20 @@ html {
       main {
         padding-bottom: 2em;
         h1 {
-          font-size: 2.5em;
+          font-size: 4em;
+          @include font2();
+          text-align: center;
+          margin-bottom: 0;
         }
         h2 {
-          font-size: 2.2em;
+          font-size: 3em;
+          @include font2();
         }
         h3 {
-          font-size: 1.8em;
+          font-size: 1.7em;
         }
         h4 {
-          font-size: 1.5em;
+          font-size: 1.4em;
         }
         h5 {
           font-size: 1.1em;
@@ -113,7 +124,7 @@ html {
     
     .fa-phone, .fa-envelope, .fa-location-dot {
       display: block;
-      font-family: $font;
+      @include font1();
       margin: .5em 0;
       font-size: 0.85em;
       &:not(:empty)::before {
