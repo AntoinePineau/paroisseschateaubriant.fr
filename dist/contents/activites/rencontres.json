@@ -3,9 +3,9 @@
 	"description": "En dehors de l'eucharistie du dimanche, des paroissiens aiment à se retrouver dans des groupes fraternels pour s'aider mutuellement à être disciples du Christ, en méditant ensemble la Parole de Dieu, en partageant sur leur vie, en échangeant sur les questions de société à la lumière de l'évangile, en priant.",
 	"blocs": [
 		{
+			"titre": "Les « équipes fraternelles »",
 			"paragraphe": [
 				{
-					"titre": "Les « équipes fraternelles »",
 					"texte": "Fraternités d'une dizaine de personnes qui se réunissent tous les 15 jours.",
 					"contact": [
 						{ "id": "catherine-viguerie" }
@@ -14,7 +14,7 @@
 			]
 		},
 		{
-			"title": "Les équipes d'Action Catholique",
+			"titre": "Les équipes d'Action Catholique",
 			"description": "Se réunissent tous les mois",
 			"paragraphe": [
 				{
@@ -50,7 +50,7 @@
 			]
 		},
 		{
-			"title": "Les Focolari",
+			"titre": "Les Focolari",
 			"description": "Se réunissent tous les mois",
 			"paragraphe": [
 				{
@@ -61,7 +61,7 @@
 			]
 		},
 		{
-			"title": "Le groupe « Parole d'évangile »",
+			"titre": "Le groupe « Parole d'évangile »",
 			"description": "Se réunit tous les mois pour une méditation de l'évangile du dimanche",
 			"paragraphe": [
 				{
@@ -72,7 +72,7 @@
 			]
 		},
 		{
-			"title": "Le groupe « Goûter ensemble la Parole de Dieu »",
+			"titre": "Le groupe « Goûter ensemble la Parole de Dieu »",
 			"description": "Se réunit 1 lundi soir tous les mois pour une lecture priée de la Parole.",
 			"paragraphe": [
 				{
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"title": "Le groupe « Oralité »",
+			"titre": "Le groupe « Oralité »",
 			"paragraphe": [
 				{
 					"title": "Mémorisation de l'évangile",
@@ -98,35 +98,35 @@
 			"description": "En dehors de ces groupes réguliers, la paroisse organise des rencontres fraternelles ponctuelles qui soudent la « famille paroissiale »",
 			"paragraphe": [
 				{
-					"title": "La Pause Café",
+					"titre": "La Pause Café",
 					"texte": "Le 1er dimanche du mois, un après-midi convivial autour de jeux de société.",
 					"contact": [
 						{ "id": "marie-ange-burin" }
 					]
 				},
 				{
-					"title": "Les pèlerinages",
+					"titre": "Les pèlerinages",
 					"texte": "Trois pèlerinages d'1 jour sont organisés dans l'année. Ainsi que la participation au pèlerinage diocésain à Lourdes.",
 					"contact": [
 						{ "id": "beatrice-macario" }
 					]
 				},
 				{
-					"title": "Le Tro Mée",
+					"titre": "Le Tro Mée",
 					"texte": "L'été, une marche-pèlerinage fraternelle relie les clochers de notre doyenné.",
 					"contact": [
 						{ "id": "jean-pierre-legrais" }
 					]
 				},
 				{
-					"title": "Les rencontres du cinéma chrétien",
+					"titre": "Les rencontres du cinéma chrétien",
 					"texte": "Au cinéma de Châteaubriant.",
 					"contact": [
 						{ "id": "damien-girardeau" }
 					]
 				},
 				{
-					"title": "Les verres de l'amitié",
+					"titre": "Les verres de l'amitié",
 					"texte": "Après les messes des familles"
 				}
 			]

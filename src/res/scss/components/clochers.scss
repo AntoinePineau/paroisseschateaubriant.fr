@@ -1,5 +1,6 @@
 main[mv-app=clochers] {
     margin: 0 1em;
+    text-align: center;
     figure {
         text-align: center;
         img {
@@ -7,18 +8,24 @@ main[mv-app=clochers] {
         }
     }
     ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 0 6em;
         padding: 0;
+        li {            
+            flex-grow: 1;
+        }
+    }
+    h3 {
+        margin-bottom: 0;
     }
     h4 {
-        margin:.5em 0 0;
+        margin: 2em 0 -.5em 0;
     }
 }
 
 @media (min-width: $tablet) {
     main[mv-app=clochers] {
-        ul {
-            columns: 2;
-        }
         article {
             padding: 1em;
         }
