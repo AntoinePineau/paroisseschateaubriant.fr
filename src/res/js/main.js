@@ -41,14 +41,16 @@ function loadContacts() {
             });
             Array.from(document.querySelectorAll('span[mv-editor-list="contacts"]:not(:empty)')).forEach(span=>{
                 let c = contacts[span.innerText];
-                span.setAttribute('for', c.id);
-                let d = document.createElement('div');
-                d.setAttribute('id', c.id);
-                d.setAttribute('class', 'contact');
-                d.innerHTML += '<h5 class="nom">'+c.nom+'</h5>';
-                if(c.email) d.innerHTML += '<a href="mailto:'+c.email+']"><span class="fa-solid fa-envelope">'+c.email+'</span></a>';
-                if(c.telephone) d.innerHTML += '<a href="tel:'+c.telephone.replaceAll(' ','')+']"><span class="fa-solid fa-phone">'+c.telephone+'</span></a>';
-                span.parentNode.append(d);
+                if(c && c.id) {
+                    span.setAttribute('for', c.id);
+                    let d = document.createElement('div');
+                    d.setAttribute('id', c.id);
+                    d.setAttribute('class', 'contact');
+                    d.innerHTML += '<h5 class="nom">'+c.nom+'</h5>';
+                    if(c.email) d.innerHTML += '<a href="mailto:'+c.email+']"><span class="fa-solid fa-envelope">'+c.email+'</span></a>';
+                    if(c.telephone) d.innerHTML += '<a href="tel:'+c.telephone.replaceAll(' ','')+']"><span class="fa-solid fa-phone">'+c.telephone+'</span></a>';
+                    span.parentNode.append(d);
+                }
             });
         })
         .catch(e => {console.error('Error:', e)});
