@@ -32,6 +32,9 @@ main[mv-app=contact] {
 aside[mv-list=contact] {
   display: flex;
   flex-wrap: wrap;
+  div[mv-list-items]{
+    margin: 0 auto;
+  }
 }
 div.contact {
   border: solid 1px $bleu;
