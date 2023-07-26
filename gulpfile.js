@@ -4,6 +4,9 @@ const uglify = require('gulp-uglify');
 const sass = require('gulp-sass')(require('sass'));
 const htmlExtend = require('gulp-html-extend');
 const browserSync = require('browser-sync').create();
+const through = require('through2');
+const ssr = require('./ssr');
+const path = require('path');
 function reload(done){
   console.log('file changed', done);
   browserSync.reload();
@@ -84,3 +87,23 @@ gulp.task('serve', () => {
 
 // Default task
 gulp.task('default', gulp.series('html', 'scss', 'js', 'copy-files', 'serve'));
+
+const gulpMavoSSR = (base) => {
+	const staticPortPromise = ssr.makeStaticAppAndGetPort(base);
+
+	return through.obj(async (file, encoding, callback) => {
+		const staticPort = await staticPortPromise;
+		const relBasePath = path.relative(base, file.path);
+		let newFile = file.clone();
+		const url = `http://localhost:${staticPort}/${relBasePath}`;
+		const {content} = await ssr.render(url,{renderNonMavo: true});
+		newFile.contents = Buffer.from(content);
+		callback(null, newFile);
+	});
+};
+
+gulp.task('ssr', () => {
+	return gulp.src('**/*.html')
+		.pipe(gulpMavoSSR('dist'))
+		.pipe(gulp.dest('www'));
+});
