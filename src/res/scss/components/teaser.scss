@@ -1,0 +1,29 @@
+
+section[property=teaser] {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em;
+  div[property=teaser] {
+    flex-grow: 1;
+    margin: 0 2em 2em;
+    border: solid 5px $bleu;
+    border-radius: 20px;
+    background-color: $jaune;
+    a {
+      color: $bleu;
+    }
+    &:hover {
+      border-color: $jaune;
+      background-color: $bleu;
+      a {
+        color: $jaune;
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+    h2 {
+      margin: 0;
+    }
+  }
+}
