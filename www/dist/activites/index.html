@@ -1,8 +1,6 @@
-<!doctype html>
-<html lang="fr">
-  <head>
-    <title>Messes | Paroisses du Pays de Châteaubriant</title>
-    <meta name="description" content="Horaires des messes">
+<!DOCTYPE html><html lang="fr"><head>
+    <title>Activités | Paroisses du Pays de Châteaubriant</title>
+    <meta name="description" content="Les activités des Paroisses du Pays de Châteaubriant">
 <!-- start metas.html-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,11 +8,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/res/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/res/img/favicon-16x16.png">
     <link rel="manifest" href="/res/img/site.webmanifest">
-    <link rel="mask-icon" href="/res/img/safari-pinned-tab.svg" color="#0a1128"/>
-    <meta name="msapplication-TileColor" content="#fefcfb"/>
-    <meta name="theme-color" content="#0a1128"/>
-    <link href="https://fonts.cdnfonts.com/css/peristiwa" rel="stylesheet"/>
-    <link rel="stylesheet" href="/res/css/main.min.css"/>
+    <link rel="mask-icon" href="/res/img/safari-pinned-tab.svg" color="#0a1128">
+    <meta name="msapplication-TileColor" content="#fefcfb">
+    <meta name="theme-color" content="#0a1128">
+    <link href="https://fonts.cdnfonts.com/css/peristiwa" rel="stylesheet">
+    <link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css">
+    <script src="https://dev.mavo.io/dist/mavo.js"></script>
+    <link rel="stylesheet" href="/res/css/main.min.css">
     <script src="/res/js/main.min.js"></script>
 <!-- end metas.html-->
   </head>
@@ -34,8 +34,8 @@
       </button>
      <!-- Menu -->
       <nav class="loggued">
-        <ul id="menu" mv-list role="menu">
-          <li mv-list-item role="presentation">
+        <ul id="menu" mv-list="" role="menu">
+          <li mv-list-item="" role="presentation">
             <span property="icon" mv-editor-list="icons" class="loggued"></span>
             <a property="url" href="#" role="menuitem">
               <i class="[icon] icon"></i>
@@ -49,50 +49,21 @@
     </header>
 <!-- end header.html-->
 <!-- start main -->
-    <main mv-app="messes" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/messes.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
-      <h1 property="titre"></h1>  
-      <section mv-list id="dimanches">
-        <div mv-list-items>
-          <h2 property="titre" class="tinymce"></h2>
-          <aside class="folded-corner flip-card">
-            <div class="flip-card-inner">
-              <div class="dimanche flip-card-front">
-                <div mv-list="dimanche">
-                  <div mv-list-items class="tinymce"></div>
-                </div>
-              </div>
-              <div class="samedi flip-card-back">
-                <h3>Le samedi soir (la veille)</h3>
-                <div mv-list="samedi">
-                  <div mv-list-items class="tinymce"></div>
-                </div>
-              </div>
-            </div>
-          </aside>
-        </div>
-      </section>
-      <section property="semaine">
-        <h2 property="titre"></h2>
-        <div mv-list="jour">
-          <div mv-list-items>
-            <h3 property="titre"></h3>
-            <div mv-list="messe">
-              <div mv-list-items class="tinymce"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="dernieres-messes" property>
-        <h2 property="titre" class="tinymce"></h2>
-        <div property="YouTubeChannelID" class="loggued"></div> 
-        <iframe width="33%" height="340" src="https://www.youtube.com/embed?listType=playlist&list=[YouTubeChannelID]&index=1" frameborder="0" allowfullscreen></iframe> 
-        <iframe width="33%" height="340" src="https://www.youtube.com/embed?listType=playlist&list=[YouTubeChannelID]&index=2" frameborder="0" allowfullscreen></iframe>
-        <iframe width="33%" height="340" src="https://www.youtube.com/embed?listType=playlist&list=[YouTubeChannelID]&index=3" frameborder="0" allowfullscreen></iframe>
-        <div property="plusDeVideos">
-          <div property="titre" class="loggued"></div> 
-          <div property="texte" class="loggued"></div> 
-          <div property="lien" class="loggued"></div> 
-          <a href="[lien]" target="_blank" title="[titre]">[texte]</a>
+    <main mv-app="activites" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/activites.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
+      <h1 property="titre"></h1>      
+      <section property="teaser" mv-list="">
+        <div mv-list-items="">
+          <span class="loggued">
+            <div property="lien"></div>
+            <div property="image"></div>
+            <div property="imageAlt"></div>
+            <div property="imageTitre"></div>
+          </span>
+          <a href="[lien]">
+            <h2 property="titre"></h2>
+            <img src="[lien]" alt="[imageAlt]" titre="[imageTitre]">
+            <div property="texte" class="tinymce"></div>
+          </a>
         </div>
       </section>
     </main>
@@ -101,15 +72,15 @@
 <!-- start footer.html-->
     <footer mv-app="footer" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/footer.json" mv-autosave="1" mv-plugins="tinymce">
       <section id="footer">
-        <div id="paroisse" mv-list>
-          <div mv-list-items>
+        <div id="paroisse" mv-list="">
+          <div mv-list-items="">
             <div mv-list="permanence">
-              <div mv-list-items class="permanence">
+              <div mv-list-items="" class="permanence">
                 <h2 property="titre"></h2>
                 <span class="loggued" property="url_google_maps"></span>
                 <a href="[url_google_maps]" target="_blank" title="Voir sur Google Maps">
                   <span class="adresse fa-solid fa-location-dot" mv-list="adresse">
-                    <div mv-list-items></div>
+                    <div mv-list-items=""></div>
                   </span>
                 </a>
                 <a href="tel:[idify(phone)]"><span property="phone" class="fa-solid fa-phone"></span></a>
@@ -119,7 +90,7 @@
             </div>
           </div>
         </div>
-        <datalist id="social-networks" hidden>
+        <datalist id="social-networks" hidden="">
           <option>Facebook-f</option>
           <option>Instagram</option>
           <option>YouTube</option>
@@ -127,15 +98,15 @@
       </section>
       <div id="social">
         <ul mv-list="social">
-          <li mv-list-items property="reseau" class="[get(split(lowercase(type),'-'),0)]">
+          <li mv-list-items="" property="reseau" class="[get(split(lowercase(type),'-'),0)]">
             <span class="loggued" property="type" mv-editor-list="social-networks"></span>
             <span class="loggued" property="lien"></span>
             <a href="[lien]" target="_blank" title="[get(split(type,'-'),0)]"><i class="fab fa-[lowercase(type)] icon"></i></a>
           </li>
         </ul>
       </div>
-      <div id="copyright" property></div>
+      <div id="copyright" property=""></div>
     </footer>
 <!-- end footer.html-->
-  </body>
-</html>
+  
+</body></html>

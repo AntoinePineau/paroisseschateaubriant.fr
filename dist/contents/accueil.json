@@ -1,3 +1,45 @@
 {
-	"titre": "Paroisses du Pays de Châteaubriant"
+	"titre": "Paroisses du Pays de Châteaubriant",	
+	"teaser": [
+		{
+			"titre": "Messes",
+			"texte": "Les horaires des messes domminicales et en semaine",
+			"lien": "/messes/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Activités Paroissiales",
+			"texte": "Les rencontres, les célébrations, les formations, les prières et les services au sein de nos paroisses",
+			"lien": "/activites/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Contacts",
+			"texte": "Les acteurs de nos paroisses",
+			"lien": "/contact/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Agenda",
+			"texte": "Les rendez-vous 2023-2024",
+			"lien": "/agenda/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Actualités",
+			"texte": "Les dernières actualités de nos paroisses",
+			"lien": "/actualites/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		}
+	]
 }

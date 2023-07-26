@@ -40,3 +40,17 @@ npm i
 If you use WSL on Windows, ensure to work only on WSL (repository included) to be more efficient (quick and live reloading working)
 
 Launch `gulp` to serve you local development server and build automagically the final files to serve in the Production environment.
+
+## SSR
+
+Install [Node](https://nodejs.org/) (at least version 8) and [npm](https://www.npmjs.com/). Run
+
+```
+$ npm install
+```
+
+Install extra libraries
+
+```
+sudo apt install libxss1 libxdamage1 libnss3 lipbcups2 libasound2 libatk-bridge2.0-0 libgtk-3-0
+```

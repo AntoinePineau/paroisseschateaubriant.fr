@@ -100,6 +100,11 @@
 	},
 	"dernieres-messes": {
 		"titre": "Les dernières messes en vidéo",
-		"YouTubeChannelID": "UUDHkX3EPqwCMjRu83U4V1fA"
+		"YouTubeChannelID": "UUDHkX3EPqwCMjRu83U4V1fA",
+		"plusDeVideos": {
+			"texte": "Voir toutes les messes sur YouTube",
+			"lien": "https://www.youtube.com/@paroissechateaubriant8873",
+			"titre": "Plus de vidéos"
+		}
 	}
 }
