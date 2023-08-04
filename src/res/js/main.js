@@ -6,8 +6,16 @@ function addMenuInteraction() {
     navButton.addEventListener('click', function() {
         let expanded = this.getAttribute('aria-expanded') === 'true' || false;
         this.setAttribute('aria-expanded', !expanded);
-        let menu = this.nextElementSibling;
         navButton.querySelector('span').innerText = expanded ? '☰' : '✕';
+        var perspectiveClassList = document.querySelector('.perspective').classList;
+        if(expanded) {
+            perspectiveClassList.remove('modalview');
+            perspectiveClassList.remove('animate');
+        }
+        else {
+            perspectiveClassList.add('modalview');
+            perspectiveClassList.add('animate');
+        }
     });
 }
 

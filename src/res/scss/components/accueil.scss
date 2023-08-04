@@ -1,4 +1,24 @@
 main[mv-app=accueil] {
     text-align: center;
-    margin: 0 1em;
+    margin: 0;
+    padding: 0;
+    .parallax {
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        h1 {
+            color: $blanc;
+            text-shadow: 1px 3px $bleu;
+        }
+        video {
+            z-index: -1;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .teasers {
+            margin-top: 50vh;
+        }
+    }
 }

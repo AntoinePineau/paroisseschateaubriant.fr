@@ -19,35 +19,10 @@
 <!-- end metas.html-->
   </head>
   <body>
-<!-- start header.html-->
-    <header mv-app="header" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/header.json" mv-autosave="0" mv-upload-url="https://paroissechateaubriant.netlify.app">
-      <span class="loggued" property="logo_link_titre"></span>
-      <span class="loggued" property="logo_alt"></span>
-      <span class="loggued" property="logo_titre"></span>
-      <!-- Logo -->
-      <a href="/" title="[logo_link_titre]">
-        <img src="#" alt="[logo_alt]" title="[logo_titre]" property="logo" mv-upload-path="res/img">  
-      </a>
-      <button aria-expanded="false" aria-controls="menu">
-        <label class="sr-only">Menu</label>
-        <span aria-hidden="true">☰</span>
-      </button>
-     <!-- Menu -->
-      <nav class="loggued">
-        <ul id="menu" mv-list role="menu">
-          <li mv-list-item role="presentation">
-            <span property="icon" mv-editor-list="icons" class="loggued"></span>
-            <a property="url" href="#" role="menuitem">
-              <i class="[icon] icon"></i>
-              <span property="titre"></span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <datalist id="icons">
-      </datalist>
-    </header>
-<!-- end header.html-->
+    <div id="perspective" class="perspective effect-menuleft">
+			<div class="container">
+				<div class="wrapper">	
+          <!-- @@include header.html -->				
 <!-- start main -->
     <main mv-app="messes" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/messes.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>  
@@ -137,5 +112,24 @@
       <div id="copyright" property></div>
     </footer>
 <!-- end footer.html-->
+		    </div>
+			</div>
+<!-- start nav.html-->
+      <!-- Menu -->
+      <nav class="loggued outer-nav right vertical" mv-app="nav" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/nav.json" mv-autosave="0" mv-upload-url="https://paroissechateaubriant.netlify.app">
+        <ul id="menu" mv-list role="menu">
+          <li mv-list-item role="presentation">
+            <span property="icon" mv-editor-list="icons" class="loggued"></span>
+            <a property="url" href="#" role="menuitem">
+              <i class="[icon] icon"></i>
+              <span property="titre"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <datalist id="icons">
+      </datalist>
+<!-- end nav.html-->
+    </div>
   </body>
 </html>

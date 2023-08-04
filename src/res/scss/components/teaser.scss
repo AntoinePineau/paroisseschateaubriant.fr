@@ -6,9 +6,11 @@ section[property=teaser] {
   div[property=teaser] {
     flex-grow: 1;
     margin: 0 2em 2em;
+    padding: 0 1em;
     border: solid 5px $bleu;
     border-radius: 20px;
     background-color: $jaune;
+    height: fit-content;
     a {
       color: $bleu;
     }
