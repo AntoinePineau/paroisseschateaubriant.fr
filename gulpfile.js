@@ -56,7 +56,7 @@ gulp.task('copy-js-map', () => {
 });
 
 gulp.task('copy-img', () => {
-  return gulp.src('src/res/img/*')
+  return gulp.src('src/res/img/**/*')
     .pipe(gulp.dest('dist/res/img/'));
 });
 
