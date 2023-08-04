@@ -8,14 +8,14 @@ function addMenuInteraction() {
         this.setAttribute('aria-expanded', !expanded);
         navButton.querySelector('span').innerText = expanded ? '☰' : '✕';
         var perspectiveClassList = document.querySelector('.perspective').classList;
-        if(expanded) {
-            perspectiveClassList.remove('modalview');
-            perspectiveClassList.remove('animate');
-        }
-        else {
+        if(!expanded) {
             perspectiveClassList.add('modalview');
             perspectiveClassList.add('animate');
         }
+    });
+    document.querySelector('.container').addEventListener('click', function() {
+        perspectiveClassList.remove('modalview');
+        perspectiveClassList.remove('animate');
     });
 }
 
