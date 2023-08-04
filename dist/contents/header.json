@@ -1,31 +1,5 @@
 {
 	"logo": "https://paroissechateaubriant.netlify.app/res/img/logo.png",
-	"menu": [
-		{
-			"url": "/messes/",
-			"titre": "Messes"
-		},
-		{
-			"url": "/actualites/",
-			"titre": "Actualités"
-		},
-		{
-			"url": "/agenda/",
-			"titre": "Agenda"
-		},
-		{
-			"url": "/activites/",
-			"titre": "Activités"
-		},
-		{
-			"url": "/clochers/",
-			"titre": "Les clochers"
-		},
-		{
-			"url": "/contact/",
-			"titre": "Contact"
-		}
-	],
 	"logo_link_titre": "Page d'accueil",
 	"logo_alt": "Logo Paroisses Châteaubriant",
 	"logo_titre": "Logo Paroisses Châteaubriant"

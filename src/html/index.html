@@ -1,23 +1,25 @@
 <!-- @@master includes/template.html {"titre":"Accueil", "description":"Bienvenue sur le site des Paroisses du Pays de Châteaubriant, Sainte-Croix en Châteaubriant et Saint-Joseph du Don"} -->
 <!-- @@block main -->
     <main mv-app="accueil" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/accueil.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
-      <h1 property="titre"></h1>
-      <video loop autoplay muted width="100%">
-        <source src="/res/img/contents/saint-nicolas-drone.mp4" type="video/mp4">
-      </video>    
-      <section property="teaser" mv-list>
-        <div mv-list-items>
-          <span class="loggued">
-            <div property="lien"></div>
-            <div property="image"></div>
-            <div property="imageAlt"></div>
-            <div property="imageTitre"></div>
-          </span>
-          <a href="[lien]">
-            <h2 property="titre"></h2>
-            <img src="[lien]" alt="[imageAlt]" titre="[imageTitre]"/>
-            <div property="texte" class="tinymce"></div>
-          </a>
+      <div class="parallax">
+        <h1 property="titre" class="parallax-layer title"></h1>    
+        <video loop autoplay muted class="parallax-layer video">
+          <source src="/res/img/contents/saint-nicolas-drone.mp4" type="video/mp4">
+        </video> 
+        <section property="teaser" class="parallax-layer teasers" mv-list>
+          <div mv-list-items>
+            <span class="loggued">
+              <div property="lien"></div>
+              <div property="image"></div>
+              <div property="imageAlt"></div>
+              <div property="imageTitre"></div>
+            </span>
+            <a href="[lien]">
+              <h2 property="titre"></h2>
+              <img src="[lien]" alt="[imageAlt]" titre="[imageTitre]"/>
+              <div property="texte" class="tinymce"></div>
+            </a>
+          </div>
         </div>
       </section>
     </main>
