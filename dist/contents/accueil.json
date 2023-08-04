@@ -3,7 +3,7 @@
 	"teaser": [
 		{
 			"titre": "Messes",
-			"texte": "Les horaires des messes domminicales et en semaine",
+			"texte": "Les horaires des messes dominicales et en semaine",
 			"lien": "/messes/",
 			"image": "",
 			"imageAlt": "",
@@ -37,6 +37,14 @@
 			"titre": "Actualités",
 			"texte": "Les dernières actualités de nos paroisses",
 			"lien": "/actualites/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Clochers",
+			"texte": "Les clochers de nos paroisses",
+			"lien": "/clochers/",
 			"image": "",
 			"imageAlt": "",
 			"imageTitle": ""
