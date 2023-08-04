@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <title>Agenda | Paroisses du Pays de Châteaubriant</title>
-    <meta name="description" content="L'agenda de l'année en cours, de Septembre à Août">
+    <title>Clochers | Paroisses du Pays de Châteaubriant</title>
+    <meta name="description" content="Les clochers de nos paroisses">
 <!-- start metas.html-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,10 +19,23 @@
 <!-- end metas.html-->
   </head>
   <body>
+<!-- start header.html-->
+    <header mv-app="header" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/header.json" mv-autosave="3" mv-upload-url="https://paroissechateaubriant.netlify.app">
+      <span class="loggued" property="logo_link_titre"></span>
+      <span class="loggued" property="logo_alt"></span>
+      <span class="loggued" property="logo_titre"></span>
+      <a href="/" title="[logo_link_titre]">
+        <img src="#" alt="[logo_alt]" title="[logo_titre]" property="logo" mv-upload-path="res/img">  
+      </a>
+      <button aria-expanded="false" aria-controls="menu">
+        <label class="sr-only">Menu</label>
+        <span aria-hidden="true">☰</span>
+      </button>
+    </header>
+<!-- end header.html-->
     <div id="perspective" class="perspective effect-moveleft">
 			<div class="container">
 				<div class="wrapper">	
-          <!-- @@include header.html -->		
 <!-- start main -->
     <main mv-app="clochers" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/clochers.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>

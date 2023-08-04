@@ -8,7 +8,11 @@ function addMenuInteraction() {
         this.setAttribute('aria-expanded', !expanded);
         navButton.querySelector('span').innerText = expanded ? '☰' : '✕';
         var perspectiveClassList = document.querySelector('.perspective').classList;
-        if(!expanded) {
+        if(expanded) {
+            perspectiveClassList.remove('modalview');
+            perspectiveClassList.remove('animate');
+        }
+       else {
             perspectiveClassList.add('modalview');
             perspectiveClassList.add('animate');
         }
