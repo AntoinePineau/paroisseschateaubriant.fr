@@ -16,12 +16,15 @@
 			"nom": "Anne DE LA BRETESCHE",
 			"email": "alpha.chateaubriant@gmail.com",
 			"telephone": "06 79 73 22 32",
-			"activite": []
+			"activite": [
+				"Responsable du parcours alpha"
+			],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "anne-laure-fresson",
 			"nom": "Anne-Laure FRESSON",
-			"fonction": "Lème",
+			"fonction": "LEME",
 			"activite": [
 				"Responsable de la catéchèse",
 				"Préparation au baptême"
@@ -36,26 +39,29 @@
 				"Aumônerie de l'hôpital"
 			],
 			"email": "aumonerie.chateaubriant@ch-cnp.fr",
-			"telephone": "06 42 09 80 17"
+			"telephone": "06 42 09 80 17",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "annie-halet",
 			"nom": "Annie HALET",
 			"email": "clauan.halet19@orange.fr",
 			"telephone": "02 40 55 07 57",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "beatrice-davenas",
 			"nom": "Béatrice DAVENAS",
 			"email": "vdavenas@free.fr",
 			"telephone": "02 40 28 23 12",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "beatrice-macario",
 			"nom": "Béatrice MACARIO",
-			"fonction": "Lème",
+			"fonction": "LEME",
 			"activite": [
 				"Coordinatrice Paroissiale"
 			],
@@ -69,14 +75,16 @@
 				"Confirmation des adultes"
 			],
 			"email": "beatrice.yonger@wanadoo.fr",
-			"telephone": "06 12 84 40 22"
+			"telephone": "06 12 84 40 22",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "bernard-albert",
 			"nom": "Bernard ALBERT",
 			"email": "bernardchristine.albert@orange.fr",
 			"telephone": "02 40 28 89 45",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "catherine-viguerie",
@@ -85,40 +93,46 @@
 				"Préparation au Baptême"
 			],
 			"email": "catherineviguerie44@gmail.com",
-			"telephone": "06 19 71 91 69"
+			"telephone": "06 19 71 91 69",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "christiane-lepicier",
 			"nom": "Christiane LEPICIER",
 			"telephone": "06 50 17 46 76",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "damien-girardeau",
 			"nom": "Damien GIRARDEAU",
 			"email": "comm.paroissechateaubriant@gmail.com",
 			"telephone": "06 17 42 01 03",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "david",
 			"nom": "David",
 			"email": "oralite@free.fr",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "didier-blanc",
 			"nom": "Didier BLANC",
 			"email": "sabbaghgitton@gmail.com",
 			"telephone": "06 44 07 14 97",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "edith-desprez",
 			"nom": "Edith DESPREZ",
 			"email": "edith.desprez@sfr.fr",
 			"telephone": "02 40 81 45 81",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "etienne-de-pontbriand",
@@ -127,26 +141,30 @@
 				"Préparation au mariage"
 			],
 			"email": "etiennedbl@wanadoo.fr",
-			"telephone": "06 12 93 35 51"
+			"telephone": "06 12 93 35 51",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "evelyne-denieul",
 			"nom": "Evelyne DENIEUL",
 			"email": "evelyne.denieul@hotmail.fr",
 			"telephone": "06 28 54 18 83",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "gabrielle-caro",
 			"nom": "Gabrielle CARO",
 			"email": "gabrielle.caro@sfr.fr",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "genevieve",
 			"nom": "Geneviève",
 			"email": "gouterlaparole@free.fr",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "helene-barat",
@@ -155,26 +173,29 @@
 				"Baptême des petits enfants (bébés + maternelles)"
 			],
 			"email": "sccsjdbaptemes@gmail.com",
-			"telephone": "06 72 08 98 09"
+			"telephone": "06 72 08 98 09",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "jean-et-michelle-meslet",
 			"nom": "Jean et Michelle MESLET",
 			"email": "jean.meslet@free.fr",
 			"telephone": "02 40 81 16 15",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "jean-francois-blin",
 			"nom": "Jean-François BLIN",
 			"email": "blin-jbo@orange.fr",
 			"telephone": "06 35 25 15 55",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "jean-louis-gomis",
 			"nom": "Jean-Louis GOMIS",
-			"fonction": "Abbé",
+			"fonction": "Prêtre coopérateur",
 			"activite": [
 				"Préparation au Baptême"
 			],
@@ -194,14 +215,16 @@
 			"nom": "Jean-Paul Thomas",
 			"email": "jptho35@wanadoo.fr",
 			"telephone": "06 07 44 92 27",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "jean-pierre-legrais",
 			"nom": "Jean-Pierre LEGRAIS",
 			"email": "legraisjp@orange.fr",
 			"telephone": "06 84 53 46 94",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "joel-macario",
@@ -214,48 +237,40 @@
 			"telephone": "06 61 45 80 91"
 		},
 		{
-			"id": "kate-arrowsmith",
-			"nom": "Kate ARROWSMITH",
-			"fonction": "Lème",
-			"activite": [
-				"Catéchèse",
-				"Eveil à la foi",
-				"1ère communion"
-			],
-			"email": "jjkate@hotmail.fr",
-			"telephone": "02 40 28 53 09"
-		},
-		{
 			"id": "maguy-castaing",
 			"nom": "Maguy CASTAING",
 			"email": "marguy.castaing@gmail.com",
 			"telephone": "06 59 61 13 14",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marcel-et-michelle-robert",
 			"nom": "Marcel et Michelle ROBERT",
 			"email": "michellerobert@wanadoo.fr",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-ange-burin",
 			"nom": "Marie-Ange BURIN",
 			"email": "marieangeburin44@gmail.com",
 			"telephone": "06 08 42 04 70",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-annick-marceteau",
 			"nom": "Marie-Annick MARCETEAU",
 			"email": "marie-annick_marceteau@hotmail.fr",
 			"telephone": "02 40 81 02 92",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-claire-fougere",
 			"nom": "Marie-Claire FOUGÈRE",
-			"fonction": "Lème",
+			"fonction": "LEME",
 			"activite": [
 				"Responsable de la préparation à la Profession de foi et la Confirmation"
 			],
@@ -302,7 +317,8 @@
 			"nom": "Marie-Madeleine DELAUNAY",
 			"email": "miemadel@orange.fr",
 			"telephone": "07 71 04 62 32",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-mousseau",
@@ -324,49 +340,46 @@
 				"Parcours Alpha Parents"
 			],
 			"email": "famille@pineau.pm",
-			"telephone": "06 08 36 64 03"
+			"telephone": "06 08 36 64 03",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "nicole-masse",
 			"nom": "Nicole MASSÉ",
 			"email": "nicole.masse3@wanadoo.fr",
 			"telephone": "06 71 83 92 92",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "odile-renouard",
 			"nom": "Odile RENOUARD",
 			"email": "renouard.odile@wanadoo.fr",
 			"telephone": "06 32 57 22 29",
-			"activite": []
-		},
-		{
-			"id": "pere-herve-nicq",
-			"nom": "Père Hervé NICQ",
-			"fonction": "Coopérateur",
-			"email": "herve.nicq@jesuites.com",
-			"telephone": "02 40 81 02 92",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "pere-patrice-eon",
 			"nom": "Père Patrice EON",
-			"fonction": "Curé",
+			"fonction": "Prêtre, Curé",
 			"email": "patrice.eon@free.fr",
 			"telephone": "02 40 81 02 92",
 			"activite": []
 		},
 		{
 			"id": "p-roger-roul",
-			"nom": "P.Roger ROUL",
+			"nom": "Père Roger ROUL",
 			"telephone": "02 40 55 10 80",
-			"activite": []
+			"activite": [],
+			"fonction": "Prêtre auxilliaire"
 		},
 		{
 			"id": "service-diocesain-des-vocations",
 			"nom": "Service diocésain des vocations",
 			"email": "vocations44@nantes.cef.fr",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "societe-saint-vincent-de-paul",
@@ -380,14 +393,16 @@
 			"nom": "Sœur Imelda Piton",
 			"email": "imelda.piton@hotmail.fr",
 			"telephone": "06 78 97 26 02",
-			"activite": []
+			"activite": [],
+			"fonction": "Religieuse"
 		},
 		{
 			"id": "soeur-jeannette-ollivier",
 			"nom": "Sœur Jeannette OLLIVIER",
 			"email": "jeannolivier48@gmail.com",
 			"telephone": "02 40 28 42 75",
-			"activite": []
+			"activite": [],
+			"fonction": "Religieuse"
 		}
 	]
 }
