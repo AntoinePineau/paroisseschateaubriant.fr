@@ -8,7 +8,9 @@
 				{
 					"texte": "Fraternités d'une dizaine de personnes qui se réunissent tous les 15 jours.",
 					"contact": [
-						{ "id": "catherine-viguerie" }
+						{
+							"id": "catherine-viguerie"
+						}
 					]
 				}
 			]
@@ -21,30 +23,42 @@
 					"titre": "ACI",
 					"texte": "Action Catholique des Milieux Indépendants",
 					"contact": [
-						{ "id": "beatrice-davenas" }
+						{
+							"id": "beatrice-davenas"
+						}
 					]
 				},
 				{
 					"titre": "ACO",
 					"texte": "Action Catholique Ouvrière",
 					"contact": [
-						{ "id": "gabrielle-caro" }
+						{
+							"id": "gabrielle-caro"
+						}
 					]
 				},
 				{
 					"titre": "CMR",
 					"texte": "Chrétiens dans le Monde Rural",
 					"contact": [
-						{ "id": "jean-et-michelle-meslet" },
-						{ "id": "marcel-et-michelle-robert" }
+						{
+							"id": "jean-et-michelle-meslet"
+						},
+						{
+							"id": "marcel-et-michelle-robert"
+						}
 					]
 				},
 				{
 					"titre": "MCR",
 					"texte": "Mouvement Chrétien des Retraités",
 					"contact": [
-						{ "id": "marie-helene-lepretre" },
-						{ "id": "annie-halet" }
+						{
+							"id": "marie-helene-lepretre"
+						},
+						{
+							"id": "annie-halet"
+						}
 					]
 				}
 			]
@@ -55,7 +69,9 @@
 			"paragraphe": [
 				{
 					"contact": [
-						{ "id": "edith-desprez" }
+						{
+							"id": "edith-desprez"
+						}
 					]
 				}
 			]
@@ -66,7 +82,9 @@
 			"paragraphe": [
 				{
 					"contact": [
-						{ "id": "odile-renouard" }
+						{
+							"id": "odile-renouard"
+						}
 					]
 				}
 			]
@@ -77,7 +95,9 @@
 			"paragraphe": [
 				{
 					"contact": [
-						{ "id": "genevieve" }
+						{
+							"id": "genevieve"
+						}
 					]
 				}
 			]
@@ -89,7 +109,9 @@
 					"title": "Mémorisation de l'évangile",
 					"texte": "Mettre la Parole de Dieu au cœur de nos vies » se réunit 1 lundi soir tous les 15 jours.",
 					"contact": [
-						{ "id": "david" }
+						{
+							"id": "david"
+						}
 					]
 				}
 			]
@@ -101,33 +123,44 @@
 					"titre": "La Pause Café",
 					"texte": "Le 1er dimanche du mois, un après-midi convivial autour de jeux de société.",
 					"contact": [
-						{ "id": "marie-ange-burin" }
+						{
+							"id": "marie-ange-burin"
+						}
 					]
 				},
 				{
 					"titre": "Les pèlerinages",
 					"texte": "Trois pèlerinages d'1 jour sont organisés dans l'année. Ainsi que la participation au pèlerinage diocésain à Lourdes.",
 					"contact": [
-						{ "id": "beatrice-macario" }
+						{
+							"id": "beatrice-macario"
+						}
 					]
 				},
 				{
 					"titre": "Le Tro Mée",
 					"texte": "L'été, une marche-pèlerinage fraternelle relie les clochers de notre doyenné.",
 					"contact": [
-						{ "id": "jean-pierre-legrais" }
+						{
+							"id": "jean-pierre-legrais"
+						}
 					]
 				},
 				{
 					"titre": "Les rencontres du cinéma chrétien",
 					"texte": "Au cinéma de Châteaubriant.",
 					"contact": [
-						{ "id": "damien-girardeau" }
+						{
+							"id": "damien-girardeau"
+						}
 					]
 				},
 				{
 					"titre": "Les verres de l'amitié",
-					"texte": "Après les messes des familles"
+					"texte": "Après les messes des familles",
+					"contact": [
+						{}
+					]
 				}
 			]
 		},
@@ -136,7 +169,9 @@
 			"paragraphe": [
 				{
 					"contact": [
-						{ "id": "jean-paul-horhant" }
+						{
+							"id": "jean-paul-horhant"
+						}
 					]
 				}
 			]
