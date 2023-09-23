@@ -36,34 +36,6 @@
 					"phone": "02 40 07 62 51",
 					"mail": "paroisse.moisdon@gmail.com",
 					"horaires": "Du lundi au samedi de 9h30 à 11h30"
-				},
-				{
-					"url_google_maps": "https://goo.gl/maps/BpZwemvxo1B2",
-					"adresse": [
-						"Issé"
-					],
-					"horaires": "le samedi de 9h45 à 10h45"
-				},
-				{
-					"url_google_maps": "https://goo.gl/maps/7eN4sxhjG552",
-					"adresse": [
-						"Erbray"
-					],
-					"horaires": "les 1ers et 3èmes jeudi du mois de 9h45 à 10h45"
-				},
-				{
-					"url_google_maps": "https://goo.gl/maps/hMtobB9q6J62",
-					"adresse": [
-						"Saint Julien de Vouvantes"
-					],
-					"horaires": "le mardi de 10h30 à 11h30"
-				},
-				{
-					"url_google_maps": "https://goo.gl/maps/6HKssEdb2pL2",
-					"adresse": [
-						"Grand Auverné"
-					],
-					"horaires": "le mardi de 10h à 11h30"
 				}
 			]
 		}
