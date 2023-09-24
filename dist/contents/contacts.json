@@ -282,28 +282,32 @@
 			"nom": "Marie-Claude LUETTE",
 			"email": "marieclaude.luette@orange.fr",
 			"telephone": "02 40 28 64 37",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-cochet",
 			"nom": "Marie COCHET",
 			"email": "cochetmarie@orange.fr",
 			"telephone": "02 40 07 56 85",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-france-menard",
 			"nom": "Marie-France MÉNARD",
 			"email": "mariefran44@free.fr",
 			"telephone": "02 40 55 01 07",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-helene-lepretre",
 			"nom": "Marie-Hélène LEPRETRE",
 			"email": "guy.lepretre0770@orange.fr",
 			"telephone": "06 76 56 06 34",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-madeleine-boissinot",
@@ -324,14 +328,16 @@
 			"id": "marie-mousseau",
 			"nom": "Marie MOUSSEAU",
 			"telephone": "02 40 55 06 50",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-therese-roux",
 			"nom": "Marie-Thérèse ROUX",
 			"email": "lagelardiere@wanadoo.fr",
 			"telephone": "06 72 85 47 13",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "morgane-pineau-morin",
