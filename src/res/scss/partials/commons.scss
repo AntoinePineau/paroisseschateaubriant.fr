@@ -66,11 +66,11 @@ html {
         }
       }
       header, footer {
-        background-color: $bleu;
-        color: $blanc;
-        box-shadow: 1px 1px 5px 0px $bleu;
+        background-color: $cyan;
+        color: $bleu;
+        box-shadow: 1px 1px 5px 0px $noir;
         a {
-          color: $blanc;
+          color: $bleu;
           text-decoration: none;
           display: flex;
           flex-wrap: wrap;
@@ -108,11 +108,13 @@ html {
           font-size: 1.1em;
         }
         .tinymce {
+          font-size: 1.1em;
           ul {
             list-style: none;
             li {
               &::before {
-                content: '✞';
+                content: '►';
+                color: $jaune;
                 padding-right: .5em;
                 line-height:  2em;
               }

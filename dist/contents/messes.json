@@ -4,57 +4,46 @@
 		{
 			"titre": "1<sup>er</sup> dimanche du mois",
 			"samedi": [
-				"Messe à <b>18h00</b> à Ruffigné, Fercé, Noyal-sur-Brutz ou Soulvache (selon les mois)",
-				"Messe à <b>18h00</b> à La Chapelle-Glain"
+				"<p>Messe à <b>18h00</b> à Ruffigné, Fercé, Noyal-sur-Brutz ou Soulvache (selon les mois)<br/>Messe à <b>18h00</b> à La Chapelle-Glain</p>"
 			],
 			"dimanche": [
-				"Messe des familles à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant",
-				"Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière"
+				"<p>Messe des familles à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant<br/>Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière</p>"
 			]
 		},
 		{
 			"titre": "2<sup>e</sup> dimanche du mois",
 			"samedi": [
-				"Messe à <b>18h00</b> à Rougé",
-				"Messe à <b>18h00</b> à Erbray"
+				"<p>Messe à <b>18h00</b> à Rougé<br/>Messe à <b>18h00</b> à Erbray</p>"
 			],
 			"dimanche": [
-				"Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant",
-				"Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière"
+				"<p>Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant<br/>Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière</p>"
 			]
 		},
 		{
 			"titre": "3<sup>e</sup> dimanche du mois",
 			"samedi": [
-				"Messe à <b>18h00</b> à Saint-Aubin-des-Châteaux",
-				"Messe à <b>18h00</b> à Issé"
+				"<p>Messe à <b>18h00</b> à Saint-Aubin-des-Châteaux<br/>Messe à <b>18h00</b> à Issé</p>"
 			],
 			"dimanche": [
-				"Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant",
-				"Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière",
-				"Messe <i>Maranatha</i> à <b>17h</b> à l'église Saint-Nicolas de Châteaubriant avec les chants de Glorious"
+				"<p>Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant<br/>Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière<br/>Messe <i>Maranatha</i> à <b>17h</b> à l'église Saint-Nicolas de Châteaubriant avec les chants de Glorious</p>"
 			]
 		},
 		{
 			"titre": "4<sup>e</sup> dimanche du mois",
 			"samedi": [
-				"Messe à <b>18h00</b> à Soudan",
-				"Messe à <b>18h00</b> à Grand-Auverné"
+				"<p>Messe à <b>18h00</b> à Soudan<br/>Messe à <b>18h00</b> à Grand-Auverné</p>"
 			],
 			"dimanche": [
-				"Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant",
-				"Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière"
+				"<p>Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant<br/>Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière</p>"
 			]
 		},
 		{
 			"titre": "5<sup>e</sup> dimanche du mois",
 			"samedi": [
-				"Messe à <b>18h00</b> à Villepôt",
-				"Messe à <b>18h00</b> à Saint-Julien-de-Vouvantes"
+				"<p>Messe à <b>18h00</b> à Villepôt<br/>Messe à <b>18h00</b> à Saint-Julien-de-Vouvantes</p>"
 			],
 			"dimanche": [
-				"Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant",
-				"Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière"
+				"<p>Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant<br/>Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière</p>"
 			]
 		}
 	],
@@ -63,38 +52,23 @@
 		"jour": [
 			{
 				"titre": "Le mardi",
-				"messe": [
-					"Messe à <b>9h00</b> à Soudan ",
-					"Messe à <b>18h30</b> à l'église de Béré de Châteaubriant"
-				]
+				"messe": "<p>Messe à <b>9h00</b> à Soudan<br/>Messe à <b>18h30</b> à l'église de Béré de Châteaubriant</p>"
 			},
 			{
 				"titre": "Le mercredi",
-				"messe": [
-					"Messe à <b>9h00</b> à l'église Saint-Nicolas de Châteaubriant",
-					"Messe à <b>18h30</b> à la Meilleraye de Bretagne"
-				]
+				"messe": "<p>Messe à <b>9h00</b> à l'église Saint-Nicolas de Châteaubriant<br/>Messe à <b>18h30</b> à la Meilleraye de Bretagne</p>"
 			},
 			{
 				"titre": "Le jeudi",
-				"messe": [
-					"Messe à <b>18h30</b> à Juigné-les-Moutiers le 1er jeudi du mois",
-					"Messe à <b>9h00</b> à Villepôt le 2ème jeudi du mois",
-					"<p><span style=\"font-size: 17.6px;\">E</span><span style=\"font-size: 1.1em;\">t aussi dans les maisons de retraite en apr&egrave;s-midi</span></p>"
-				]
+				"messe": "<p>Messe à <b>18h30</b> à Juigné-les-Moutiers le 1er jeudi du mois<br/>Messe à <b>9h00</b> à Villepôt le 2ème jeudi du mois<br/>Et aussi dans les maisons de retraite en après-midi</p>"
 			},
 			{
 				"titre": "Le vendredi",
-				"messe": [
-					"Messe à <b>9h00</b> à Saint-Aubin-des-Châteaux",
-					"Messe à <b>9h00</b> à Erbray"
-				]
+				"messe": "<p>Messe à <b>9h00</b> à Saint-Aubin-des-Châteaux<br/>Messe à <b>9h00</b> à Erbray</p>"
 			},
 			{
 				"titre": "Le samedi",
-				"messe": [
-					"Messe à <b>9h00</b> à l'église Saint-Nicolas de Châteaubriant le 1<sup>er</sup> samedi du mois"
-				]
+				"messe": "<p>Messe à <b>9h00</b> à l'église Saint-Nicolas de Châteaubriant le 1<sup>er</sup> samedi du mois</p>"
 			}
 		]
 	},
