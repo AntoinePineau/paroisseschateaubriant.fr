@@ -78,9 +78,9 @@
 			{
 				"titre": "Le jeudi",
 				"messe": [
-					"Dans les Maisons de Retraite",
 					"Messe à <b>18h30</b> à Juigné-les-Moutiers le 1er jeudi du mois",
-					"Messe à <b>9h00</b> à Villepôt le 2ème jeudi du mois"
+					"Messe à <b>9h00</b> à Villepôt le 2ème jeudi du mois",
+					"<p><span style=\"font-size: 17.6px;\">E</span><span style=\"font-size: 1.1em;\">t aussi dans les maisons de retraite en apr&egrave;s-midi</span></p>"
 				]
 			},
 			{
