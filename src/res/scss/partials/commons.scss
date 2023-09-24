@@ -13,10 +13,10 @@ $tablet: 768px;
   transition: $property $duration $ease;
 }
 @mixin font1() {
-  font-family: "Cambria";
+  font-family: 'Candara', 'Cambria', sans-serif;
 }
 @mixin font2() {
-  font-family: 'Peristiwa', sans-serif;
+  font-family: 'Candara', 'Cambria', sans-serif;
 }
 
 .sr-only {
