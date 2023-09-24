@@ -313,7 +313,8 @@
 			"nom": "Marie-Madeleine BOISSINOT",
 			"email": "mboissinot@aliceadsl.fr",
 			"telephone": "06 19 67 04 83",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-madeleine-delaunay",
@@ -391,7 +392,8 @@
 			"nom": "Société Saint Vincent de Paul",
 			"email": "svp.chateaubriant@wanadoo.fr",
 			"telephone": "02 40 28 10 18",
-			"activite": []
+			"activite": [],
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "soeur-imelda-piton",
