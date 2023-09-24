@@ -7,19 +7,6 @@ function addMenuInteraction() {
         let expanded = this.getAttribute('aria-expanded') === 'true' || false;
         this.setAttribute('aria-expanded', !expanded);
         navButton.querySelector('span').innerText = expanded ? '☰' : '✕';
-        var perspectiveClassList = document.querySelector('.perspective').classList;
-        if(expanded) {
-            perspectiveClassList.remove('modalview');
-            perspectiveClassList.remove('animate');
-        }
-       else {
-            perspectiveClassList.add('modalview');
-            perspectiveClassList.add('animate');
-        }
-    });
-    document.querySelector('.container').addEventListener('click', function() {
-        perspectiveClassList.remove('modalview');
-        perspectiveClassList.remove('animate');
     });
 }
 
@@ -75,20 +62,20 @@ function addContactsSearch() {
         let options = [];
         // on cherche toutes les fonctions uniques
         Array.from(document.querySelectorAll('div[property="contact"] div[property="fonction"]:not(:empty)')).forEach(f=>{
-            if(!options.includes(f.innerText)) options.push(f.innerText)
+            let o = f.innerText.split(/[, ]/)[0];
+            if(!options.includes(o)) options.push(o)
         });
         // on remplit la datalist avec ces fonctions
         options.sort().forEach(f=>{
             $select.innerHTML += '<option value="'+f+'">'+f+'</option>';
         })
         // on ajoute l'interaction sur les champs de recherche
-        let $text = document.getElementById('fulltext');
         $select.addEventListener('change',()=>{
             $text.value='';
             let $fonction = document.getElementById('fonction').value;
             Array.from(document.querySelectorAll('div.contact')).forEach(c=>{
-                let fonction = c.getAttribute('data-fonction');
-                if(fonction==$fonction) {
+                let fonction = c.getAttribute('data-fonction').split(/[, ]/)[0];
+                if(!$fonction || fonction==$fonction) {
                     c.removeAttribute('hidden')
                 } 
                 else {
@@ -96,6 +83,7 @@ function addContactsSearch() {
                 }
             });
         })
+        let $text = document.getElementById('fulltext');
         $text.addEventListener('input',()=>{
             $select.value='';
             let text = $text.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");

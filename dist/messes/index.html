@@ -33,9 +33,8 @@
       </button>
     </header>
 <!-- end header.html-->
-    <div id="perspective" class="perspective effect-moveleft">
-			<div class="container">
-				<div class="wrapper">	
+    <div class="container">
+      <div class="wrapper">	
 <!-- start main -->
     <main mv-app="messes" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/messes.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>  
@@ -64,9 +63,7 @@
         <div mv-list="jour">
           <div mv-list-items>
             <h3 property="titre"></h3>
-            <div mv-list="messe">
-              <div mv-list-items class="tinymce"></div>
-            </div>
+            <div property="messe" class="tinymce"></div>
           </div>
         </div>
       </section>
@@ -125,8 +122,8 @@
       <div id="copyright" property></div>
     </footer>
 <!-- end footer.html-->
-		    </div>
-			</div>
+      </div>
+    </div>
 <!-- start nav.html-->
       <!-- Menu -->
       <nav class="outer-nav right vertical" mv-app="nav" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/nav.json" mv-autosave="0" mv-upload-url="https://paroissechateaubriant.netlify.app">
@@ -143,6 +140,5 @@
       <datalist id="icons">
       </datalist>
 <!-- end nav.html-->
-    </div>
   </body>
 </html>
