@@ -37,7 +37,7 @@ html {
       @include transition();
       &:hover {
         @include transition();
-        letter-spacing: 1px;
+        //letter-spacing: 1px;
         color: $blanc;
         background: $rouge;
         border-radius: .5em;
