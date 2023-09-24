@@ -20,8 +20,7 @@
 			"description": "Se réunissent tous les mois",
 			"paragraphe": [
 				{
-					"titre": "ACI",
-					"texte": "<p>Action Catholique des Milieux Ind&eacute;pendants</p>",
+					"titre": "Action Catholique des Milieux Indépendants (ACI)",
 					"contact": [
 						{
 							"id": "beatrice-davenas"
@@ -30,8 +29,7 @@
 					]
 				},
 				{
-					"titre": "ACO",
-					"texte": "Action Catholique Ouvrière",
+					"titre": "Action Catholique Ouvrière (ACO)",
 					"contact": [
 						{
 							"id": "gabrielle-caro"
@@ -39,8 +37,7 @@
 					]
 				},
 				{
-					"titre": "CMR",
-					"texte": "Chrétiens dans le Monde Rural",
+					"titre": "Chrétiens dans le Monde Rural (CMR)",
 					"contact": [
 						{
 							"id": "jean-et-michelle-meslet"
@@ -51,8 +48,7 @@
 					]
 				},
 				{
-					"titre": "MCR",
-					"texte": "Mouvement Chrétien des Retraités",
+					"titre": "Mouvement Chrétien des Retraités (MCR)",
 					"contact": [
 						{
 							"id": "marie-helene-lepretre"
@@ -175,7 +171,8 @@
 						}
 					]
 				}
-			]
+			],
+			"titre": "Rencontre avec la communauté musulmane"
 		}
 	]
 }
