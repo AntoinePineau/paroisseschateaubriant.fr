@@ -1,31 +1,5 @@
 {
 	"titre": "Les grands rendez-vous de l'année 2023-2024",
-	"blocs": [
-		{
-			"titre": "Evénements",
-			"paragraphe": [
-				{
-					"texte": "<ul>\n<li><strong>Dimanche 11 Septembre 2022</strong>: Messe de 10h30 &agrave; la foire de B&eacute;r&eacute; (au stand des auto-tamponneuses)</li>\n<li><strong>Samedi 17 Septembre 2022</strong>: Portes ouvertes paroissiales pour les familles de 10h &agrave; 12h30 &agrave; [La Maison de Marie](/maison-de-marie/). Visite du Jardin partag&eacute;.</li>\n<li><strong>Dimanche 18 Septembre 2022</strong>: Ordination diaconale de Jean-Louis Gomis &agrave; 15h &agrave; la Basilique Saint-Donatien de Nantes</li>\n<li><strong>Samedi 1er Octobre 2022</strong>: Forum d'&eacute;cologie int&eacute;grale &agrave; Derval</li>\n<li><strong>Samedi 8 Octobre 2022</strong>: Veill&eacute;e P&eacute;tales de Roses &agrave; 20h30 &agrave; l'&eacute;glise Saint-Nicolas de Ch&acirc;teaubriant</li>\n<li><strong>Samedi 26 Novembre 2022</strong>: P&eacute;lerinage d'1 jour</li>\n<li><strong>Samedi 25 F&eacute;vrier 2023</strong>: P&eacute;lerinage d'1 jour</li>\n<li><strong>Dimanche 19 Mars 2023</strong>: F&ecirc;te patronale de Saint-Joseph du Don</li>\n<li><strong>Du 17 au 21 Avril 2023</strong>: P&eacute;lerinage &agrave; Lourdes</li>\n<li><strong>Lundi 1er Mai 2023</strong>: P&eacute;lerinage r&eacute;gional des Vocations au calvaire de Pontch&acirc;teau</li>\n<li><strong>Vendredi 23 Juin 2023</strong>: Messe de la Saint-Jean &agrave; l'&eacute;glise de B&eacute;r&eacute; de Ch&acirc;teaubriant et feux de la Saint-Jean &agrave; <a title=\"Voir la page\" href=\"../activites/maison-de-marie/\">La Maison de Marie</a></li>\n<li><strong>Dimanche 25 Juin 2023</strong>: Ordination sacerdotale &agrave; la Basilique Saint-Donatien de Nantes</li>\n<li><strong>Du 24 Juillet au 6 Ao&ucirc;t 2023</strong>: JMJ &agrave; Lisbonne</li>\n</ul>",
-					"contact": [
-						{}
-					]
-				},
-				{
-					"titre": "Soirées Louanges",
-					"texte": "<p>Les vendredis &agrave; 20h:</p>\n<ul>\n<li>21 Octobre 2022</li>\n<li>25 Novembre 2022</li>\n<li>9 D&eacute;cembre 2022</li>\n<li>6 Janvier 2023</li>\n<li>10 F&eacute;vrier 2023</li>\n<li>3 Mars 2023</li>\n<li>14 Avril 2023</li>\n<li>26 Mai 2023</li>\n<li>16 Juin 2023</li>\n</ul>",
-					"contact": [
-						{}
-					]
-				},
-				{
-					"titre": "Initiations à la Prière intérieure",
-					"texte": "<p>Les jeudis:</p>\n<ul>\n<li>12 Janvier 2023</li>\n<li>23 F&eacute;vrier 2023</li>\n<li>23 Mars 2023</li>\n<li>5 Avril 2023</li>\n<li>11 Mai 2023</li>\n<li>15 Juin 2023</li>\n</ul>",
-					"contact": [
-						{}
-					]
-				}
-			]
-		}
-	],
+	"blocs": [],
 	"calendrier": "\n        "
 }
