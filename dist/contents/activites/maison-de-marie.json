@@ -20,30 +20,16 @@
 							"id": "didier-blanc"
 						}
 					],
-					"texte": "(légumes, fruits et pain) ouverte le jeudi de 10h à 12h30.<p>Contacter:</p>",
-					"titre": "\"L'épicerie avec Marie\""
-				},
-				{
-					"contact": [
-						{
-							"id": "didier-blanc"
-						}
-					],
 					"texte": "Contacter:",
-					"titre": "Des ateliers de couture, de tricot et de cuisine"
+					"titre": "Des ateliers de couture, de tricot, de produits ménagers bios et de cuisine"
 				}
 			]
 		},
 		{
-			"titre": "C'est aussi un lieu de formation à la foi",
+			"titre": "C'est aussi le lieu de beaucoup d'autres activités paroissiales",
 			"paragraphe": [
 				{
-					"contact": [
-						{
-							"id": "beatrice-macario"
-						}
-					],
-					"texte": "<ul><li>Catéchèse des enfants</li><li>Aumônerie des jeunes</li><li>Formations aux adultes</li></ul><a title=\"Voir plus de formations\" href=\"/activites/formations/\" rel=\"noopener\">Voir toutes les formations</a><p>Pour tout renseignement g&eacute;n&eacute;ral sur la Maison de Marie, contacter notre coordinatrice paroissiale <strong>B&eacute;atrice MACARIO</strong></p>"
+					"texte": "<ul><li>la catéchèse des enfants</li><li>l'aumônerie des jeunes</li><li>le parcours Alpha</li><li>la préparation au baptême</li><li>la pause-café</li><li>la formation biblique</li><li>etc.</li></ul>"
 				}
 			]
 		}

@@ -5,20 +5,24 @@
 			"titre": "Messes"
 		},
 		{
+			"url": "/activites/",
+			"titre": "Activités Paroissiales"
+		},
+		{
+			"url": "/coordination/",
+			"titre": "Équipes de coordination"
+		},
+		{
+			"url": "/clochers/",
+			"titre": "Les clochers"
+		},
+		{
 			"url": "/actualites/",
 			"titre": "Actualités"
 		},
 		{
 			"url": "/agenda/",
 			"titre": "Agenda"
-		},
-		{
-			"url": "/activites/",
-			"titre": "Activités"
-		},
-		{
-			"url": "/clochers/",
-			"titre": "Les clochers"
 		},
 		{
 			"url": "/annuaire/",

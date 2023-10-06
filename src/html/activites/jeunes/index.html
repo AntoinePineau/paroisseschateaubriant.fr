@@ -1,0 +1,24 @@
+<!-- @@master ../../includes/template.html {"titre":"Jeunes", "description":"Une paroisse qui accompagne les adolescents et les jeunes adultes"} -->
+<!-- @@block main -->
+    <main mv-app="activites" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/activites/jeunes.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
+      <h1 property="titre"></h1>
+      <div property="description" class="tinymce"></div>
+      <section mv-list="blocs">
+        <div mv-list-items>
+          <h2 property="titre"></h2>
+          <div property="description" class="tinymce"></div>
+          <div mv-list="paragraphe">
+            <h3 property="titre"></h3>
+            <div property="texte" class="tinymce"></div>
+            <aside mv-list="contact">
+              <div mv-list-items>
+                <span property="id" mv-editor-list="contacts" class="loggued"></span>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <datalist id="contacts">
+      </datalist>
+    </main>
+<!-- @@close -->

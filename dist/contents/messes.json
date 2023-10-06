@@ -1,5 +1,6 @@
 {
 	"titre": "Horaires des messes",
+	"description": "Le grand rendez-vous de notre communauté paroissiale, c'est l'eucharistie du dimanche. C'est là que se tisse entre nous une communion fraternelle dans le Christ. Et c'est là que nous puisons des énergies nouvelles pour repartir évangéliser nos milieux de vie.",
 	"dimanches": [
 		{
 			"titre": "1<sup>er</sup> dimanche du mois",
@@ -16,7 +17,7 @@
 				"<p>Messe à <b>18h00</b> à Rougé<br/>Messe à <b>18h00</b> à Erbray</p>"
 			],
 			"dimanche": [
-				"<p>Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant<br/>Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière</p>"
+				"<p>Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant<br/>Messe des familles à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière</p>"
 			]
 		},
 		{
@@ -44,6 +45,25 @@
 			],
 			"dimanche": [
 				"<p>Messe à <b>10h30</b> à l'église Saint-Nicolas de Châteaubriant<br/>Messe à <b>10h30</b> à l'église Saint-Jouin de Moisdon-la-Rivière</p>"
+			]
+		}
+	],
+	
+	"paragraphe": [
+		{
+			"texte": "Un dimanche par mois, la messe est traduite en langue des signes.",
+			"contact": [
+				{
+					"id": "alain-esnault"
+				}
+			]
+		},
+		{
+			"titre": "Si vous désirez participer à l’animation des messes dominicales (chants, instruments, lectures, art floral, servants d'autel, sacristie, rédaction de la Prière Universelle, diffusion vidéo etc …)",
+			"contact": [
+				{
+					"id": "beatrice-macario"
+				}
 			]
 		}
 	],

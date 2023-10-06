@@ -10,6 +10,30 @@
 			"imageTitle": ""
 		},
 		{
+			"titre": "Les enfants",
+			"texte": "Une paroisse qui éduque les enfants dans la foi chrétienne",
+			"lien": "/activites/enfants/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Les jeunes",
+			"texte": "Une paroisse qui accompagne les adolescents et les jeunes adultes",
+			"lien": "/activites/jeunes/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
+			"titre": "Les adultes",
+			"texte": "Une paroisse qui forme les adultes à l'intelligence de la foi",
+			"lien": "/activites/adultes/",
+			"image": "",
+			"imageAlt": "",
+			"imageTitle": ""
+		},
+		{
 			"titre": "Les rencontres",
 			"texte": "Une paroisse qui se rencontre fraternellement",
 			"lien": "/activites/rencontres/",
@@ -21,14 +45,6 @@
 			"titre": "Les célébrations",
 			"texte": "Une paroisse qui célèbre",
 			"lien": "/activites/celebrations/",
-			"image": "",
-			"imageAlt": "",
-			"imageTitle": ""
-		},
-		{
-			"titre": "Les formations",
-			"texte": "Une paroisse qui forme à la foi",
-			"lien": "/activites/formations/",
 			"image": "",
 			"imageAlt": "",
 			"imageTitle": ""

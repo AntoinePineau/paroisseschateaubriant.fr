@@ -132,5 +132,19 @@
 			]
 			
 		}
+	],
+	"paragraphe": [
+		{
+			"titre": "Communautés religieuses apostoliques",
+			"texte": "Des <b>communautés religieuses apostoliques</b> vivent sur la commune de Moisdon. Elles sont, auprès des habitants de notre région, une présence accueillante et priante.",
+			"contact": [
+				{ "id": "soeurs-de-saint-gildas" },
+				{ "id": "soeurs-de-la-salle-de-vihiers" }
+			]
+		},
+		{
+			"titre": "Abbaye Notre Dame de Melleray",
+			"texte": "Sur le territoire de la paroisse St Joseph du Don, l'Abbaye Notre Dame de Melleray, confiée à la Communauté du Chemin Neuf, accueille pour un temps de prière, de recueillement ou de réflexion tous ceux qui le désirent. L'eucharistie y est célébrée : le dimanche et les solennités à 11h30, les jours ordinaires à 12h00. Pour les horaires des offices, l'ouverture du magasin ou tout autre renseignement :  <a href=\"tel:+33240552600\">02 40 55 26 00</a> | <a href=\"mailto:melleray@wanadoo.fr\">melleray@wanadoo.fr</a> | <a href=\"https://melleray.chemin-neuf.fr/\" target=\"_blank\">https://melleray.chemin-neuf.fr/</a>"
+		}
 	]
 }

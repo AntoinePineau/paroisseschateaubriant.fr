@@ -1,18 +1,19 @@
 {
-	"titre": "Une paroisse qui se met au service des personnes fragiles",
-	"description": "",
+	"titre": "Les Services",
+	"description": "Une paroisse qui se met au service des personnes fragiles",
 	"blocs": [
 		{
 			"titre": "Au service des personnes âgées en Maison de retraite",
 			"paragraphe": [
 				{
-					"texte": "Dans chacune des maisons de retraite une équipe d'aumônerie assure la présence fraternelle de la paroisse auprès des personnes âgées. Elle anime des temps de prière réguliers et des eucharisties.<br><br><ul><li>pour Rougé, Christiane Lépicier</li><li>pour la Mapa et Béré, Annick-Marie Bucquet</li><li>pour Moisdon-la-Rivière, Sœur Imelda Piton</li><li>pour St Julien de Vouvantes, Annie Halet</li><li>pour Issé et St Vincent des Landes: P.Roger Roul</li><ul>",
+					"texte": "Dans chacune des maisons de retraite une équipe d'aumônerie assure la présence fraternelle de la paroisse auprès des personnes âgées. Elle anime des temps de prière réguliers et des eucharisties.<br><br><ul><li>pour Rougé, Christiane Lépicier</li><li>pour la Mapa et Béré, Annick-Marie Bucquet</li><li>pour Moisdon-la-Rivière, Sœur Imelda Piton</li><li>pour St Julien de Vouvantes, Annie Halet</li><li>pour Issé, Nicole Massé</li><li>pour St Vincent des Landes: Marie-Noëlle Racineux</li><ul>",
 					"contact": [
 						{ "id": "christiane-lepicier" },
 						{ "id": "annick-marie-bucquet" },
 						{ "id": "soeur-imelda-piton" },
 						{ "id": "annie-halet" },
-						{ "id": "p-roger-roul" }
+						{ "id": "nicole-masse" },
+						{ "id": "marie-noelle-racineux" }
 					]
 				}
 			]
@@ -37,7 +38,7 @@
 						{ "id": "marie-claude-luette" },
 						{ "id": "marie-madeleine-boissinot" },
 						{ "id": "marie-cochet" },
-						{ "id": "soeur-jeannette-ollivier" },
+						{ "id": "catherine-bretaudeau" },
 						{ "id": "joel-macario" }
 					]
 				}
@@ -66,9 +67,8 @@
 				},
 				{
 					"titre": "Le Secours Catholique",
-					"texte": "A Châteaubriant, le local est rue Pasteur (en face MMA) ; permanence chaque 1er jeudi du mois, de 14h à 17h",
+					"texte": "A Châteaubriant, le local est rue Pasteur (en face MMA), contactez le <a href=\"tel:+33786496075\">07 86 49 60 75. Sur Saint Joseph du Don, contacter Nicole Massé",
 					"contact": [
-						{ "id": "christiane-lepicier" },
 						{ "id": "nicole-masse" }
 					]
 				}
