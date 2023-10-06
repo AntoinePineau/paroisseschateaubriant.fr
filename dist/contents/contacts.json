@@ -87,6 +87,14 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "catherine-bretaudeau",
+			"nom": "Catherine BRETAUDEAU",
+			"activite": [],
+			"email": "bretau52@gmail.com",
+			"telephone": "06 71 07 62 43",
+			"fonction": "Bénévole"
+		},
+		{
 			"id": "catherine-viguerie",
 			"nom": "Catherine VIGUERIE",
 			"activite": [
@@ -115,6 +123,13 @@
 			"id": "david",
 			"nom": "David",
 			"email": "oralite@free.fr",
+			"activite": [],
+			"fonction": "Bénévole"
+		},
+		{
+			"id": "david-et-anne",
+			"nom": "David et Anne",
+			"email": "maisonsmarie@free.fr",
 			"activite": [],
 			"fonction": "Bénévole"
 		},
@@ -188,13 +203,13 @@
 			"id": "jean-francois-blin",
 			"nom": "Jean-François BLIN",
 			"email": "blin-jbo@orange.fr",
-			"telephone": "06 35 25 15 55",
+			"telephone": "06 37 25 15 55",
 			"activite": [],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "jean-louis-gomis",
-			"nom": "Jean-Louis GOMIS",
+			"nom": "Père Jean-Louis GOMIS",
 			"fonction": "Prêtre coopérateur",
 			"activite": [
 				"Préparation au Baptême"
@@ -280,7 +295,7 @@
 			"id": "marie-claude-luette",
 			"nom": "Marie-Claude LUETTE",
 			"email": "marieclaude.luette@orange.fr",
-			"telephone": "02 40 28 64 37",
+			"telephone": "06 74 50 54 84",
 			"activite": [],
 			"fonction": "Bénévole"
 		},
@@ -332,6 +347,14 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "marie-noelle-racineux",
+			"nom": "Marie-Noëlle RACINEUX",
+			"telephone": "06 60 21 63 41",
+			"email": "mn.racineux@orange.fr",
+			"activite": [],
+			"fonction": "Bénévole"
+		},
+		{
 			"id": "marie-therese-roux",
 			"nom": "Marie-Thérèse ROUX",
 			"email": "lagelardiere@wanadoo.fr",
@@ -341,7 +364,7 @@
 		},
 		{
 			"id": "morgane-pineau-morin",
-			"nom": "Morgane PINEAU-MORIN",
+			"nom": "Morgane et Antoine PINEAU-MORIN",
 			"activite": [
 				"Parcours Alpha Parents"
 			],
@@ -366,7 +389,7 @@
 			"fonction": "Bénévole"
 		},
 		{
-			"id": "pere-patrice-eon",
+			"id": "patrice-eon",
 			"nom": "Père Patrice EON",
 			"fonction": "Prêtre, Curé",
 			"email": "patrice.eon@free.fr",
@@ -374,7 +397,7 @@
 			"activite": []
 		},
 		{
-			"id": "p-roger-roul",
+			"id": "roger-roul",
 			"nom": "Père Roger ROUL",
 			"telephone": "02 40 55 10 80",
 			"activite": [],
@@ -410,6 +433,19 @@
 			"telephone": "02 40 28 42 75",
 			"activite": [],
 			"fonction": "Religieuse"
+		},
+		{ 
+			"id": "soeurs-de-saint-gildas",
+			"nom": "Sœurs de Saint Gildas, communauté de Moisdon-la-Rivière",
+			"email": "cte.moisdon@orange.fr",
+			"telephone": "02 40 07 58 92",
+			"adresse": "16 rue du Pont Neuf"
+		},
+		{ 
+			"id": "soeurs-de-la-salle-de-vihiers",
+			"nom": "Sœurs de la Salle de Vihiers, communauté de Moisdon-la-Rivière",
+			"telephone": "02 40 07 24 01",
+			"adresse": "11 rue du Pont Neuf"
 		}
 	]
 }

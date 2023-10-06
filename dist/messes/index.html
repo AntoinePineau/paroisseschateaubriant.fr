@@ -13,7 +13,6 @@
     <link rel="mask-icon" href="/res/img/safari-pinned-tab.svg" color="#0a1128"/>
     <meta name="msapplication-TileColor" content="#fefcfb"/>
     <meta name="theme-color" content="#0a1128"/>
-    <link href="https://fonts.cdnfonts.com/css/peristiwa" rel="stylesheet"/>
     <link rel="stylesheet" href="/res/css/main.min.css"/>
     <script src="/res/js/main.min.js"></script>
 <!-- end metas.html-->
@@ -33,31 +32,37 @@
       </button>
     </header>
 <!-- end header.html-->
-    <div class="container">
-      <div class="wrapper">	
 <!-- start main -->
     <main mv-app="messes" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/messes.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>  
+      <div property="description" class="tinymce"></div>
       <section mv-list id="dimanches">
         <div mv-list-items>
           <h2 property="titre" class="tinymce"></h2>
           <aside class="folded-corner flip-card">
             <div class="flip-card-inner">
               <div class="dimanche flip-card-front">
-                <div mv-list="dimanche">
-                  <div mv-list-items class="tinymce"></div>
-                </div>
+                <div property="dimanche" class="tinymce"></div>
               </div>
               <div class="samedi flip-card-back">
                 <h3>Le samedi soir (la veille)</h3>
-                <div mv-list="samedi">
-                  <div mv-list-items class="tinymce"></div>
-                </div>
+                <div property="samedi" class="tinymce"></div>
               </div>
             </div>
           </aside>
         </div>
       </section>
+      <div mv-list="paragraphe">
+        <h3 property="titre"></h3>
+        <div property="texte" class="tinymce"></div>
+        <aside mv-list="contact">
+          <div mv-list-items>
+            <span property="id" mv-editor-list="contacts" class="loggued"></span>
+          </div>
+        </aside>
+      </div>
+      <datalist id="contacts">
+      </datalist>
       <section property="semaine">
         <h2 property="titre"></h2>
         <div mv-list="jour">
@@ -97,7 +102,7 @@
                     <div mv-list-items></div>
                   </span>
                 </a>
-                <a href="tel:[idify(phone)]"><span property="phone" class="fa-solid fa-phone"></span></a>
+                <a href="tel:+[idify(phone)]"><span property="phone" class="fa-solid fa-phone"></span></a>
                 <a href="mailto:[mail]"><span property="mail" class="fa-solid fa-envelope"></span></a>
                 <div property="horaires" class="tinymce horaires"></div>
               </div>
@@ -122,8 +127,6 @@
       <div id="copyright" property></div>
     </footer>
 <!-- end footer.html-->
-      </div>
-    </div>
 <!-- start nav.html-->
       <!-- Menu -->
       <nav class="outer-nav right vertical" mv-app="nav" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/nav.json" mv-autosave="0" mv-upload-url="https://paroissechateaubriant.netlify.app">

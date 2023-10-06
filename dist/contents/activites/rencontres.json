@@ -3,19 +3,6 @@
 	"description": "En dehors de l'eucharistie du dimanche, des paroissiens aiment à se retrouver dans des groupes fraternels pour s'aider mutuellement à être disciples du Christ, en méditant ensemble la Parole de Dieu, en partageant sur leur vie, en échangeant sur les questions de société à la lumière de l'évangile, en priant.",
 	"blocs": [
 		{
-			"titre": "Les « équipes fraternelles »",
-			"paragraphe": [
-				{
-					"texte": "Fraternités d'une dizaine de personnes qui se réunissent tous les 15 jours.",
-					"contact": [
-						{
-							"id": "catherine-viguerie"
-						}
-					]
-				}
-			]
-		},
-		{
 			"titre": "Les équipes d'Action Catholique",
 			"description": "Se réunissent tous les mois",
 			"paragraphe": [
@@ -24,8 +11,7 @@
 					"contact": [
 						{
 							"id": "beatrice-davenas"
-						},
-						{}
+						}
 					]
 				},
 				{
@@ -62,25 +48,12 @@
 		},
 		{
 			"titre": "Les Focolari",
-			"description": "Se réunissent tous les mois",
+			"description": "Se réunissent le 1<sup>er</sup> lundi du mois",
 			"paragraphe": [
 				{
 					"contact": [
 						{
 							"id": "edith-desprez"
-						}
-					]
-				}
-			]
-		},
-		{
-			"titre": "Le groupe « Parole d'évangile »",
-			"description": "Se réunit tous les mois pour une méditation de l'évangile du dimanche",
-			"paragraphe": [
-				{
-					"contact": [
-						{
-							"id": "odile-renouard"
 						}
 					]
 				}
@@ -100,11 +73,10 @@
 			]
 		},
 		{
-			"titre": "Le groupe « Oralité »",
+			"titre": "Le groupe « Oralité : mémorisation de l'évangile, mettre la Parole de Dieu au cœur de nos vies »",
+			"description": "se réunit 1 lundi soir tous les 15 jours.",
 			"paragraphe": [
 				{
-					"title": "Mémorisation de l'évangile",
-					"texte": "Mettre la Parole de Dieu au cœur de nos vies » se réunit 1 lundi soir tous les 15 jours.",
 					"contact": [
 						{
 							"id": "david"
@@ -114,54 +86,66 @@
 			]
 		},
 		{
-			"description": "En dehors de ces groupes réguliers, la paroisse organise des rencontres fraternelles ponctuelles qui soudent la « famille paroissiale »",
+			"description": "<div class=\"highlight\">En dehors de ces groupes réguliers, la paroisse organise des rencontres fraternelles ponctuelles qui soudent la « famille paroissiale »: </div>"
+		},
+		{
+			"titre": "La Pause Café",
+			"description": "Le 1er dimanche du mois, un après-midi convivial autour de jeux de société.",
 			"paragraphe": [
 				{
-					"titre": "La Pause Café",
-					"texte": "Le 1er dimanche du mois, un après-midi convivial autour de jeux de société.",
 					"contact": [
 						{
 							"id": "marie-ange-burin"
 						}
 					]
-				},
+				}
+			]
+		},
+		{
+			"titre": "Les pèlerinages",
+			"description": "Trois pèlerinages d'1 jour sont organisés dans l'année. Ainsi que la participation au pèlerinage diocésain à Lourdes.",
+			"paragraphe": [
 				{
-					"titre": "Les pèlerinages",
-					"texte": "Trois pèlerinages d'1 jour sont organisés dans l'année. Ainsi que la participation au pèlerinage diocésain à Lourdes.",
 					"contact": [
 						{
 							"id": "beatrice-macario"
 						}
 					]
-				},
+				}
+			]
+		},
+		{
+			"titre": "Le Tro Mée",
+			"description": "L'été, une marche-pèlerinage fraternelle relie les clochers de notre doyenné.",
+			"paragraphe": [
 				{
-					"titre": "Le Tro Mée",
-					"texte": "L'été, une marche-pèlerinage fraternelle relie les clochers de notre doyenné.",
 					"contact": [
 						{
 							"id": "jean-pierre-legrais"
 						}
 					]
-				},
+				}
+			]
+		},
+		{
+			"titre": "Les rencontres du cinéma chrétien",
+			"description": "En partenariat avec le cinéma de Châteaubriant, la paroisse organise plusieurs projections de films à dimension chrétienne, suivies de témoignages-débats",
+			"paragraphe": [
 				{
-					"titre": "Les rencontres du cinéma chrétien",
-					"texte": "Au cinéma de Châteaubriant.",
 					"contact": [
 						{
 							"id": "damien-girardeau"
 						}
 					]
-				},
-				{
-					"titre": "Les verres de l'amitié",
-					"texte": "Après les messes des familles",
-					"contact": [
-						{}
-					]
 				}
 			]
 		},
 		{
+			"titre": "Les verres de l'amitié",
+			"description": "Après les messes des familles"
+		},
+		{
+			"titre": "Rencontre avec la communauté musulmane",
 			"description": "Une famille véritable garde sa porte ouverte pour accueillir largement. Les chrétiens de la paroisse sont ainsi heureux de cultiver des liens d'amitié fraternelle avec la communauté musulmane de Châteaubriant (visite mutuelle, repas, action commune).",
 			"paragraphe": [
 				{
@@ -171,8 +155,7 @@
 						}
 					]
 				}
-			],
-			"titre": "Rencontre avec la communauté musulmane"
+			]
 		}
 	]
 }

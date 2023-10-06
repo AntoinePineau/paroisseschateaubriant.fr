@@ -6,10 +6,7 @@
 			"titre": "La prière de Laudes",
 			"paragraphe": [
 				{
-					"texte": "<p>chaque matin (sauf dimanche) de 8h20 &agrave; 8h35 &agrave; l'&eacute;glise Saint-Nicolas de Ch&acirc;teaubriant</p>",
-					"contact": [
-						{}
-					]
+					"texte": "<p>chaque matin (sauf dimanche) de 8h20 &agrave; 8h35 &agrave; l'&eacute;glise Saint-Nicolas de Ch&acirc;teaubriant</p>"
 				}
 			]
 		},
@@ -23,6 +20,9 @@
 							"id": "marie-therese-roux"
 						}
 					]
+				},
+				{
+					"texte": "Le 1<sup>er</sup> mercredi du mois, il y a aussi adoration à La Meilleraye de Bretagne, à 17h45."
 				}
 			]
 		},
@@ -95,17 +95,11 @@
 			"titre": "Les soirées de louange",
 			"paragraphe": [
 				{
-					"texte": "Un vendredi soir par mois, à 19h45, dans un des clochers de la paroisse à tour de rôle, un groupe de paroissiens anime une soirée louange.",
+					"texte": "Un vendredi soir par mois, à 20h00, dans un des clochers de la paroisse à tour de rôle, un groupe de paroissiens anime une soirée louange.",
 					"contact": [
 						{
 							"id": "jean-louis-gomis"
 						}
-					]
-				},
-				{
-					"texte": "Si vous ne pouvez pas, ou ne désirez pas, rejoindre un groupe ou une assemblée de prière, vous pouvez toujours prier chez vous, en communion avec d'autres paroissiens",
-					"contact": [
-						{}
 					]
 				}
 			]
@@ -130,7 +124,7 @@
 					"texte": "Une « Maison de Marie », ce n'est rien d'autre que la maison que vous habitez. Il suffit que vous y aménagiez un « coin de prière » avec une statuette de la Vierge, ou une icône de la Sainte Famille. Vous pouvez alors demander à un prêtre ou un diacre de la paroisse de venir bénir ce petit oratoire. Vous mettez ainsi votre maison sous la protection de la Vierge Marie. Et vous vous engagez à prendre, une fois par semaine, un temps de prière devant votre oratoire marial, en disant la prière des « Maisons de Marie » aux intentions de votre famille, de vos voisins et des paroissiens. C'est la mission des « Maisons de Marie ». Une lettre mensuelle vous sera envoyée pour vous soutenir dans cette prière.",
 					"contact": [
 						{
-							"id": "beatrice-macario"
+							"id": "david-et-anne"
 						}
 					]
 				}

@@ -1,0 +1,49 @@
+{
+	"titre": "Les enfants",
+	"description": "Une paroisse qui éduque les enfants dans la foi chrétienne",
+	"blocs": [
+		{
+			"titre": "Aux messes du dimanche",
+			"description": "Eduquer les enfants dans la foi chrétienne, c'est d'abord la tâche des parents.  Tâche passionnante mais exigeante, c'est pour cela que la paroisse vous propose son aide.",
+			"paragraphe": [
+				{
+					"titre": "L'éveil à la foi de votre enfant",
+					"texte": "Lors des messes des familles:<ul><li>Le 1er dimanche du mois à St Nicolas: Contactez Anne-Laure Fresson</li><li>Le 2ème dimanche du mois à Moisdon: Contactez Marie-Madeleine Delaunay</li></ul>",
+					"contact": [
+						{ "id": "anne-laure-fresson" },
+						{ "id": "marie-madeleine-delaunay" }
+					]
+				},
+				{
+					"titre": "Les servants d'autel",
+					"contact": [
+						{ "id": "jean-louis-gomis" }
+					]
+				},
+				{
+					"titre": "La catéchèse de votre enfant",
+					"texte": "Elle a lieu un dimanche après-midi par mois",
+					"contact": [
+						{ "id": "anne-laure-fresson" }
+					]
+				},
+				{
+					"titre": "La préparation à la 1ère confession et à la 1ère communion de votre enfant",
+					"texte": "Se fait dans le cadre de la catéchèse."
+				}
+			]
+		},
+		{
+			"titre": "En lien avec les écoles catholiques de nos paroisses",
+			"paragraphe": [
+				{
+					"texte": "Pour connaitre les propositions pastorales des <b><i>écoles catholiques</i></u>, contactez les chefs d'établissement ou:<ul><li>pour Sainte Croix en Châteaubriant: Anne-Laure Fresson</li><li>pour St Joseph du Don: Marie-Madeleine Delaunay</li></ul>",
+					"contact": [
+						{ "id": "anne-laure-fresson" },
+						{ "id": "marie-madeleine-delaunay" }
+					]
+				}
+			]
+		}
+	]
+}

@@ -100,8 +100,42 @@ function addContactsSearch() {
     }
 }
 
+var lunrIndex, pageIndex;
+function initLunr() {
+  fetch("/chants/psaumesIndex.json").then(r => r.json()).then(function(index) {    
+    pagesIndex = index;
+    lunrIndex = lunr(function() {
+      this.ref("id");
+      this.field("id", {boost: 10});
+      this.field("type", {boost: 10});
+      this.field("temps", {boost: 5});
+      this.field("annee", {boost: 1});
+      this.field("date", {boost: 2});
+      this.field("nom", {boost: 8});
+      this.field("titre", {boost: 10});
+      this.field("text", {boost: 1});
+      this.field("pdf", {boost: 1});
+      this.metadataWhitelist = ['position', 'type', 'temps', 'annee']
+      idx = this;
+      pagesIndex.forEach(function(page, index, array) {
+        idx.add(page);
+      });
+    });
+  })
+}
+  
+function search(text, annee, temps, id, type) {
+  return lunrIndex.search(query).map(function(result) {
+    return pagesIndex.filter(function(page) {
+      return page.id === result.id;
+    })[0];
+  });
+}
+
 document.addEventListener('DOMContentLoaded',()=>{
     addMenuInteraction();    
+
+    initLunr();
 
     Mavo.inited
     .then(() => Mavo.all[0].dataLoaded)

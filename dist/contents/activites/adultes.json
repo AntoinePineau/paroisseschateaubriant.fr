@@ -1,0 +1,55 @@
+{
+	"titre": "Les adultes",
+	"description": "Une paroisse qui forme les adultes à l'intelligence de la foi",
+	"blocs": [
+		{			
+			"titre": "La formation des adultes",
+			"paragraphe": [
+				{
+					"titre": "Le parcours Alpha classique",
+					"texte": "Pour découvrir ou redécouvrir la foi chrétienne",
+					"contact": [
+						{ "id": "anne-de-la-bretesche" }
+					]
+				},
+				{
+					"titre": "Le parcours Alpha parents",
+					"texte": "Pour s'entraider dans l'éducation des enfants de 0 à 10 ans",
+					"contact": [
+						{ "id": "morgane-pineau-morin" }
+					]
+				},
+				{
+					"titre": "Le parcours biblique",
+					"texte": "Étude biblique d'un livre de l'Ecriture",
+					"contact": [
+						{ "id": "bernard-albert" }
+					]
+				},
+				{
+					"titre": "Initiation à la Doctrine Sociale de l'Église",
+					"texte": "5 soirées d'enseignement, de témoignage, d'échanges, à partir du « Compendium de l'Église Catholique »",
+					"contact": [
+						{ "id": "patrice-eon" }
+					]
+				},
+				{
+					"titre": "« Pentecôte en paroisse »",
+					"texte": "6 soirées pour se préparer à la Pentecôte et à l'effusion de l'Esprit",
+					"contact": [
+						{ "id": "marie-annick-marceteau" }
+					]
+				},
+				{
+					"titre": "Les conférences-témoignages",
+					"contact": [
+						{ "id": "jean-paul-horhant" }
+					]
+				}
+			]
+		},
+		{
+			"description": "Vous pouvez trouver d'autres formations sur le site du diocèse : <a href=\"https://diocese44.fr/formations-diocesaines\" target=\"_blank\">https://diocese44.fr/formations-diocesaines</a> ou encore sur le site des évêques de France : <a href=\"https://eglise.catholique.fr/approfondir-sa-foi/\" target=\"_blank\">https://eglise.catholique.fr/approfondir-sa-foi/</a>"
+		}
+	]	
+}
