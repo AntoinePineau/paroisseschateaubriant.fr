@@ -439,13 +439,17 @@
 			"nom": "Sœurs de Saint Gildas, communauté de Moisdon-la-Rivière",
 			"email": "cte.moisdon@orange.fr",
 			"telephone": "02 40 07 58 92",
-			"adresse": "16 rue du Pont Neuf"
+			"adresse": "16 rue du Pont Neuf",
+			"activite": [],
+			"fonction": "Religieuse"
 		},
 		{ 
 			"id": "soeurs-de-la-salle-de-vihiers",
 			"nom": "Sœurs de la Salle de Vihiers, communauté de Moisdon-la-Rivière",
 			"telephone": "02 40 07 24 01",
-			"adresse": "11 rue du Pont Neuf"
+			"adresse": "11 rue du Pont Neuf",
+			"activite": [],
+			"fonction": "Religieuse"
 		}
 	]
 }
