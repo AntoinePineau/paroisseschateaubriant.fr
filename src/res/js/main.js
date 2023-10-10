@@ -134,11 +134,13 @@ function search(text, annee, temps, id, type) {
 
 var fullSearchIndex, fullSearchData;
 
-function initFullSearch() {
+function fullSearch(text) {
+  Array.from(document.querySelectorAll('input[type=text][name=texte]')).forEach(i=>{
+    i.value = text
+  })
   fetch('/index/full-search.json')
   .then(r => r.json())
   .then(data => {
-    //fullSearchIndex = lunr.Index.load(data);
     fullSearchData = data;
     fullSearchIndex = lunr(function() {
         this.ref("i");
@@ -149,18 +151,21 @@ function initFullSearch() {
         data.forEach(function(page, index, array) {
           idx.add(page);
         });
-      });
+    });
+    fullSearchIndex.search(text).map(item => fullSearchData.find(doc => item.ref === doc.i)).forEach(r=>{
+        var result = document.createElement('article');
+        result.innerHTML = '<article class="result"><a href="'+r.i+'">'+r.t+'</a></article>';
+        document.getElementById('results').append(result);
+    });
   });
-}
-
-function fullTextSearch(text) {
-  return fullSearchIndex.search(text).map(item => fullSearchData.find(doc => item.ref === doc.i));
 }
 
 document.addEventListener('DOMContentLoaded',()=>{
     addMenuInteraction(); 
     initLunr();
-    initFullSearch();
+
+    if(document.querySelector('main[mv-app=recherche]'))
+        fullSearch(document.location.href.split('texte=')[1]);
 
     Mavo.inited
     //.then(() => Mavo.all[0].dataLoaded)

@@ -18,6 +18,34 @@
 				{
 					"sous-libelle": "La Maison de Marie",
 					"sous-url": "/activites/maison-de-marie/"
+				},
+				{
+					"sous-libelle": "Les enfants",
+					"sous-url": "/activites/enfants/"
+				},
+				{
+					"sous-libelle": "Les jeunes",
+					"sous-url": "/activites/jeunes/"
+				},
+				{
+					"sous-libelle": "Les adultes",
+					"sous-url": "/activites/adultes/"
+				},
+				{
+					"sous-libelle": "Les rencontres",
+					"sous-url": "/activites/rencontres/"
+				},
+				{
+					"sous-libelle": "Les célébrations",
+					"sous-url": "/activites/celebrations/"
+				},
+				{
+					"sous-libelle": "Les prières",
+					"sous-url": "/activites/prieres/"
+				},
+				{
+					"sous-libelle": "Les services",
+					"sous-url": "/activites/services/"
 				}
 			]
 		},
