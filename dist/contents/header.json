@@ -6,7 +6,10 @@
 	"menu": [
 		{
 			"libelle": "Messes",
-			"url": "/messes/"
+			"url": "/messes/",
+			"sous-menu": [
+				{}
+			]
 		},
 		{
 			"libelle": "Activités",
@@ -16,6 +19,41 @@
 					"sous-libelle": "La Maison de Marie",
 					"sous-url": "/activites/maison-de-marie/"
 				}
+			]
+		},
+		{
+			"libelle": "Coordination",
+			"url": "/coordination/",
+			"sous-menu": [
+				{}
+			]
+		},
+		{
+			"libelle": "Clochers",
+			"url": "/clochers/",
+			"sous-menu": [
+				{}
+			]
+		},
+		{
+			"libelle": "Actualités",
+			"url": "/actualites/",
+			"sous-menu": [
+				{}
+			]
+		},
+		{
+			"libelle": "Agenda",
+			"url": "/agenda/",
+			"sous-menu": [
+				{}
+			]
+		},
+		{
+			"libelle": "Annuaire",
+			"url": "/annuaire/",
+			"sous-menu": [
+				{}
 			]
 		}
 	]
