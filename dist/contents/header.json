@@ -5,42 +5,16 @@
 	"logo_titre": "Logo Paroisses Châteaubriant",
 	"menu": [
 		{
-			"item": [
-				{
-					"sous-menu": [
-						{}
-					]
-				}
-			],
 			"libelle": "Messes",
-			"url": "/messes/",
-			"sous-menu": [
-				{
-					"item": [
-						{}
-					]
-				}
-			]
-		},
-		{
-			"sous-menu": [
-				{
-					"item": [
-						{}
-					]
-				}
-			]
+			"url": "/messes/"
 		},
 		{
 			"libelle": "Activités",
 			"url": "/activites/",
 			"sous-menu": [
 				{
-					"item": [
-						{}
-					],
-					"libelle": "La Maison de Marie",
-					"url": "/activites/maison-de-marie/"
+					"sous-libelle": "La Maison de Marie",
+					"sous-url": "/activites/maison-de-marie/"
 				}
 			]
 		}
