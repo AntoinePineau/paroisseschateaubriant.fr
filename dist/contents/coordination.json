@@ -170,12 +170,11 @@
 				},
 				{
 					"titre": "la page Facebook",
-					"texte": "<p>Paroisses du pays de Châteaubriant</p>"
+					"texte": "<p><a href=\"https://www.facebook.com/pages/Sainte-Croix-en-Ch%C3%A2teaubriant/161344020586714\" target=\"_blank\">Paroisses du pays de Châteaubriant</a></p>"
+				},
+				{
+					"texte": "<p>Pour passer une annonce sur le Souffle, écrire à <a href=\"mailto:sccsjd@gmail.com\">sccsjd@gmail.com</a></p><p>Pour passer une annonce sur les réseaux sociaux, écrire à <a href=\"mailto:comm.paroissechateaubriant@gmail.com\">comm.paroissechateaubriant@gmail.com</a></p>"
 				}
 			]
-		},
-		{
-			"descrirption": "<p>Pour passer une annonce sur le Souffle, écrire à <a href=\"mailto:sccsjd@gmail.com\">sccsjd@gmail.com</a></p><p>Pour passer une annonce sur les réseaux sociaux, écrire à <a href=\"mailto:comm.paroissechateaubriant@gmail.com\">comm.paroissechateaubriant@gmail.com</a></p>"
-		}
 	]	
 }

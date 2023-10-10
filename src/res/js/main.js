@@ -170,5 +170,6 @@ document.addEventListener('DOMContentLoaded',()=>{
         loadContacts();
         addContactsSearch();
       }, 500)
+      return Mavo.all[0].dataLoaded
     });
 })
