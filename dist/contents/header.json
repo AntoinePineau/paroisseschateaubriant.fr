@@ -2,5 +2,16 @@
 	"logo": "https://paroissechateaubriant.netlify.app/res/img/logo.png",
 	"logo_link_titre": "Page d'accueil",
 	"logo_alt": "Logo Paroisses Châteaubriant",
-	"logo_titre": "Logo Paroisses Châteaubriant"
+	"logo_titre": "Logo Paroisses Châteaubriant",
+	"menu": [
+		{
+			"item": [
+				{
+					"sous-menu": [
+						{}
+					]
+				}
+			]
+		}
+	]
 }
