@@ -92,6 +92,13 @@ html {
         .highlight {
           background-color: $gris;
         }
+        div.tinymce, [property=titre] {
+          max-width:1024px;
+          margin: 0 auto;
+        }
+        [property=paragraphe]{
+          margin-top: 2em;
+        }
         h1 {
           font-size: 4em;
           @include font2();
