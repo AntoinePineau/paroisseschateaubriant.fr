@@ -24,12 +24,14 @@
 		{
 			"id": "anne-guerin",
 			"nom": "Anne GUÉRIN",
-			"email": "abguerin@orange.fr"
+			"email": "abguerin@orange.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "anne-jegard",
 			"nom": "Anne JEGARD",
-			"email": "daniel.jegard@orange.fr"
+			"email": "daniel.jegard@orange.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "anne-laure-fresson",
@@ -99,7 +101,8 @@
 		{
 			"id": "bernard-minier",
 			"nom": "Bernard MINIER",
-			"email": "bernard.minier@yahoo.fr"
+			"email": "bernard.minier@yahoo.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "catherine-bretaudeau",
@@ -122,7 +125,8 @@
 		{
 			"id": "charles-de-la-bretesche",
 			"nom": "Charles de la Bretesche",
-			"email": "charles.delabretesche@wanadoo.fr"
+			"email": "charles.delabretesche@wanadoo.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "christiane-lepicier",
@@ -134,7 +138,8 @@
 		{
 			"id": "damien-carette",
 			"nom": "Damien Carette",
-			"email": "damien.carette@free.fr"
+			"email": "damien.carette@free.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "damien-girardeau",
@@ -169,7 +174,8 @@
 		{
 			"id": "didier-gautier",
 			"nom": "Didier GAUTIER",
-			"email": "didiergautier7@yahoo.fr "
+			"email": "didiergautier7@yahoo.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "edith-desprez",
@@ -224,7 +230,8 @@
 		{
 			"id": "jean-claude-bizeul",
 			"nom": "Jean-Claude BIZEUL",
-			"email": "bizeul.jean-claude@orange.fr"
+			"email": "bizeul.jean-claude@orange.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "jean-et-michelle-meslet",
@@ -255,7 +262,8 @@
 		{
 			"id": "jean-moise-gledel",
 			"nom": "Jean-Moïse GLEDEL",
-			"email": "jemogledel@gmail.com"
+			"email": "jemogledel@gmail.com",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "jean-paul-horhant",
@@ -284,7 +292,8 @@
 		{
 			"id": "jean-yves-ferron",
 			"nom": "Jean-Yves FERRON",
-			"email": "jean-yves.ferron1@orange.fr"
+			"email": "jean-yves.ferron1@orange.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "joel-macario",
@@ -299,12 +308,14 @@
 		{
 			"id": "joseph-jannault",
 			"nom": "Joseph JANNAULT",
-			"email": "joseph.jannault@orange.fr"
+			"email": "joseph.jannault@orange.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "loic-roul",
 			"nom": "Loïc ROUL",
-			"email": "loic.roul@wanadoo.fr"
+			"email": "loic.roul@wanadoo.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "maguy-castaing",
@@ -317,7 +328,8 @@
 		{
 			"id": "marcel-angel",
 			"nom": "Marcel ANGEL",
-			"email": "marcel.angel.dereix@gmail.com"
+			"email": "marcel.angel.dereix@gmail.com",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marcel-et-michelle-robert",
@@ -355,7 +367,8 @@
 		{
 			"id": "marie-claude-luette",
 			"nom": "Marie-Claude LUETTE",
-			"email": "marieclaude.luette@orange.fr"
+			"email": "marieclaude.luette@orange.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-claude-luette",
@@ -423,12 +436,14 @@
 		{
 			"id": "marie-noelle-rinfray",
 			"nom": "Marie Noëlle RINFRAY",
-			"email": "gerard.rinfray@orange.fr"
+			"email": "gerard.rinfray@orange.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-paule-boisnard",
 			"nom": "Marie-Paule BOISNARD",
-			"email": "auguste.boisnard@orange.fr"
+			"email": "auguste.boisnard@orange.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-therese-roux",
@@ -441,7 +456,8 @@
 		{
 			"id": "morgane-cousin",
 			"nom": "M.Morgane COUSIN",
-			"email": "morgane.cousin86@gmail.com"
+			"email": "morgane.cousin86@gmail.com",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "morgane-pineau-morin",
@@ -480,12 +496,14 @@
 		{
 			"id": "patrick-briand",
 			"nom": "Patrick BRIAND",
-			"email": "mpbriand@orange.fr"
+			"email": "mpbriand@orange.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "remy-menard",
 			"nom": "Rémy MÉNARD",
-			"email": "remimenard@free.fr"
+			"email": "remimenard@free.fr",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "roger-roul",
@@ -545,12 +563,14 @@
 		{
 			"id": "stephane-hubert",
 			"nom": "Stéphane HUBERT",
-			"email": "stephanehubert866@gmail.com"
+			"email": "stephanehubert866@gmail.com",
+			"fonction": "Bénévole"
 		},
 		{
 			"id": "yannick-chantome",
 			"nom": "Mme Yannick CHANTOME",
-			"email": "jean-luc.chantome@wanadoo.fr"
+			"email": "jean-luc.chantome@wanadoo.fr",
+			"fonction": "Bénévole"
 		}
 	]
 }

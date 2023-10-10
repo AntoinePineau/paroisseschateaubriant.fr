@@ -9,7 +9,7 @@ main[mv-app=accueil] {
         h1 {
             color: $blanc;
             text-shadow: 1px 3px $bleu;
-            margin: 0;
+            margin: 0 auto;
         }
         video {
             z-index: -1;

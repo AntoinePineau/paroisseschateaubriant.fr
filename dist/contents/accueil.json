@@ -4,58 +4,37 @@
 		{
 			"titre": "Messes",
 			"texte": "Les horaires des messes dominicales et en semaine",
-			"lien": "/messes/",
-			"image": "",
-			"imageAlt": "",
-			"imageTitle": ""
-		},
-		{
-			"titre": "Activités Paroissiales",
-			"texte": "Les rencontres, les célébrations, les formations, les prières et les services au sein de nos paroisses",
-			"lien": "/activites/",
-			"image": "",
-			"imageAlt": "",
-			"imageTitle": ""
-		},
-		{
-			"titre": "Équipes de coordination",
-			"texte": "Les équipes à votre service pour coordonner les activités de nos paroisses",
-			"lien": "/coordination/",
-			"image": "",
-			"imageAlt": "",
-			"imageTitle": ""
-		},
-		{
-			"titre": "Clochers",
-			"texte": "Les clochers de nos paroisses",
-			"lien": "/clochers/",
-			"image": "",
-			"imageAlt": "",
-			"imageTitle": ""
-		},
-		{
-			"titre": "Actualités",
-			"texte": "Les dernières actualités de nos paroisses",
-			"lien": "/actualites/",
-			"image": "",
-			"imageAlt": "",
-			"imageTitle": ""
-		},
-		{
-			"titre": "Agenda",
-			"texte": "Les rendez-vous 2023-2024",
-			"lien": "/agenda/",
-			"image": "",
-			"imageAlt": "",
-			"imageTitle": ""
+			"lien": "/messes/"
 		},
 		{
 			"titre": "Annuaire",
 			"texte": "Les acteurs de nos paroisses",
-			"lien": "/annuaire/",
-			"image": "",
-			"imageAlt": "",
-			"imageTitle": ""
+			"lien": "/annuaire/"
+		},
+		{
+			"titre": "Activités Paroissiales",
+			"texte": "Les rencontres, les célébrations, les formations, les prières et les services au sein de nos paroisses",
+			"lien": "/activites/"
+		},
+		{
+			"titre": "Équipes de coordination",
+			"texte": "Les équipes à votre service pour coordonner les activités de nos paroisses",
+			"lien": "/coordination/"
+		},
+		{
+			"titre": "Clochers",
+			"texte": "Les clochers de nos paroisses",
+			"lien": "/clochers/"
+		},
+		{
+			"titre": "Actualités",
+			"texte": "Les dernières actualités de nos paroisses",
+			"lien": "/actualites/"
+		},
+		{
+			"titre": "Agenda",
+			"texte": "Les rendez-vous 2023-2024",
+			"lien": "/agenda/"
 		}
 	]
 }
