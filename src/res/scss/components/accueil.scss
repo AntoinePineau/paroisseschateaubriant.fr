@@ -2,14 +2,15 @@ main[mv-app=accueil] {
     text-align: center;
     margin: 0;
     padding: 0;
+    background: transparent;
     .parallax {
-        min-height: 100vh;
+        min-height: 80vh;
         overflow-x: hidden;
         overflow-y: hidden;
         h1 {
             color: $blanc;
             text-shadow: 1px 3px $bleu;
-            margin: 0 auto;
+            margin: 8vh auto;
         }
         video {
             z-index: -1;

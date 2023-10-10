@@ -75,14 +75,14 @@
           <div class="contact" data-fonction="[fonction]" data-fulltext="[idify(nom)] [idify(fonction)] [idify(telephone)] [idify(email)] [idify(activite)]">
             <div class="presentation">
               <h5 property="nom"></h5>
-              <div property="fonction"></div>
-              <ul property="activite" mv-list>
+              <div property="fonction" class="[if(!fonction,loggued)]"></div>
+              <ul property="activite" mv-list class="[if(!activite,loggued)]">
                 <li mv-list-items></li>
               </ul>
             </div>
             <div class="coordonnees">
-              <a href="tel:+[telify(telephone)]"><span property="telephone" class="fa-solid fa-phone"></span></a>
-              <a href="mailto:[email]"><span property="email" class="fa-solid fa-envelope"></span></a>
+              <a href="tel:+[telify(telephone)]" class="[if(!telephone,loggued)]"><span property="telephone" class="fa-solid fa-phone"></span></a>
+              <a href="mailto:[email]" class="[if(!email,loggued)]"><span property="email" class="fa-solid fa-envelope"></span></a>
             </div>
           </div>
         </div>
