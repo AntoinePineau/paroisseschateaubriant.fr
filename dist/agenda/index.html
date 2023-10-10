@@ -14,7 +14,6 @@
     <meta name="msapplication-TileColor" content="#fefcfb"/>
     <meta name="theme-color" content="#0a1128"/>
     <link rel="stylesheet" href="/res/css/main.min.css"/>
-    <script src="/res/js/main.min.js"></script>
 <!-- end metas.html-->
   </head>
   <body>
@@ -22,14 +21,42 @@
     <header mv-app="header" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/header.json" mv-autosave="3" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <span class="loggued" property="logo_link_titre"></span>
       <span class="loggued" property="logo_alt"></span>
-      <span class="loggued" property="logo_titre"></span>
-      <a href="/" title="[logo_link_titre]">
-        <img src="#" alt="[logo_alt]" title="[logo_titre]" property="logo" mv-upload-path="res/img">  
-      </a>
-      <button aria-expanded="false" aria-controls="menu">
-        <label class="sr-only">Menu</label>
-        <span aria-hidden="true">☰</span>
-      </button>
+      <span class="loggued" property="logo_titre"></span>      
+      <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+            <div class="logo">
+              <a href="/" title="[logo_link_titre]">
+                <img src="#" alt="[logo_alt]" title="[logo_titre]" property="logo" mv-upload-path="res/img">  
+              </a>
+            </div>
+            <ul class="links" mv-list property="menu">
+              <li mv-list-item>
+                <span class="loggued" property="libelle"></span> 
+                <span class="loggued" property="url"></span> 
+                <a href="[url]" class="desktop-link">[libelle]</a>
+                <input type="checkbox" id="show-[idify(libelle)]">
+                <label for="show-[idify(libelle)]">[libelle]</label>
+                <ul mv-list property="sous-menu">
+                  <li mv-list-item>
+                    <span class="loggued" property="sous-libelle"></span> 
+                    <span class="loggued" property="sous-url"></span> 
+                    <a href="[sous-url]">[sous-libelle]</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+          <form action="#" class="search-box">
+            <input type="text" placeholder="Tapez le texte de votre recherche" name="texte" required>
+            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+          </form>
+        </nav>
+      </div>
     </header>
 <!-- end header.html-->
 <!-- start main -->
@@ -59,7 +86,7 @@
 
 <!-- end main -->
 <!-- start footer.html-->
-    <footer mv-app="footer" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/footer.json" mv-autosave="1" mv-plugins="tinymce">
+    <footer mv-app="footer" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/footer.json" mv-autosave="1">
       <section id="footer">
         <div id="paroisse" mv-list>
           <div mv-list-items>
@@ -97,21 +124,6 @@
       <div id="copyright" property></div>
     </footer>
 <!-- end footer.html-->
-<!-- start nav.html-->
-      <!-- Menu -->
-      <nav class="outer-nav right vertical" mv-app="nav" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/nav.json" mv-autosave="0" mv-upload-url="https://paroissechateaubriant.netlify.app">
-        <ul id="menu" mv-list role="menu">
-          <li mv-list-item role="presentation">
-            <span property="icon" mv-editor-list="icons" class="loggued"></span>
-            <a property="url" href="#" role="menuitem">
-              <i class="[icon] icon"></i>
-              <span property="titre"></span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <datalist id="icons">
-      </datalist>
-<!-- end nav.html-->
+    <script src="/res/js/main.min.js"></script>
   </body>
 </html>

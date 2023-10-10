@@ -88,6 +88,10 @@ html {
       }
       main {
         padding-bottom: 2em;
+        background-color: $blanc;
+        .highlight {
+          background-color: $gris;
+        }
         h1 {
           font-size: 4em;
           @include font2();

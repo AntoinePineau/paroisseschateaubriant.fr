@@ -1,12 +1,40 @@
     <header mv-app="header" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/header.json" mv-autosave="3" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <span class="loggued" property="logo_link_titre"></span>
       <span class="loggued" property="logo_alt"></span>
-      <span class="loggued" property="logo_titre"></span>
-      <a href="/" title="[logo_link_titre]">
-        <img src="#" alt="[logo_alt]" title="[logo_titre]" property="logo" mv-upload-path="res/img">  
-      </a>
-      <button aria-expanded="false" aria-controls="menu">
-        <label class="sr-only">Menu</label>
-        <span aria-hidden="true">☰</span>
-      </button>
+      <span class="loggued" property="logo_titre"></span>      
+      <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+            <div class="logo">
+              <a href="/" title="[logo_link_titre]">
+                <img src="#" alt="[logo_alt]" title="[logo_titre]" property="logo" mv-upload-path="res/img">  
+              </a>
+            </div>
+            <ul class="links" mv-list property="menu">
+              <li mv-list-item>
+                <span class="loggued" property="libelle"></span> 
+                <span class="loggued" property="url"></span> 
+                <a href="[url]" class="desktop-link">[libelle]</a>
+                <input type="checkbox" id="show-[idify(libelle)]">
+                <label for="show-[idify(libelle)]">[libelle]</label>
+                <ul mv-list property="sous-menu">
+                  <li mv-list-item>
+                    <span class="loggued" property="sous-libelle"></span> 
+                    <span class="loggued" property="sous-url"></span> 
+                    <a href="[sous-url]">[sous-libelle]</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+          <form action="#" class="search-box">
+            <input type="text" placeholder="Tapez le texte de votre recherche" name="texte" required>
+            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+          </form>
+        </nav>
+      </div>
     </header>
