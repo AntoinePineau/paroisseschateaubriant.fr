@@ -38,18 +38,9 @@
 				{
 					"item": [
 						{}
-					]
-				}
-			]
-		},
-		{
-			"libelle": "La Maison de Marie",
-			"url": "/activites/maison-de-marie/",
-			"sous-menu": [
-				{
-					"item": [
-						{}
-					]
+					],
+					"libelle": "La Maison de Marie",
+					"url": "/activites/maison-de-marie/"
 				}
 			]
 		}
