@@ -7,80 +7,80 @@
 		{
 			"libelle": "Messes",
 			"url": "/messes/",
-			"sous-menu": [
+			"sousmenu": [
 				{}
 			]
 		},
 		{
 			"libelle": "Activités",
 			"url": "/activites/",
-			"sous-menu": [
+			"sousmenu": [
 				{
-					"sous-libelle": "La Maison de Marie",
-					"sous-url": "/activites/maison-de-marie/"
+					"souslibelle": "La Maison de Marie",
+					"sousurl": "/activites/maison-de-marie/"
 				},
 				{
-					"sous-libelle": "Les enfants",
-					"sous-url": "/activites/enfants/"
+					"souslibelle": "Les enfants",
+					"sousurl": "/activites/enfants/"
 				},
 				{
-					"sous-libelle": "Les jeunes",
-					"sous-url": "/activites/jeunes/"
+					"souslibelle": "Les jeunes",
+					"sousurl": "/activites/jeunes/"
 				},
 				{
-					"sous-libelle": "Les adultes",
-					"sous-url": "/activites/adultes/"
+					"souslibelle": "Les adultes",
+					"sousurl": "/activites/adultes/"
 				},
 				{
-					"sous-libelle": "Les rencontres",
-					"sous-url": "/activites/rencontres/"
+					"souslibelle": "Les rencontres",
+					"sousurl": "/activites/rencontres/"
 				},
 				{
-					"sous-libelle": "Les célébrations",
-					"sous-url": "/activites/celebrations/"
+					"souslibelle": "Les célébrations",
+					"sousurl": "/activites/celebrations/"
 				},
 				{
-					"sous-libelle": "Les prières",
-					"sous-url": "/activites/prieres/"
+					"souslibelle": "Les prières",
+					"sousurl": "/activites/prieres/"
 				},
 				{
-					"sous-libelle": "Les services",
-					"sous-url": "/activites/services/"
+					"souslibelle": "Les services",
+					"sousurl": "/activites/services/"
 				}
 			]
 		},
 		{
 			"libelle": "Coordination",
 			"url": "/coordination/",
-			"sous-menu": [
+			"sousmenu": [
 				{}
 			]
 		},
 		{
 			"libelle": "Clochers",
 			"url": "/clochers/",
-			"sous-menu": [
+			"sousmenu": [
 				{}
 			]
 		},
 		{
 			"libelle": "Actualités",
 			"url": "/actualites/",
-			"sous-menu": [
+			"sousmenu": [
 				{}
 			]
 		},
 		{
 			"libelle": "Agenda",
 			"url": "/agenda/",
-			"sous-menu": [
+			"sousmenu": [
 				{}
 			]
 		},
 		{
 			"libelle": "Annuaire",
 			"url": "/annuaire/",
-			"sous-menu": [
+			"sousmenu": [
 				{}
 			]
 		}
