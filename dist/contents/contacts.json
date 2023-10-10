@@ -22,6 +22,16 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "anne-guerin",
+			"nom": "Anne GUÉRIN",
+			"email": "abguerin@orange.fr"
+		},
+		{
+			"id": "anne-jegard",
+			"nom": "Anne JEGARD",
+			"email": "daniel.jegard@orange.fr"
+		},
+		{
 			"id": "anne-laure-fresson",
 			"nom": "Anne-Laure FRESSON",
 			"fonction": "LEME",
@@ -61,7 +71,7 @@
 		{
 			"id": "beatrice-macario",
 			"nom": "Béatrice MACARIO",
-			"fonction": "LEME",
+			"fonction": "Accueil - Secrétariat",
 			"activite": [
 				"Coordinatrice Paroissiale"
 			],
@@ -87,6 +97,11 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "bernard-minier",
+			"nom": "Bernard MINIER",
+			"email": "bernard.minier@yahoo.fr"
+		},
+		{
 			"id": "catherine-bretaudeau",
 			"nom": "Catherine BRETAUDEAU",
 			"activite": [],
@@ -105,11 +120,21 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "charles-de-la-bretesche",
+			"nom": "Charles de la Bretesche",
+			"email": "charles.delabretesche@wanadoo.fr"
+		},
+		{
 			"id": "christiane-lepicier",
 			"nom": "Christiane LEPICIER",
 			"telephone": "06 50 17 46 76",
 			"activite": [],
 			"fonction": "Bénévole"
+		},
+		{
+			"id": "damien-carette",
+			"nom": "Damien Carette",
+			"email": "damien.carette@free.fr"
 		},
 		{
 			"id": "damien-girardeau",
@@ -140,6 +165,11 @@
 			"telephone": "06 44 07 14 97",
 			"activite": [],
 			"fonction": "Bénévole"
+		},
+		{
+			"id": "didier-gautier",
+			"nom": "Didier GAUTIER",
+			"email": "didiergautier7@yahoo.fr "
 		},
 		{
 			"id": "edith-desprez",
@@ -192,6 +222,11 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "jean-claude-bizeul",
+			"nom": "Jean-Claude BIZEUL",
+			"email": "bizeul.jean-claude@orange.fr"
+		},
+		{
 			"id": "jean-et-michelle-meslet",
 			"nom": "Jean et Michelle MESLET",
 			"email": "jean.meslet@free.fr",
@@ -214,7 +249,13 @@
 			"activite": [
 				"Préparation au Baptême"
 			],
+			"telephone": "02 40 81 02 92",
 			"email": "gomis.jeanlouis@outlook.fr"
+		},
+		{
+			"id": "jean-moise-gledel",
+			"nom": "Jean-Moïse GLEDEL",
+			"email": "jemogledel@gmail.com"
 		},
 		{
 			"id": "jean-paul-horhant",
@@ -241,6 +282,11 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "jean-yves-ferron",
+			"nom": "Jean-Yves FERRON",
+			"email": "jean-yves.ferron1@orange.fr"
+		},
+		{
 			"id": "joel-macario",
 			"nom": "Joël MACARIO",
 			"fonction": "Diacre",
@@ -251,12 +297,27 @@
 			"telephone": "06 61 45 80 91"
 		},
 		{
+			"id": "joseph-jannault",
+			"nom": "Joseph JANNAULT",
+			"email": "joseph.jannault@orange.fr"
+		},
+		{
+			"id": "loic-roul",
+			"nom": "Loïc ROUL",
+			"email": "loic.roul@wanadoo.fr"
+		},
+		{
 			"id": "maguy-castaing",
 			"nom": "Maguy CASTAING",
 			"email": "marguy.castaing@gmail.com",
 			"telephone": "06 59 61 13 14",
 			"activite": [],
 			"fonction": "Bénévole"
+		},
+		{
+			"id": "marcel-angel",
+			"nom": "Marcel ANGEL",
+			"email": "marcel.angel.dereix@gmail.com"
 		},
 		{
 			"id": "marcel-et-michelle-robert",
@@ -290,6 +351,11 @@
 			],
 			"email": "aumoneriechato@gmail.com",
 			"telephone": "07 81 78 99 06"
+		},
+		{
+			"id": "marie-claude-luette",
+			"nom": "Marie-Claude LUETTE",
+			"email": "marieclaude.luette@orange.fr"
 		},
 		{
 			"id": "marie-claude-luette",
@@ -355,12 +421,27 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "marie-noelle-rinfray",
+			"nom": "Marie Noëlle RINFRAY",
+			"email": "gerard.rinfray@orange.fr"
+		},
+		{
+			"id": "marie-paule-boisnard",
+			"nom": "Marie-Paule BOISNARD",
+			"email": "auguste.boisnard@orange.fr"
+		},
+		{
 			"id": "marie-therese-roux",
 			"nom": "Marie-Thérèse ROUX",
 			"email": "lagelardiere@wanadoo.fr",
 			"telephone": "06 72 85 47 13",
 			"activite": [],
 			"fonction": "Bénévole"
+		},
+		{
+			"id": "morgane-cousin",
+			"nom": "M.Morgane COUSIN",
+			"email": "morgane.cousin86@gmail.com"
 		},
 		{
 			"id": "morgane-pineau-morin",
@@ -395,6 +476,16 @@
 			"email": "patrice.eon@free.fr",
 			"telephone": "02 40 81 02 92",
 			"activite": []
+		},
+		{
+			"id": "patrick-briand",
+			"nom": "Patrick BRIAND",
+			"email": "mpbriand@orange.fr"
+		},
+		{
+			"id": "remi-menard",
+			"nom": "Rémy MÉNARD",
+			"email": "remimenard@free.fr"
 		},
 		{
 			"id": "roger-roul",
@@ -434,7 +525,15 @@
 			"activite": [],
 			"fonction": "Religieuse"
 		},
-		{ 
+		{
+			"id": "soeurs-de-la-salle-de-vihiers",
+			"nom": "Sœurs de la Salle de Vihiers, communauté de Moisdon-la-Rivière",
+			"telephone": "02 40 07 24 01",
+			"adresse": "11 rue du Pont Neuf",
+			"activite": [],
+			"fonction": "Religieuse"
+		},
+		{
 			"id": "soeurs-de-saint-gildas",
 			"nom": "Sœurs de Saint Gildas, communauté de Moisdon-la-Rivière",
 			"email": "cte.moisdon@orange.fr",
@@ -443,13 +542,15 @@
 			"activite": [],
 			"fonction": "Religieuse"
 		},
-		{ 
-			"id": "soeurs-de-la-salle-de-vihiers",
-			"nom": "Sœurs de la Salle de Vihiers, communauté de Moisdon-la-Rivière",
-			"telephone": "02 40 07 24 01",
-			"adresse": "11 rue du Pont Neuf",
-			"activite": [],
-			"fonction": "Religieuse"
+		{
+			"id": "stephane-hubert",
+			"nom": "Stéphane HUBERT",
+			"email": "stephanehubert866@gmail.com"
+		},
+		{
+			"id": "yannick-chantome",
+			"nom": "Mme Yannick CHANTOME",
+			"email": "jean-luc.chantome@wanadoo.fr"
 		}
 	]
 }
