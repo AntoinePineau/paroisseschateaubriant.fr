@@ -11,6 +11,46 @@
 						{}
 					]
 				}
+			],
+			"libelle": "Messes",
+			"url": "/messes/",
+			"sous-menu": [
+				{
+					"item": [
+						{}
+					]
+				}
+			]
+		},
+		{
+			"sous-menu": [
+				{
+					"item": [
+						{}
+					]
+				}
+			]
+		},
+		{
+			"libelle": "Activités",
+			"url": "/activites/",
+			"sous-menu": [
+				{
+					"item": [
+						{}
+					]
+				}
+			]
+		},
+		{
+			"libelle": "La Maison de Marie",
+			"url": "/activites/maison-de-marie/",
+			"sous-menu": [
+				{
+					"item": [
+						{}
+					]
+				}
 			]
 		}
 	]
