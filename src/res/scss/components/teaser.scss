@@ -1,22 +1,25 @@
+$transparency: .8;
 
 section[property=teaser] {
   display: flex;
   flex-wrap: wrap;
-  margin: 2em;
+  margin: 4em 2em 2em;
   div[property=teaser] {
     flex-grow: 1;
     margin: 0 2em 2em;
     padding: 0 1em;
-    border: solid 5px $bleu;
+    border: solid 5px rgba(10, 17, 40, $transparency);//$bleu;
     border-radius: 20px;
-    background-color: $jaune;
+    background-color: rgba(243, 165, 57, $transparency);//$jaune;
     height: fit-content;
+    @include transition();
     a {
-      color: $bleu;
+      color: $bleu;      
     }
     &:hover {
-      border-color: $jaune;
-      background-color: $bleu;
+      @include transition();
+      border-color: rgba(243, 165, 57, $transparency);//$jaune;
+      background-color: rgba(10, 17, 40, $transparency);//$bleu;
       a {
         color: $jaune;
         &:hover {
@@ -26,6 +29,9 @@ section[property=teaser] {
     }
     h2 {
       margin: 0;
+    }
+    .teasers {
+      margin-top: 1em;
     }
   }
 }

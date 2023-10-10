@@ -1,0 +1,181 @@
+{
+	"titre": "Les équipes de coordination",
+	"blocs": [
+		{			
+			"titre": "Une équipe pastorale",
+			"paragraphe": [
+				{
+					"titre": "Des prêtres à votre service:",
+					"contact": [
+						{ "id": "patrice-eon" },
+						{ "id": "jean-louis-gomis" }
+					]
+				},
+				{
+					"titre": "Des diacres à votre service:",
+					"contact": [
+						{ "id": "joel-macario" },
+						{ "id": "alain-esnault" },
+						{ "id": "jean-paul-horhant" }
+					]
+				},
+				{
+					"titre": "Des LEMES (Laïcs En Mission Ecclésiale) à votre service:",
+					"contact": [
+						{ "id": "anne-laure-fresson" },
+						{ "id": "marie-claire-fougere" }
+					]
+				},
+				{
+					"titre": "Une personne chargée de l'accueil et du secrétariat:",
+					"contact": [
+						{ "id": "beatrice-macario" }
+					]
+				}
+			]
+		},
+		{
+			"titre": "Un Conseil Pastoral d'Evangélisation",
+			"description": "<p>Le Conseil Pastoral d'Evangélisation, comme son nom l'indique, a pour but de conseiller le curé dans la conduite de la paroisse. C'est Jésus, le Bon Pasteur, qui, par son Esprit doit diriger notre paroisse. C'est donc sa vision, sa volonté sur notre communauté paroissiale, que le Conseil essaye de discerner et de mettre en œuvre. Il discerne les axes pastoraux pour l'année - et les années - à venir, ainsi que les moyens à prendre pour leur réalisation. Il passe aussi en revue, les grands domaines de la vie paroissiale, pour en faire une évaluation. C'est en quelque sorte, le Conseil d'Orientation de la paroisse. Il rassemble les prêtres, les diacres, les LEMES, et d'autres laïcs des deux paroisses.</p>"
+		},
+		{
+			"titre": "Les deux Conseils pour les Affaires Économiques Paroissiales",
+			"description": "<p>Leur mission est de suivre la vie matérielle et financière de nos deux paroisses.</p><ul><li>Le responsable pour Sainte Croix en Châteaubriant : Damien CARETTE <a href=\"mailto:damien.carette@free.fr\">damien.carette@free.fr</a></li><li>Le responsable pour Saint Joseph du Don : Patrick de VERNON <a href=\"mailto:patricketclaudie.devernon@wanadoo.fr\">patricketclaudie.devernon@wanadoo.fr</a></li></ul><p>Dans chaque <a href=\"/clochers/\">clocher</a>, un membre du Conseil s'occupe localement des affaires matérielles de la paroisse et assure, en ce domaine, le lien avec la municipalité.</p>",
+			"paragraphe": [
+				{
+					"titre": "Châteaubriant",
+					"contact": [
+						{ "id": "damien-carette" },
+						{ "id": "charles-de-la-bretesche" }
+					]
+				},
+				{
+					"titre": "Ruffigné  et Saint Aubin des Châteaux",
+					"contact": [
+						{ "id": "patrick-briand" }
+					]
+				},
+				{
+					"titre": "Rougé",
+					"contact": [
+						{ "id": "jean-yves-ferron" }
+					]
+				},
+				{
+					"titre": "Fercé",
+					"contact": [
+						{ "id": "anne-jegard" }
+					]
+				},
+				{
+					"titre": "Soulvache",
+					"contact": [
+						{ "id": "marie-noelle-rinfray" }
+					]
+				},
+				{
+					"titre": "Soudan",
+					"contact": [
+						{ "id": "remy-menard" }
+					]
+				},
+				{
+					"titre": "Villepôt",
+					"contact": [
+						{ "id": "marie-claude-luette" },
+						{ "id": "bernard-minier" }
+					]
+				},
+				{
+					"titre": "Noyal-sur-Brutz",
+					"contact": [
+						{ "id": "marie-paule-boisnard" }
+					]
+				},
+				{
+					"titre": "Louisfert",
+					"contact": [
+						{ "id": "anne-guerin" }
+					]
+				},
+				{
+					"titre": "Saint-Vincent-des-Landes",
+					"contact": [
+						{ "id": "jean-claude-bizeul" }
+					]
+				},
+				{
+					"titre": "Issé",
+					"contact": [
+						{ "id": "jean-moise-gledel" }
+					]
+				},
+				{
+					"titre": "Moisdon la Rivière",
+					"contact": [
+						{ "id": "loic-roul" }
+					]
+				},
+				{
+					"titre": "La Meilleraye de Bretagne",
+					"contact": [
+						{ "id": "yannick-chantome" }
+					]
+				},
+				{
+					"titre": "Grand Auverné et Petit Auverné",
+					"contact": [
+						{ "id": "didier-gautier" }
+					]
+				},
+				{
+					"titre": "Erbray",
+					"contact": [
+						{ "id": "joseph-jannault" }
+					]
+				},
+				{
+					"titre": "La Chapelle Glain",
+					"contact": [
+						{ "id": "stephane-hubert" }
+					]
+				},
+				{
+					"titre": "Saint-Julien de Vouvantes",
+					"contact": [
+						{ "id": "morgane-cousin" }
+					]
+				},
+				{
+					"titre": "Juigné-des-Moutiers",
+					"contact": [
+						{ "id": "marcel-angel" }
+					]
+				},
+				{
+					"texte": "La vie des prêtres et les frais de fonctionnement de la paroisse sont assurés exclusivement par les dons des fidèles (Denier de l'Église, quêtes), par les offrandes faites à l'occasion des célébrations (baptêmes, mariages, sépultures, messes), ou par des legs. Les dons versés pour le Denier de l'Église bénéficient d'une réduction d'impôt pouvant aller jusqu'à 66%. Les chèques sont à libeller à l'ordre de  <i>« Paroisse Sainte Croix en Châteaubriant »</i>  ou <i>« Paroisse Saint Joseph du Don »</i>. Consulter le site du diocèse <a href=\"https://diocese44.fr/\" target=\"_blank\">https://diocese44.fr/</a>"
+				}
+			]
+		},
+		{
+			"titre": "Des moyens de communication",
+			"paragraphe": [
+				{
+					"titre": "« Le Souffle des paroisses »",
+					"texte": "<p>bulletin paroissial qui paraît toutes les deux semaines</p><p>Abonnement (envoi postal ou par mail) : pour s'abonner contactez <a href=\"mailto:sccsjd@gmail.com\">sccsjd@gmail.com</a></p>"
+				},
+				{
+					"titre": "le site internet paroissial",
+					"texte": "<p><a href=\"https://www.paroisseschateaubriant.fr\">https://www.paroisseschateaubriant.fr</a></p>"
+				},
+				{
+					"titre": "la page Facebook",
+					"texte": "<p>Paroisses du pays de Châteaubriant</p>"
+				}
+			]
+		},
+		{
+			"descrirption": "<p>Pour passer une annonce sur le Souffle, écrire à <a href=\"mailto:sccsjd@gmail.com\">sccsjd@gmail.com</a></p><p>Pour passer une annonce sur les réseaux sociaux, écrire à <a href=\"mailto:comm.paroissechateaubriant@gmail.com\">comm.paroissechateaubriant@gmail.com</a></p>"
+		}
+	]	
+}

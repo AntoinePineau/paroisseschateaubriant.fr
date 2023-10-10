@@ -3,12 +3,13 @@ main[mv-app=accueil] {
     margin: 0;
     padding: 0;
     .parallax {
-        height: 100vh;
+        min-height: 100vh;
         overflow-x: hidden;
         overflow-y: hidden;
         h1 {
             color: $blanc;
             text-shadow: 1px 3px $bleu;
+            margin: 0;
         }
         video {
             z-index: -1;
@@ -16,9 +17,6 @@ main[mv-app=accueil] {
             position: fixed;
             top: 0;
             left: 0;
-        }
-        .teasers {
-            margin-top: 50vh;
         }
     }
 }

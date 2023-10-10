@@ -22,5 +22,11 @@
     "http-proxy": "^1.17.0",
     "puppeteer": "^1.14.0",
     "yargs": "^13.2.2"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "gulp-sourcemaps": "^3.0.0",
+    "lunr": "^2.3.9",
+    "path": "^0.12.7"
   }
 }

@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
+const sourcemaps = require('gulp-sourcemaps');
 const sass = require('gulp-sass')(require('sass'));
 const htmlExtend = require('gulp-html-extend');
 const browserSync = require('browser-sync').create();
@@ -24,9 +25,11 @@ gulp.task('html', () => {
 
 // Task to build the SCSS files into concatenated and minified CSS
 gulp.task('scss', () => {
-  return gulp.src('src/res/scss/main.scss')
+  return gulp.src('src/res/scss/main.scss')  
+    .pipe(sourcemaps.init())
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(concat('main.min.css'))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('dist/res/css'))
     .pipe(browserSync.stream());
 });

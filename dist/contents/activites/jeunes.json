@@ -63,32 +63,24 @@
 					"contact": [
 						{ "id": "jean-louis-gomis" }
 					]
-				}
-			]
-		},
-		{
-			"titre": "Le Scoutisme",
-			"description": "Voici les groupes scouts les plus proches de la paroisse: <ul><li><b>Pouancé</b>: Scouts et Guides de France, <a href=\"https://sites.sgdf.fr/haut-anjou-pouance/\" target=\"_blank\">https://sites.sgdf.fr/haut-anjou-pouance/</a><li><li><b>Nort-sur-Erdre</b>: Scouts et Guides d'Europe, <a href=\"http://1e-2e-nortsurerdre.agse.fr\" target=\"_blank\">http://1e-2e-nortsurerdre.agse.fr</a></li></ul>"
-		},
-		{
-			"titre": "Des questions sur votre avenir ?",
-			"paragraphe": [
+				},
 				{
+					"titre": "Le Scoutisme",
+					"description": "Voici les groupes scouts les plus proches de la paroisse: <ul><li><b>Pouancé</b>: Scouts et Guides de France, <a href=\"https://sites.sgdf.fr/haut-anjou-pouance/\" target=\"_blank\">https://sites.sgdf.fr/haut-anjou-pouance/</a><li><li><b>Nort-sur-Erdre</b>: Scouts et Guides d'Europe, <a href=\"http://1e-2e-nortsurerdre.agse.fr\" target=\"_blank\">http://1e-2e-nortsurerdre.agse.fr</a></li></ul>"
+				},
+				{
+					"titre": "Des questions sur votre avenir ?",
 					"texte": "Jeunes, vous vous interrogez sur le sens à donner à votre vie, sur un appel à servir dans l'église d'une manière particulière, par exemple en vous consacrant dans la vie religieuse, ou en vue de devenir prêtre ?<br/>N'hésitez pas à en parler à un membre de la paroisse, à un prêtre, ou à contacter le <b>service diocésain des vocations</b>",
 					"contact": [
 						{ "id": "service-diocesain-des-vocations" }
 					]
-				}
-			]
-		},
-		{
-			"titre": "La Fraternité JM (jeunes majeurs…)",
-			"paragraphe": [
+				},
 				{
-					"texte": "Pour les étudiants et les jeunes professionnels",
-					"contact": [
-						{ "id": "jean-louis-gomis" }
-					]
+					"titre": "La Fraternité JM (jeunes majeurs…)",
+							"texte": "Pour les étudiants et les jeunes professionnels",
+							"contact": [
+								{ "id": "jean-louis-gomis" }
+							]
 				}
 			]
 		}

@@ -20,7 +20,7 @@ npm install -g gulp
 Install all the necesary Gulp plugins:
 
 ```bash
-npm install --save-dev gulp gulp-concat gulp-uglify gulp-sass gulp-inject-file gulp-html-extend browser-sync
+npm install --save-dev gulp gulp-concat gulp-uglify gulp-sass gulp-uglify gulp-sourcemaps through2 gulp-html-extend browser-sync path
 ```
 
 Organize your files and folders as in this project.

@@ -102,7 +102,7 @@ function addContactsSearch() {
 
 var lunrIndex, pageIndex;
 function initLunr() {
-  fetch("/chants/psaumesIndex.json").then(r => r.json()).then(function(index) {    
+  fetch("/index/chants.json").then(r => r.json()).then(function(index) {    
     pagesIndex = index;
     lunrIndex = lunr(function() {
       this.ref("id");
@@ -132,16 +132,43 @@ function search(text, annee, temps, id, type) {
   });
 }
 
-document.addEventListener('DOMContentLoaded',()=>{
-    addMenuInteraction();    
+var fullSearchIndex, fullSearchData;
 
+function initFullSearch() {
+  fetch('/index/full-search.json')
+  .then(r => r.json())
+  .then(data => {
+    //fullSearchIndex = lunr.Index.load(data);
+    fullSearchData = data;
+    fullSearchIndex = lunr(function() {
+        this.ref("i");
+        this.field("i", {boost: 10});
+        this.field("t", {boost: 10});
+        this.field("c", {boost: 5});
+        idx = this;
+        data.forEach(function(page, index, array) {
+          idx.add(page);
+        });
+      });
+  });
+}
+
+function fullTextSearch(text) {
+  return fullSearchIndex.search(text).map(item => fullSearchData.find(doc => item.ref === doc.i));
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+    addMenuInteraction(); 
     initLunr();
+    initFullSearch();
 
     Mavo.inited
-    .then(() => Mavo.all[0].dataLoaded)
+    //.then(() => Mavo.all[0].dataLoaded)
     .then(()=>{
-      loadIcons();
-      loadContacts();
-      addContactsSearch();
+      // loadIcons();
+      setTimeout(()=>{
+        loadContacts();
+        addContactsSearch();
+      }, 500)
     });
 })
