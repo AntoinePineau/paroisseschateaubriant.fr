@@ -17,6 +17,11 @@
 			"lien": "/activites/"
 		},
 		{
+			"titre": "Agenda",
+			"texte": "Les rendez-vous 2023-2024",
+			"lien": "/agenda/"
+		},
+		{
 			"titre": "Équipes de coordination",
 			"texte": "Les équipes à votre service pour coordonner les activités de nos paroisses",
 			"lien": "/coordination/"
@@ -30,11 +35,6 @@
 			"titre": "Actualités",
 			"texte": "Les dernières actualités de nos paroisses",
 			"lien": "/actualites/"
-		},
-		{
-			"titre": "Agenda",
-			"texte": "Les rendez-vous 2023-2024",
-			"lien": "/agenda/"
 		}
 	]
 }
