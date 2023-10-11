@@ -17,7 +17,7 @@
 			"email": "alpha.chateaubriant@gmail.com",
 			"telephone": "06 79 73 22 32",
 			"activite": [
-				"Responsable du parcours alpha"
+				"Responsable du parcours Alpha"
 			],
 			"fonction": "Bénévole"
 		},
@@ -25,12 +25,18 @@
 			"id": "anne-guerin",
 			"nom": "Anne GUÉRIN",
 			"email": "abguerin@orange.fr",
+			"activite": [
+				"Membre pour Louisfert du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "anne-jegard",
 			"nom": "Anne JEGARD",
 			"email": "daniel.jegard@orange.fr",
+			"activite": [
+				"Membre pour Fercé du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -59,7 +65,10 @@
 			"nom": "Annie HALET",
 			"email": "clauan.halet19@orange.fr",
 			"telephone": "02 40 55 07 57",
-			"activite": [],
+			"activite": [
+				"Mouvement Chrétien des Retraités",
+				"Au service des personnes âgées en Maison de retraite"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -67,7 +76,10 @@
 			"nom": "Béatrice DAVENAS",
 			"email": "vdavenas@free.fr",
 			"telephone": "02 40 28 23 12",
-			"activite": [],
+			"activite": [
+				"Comité Catholique contre la Faim et pour le Développement",
+				"Action Catholique des Milieux Indépendants"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -75,7 +87,9 @@
 			"nom": "Béatrice MACARIO",
 			"fonction": "Accueil - Secrétariat",
 			"activite": [
-				"Coordinatrice Paroissiale"
+				"Coordinatrice Paroissiale",
+				"Onction des malades",
+				"Pèlerinages"
 			],
 			"email": "beacoordinatrice044@gmail.com",
 			"telephone": "07 66 48 48 73"
@@ -95,19 +109,26 @@
 			"nom": "Bernard ALBERT",
 			"email": "bernardchristine.albert@orange.fr",
 			"telephone": "02 40 28 89 45",
-			"activite": [],
+			"activite": [
+				"Parcours biblique"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "bernard-minier",
 			"nom": "Bernard MINIER",
 			"email": "bernard.minier@yahoo.fr",
+			"activite": [
+				"Membre pour Villepôt du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "catherine-bretaudeau",
 			"nom": "Catherine BRETAUDEAU",
-			"activite": [],
+			"activite": [
+				"Visite à domicile des malades et personnes âgées"
+			],
 			"email": "bretau52@gmail.com",
 			"telephone": "06 71 07 62 43",
 			"fonction": "Bénévole"
@@ -116,7 +137,7 @@
 			"id": "catherine-viguerie",
 			"nom": "Catherine VIGUERIE",
 			"activite": [
-				"Préparation au Baptême"
+				"Préparation au Baptême et à la 1ère communion des adultes"
 			],
 			"email": "catherineviguerie44@gmail.com",
 			"telephone": "06 19 71 91 69",
@@ -126,19 +147,27 @@
 			"id": "charles-de-la-bretesche",
 			"nom": "Charles de la Bretesche",
 			"email": "charles.delabretesche@wanadoo.fr",
+			"activite": [
+				"Membre pour Châteaubriant du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "christiane-lepicier",
 			"nom": "Christiane LEPICIER",
 			"telephone": "06 50 17 46 76",
-			"activite": [],
+			"activite": [
+				"Au service des personnes âgées en Maison de retraite"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "damien-carette",
 			"nom": "Damien Carette",
 			"email": "damien.carette@free.fr",
+			"activite": [
+				"Responsable pour Sainte-Croix en Châteaubriant du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -146,21 +175,27 @@
 			"nom": "Damien GIRARDEAU",
 			"email": "comm.paroissechateaubriant@gmail.com",
 			"telephone": "06 17 42 01 03",
-			"activite": [],
+			"activite": [
+				"Rencontres du cinéma chrétien"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "david",
 			"nom": "David",
 			"email": "oralite@free.fr",
-			"activite": [],
+			"activite": [
+				"Groupe « Oralité : mémorisation de l'évangile, mettre la Parole de Dieu au cœur de nos vies »"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "david-et-anne",
 			"nom": "David et Anne",
 			"email": "maisonsmarie@free.fr",
-			"activite": [],
+			"activite": [
+				"Les Maisons de Marie"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -168,13 +203,18 @@
 			"nom": "Didier BLANC",
 			"email": "sabbaghgitton@gmail.com",
 			"telephone": "06 44 07 14 97",
-			"activite": [],
+			"activite": [
+				"Ateliers de couture, de tricot, de produits ménagers bios et de cuisine"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "didier-gautier",
 			"nom": "Didier GAUTIER",
 			"email": "didiergautier7@yahoo.fr",
+			"activite": [
+				"Membre pour Grand Auverné et Petit Auverné du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -182,7 +222,9 @@
 			"nom": "Edith DESPREZ",
 			"email": "edith.desprez@sfr.fr",
 			"telephone": "02 40 81 45 81",
-			"activite": [],
+			"activite": [
+				"Les Focolari"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -200,21 +242,27 @@
 			"nom": "Evelyne DENIEUL",
 			"email": "evelyne.denieul@hotmail.fr",
 			"telephone": "06 28 54 18 83",
-			"activite": [],
+			"activite": [
+				"Réseau de prière pour les vocations"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "gabrielle-caro",
 			"nom": "Gabrielle CARO",
 			"email": "gabrielle.caro@sfr.fr",
-			"activite": [],
+			"activite": [
+				"Action Catholique Ouvrière"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "genevieve",
 			"nom": "Geneviève",
 			"email": "gouterlaparole@free.fr",
-			"activite": [],
+			"activite": [
+				"Groupe « Goûter ensemble la Parole de Dieu »"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -231,6 +279,9 @@
 			"id": "jean-claude-bizeul",
 			"nom": "Jean-Claude BIZEUL",
 			"email": "bizeul.jean-claude@orange.fr",
+			"activite": [
+				"Membre pour Saint-Vincent-des-Landes du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -238,7 +289,9 @@
 			"nom": "Jean et Michelle MESLET",
 			"email": "jean.meslet@free.fr",
 			"telephone": "02 40 81 16 15",
-			"activite": [],
+			"activite": [
+				"Chrétiens dans le Monde Rural"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -246,7 +299,9 @@
 			"nom": "Jean-François BLIN",
 			"email": "blin-jbo@orange.fr",
 			"telephone": "06 37 25 15 55",
-			"activite": [],
+			"activite": [
+				"Comité Catholique contre la Faim et pour le Développement"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -254,7 +309,10 @@
 			"nom": "Père Jean-Louis GOMIS",
 			"fonction": "Prêtre coopérateur",
 			"activite": [
-				"Préparation au Baptême"
+				"Préparation au Baptême et 1ère communion",
+				"Les servants d'autel",
+				"Nombreuses activités avec les jeunes",
+				"Soirées de louange"
 			],
 			"telephone": "02 40 81 02 92",
 			"email": "gomis.jeanlouis@outlook.fr"
@@ -263,6 +321,9 @@
 			"id": "jean-moise-gledel",
 			"nom": "Jean-Moïse GLEDEL",
 			"email": "jemogledel@gmail.com",
+			"activite": [
+				"Membre pour Issé du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -271,14 +332,20 @@
 			"fonction": "Diacre",
 			"email": "horhant.jeanpaul@gmail.com",
 			"telephone": "06 28 30 72 44",
-			"activite": []
+			"activite": [
+				"Conférences-témoignages",
+				"La Pastorale Scolaire",
+				"Rencontre avec la communauté musulmane"
+			]
 		},
 		{
 			"id": "jean-paul-thomas",
 			"nom": "Jean-Paul Thomas",
 			"email": "jptho35@wanadoo.fr",
 			"telephone": "06 07 44 92 27",
-			"activite": [],
+			"activite": [
+				"Jardin paroissial"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -286,13 +353,18 @@
 			"nom": "Jean-Pierre LEGRAIS",
 			"email": "legraisjp@orange.fr",
 			"telephone": "06 84 53 46 94",
-			"activite": [],
+			"activite": [
+				"Le Tro Mée"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "jean-yves-ferron",
 			"nom": "Jean-Yves FERRON",
 			"email": "jean-yves.ferron1@orange.fr",
+			"activite": [
+				"Membre pour Rougé du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -300,7 +372,8 @@
 			"nom": "Joël MACARIO",
 			"fonction": "Diacre",
 			"activite": [
-				"Préparation au mariage"
+				"Préparation au mariage",
+				"Visite à domicile des malades et personnes âgées"
 			],
 			"email": "joel-macario@orange.fr",
 			"telephone": "06 61 45 80 91"
@@ -309,12 +382,18 @@
 			"id": "joseph-jannault",
 			"nom": "Joseph JANNAULT",
 			"email": "joseph.jannault@orange.fr",
+			"activite": [
+				"Membre pour Erbray du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "loic-roul",
 			"nom": "Loïc ROUL",
 			"email": "loic.roul@wanadoo.fr",
+			"activite": [
+				"Membre pour Moisdon la Rivière du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -322,20 +401,27 @@
 			"nom": "Maguy CASTAING",
 			"email": "marguy.castaing@gmail.com",
 			"telephone": "06 59 61 13 14",
-			"activite": [],
+			"activite": [
+				"Prière pour les défunts (Monligeon)"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "marcel-angel",
 			"nom": "Marcel ANGEL",
 			"email": "marcel.angel.dereix@gmail.com",
+			"activite": [
+				"Membre pour Juigné-des-Moutiers du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "marcel-et-michelle-robert",
 			"nom": "Marcel et Michelle ROBERT",
 			"email": "michellerobert@wanadoo.fr",
-			"activite": [],
+			"activite": [
+				"Chrétiens dans le Monde Rural"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -343,7 +429,9 @@
 			"nom": "Marie-Ange BURIN",
 			"email": "marieangeburin44@gmail.com",
 			"telephone": "06 08 42 04 70",
-			"activite": [],
+			"activite": [
+				"La Pause Café"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -351,7 +439,11 @@
 			"nom": "Marie-Annick MARCETEAU",
 			"email": "marie-annick_marceteau@hotmail.fr",
 			"telephone": "02 40 81 02 92",
-			"activite": [],
+			"activite": [
+				"« Pentecôte en paroisse »",
+				"Prière du Renouveau charismatique",
+				"Prière œcuménique"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -368,14 +460,11 @@
 			"id": "marie-claude-luette",
 			"nom": "Marie-Claude LUETTE",
 			"email": "marieclaude.luette@orange.fr",
-			"fonction": "Bénévole"
-		},
-		{
-			"id": "marie-claude-luette",
-			"nom": "Marie-Claude LUETTE",
-			"email": "marieclaude.luette@orange.fr",
+			"activite": [
+				"Membre pour Villepôt du conseil pour les Affaires Economiques Paroissiales",
+				"Visite à domicile des malades et personnes âgées"
+			],
 			"telephone": "06 74 50 54 84",
-			"activite": [],
 			"fonction": "Bénévole"
 		},
 		{
@@ -383,7 +472,9 @@
 			"nom": "Marie COCHET",
 			"email": "cochetmarie@orange.fr",
 			"telephone": "02 40 07 56 85",
-			"activite": [],
+			"activite": [
+				"Visite à domicile des malades et personnes âgées"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -391,7 +482,9 @@
 			"nom": "Marie-France MÉNARD",
 			"email": "mariefran44@free.fr",
 			"telephone": "02 40 55 01 07",
-			"activite": [],
+			"activite": [
+				"Comité Catholique contre la Faim et pour le Développement"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -399,7 +492,9 @@
 			"nom": "Marie-Hélène LEPRETRE",
 			"email": "guy.lepretre0770@orange.fr",
 			"telephone": "06 76 56 06 34",
-			"activite": [],
+			"activite": [
+				"Mouvement Chrétien des Retraités"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -407,7 +502,9 @@
 			"nom": "Marie-Madeleine BOISSINOT",
 			"email": "mboissinot@aliceadsl.fr",
 			"telephone": "06 19 67 04 83",
-			"activite": [],
+			"activite": [
+				"Visite à domicile des malades et personnes âgées"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -415,14 +512,18 @@
 			"nom": "Marie-Madeleine DELAUNAY",
 			"email": "miemadel@orange.fr",
 			"telephone": "07 71 04 62 32",
-			"activite": [],
+			"activite": [
+				"Eveil à la foi"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-mousseau",
 			"nom": "Marie MOUSSEAU",
 			"telephone": "02 40 55 06 50",
-			"activite": [],
+			"activite": [
+				"Prière pour les défunts (Monligeon)"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -430,19 +531,27 @@
 			"nom": "Marie-Noëlle RACINEUX",
 			"telephone": "06 60 21 63 41",
 			"email": "mn.racineux@orange.fr",
-			"activite": [],
+			"activite": [
+				"Visite à domicile des malades et personnes âgées"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-noelle-rinfray",
 			"nom": "Marie Noëlle RINFRAY",
 			"email": "gerard.rinfray@orange.fr",
+			"activite": [
+				"Membre pour Soulvache du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "marie-paule-boisnard",
 			"nom": "Marie-Paule BOISNARD",
 			"email": "auguste.boisnard@orange.fr",
+			"activite": [
+				"Membre pour Noyal-sur-Brutz du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -450,13 +559,19 @@
 			"nom": "Marie-Thérèse ROUX",
 			"email": "lagelardiere@wanadoo.fr",
 			"telephone": "06 72 85 47 13",
-			"activite": [],
+			"activite": [
+				"Prière d'adoration",
+				"Prière des Mères"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "morgane-cousin",
 			"nom": "M.Morgane COUSIN",
 			"email": "morgane.cousin86@gmail.com",
+			"activite": [
+				"Membre pour Saint-Julien de Vouvante du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -474,15 +589,9 @@
 			"nom": "Nicole MASSÉ",
 			"email": "nicole.masse3@wanadoo.fr",
 			"telephone": "06 71 83 92 92",
-			"activite": [],
-			"fonction": "Bénévole"
-		},
-		{
-			"id": "odile-renouard",
-			"nom": "Odile RENOUARD",
-			"email": "renouard.odile@wanadoo.fr",
-			"telephone": "06 32 57 22 29",
-			"activite": [],
+			"activite": [
+				"Visite à domicile des malades et personnes âgées"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -491,18 +600,26 @@
 			"fonction": "Prêtre, Curé",
 			"email": "patrice.eon@free.fr",
 			"telephone": "02 40 81 02 92",
-			"activite": []
+			"activite": [
+				"Initiation à la Doctrine Sociale de l'Église"
+			]
 		},
 		{
 			"id": "patrick-briand",
 			"nom": "Patrick BRIAND",
 			"email": "mpbriand@orange.fr",
+			"activite": [
+				"Membre pour Ruffigné et Saint-Aubin des Châteaux du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "remy-menard",
 			"nom": "Rémy MÉNARD",
 			"email": "remimenard@free.fr",
+			"activite": [
+				"Membre pour Soudan du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
@@ -532,44 +649,48 @@
 			"nom": "Sœur Imelda Piton",
 			"email": "imelda.piton@hotmail.fr",
 			"telephone": "06 78 97 26 02",
-			"activite": [],
-			"fonction": "Religieuse"
-		},
-		{
-			"id": "soeur-jeannette-ollivier",
-			"nom": "Sœur Jeannette OLLIVIER",
-			"email": "jeannolivier48@gmail.com",
-			"telephone": "02 40 28 42 75",
-			"activite": [],
+			"activite": [
+				"Visite à domicile des malades et personnes âgées"
+			],
 			"fonction": "Religieuse"
 		},
 		{
 			"id": "soeurs-de-la-salle-de-vihiers",
-			"nom": "Sœurs de la Salle de Vihiers, communauté de Moisdon-la-Rivière",
+			"nom": "Sœurs de la Salle de Vihiers",
 			"telephone": "02 40 07 24 01",
 			"adresse": "11 rue du Pont Neuf",
-			"activite": [],
+			"activite": [
+				"Communauté de Moisdon-la-Rivière"
+			],
 			"fonction": "Religieuse"
 		},
 		{
 			"id": "soeurs-de-saint-gildas",
-			"nom": "Sœurs de Saint Gildas, communauté de Moisdon-la-Rivière",
+			"nom": "Sœurs de Saint Gildas",
 			"email": "cte.moisdon@orange.fr",
 			"telephone": "02 40 07 58 92",
 			"adresse": "16 rue du Pont Neuf",
-			"activite": [],
+			"activite": [
+				"Communauté de Moisdon-la-Rivière"
+			],
 			"fonction": "Religieuse"
 		},
 		{
 			"id": "stephane-hubert",
 			"nom": "Stéphane HUBERT",
 			"email": "stephanehubert866@gmail.com",
+			"activite": [
+				"Membre pour La Chapelle Glain du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "yannick-chantome",
 			"nom": "Mme Yannick CHANTOME",
 			"email": "jean-luc.chantome@wanadoo.fr",
+			"activite": [
+				"Membre pour La Meilleraye de Bretagne du conseil pour les Affaires Economiques Paroissiales"
+			],
 			"fonction": "Bénévole"
 		}
 	]
