@@ -17,6 +17,7 @@
     "gulp-inject-file": "^0.0.19",
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
+    "gulp-sourcemaps": "^3.0.0",
     "sass": "^1.63.5",
     "express": "^4.16.4",
     "http-proxy": "^1.17.0",
@@ -24,11 +25,6 @@
     "yargs": "^13.2.2"
   },
   "dependencies": {
-    "child_process": "^1.0.2",
-    "fs": "0.0.1-security",
-    "gulp-sourcemaps": "^3.0.0",
-    "lunr": "^2.3.9",
-    "netlify-plugin-lunr-indexer": "file:./plugins/netlify-plugin-lunr-indexer",
-    "path": "^0.12.7"
+    "netlify-plugin-lunr-indexer": "./plugins/netlify-plugin-lunr-indexer"
   }
 }
