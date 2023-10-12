@@ -1,33 +1,23 @@
 // parce que les regex, c'est la vie!
 String.prototype.replaceAll=function(s,r){return this.replace(new RegExp(s,'gm'),r)};
 
-function addMenuInteraction() {
-    var navButton = document.querySelector('header button');
-    navButton.addEventListener('click', function() {
-        let expanded = this.getAttribute('aria-expanded') === 'true' || false;
-        this.setAttribute('aria-expanded', !expanded);
-        navButton.querySelector('span').innerText = expanded ? '☰' : '✕';
-    });
-}
+Mavo.Functions.telify = $.extend(readable => {
+    return (readable + "")
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // Convert accented letters to ASCII
+        .replace(/[^\w\s-]/g, "") // Remove remaining non-ASCII characters
+        .trim().replace(/\s+/g, "") // Remove whitespace
+        .replace('0', '+33') // indicateur france
+        .toLowerCase();
+}, {
+    multiValued: true
+});
 
-function loadIcons() {
-    let $datalist = document.getElementById('icons');
-    if($datalist) {
-        fetch('/contents/icons.json')
-        .then(r => r.json())
-        .then(r => {
-            let icons = {};
-            r.icons.forEach(c => {
-                $datalist.innerHTML += '<option>'+c.id+'</option>';
-                icons[c.id] = c;
-            });
-        })
-        .catch(e => {console.error('Error:', e)});
-    }
-}
-
-
+var contactLoaded = false;
 function loadContacts() {
+    if(contactLoaded) {
+      console.log('contacts already loaded');
+      return;
+    }
     let $datalist = document.getElementById('contacts');
     if($datalist) {
         fetch('/contents/contacts.json')
@@ -51,6 +41,7 @@ function loadContacts() {
                     span.parentNode.append(d);
                 }
             });
+            contactLoaded = true;
         })
         .catch(e => {console.error('Error:', e)});
     }
@@ -152,7 +143,7 @@ function fullSearch(text) {
           idx.add(page);
         });
     });
-    fullSearchIndex.search(text).map(item => fullSearchData.find(doc => item.ref === doc.i)).forEach(r=>{
+    fullSearchIndex.search('*'+text+'*').map(item => fullSearchData.find(doc => item.ref === doc.i)).forEach(r=>{
         var result = document.createElement('article');
         result.innerHTML = '<article class="result"><a href="'+r.i+'">'+r.t+'</a></article>';
         document.getElementById('results').append(result);
@@ -161,8 +152,7 @@ function fullSearch(text) {
 }
 
 document.addEventListener('DOMContentLoaded',()=>{
-    addMenuInteraction(); 
-    initLunr();
+    //initLunr();
 
     if(document.querySelector('main[mv-app=recherche]'))
         fullSearch(document.location.href.split('texte=')[1]);
@@ -170,11 +160,16 @@ document.addEventListener('DOMContentLoaded',()=>{
     Mavo.inited
     //.then(() => Mavo.all[0].dataLoaded)
     .then(()=>{
-      // loadIcons();
       setTimeout(()=>{
         loadContacts();
         addContactsSearch();
       }, 500)
       return Mavo.all[0].dataLoaded
-    });
+    })
+    .then(()=>{
+        setTimeout(()=>{
+          loadContacts();
+          addContactsSearch();
+        }, 100)
+      });
 })

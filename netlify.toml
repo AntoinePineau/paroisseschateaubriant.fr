@@ -1,5 +1,5 @@
 [[plugins]]
-  package = "/plugins/indexer"
+  package = "/plugins/netlify-plugin-indexer"
   [plugins.inputs]
     jsonPath = "dist/contents/" # Chemin vers vos données JSON
     indexPath = "dist/index/full-search.json" # Chemin de sortie de l'index

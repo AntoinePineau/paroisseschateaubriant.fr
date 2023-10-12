@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const lunr = require('lunr');
+//const lunr = require('lunr');
 
 /* REMOVE TO TEST
 var env = {
