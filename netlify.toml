@@ -6,3 +6,6 @@
     [plugins.inputs]
     jsonPath = "dist/contents/" # Chemin vers vos données JSON
     indexPath = "dist/index/full-search.json" # Chemin de sortie de l'index
+
+[build]
+  command = "npm i"
