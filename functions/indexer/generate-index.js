@@ -1,5 +1,3 @@
-// Exemple de script pour générer un index de recherche depuis des fichiers JSON
-
 const fs = require('fs');
 const path = require('path');
 //const lunr = require('lunr');
