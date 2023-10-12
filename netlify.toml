@@ -1,3 +1,3 @@
 [build]
   functions = "functions/"
-  command = "./functions/indexer/generate-index.js dist/contents/ dist/index/full-search.json"
+  command = "npm i && ./functions/indexer/generate-index.js dist/contents/ dist/index/full-search.json"
