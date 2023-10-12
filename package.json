@@ -24,6 +24,7 @@
     "yargs": "^13.2.2"
   },
   "dependencies": {
+    "child_process": "^1.0.2",
     "fs": "0.0.1-security",
     "gulp-sourcemaps": "^3.0.0",
     "lunr": "^2.3.9",
