@@ -1,4 +1,7 @@
 [[plugins]]
+  package = "@netlify/plugin-local-install-core"
+
+[[plugins]]
   package = "/plugins/netlify-plugin-lunr-indexer"
   [plugins.inputs]
     jsonPath = "dist/contents/" # Chemin vers vos données JSON
