@@ -1,0 +1,6 @@
+name: netlify-plugin-lunr-indexer
+inputs:
+  - name: jsonPath
+    description: Path where all JSON contents files are stored
+  - name: indexPath
+    description: Path to the generated JSON index file
