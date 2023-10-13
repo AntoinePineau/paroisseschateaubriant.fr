@@ -20,7 +20,6 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "http-proxy": "^1.17.0",
-    "netlify-plugin-lunr-indexer": "file:plugins/netlify-plugin-lunr-indexer",
     "puppeteer": "^1.14.0",
     "sass": "^1.63.5",
     "yargs": "^13.2.2"
