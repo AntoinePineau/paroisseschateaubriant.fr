@@ -25,6 +25,6 @@
     "yargs": "^13.2.2"
   },
   "dependencies": {
-    "netlify-plugin-lunr-indexer": "./plugins/netlify-plugin-lunr-indexer"
+    "netlify-plugin-lunr-indexer": "file:plugins/netlify-plugin-lunr-indexer"
   }
 }
