@@ -3,3 +3,8 @@
 #    [plugins.inputs]
 #    jsonPath = "dist/contents/" # Chemin vers vos données JSON
 #    indexPath = "dist/index/full-search.json" # Chemin de sortie de l'index
+
+[[headers]]
+  for = "/*"
+  [header.values]
+    X-Frame-Options= "ALLOWALL"
