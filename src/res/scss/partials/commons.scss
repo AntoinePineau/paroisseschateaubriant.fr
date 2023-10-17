@@ -92,6 +92,10 @@ html {
         .highlight {
           background-color: $gris;
         }
+        img {
+          width: 100%;
+          height: auto;
+        }
         div.tinymce, [property=titre] {
           max-width:1024px;
           margin: 0 auto;
