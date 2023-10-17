@@ -9,7 +9,7 @@
 					"nom": "Marie FERRON",
 					"adresse": "8, rue des Etangs",
 					"telephone": "02 40 28 86 43"
-				},				
+				},
 				{
 					"ville": "Noyal-sur-Brutz",
 					"nom": "Hélène BARAT",
@@ -130,7 +130,6 @@
 					"email": "jean-yves.charles0169@orange.fr"
 				}
 			]
-			
 		}
 	],
 	"paragraphe": [
@@ -138,8 +137,12 @@
 			"titre": "Communautés religieuses apostoliques",
 			"texte": "Des <b>communautés religieuses apostoliques</b> vivent sur la commune de Moisdon. Elles sont, auprès des habitants de notre région, une présence accueillante et priante.",
 			"contact": [
-				{ "id": "soeurs-de-saint-gildas" },
-				{ "id": "soeurs-de-la-salle-de-vihiers" }
+				{
+					"id": "soeurs-de-saint-gildas"
+				},
+				{
+					"id": "soeurs-de-la-salle-de-vihiers"
+				}
 			]
 		},
 		{
