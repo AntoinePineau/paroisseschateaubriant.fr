@@ -15,7 +15,6 @@ Mavo.Functions.telify = $.extend(readable => {
 var contactLoaded = false;
 function loadContacts() {
     if(contactLoaded) {
-      console.log('contacts already loaded');
       return;
     }
     let $datalist = document.getElementById('contacts');
@@ -143,11 +142,13 @@ function fullSearch(text) {
           idx.add(page);
         });
     });
+    var ol = document.createElement('ol');
     fullSearchIndex.search('*'+text+'*').map(item => fullSearchData.find(doc => item.ref === doc.i)).forEach(r=>{
-        var result = document.createElement('article');
-        result.innerHTML = '<article class="result"><a href="'+r.i+'">'+r.t+'</a></article>';
-        document.getElementById('results').append(result);
+        var result = document.createElement('li');
+        result.innerHTML = '<article class="result"><h3><a href="'+r.i+'">'+r.t+'</a></h3><span>'+JSON.parse(r.c).description+'</span></article>';
+        ol.append(result);
     });
+    document.getElementById('results').append(ol);
   });
 }
 
@@ -162,7 +163,6 @@ document.addEventListener('DOMContentLoaded',()=>{
     .then(()=>{
       setTimeout(()=>{
         loadContacts();
-        addContactsSearch();
       }, 500)
       return Mavo.all[0].dataLoaded
     })
@@ -170,6 +170,6 @@ document.addEventListener('DOMContentLoaded',()=>{
         setTimeout(()=>{
           loadContacts();
           addContactsSearch();
-        }, 100)
+        }, 1000)
       });
 })
