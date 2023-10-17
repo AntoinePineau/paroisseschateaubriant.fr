@@ -91,7 +91,8 @@
     
     let parser, serializer;
     
-    Mavo.Plugins.register("tinymce", {
+    Mavo.Plugins.register("tinymce", {        
+        //ready: $.include(self.tinymce, "/res/js/lib/tinymce-4.9.11.min.js").then(() => {
         ready: $.include(self.tinymce, "https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.9.11/tinymce.min.js").then(() => {
             parser = new tinymce.html.DomParser();
             serializer = new tinymce.html.Serializer();

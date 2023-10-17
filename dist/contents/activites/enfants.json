@@ -3,6 +3,7 @@
 	"description": "Une paroisse qui éduque les enfants dans la foi chrétienne",
 	"blocs": [
 		{
+			"titre": " ",
 			"description": "Eduquer les enfants dans la foi chrétienne, c'est d'abord la tâche des parents.  Tâche passionnante mais exigeante, c'est pour cela que la paroisse vous propose son aide.",
 			"paragraphe": [
 				{
@@ -12,24 +13,40 @@
 						{ "id": "anne-laure-fresson" },
 						{ "id": "marie-madeleine-delaunay" }
 					]
-				},
+				}
+			]
+		},
+		{
+			"paragraphe": [
 				{
 					"titre": "Les servants d'autel",
 					"contact": [
 						{ "id": "jean-louis-gomis" }
 					]
-				},
+				}
+			]
+		},
+		{
+			"paragraphe": [
 				{
 					"titre": "La catéchèse de votre enfant",
-					"texte": "Elle a lieu un dimanche après-midi par mois",
+					"texte": "<p>Elle a lieu un dimanche après-midi par mois</p><p>Plus d'informations:<ul><li><a href=\"/res/docs/Presentation-cate-paroissial.pdf\" download=\"Presentation-cate-paroissial.pdf\">Présentation du caté paroissial</a></li><li><a href=\"/res/docs/Calendrier-et-infos-sur-le-cate-paroissial.pdf\" download=\"Calendrier-et-infos-sur-le-cate-paroissial.pdf\">Calendrier et informations sur le caté paroissial</a></li></ul></p>",
 					"contact": [
 						{ "id": "anne-laure-fresson" }
 					]
-				},
+				}
+			]
+		},
+		{
+			"paragraphe": [
 				{
 					"titre": "La préparation à la 1ère confession et à la 1ère communion de votre enfant",
 					"texte": "Se fait dans le cadre de la catéchèse."
-				},
+				}
+			]
+		},
+		{
+			"paragraphe": [
 				{
 					"titre": "En lien avec les écoles catholiques de nos paroisses",
 					"texte": "Pour connaitre les propositions pastorales des <b><i>écoles catholiques</i></u>, contactez les chefs d'établissement ou:<ul><li>pour Sainte Croix en Châteaubriant: Anne-Laure Fresson</li><li>pour St Joseph du Don: Marie-Madeleine Delaunay</li></ul>",

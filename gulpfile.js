@@ -63,12 +63,17 @@ gulp.task('copy-img', () => {
     .pipe(gulp.dest('dist/res/img/'));
 });
 
+gulp.task('copy-docs', () => {
+  return gulp.src('src/res/docs/**/*')
+    .pipe(gulp.dest('dist/res/docs/'));
+});
+
 gulp.task('copy-fonts', () => {
   return gulp.src('src/res/webfonts/*')
     .pipe(gulp.dest('dist/res/webfonts/'));
 });
 
-gulp.task('copy-files', gulp.series(['copy-css-map', 'copy-js-map', 'copy-img', 'copy-fonts']));
+gulp.task('copy-files', gulp.series(['copy-css-map', 'copy-js-map', 'copy-img', 'copy-fonts', 'copy-docs']));
 
 // Task to serve the development environment
 gulp.task('serve', () => {

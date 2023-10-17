@@ -61,11 +61,14 @@
 <!-- end header.html-->
 <!-- start main -->
     <main mv-app="recherche" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/recherche.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
-      <h1 property="titre"></h1>  
-      <form id="search" class="search-box">
-        <input type="text" name="texte" required />
-        <button type="submit" class="go-icon"><i class="fas fa-search"></i></button>
-      </form>
+      <h1 property="titre">Recherche</h1>
+      <aside class="search-form">
+        <form id="search" class="search-fields">
+          <input type="text" name="texte" required />
+          <button type="submit" class="go-icon"><i class="fas fa-search"></i></button>
+        </form>
+      </aside>
+      <h2 property="resultats">Résultats</h2>
       <section id="results">
         
       </section>
