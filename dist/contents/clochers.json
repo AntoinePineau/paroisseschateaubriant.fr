@@ -58,7 +58,8 @@
 					"telephone": "06 74 50 54 84",
 					"email": "marieclaude.luette@orange.fr"
 				}
-			]
+			],
+			"texte": "<img src=\"../res/img/contents/eglise-saint-nicolas-chateaubriant.jpg\" alt=\"Eglise Saint-Nicolas\" width=\"200\" height=\"302\" />"
 		},
 		{
 			"nom": "Saint-Joseph du Don",
@@ -129,7 +130,8 @@
 					"telephone": "06 30 01 43 13",
 					"email": "jean-yves.charles0169@orange.fr"
 				}
-			]
+			],
+			"texte": "<img src=\"../res/img/contents/eglise-saint-jouin-moisdon-la-riviere.jpg\" alt=\"Eglise Saint-Jouin &agrave; Moisdon-la-Rivi&egrave;re\" width=\"500\" height=\"331\" />"
 		}
 	],
 	"paragraphe": [
