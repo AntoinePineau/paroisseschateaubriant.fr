@@ -12,7 +12,7 @@
 					],
 					"phone": "02 40 81 02 92",
 					"mail": "paroisse.chateaubriant@gmail.com",
-					"horaires": "Du lundi au samedi de 9h30 à 11h30"
+					"horaires": "<p>Du lundi au samedi de 9h30 &agrave; 11h30</p>\n<p><img src=\"../res/img/contents/sainte-croix-en-chateaubriant.png\" alt=\"sainte-Croix en Ch&acirc;teaubriant\" /></p>"
 				}
 			]
 		},
@@ -28,7 +28,7 @@
 					],
 					"phone": "02 40 07 62 51",
 					"mail": "paroisse.moisdon@gmail.com",
-					"horaires": "Du lundi au samedi de 9h30 à 11h30"
+					"horaires": "<p>Du lundi au samedi de 9h30 &agrave; 11h30</p>\n<p><img src=\"../res/img/contents/saint-joseph-du-don.png\" alt=\"Saint-Joseph du Don\" /></p>"
 				}
 			]
 		}
