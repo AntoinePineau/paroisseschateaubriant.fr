@@ -8,10 +8,14 @@
 			"paragraphe": [
 				{
 					"titre": "L'éveil à la foi de votre enfant",
-					"texte": "Lors des messes des familles:<ul><li>Le 1er dimanche du mois à St Nicolas: Contactez Anne-Laure Fresson</li><li>Le 2ème dimanche du mois à Moisdon: Contactez Marie-Madeleine Delaunay</li></ul>",
+					"texte": "<p><img src=\"../../res/img/contents/eveil-foi.png\" alt=\"Eveil &agrave; la foi\" width=\"500\" height=\"707\" /></p>\n<p>Lors des messes des familles:</p>\n<ul>\n<li>Le 1er dimanche du mois &agrave; St Nicolas: Contactez Anne-Laure Fresson</li>\n<li>Le 2&egrave;me dimanche du mois &agrave; Moisdon: Contactez Marie-Madeleine Delaunay</li>\n</ul>",
 					"contact": [
-						{ "id": "anne-laure-fresson" },
-						{ "id": "marie-madeleine-delaunay" }
+						{
+							"id": "anne-laure-fresson"
+						},
+						{
+							"id": "marie-madeleine-delaunay"
+						}
 					]
 				}
 			]
@@ -21,7 +25,9 @@
 				{
 					"titre": "Les servants d'autel",
 					"contact": [
-						{ "id": "jean-louis-gomis" }
+						{
+							"id": "jean-louis-gomis"
+						}
 					]
 				}
 			]
@@ -30,9 +36,11 @@
 			"paragraphe": [
 				{
 					"titre": "La catéchèse de votre enfant",
-					"texte": "<p>Elle a lieu un dimanche après-midi par mois</p><p><i><b>Plus d'informations:</b></i><ul><li><a href=\"/res/docs/Presentation-cate-paroissial.pdf\" download=\"Presentation-cate-paroissial.pdf\">Présentation du caté paroissial</a></li><li><a href=\"/res/docs/Calendrier-et-infos-sur-le-cate-paroissial.pdf\" download=\"Calendrier-et-infos-sur-le-cate-paroissial.pdf\">Calendrier et informations sur le caté paroissial</a></li></ul></p>",
+					"texte": "<p><img src=\"../../res/img/contents/cate-temps-fort.JPG\" alt=\"Cat&eacute; Temps Fort\" width=\"500\" height=\"331\" /></p>\n<p>Elle a lieu un dimanche apr&egrave;s-midi par mois</p>\n<p><em><strong>Plus d'informations:</strong></em></p>\n<ul>\n<li><a href=\"../../res/docs/Presentation-cate-paroissial.pdf\" download=\"Presentation-cate-paroissial.pdf\">Pr&eacute;sentation du cat&eacute; paroissial</a></li>\n<li><a href=\"../../res/docs/Calendrier-et-infos-sur-le-cate-paroissial.pdf\" download=\"Calendrier-et-infos-sur-le-cate-paroissial.pdf\">Calendrier et informations sur le cat&eacute; paroissial</a></li>\n</ul>",
 					"contact": [
-						{ "id": "anne-laure-fresson" }
+						{
+							"id": "anne-laure-fresson"
+						}
 					]
 				}
 			]
@@ -41,7 +49,10 @@
 			"paragraphe": [
 				{
 					"titre": "La préparation à la 1ère confession et à la 1ère communion de votre enfant",
-					"texte": "Se fait dans le cadre de la catéchèse."
+					"texte": "<p>Se fait dans le cadre de la cat&eacute;ch&egrave;se.</p>\n<p><img src=\"../../res/img/contents/premieres-communions.jpg\" alt=\"Premi&egrave;re communion\" width=\"500\" height=\"375\" /></p>",
+					"contact": [
+						{}
+					]
 				}
 			]
 		},
@@ -49,10 +60,14 @@
 			"paragraphe": [
 				{
 					"titre": "En lien avec les écoles catholiques de nos paroisses",
-					"texte": "Pour connaitre les propositions pastorales des <b><i>écoles catholiques</i></u>, contactez les chefs d'établissement ou:<ul><li>pour Sainte Croix en Châteaubriant: Anne-Laure Fresson</li><li>pour St Joseph du Don: Marie-Madeleine Delaunay</li></ul>",
+					"texte": "<p><img src=\"../../res/img/contents/benediction-cartables.jpg\" alt=\"B&eacute;n&eacute;diction des cartables\" width=\"500\" height=\"375\" /></p>\n<p>Pour connaitre les propositions pastorales des <strong><strong><em>&eacute;coles catholiques</em>, contactez les chefs d'&eacute;tablissement ou:</strong></strong></p>\n<ul>\n<li>pour Sainte Croix en Ch&acirc;teaubriant: Anne-Laure Fresson</li>\n<li>pour St Joseph du Don: Marie-Madeleine Delaunay</li>\n</ul>",
 					"contact": [
-						{ "id": "anne-laure-fresson" },
-						{ "id": "marie-madeleine-delaunay" }
+						{
+							"id": "anne-laure-fresson"
+						},
+						{
+							"id": "marie-madeleine-delaunay"
+						}
 					]
 				}
 			]
