@@ -4,14 +4,17 @@
       <h1 property="titre"></h1>  
       <div property="description" class="tinymce"></div>
       <section mv-list id="dimanches">
-        <div mv-list-items>
+        <div mv-list-items background="url([if(!image,'#0a1128',image)])">
           <h2 property="titre" class="tinymce"></h2>
-          <aside class="folded-corner flip-card">
-            <div class="flip-card-inner">
-              <div class="dimanche flip-card-front">
+          <span class="loggued">
+            Image de fond: <img property="image" src=""/>
+          </span>
+          <aside>
+            <div>
+              <div class="dimanche">
                 <div property="dimanche" class="tinymce"></div>
               </div>
-              <div class="samedi flip-card-back">
+              <div class="samedi">
                 <h3>Le samedi soir (la veille)</h3>
                 <div property="samedi" class="tinymce"></div>
               </div>

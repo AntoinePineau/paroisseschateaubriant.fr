@@ -12,9 +12,15 @@ main[mv-app=messes] {
     #dimanches {
         display:flex;
         flex-wrap: wrap;
-    }
-    .samedi{
-        color: $jaune;
+        strong {
+            color: $jaune;
+        }
+        .samedi{
+            color: $jaune;
+            strong {
+                color: $blanc;
+            }
+        }
     }
     div[property=dimanches] {
         flex-grow: 1;

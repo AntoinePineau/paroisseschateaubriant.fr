@@ -54,7 +54,7 @@
 					]
 				},
 				{
-					"titre": "Pour les adultes",
+					"titre": "Pour les jeunes",
 					"texte": "La préparation à la <b>première communion pour les collégiens et lycéens</b>",
 					"contact": [
 						{
@@ -134,7 +134,7 @@
 			"titre": "Le sacrement du pardon",
 			"paragraphe": [
 				{
-					"texte": "Un prêtre est à votre disposition à l'église Saint-Nicolas de Châteaubriant: <ul><li>chaque mercredi  de 9h45 à 11h</li><li>chaque vendredi de 18h30 à 19h30</li></ul><br/>Des célébrations communautaires et perosnnelles du pardon sont prévues avec les grandes fêtes de l'année.",
+					"texte": "<p>Un prêtre est à votre disposition à l'église Saint-Nicolas de Châteaubriant: <ul><li>chaque mercredi  de 9h45 à 11h</li><li>chaque vendredi de 18h30 à 19h30</li></ul><br/>Des célébrations communautaires et personnelles du pardon sont prévues avec les grandes fêtes de l'année.</p>",
 					"contact": [
 						{}
 					]
@@ -145,7 +145,7 @@
 			"titre": "Les funérailles",
 			"paragraphe": [
 				{
-					"texte": "Vous qui venez d'être frappé par le deuil d'un proche, la communauté chrétienne vous porte dans sa prière et son amitié. Pour fixer le jour d'une sépulture, ainsi que l'heure et l'église, contactez une entreprise  pompes funèbres qui téléphonera à l'accueil sépulture de la paroisse. Des personnes de la paroisse vous rencontreront pour préparer avec vous la célébration de l'à-Dieu.",
+					"texte": "<p>Vous qui venez d'être frappé par le deuil d'un proche, la communauté chrétienne vous porte dans sa prière et son amitié. Pour fixer le jour d'une sépulture, ainsi que l'heure et l'église, contactez une entreprise  pompes funèbres qui téléphonera à l'accueil sépulture de la paroisse. Des personnes de la paroisse vous rencontreront pour préparer avec vous la célébration de l'à-Dieu.</p>",
 					"contact": [
 						{}
 					]
