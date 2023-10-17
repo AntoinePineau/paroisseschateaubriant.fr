@@ -8,7 +8,7 @@
 			"paragraphe": [
 				{
 					"titre": "Le baptême des petits-enfants (bébés + maternelles)",
-					"texte": "Les baptêmes sont célébrés le dimanche, à 12h, ou plusieurs fois dans l'année pendant la messe de 10h30.<br/>Pour préparer le baptême de votre enfant, vous serez conviés à 1 samedi de préparation.",
+					"texte": "<p><img src=\"../../res/img/contents/bapteme-enfant.jpg\" alt=\"Bapt&ecirc;me Enfant\" width=\"500\" height=\"333\" /></p>\n<p>Les bapt&ecirc;mes sont c&eacute;l&eacute;br&eacute;s le dimanche, &agrave; 12h, ou plusieurs fois dans l'ann&eacute;e pendant la messe de 10h30.<br />Pour pr&eacute;parer le bapt&ecirc;me de votre enfant, vous serez convi&eacute;s &agrave; 1 samedi de pr&eacute;paration.</p>",
 					"contact": [
 						{
 							"id": "helene-barat"
@@ -37,7 +37,8 @@
 						{
 							"id": "catherine-viguerie"
 						}
-					]
+					],
+					"texte": "<p><img src=\"../../res/img/contents/bapteme-adulte.jpg\" alt=\"Bapt&ecirc;me Adulte\" width=\"500\" height=\"375\" /></p>"
 				}
 			]
 		},
@@ -71,7 +72,8 @@
 						}
 					]
 				}
-			]
+			],
+			"description": "<p><img src=\"../../res/img/contents/premieres-communions.jpg\" alt=\"Premi&egrave;re communion\" width=\"500\" height=\"375\" /></p>"
 		},
 		{
 			"titre": "La Confirmation",
@@ -107,7 +109,8 @@
 						}
 					]
 				}
-			]
+			],
+			"description": "<p><img src=\"../../res/img/contents/mariage.jpg\" alt=\"Mariage\" width=\"500\" height=\"333\" /></p>"
 		},
 		{
 			"titre": "Le sacrement des malades",
