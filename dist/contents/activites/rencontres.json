@@ -86,7 +86,14 @@
 			]
 		},
 		{
-			"description": "<div class=\"highlight\">En dehors de ces groupes réguliers, la paroisse organise des rencontres fraternelles ponctuelles qui soudent la « famille paroissiale »: </div>"
+			"description": "<div class=\"highlight\">En dehors de ces groupes réguliers, la paroisse organise des rencontres fraternelles ponctuelles qui soudent la « famille paroissiale »: </div>",
+			"paragraphe": [
+				{
+					"contact": [
+						{}
+					]
+				}
+			]
 		},
 		{
 			"titre": "La Pause Café",
@@ -116,7 +123,7 @@
 		},
 		{
 			"titre": "Le Tro Mée",
-			"description": "L'été, une marche-pèlerinage fraternelle relie les clochers de notre doyenné.",
+			"description": "<p>L'&eacute;t&eacute;, une marche-p&egrave;lerinage fraternelle relie les clochers de notre doyenn&eacute;.</p>\n<p><img src=\"../../res/img/contents/tro-mee.JPG\" alt=\"Tro M&eacute;e\" width=\"500\" height=\"333\" /></p>",
 			"paragraphe": [
 				{
 					"contact": [
@@ -142,7 +149,14 @@
 		},
 		{
 			"titre": "Les verres de l'amitié",
-			"description": "Après les messes des familles"
+			"description": "Après les messes des familles",
+			"paragraphe": [
+				{
+					"contact": [
+						{}
+					]
+				}
+			]
 		},
 		{
 			"titre": "Rencontre avec la communauté musulmane",
