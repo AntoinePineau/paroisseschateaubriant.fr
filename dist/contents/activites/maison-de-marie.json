@@ -1,6 +1,6 @@
 {
 	"titre": "La Maison de Marie",
-	"description": "<p><strong>\"La Maison de Marie\"</strong> situ&eacute;e au <a title=\"Voir sur Google Maps\" href=\"https://goo.gl/maps/GEowiKv56yzx86Fw7\" target=\"_blank\" rel=\"noopener\">25 bis rue Saint-Georges 44110 Ch&acirc;teaubriant</a> est le Centre de vie paroissiale.</p>",
+	"description": "<p><strong><img src=\"../../res/img/contents/la-maison-de-marie.png\" alt=\"Logo La Maison de Marie\" width=\"305\" height=\"292\" /></strong></p>\n<p><strong>\"La Maison de Marie\"</strong> situ&eacute;e au <a title=\"Voir sur Google Maps\" href=\"https://goo.gl/maps/GEowiKv56yzx86Fw7\" target=\"_blank\" rel=\"noopener\">25 bis rue Saint-Georges 44110 Ch&acirc;teaubriant</a> est le Centre de vie paroissiale.</p>",
 	"blocs": [
 		{
 			"titre": "On y trouve:",
@@ -11,7 +11,7 @@
 							"id": "jean-paul-thomas"
 						}
 					],
-					"texte": "Contacter:",
+					"texte": "<p><img src=\"../../res/img/contents/jardin-paroissial.jpg\" alt=\"Jardin Paroissial\" width=\"512\" height=\"236\" /></p>\n<p>Contacter:</p>",
 					"titre": "Un jardin paroissial"
 				},
 				{
@@ -20,7 +20,7 @@
 							"id": "didier-blanc"
 						}
 					],
-					"texte": "Contacter:",
+					"texte": "<p><img src=\"../../res/img/contents/tricot.jpg\" alt=\"Tricot\" width=\"520\" height=\"390\" /></p>\n<p>Contacter:</p>",
 					"titre": "Des ateliers de couture, de tricot, de produits ménagers bios et de cuisine"
 				}
 			]
@@ -29,7 +29,10 @@
 			"titre": "C'est aussi le lieu de beaucoup d'autres activités paroissiales",
 			"paragraphe": [
 				{
-					"texte": "<ul><li>la catéchèse des enfants</li><li>l'aumônerie des jeunes</li><li>le parcours Alpha</li><li>la préparation au baptême</li><li>la pause-café</li><li>la formation biblique</li><li>etc.</li></ul>"
+					"texte": "<p><img src=\"../../res/img/contents/cate-temps-fort-2.jpg\" alt=\"Cat&eacute; Temps fort\" width=\"500\" height=\"375\" /></p>\n<ul>\n<li>la cat&eacute;ch&egrave;se des enfants</li>\n<li>l'aum&ocirc;nerie des jeunes</li>\n<li>le parcours Alpha</li>\n<li>la pr&eacute;paration au bapt&ecirc;me</li>\n<li>la pause-caf&eacute;</li>\n<li>la formation biblique</li>\n<li>etc.</li>\n</ul>",
+					"contact": [
+						{}
+					]
 				}
 			]
 		}
