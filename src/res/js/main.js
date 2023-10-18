@@ -12,6 +12,12 @@ Mavo.Functions.telify = $.extend(readable => {
     multiValued: true
 });
 
+function openCalendar(url, w, h) {
+  var t=screen.availTop + (screen.availHeight - h) / 2,
+  l=screen.availLeft + (screen.availWidth - w) / 2;
+  window.open(url, 'calendrier', 'menubar=no,status=no,location=no,resizable=no,scrollbars=no,toolbar=no,width='+w+',height='+h+',top='+t+',left='+l);
+}
+
 var contactLoaded = false;
 function loadContacts() {
     if(contactLoaded) {
