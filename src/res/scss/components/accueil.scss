@@ -12,6 +12,9 @@ main[mv-app=accueil] {
             text-shadow: 1px 3px $bleu;
             margin: 8vh auto;
         }
+        .video-container {
+            
+        }
         video {
             z-index: -1;
             width: 100%;
@@ -19,8 +22,9 @@ main[mv-app=accueil] {
             top: 0;
             left: 0;
             @media (max-width: $tablet) {
-                width: auto;
-                height: 100%;
+               width: auto;
+               height: 100%;
+               left: -50%;
             }
         }
     }
