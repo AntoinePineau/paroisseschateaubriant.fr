@@ -88,7 +88,8 @@
 					"description": "Voici les groupes scouts les plus proches de la paroisse: <ul><li><b>Pouancé</b>: Scouts et Guides de France, <a href=\"https://sites.sgdf.fr/haut-anjou-pouance/\" target=\"_blank\">https://sites.sgdf.fr/haut-anjou-pouance/</a><li><li><b>Nort-sur-Erdre</b>: Scouts et Guides d'Europe, <a href=\"http://1e-2e-nortsurerdre.agse.fr\" target=\"_blank\">http://1e-2e-nortsurerdre.agse.fr</a></li></ul>",
 					"contact": [
 						{}
-					]
+					],
+					"texte": "<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\">Voici les groupes scouts les plus proches de la paroisse :<br /><span style=\"font-size: 1.1em;\">Pouanc&eacute;, Scouts et Guides de France, <a title=\"Haut-Anjou Pouanc&eacute;\" href=\"https://sites.sgdf.fr/haut-anjou-pouance/\" target=\"_blank\" rel=\"noopener\">https://sites.sgdf.fr/haut-anjou-pouance/</a><br /></span><span style=\"font-size: 1.1em;\">Nort-sur-Erdre, Scouts et Guides d&rsquo;Europe, <a title=\"Nort-sur-Erdre\" href=\"http://1e-2e-nortsurerdre.agse.fr/\" target=\"_blank\" rel=\"noopener\">http://1e-2e-nortsurerdre.agse.fr/</a></span></p>\n<p class=\"MsoNormal\">&nbsp;</p>"
 				},
 				{
 					"titre": "Des questions sur votre avenir ?",
