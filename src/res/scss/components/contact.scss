@@ -52,6 +52,10 @@ aside[mv-list=contact] {
   div[mv-list-items]{
     margin: 0 auto;
   }
+  
+  @media (max-width: $tablet) {
+    margin: 0 1em;
+  }
 }
 div.contact {
   border: solid 1px $bleu;
