@@ -38,14 +38,14 @@
               <li mv-list-item>
                 <span class="loggued" property="libelle"></span> 
                 <span class="loggued" property="url"></span> 
-                <a href="[url]" class="desktop-link">[libelle]</a>
+                <a href="[url]" class="[if(!sousurl,'link')]">[libelle]</a>
                 <input type="checkbox" id="show-[idify(libelle)]">
-                <label for="show-[idify(libelle)]">[libelle]</label>
-                <ul mv-list property="sousmenu" class="[if(!sousurl,loggued)]">
+                <label for="show-[idify(libelle)]" class="[if(!sousurl,'hidden')]">[libelle]</label>
+                <ul mv-list property="sousmenu" class="[if(!sousurl,'loggued')]">
                   <li mv-list-item>
                     <span class="loggued" property="souslibelle"></span> 
                     <span class="loggued" property="sousurl"></span> 
-                    <a href="[sousurl]">[souslibelle]</a>
+                    <a href="[sousurl]" class="link">[souslibelle]</a>
                   </li>
                 </ul>
               </li>

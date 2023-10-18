@@ -56,7 +56,20 @@ header {
         transition: all 0.3s ease;
       }
       .content .links li label{
-        display: none;
+        visibility: hidden;
+
+        @media (max-width: $tablet) {
+          visibility: visible;
+          &.hidden {
+            visibility: hidden;
+          }
+        }
+
+      }
+      @media (max-width: $tablet) {
+        .content .links li a:not(.link) {
+          display: none;
+        }
       }
       .content .links li a:hover,
       .content .links li label:hover{
@@ -180,7 +193,7 @@ header {
         }
       }
       
-      @media screen and (max-width: 900px){
+      @media screen and (max-width: $tablet){
         .wrapper .menu-icon{
           display: block;
         }
@@ -229,9 +242,7 @@ header {
           max-height: 0px;
           overflow: hidden;
         }
-        .content .links #show-features:checked ~ ul,
-        .content .links #show-services:checked ~ ul,
-        .content .links #show-items:checked ~ ul{
+        .content .links input:checked ~ ul{
           max-height: 100vh;
         }
         .content .links ul li{
