@@ -57,14 +57,25 @@ header {
       }
       .content .links li label{
         visibility: hidden;
+        font-size: 0;
 
         @media (max-width: $tablet) {
           visibility: visible;
+          font-size: 18px;
           &.hidden {
             visibility: hidden;
-          }
+            font-size: 0;
+          } 
         }
 
+      }
+      label.search-icon {
+        @include transition();
+        &:hover {
+          @include transition();
+          color: $blanc;
+          background: $rouge;
+        }
       }
       @media (max-width: $tablet) {
         .content .links li a:not(.link) {
