@@ -18,6 +18,10 @@ main[mv-app=accueil] {
             position: fixed;
             top: 0;
             left: 0;
+            @media (max-width: $tablet) {
+                width: auto;
+                height: 100%;
+            }
         }
     }
 }
