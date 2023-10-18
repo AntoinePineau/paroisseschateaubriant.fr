@@ -8,15 +8,28 @@
 				{
 					"texte": "Dans chacune des maisons de retraite une équipe d'aumônerie assure la présence fraternelle de la paroisse auprès des personnes âgées. Elle anime des temps de prière réguliers et des eucharisties.<br><br><ul><li>pour Rougé, Christiane Lépicier</li><li>pour la Mapa et Béré, Annick-Marie Bucquet</li><li>pour Moisdon-la-Rivière, Sœur Imelda Piton</li><li>pour St Julien de Vouvantes, Annie Halet</li><li>pour Issé, Nicole Massé</li><li>pour St Vincent des Landes: Marie-Noëlle Racineux</li><ul>",
 					"contact": [
-						{ "id": "christiane-lepicier" },
-						{ "id": "annick-marie-bucquet" },
-						{ "id": "soeur-imelda-piton" },
-						{ "id": "annie-halet" },
-						{ "id": "nicole-masse" },
-						{ "id": "marie-noelle-racineux" }
+						{
+							"id": "christiane-lepicier"
+						},
+						{
+							"id": "annick-marie-bucquet"
+						},
+						{
+							"id": "soeur-imelda-piton"
+						},
+						{
+							"id": "annie-halet"
+						},
+						{
+							"id": "nicole-masse"
+						},
+						{
+							"id": "marie-noelle-racineux"
+						}
 					]
 				}
-			]
+			],
+			"description": "<p><img src=\"../../res/img/contents/service-personnes-agees.jpg\" alt=\"Au service des personnes &acirc;g&eacute;es\" width=\"350\" height=\"525\" /></p>"
 		},
 		{
 			"titre": "Au service des malades en hôpital",
@@ -24,7 +37,9 @@
 				{
 					"texte": "Il existe une aumônerie à l'hôpital de Châteaubriant",
 					"contact": [
-						{ "id": "annick-marie-bucquet" }
+						{
+							"id": "annick-marie-bucquet"
+						}
 					]
 				}
 			]
@@ -35,11 +50,21 @@
 				{
 					"texte": "Si l'âge ou la maladie vous retiennent chez vous, et si vous désirez recevoir la communion ou tout simplement une visite, l'équipe de visite à domicile est à votre disposition.",
 					"contact": [
-						{ "id": "marie-claude-luette" },
-						{ "id": "marie-madeleine-boissinot" },
-						{ "id": "marie-cochet" },
-						{ "id": "catherine-bretaudeau" },
-						{ "id": "joel-macario" }
+						{
+							"id": "marie-claude-luette"
+						},
+						{
+							"id": "marie-madeleine-boissinot"
+						},
+						{
+							"id": "marie-cochet"
+						},
+						{
+							"id": "catherine-bretaudeau"
+						},
+						{
+							"id": "joel-macario"
+						}
 					]
 				}
 			]
@@ -50,10 +75,13 @@
 				{
 					"texte": "La PPH (Pastorale des personnes handicapées) se réunit régulièrement pour des temps d'échanges et pour participer ensemble à l'eucharistie dominicale.",
 					"contact": [
-						{ "id": "alain-esnault" }
+						{
+							"id": "alain-esnault"
+						}
 					]
 				}
-			]
+			],
+			"description": "<p><img src=\"../../res/img/contents/pastorale-personnes-handicapees.jpg\" alt=\"Au service des personnes handicap&eacute;es\" width=\"500\" height=\"315\" /></p>"
 		},
 		{
 			"titre": "Au service des personnes en précarité",
@@ -62,14 +90,18 @@
 					"titre": "La société Saint Vincent de Paul",
 					"texte": "9 rue du Prieuré de Béré, Châteaubriant ; chaque mardi : de 8h30 à 11h30 , réception de vêtements, bibelots ou divers. De 13h30 à 16h30 : accueil des familles. Le 3ème samedi de chaque mois : de 9h à 12h, ouverture du  vestiaire à tous.",
 					"contact": [
-						{ "id": "societe-saint-vincent-de-paul" }
+						{
+							"id": "societe-saint-vincent-de-paul"
+						}
 					]
 				},
 				{
 					"titre": "Le Secours Catholique",
 					"texte": "A Châteaubriant, le local est rue Pasteur (en face MMA), contactez le <a href=\"tel:+33786496075\">07 86 49 60 75. Sur Saint Joseph du Don, contacter Nicole Massé",
 					"contact": [
-						{ "id": "nicole-masse" }
+						{
+							"id": "nicole-masse"
+						}
 					]
 				}
 			]
@@ -80,9 +112,15 @@
 				{
 					"texte": "Le CCFD (Comité Catholique contre la Faim et pour le Développement) sensibilise à la coopération avec les pays du Sud.",
 					"contact": [
-						{ "id": "jean-francois-blin" },
-						{ "id": "beatrice-davenas" },
-						{ "id": "marie-france-menard" }
+						{
+							"id": "jean-francois-blin"
+						},
+						{
+							"id": "beatrice-davenas"
+						},
+						{
+							"id": "marie-france-menard"
+						}
 					]
 				}
 			]
