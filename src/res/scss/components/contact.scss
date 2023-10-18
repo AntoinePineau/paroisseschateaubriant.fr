@@ -19,6 +19,9 @@ main[mv-app=contact], main[mv-app=recherche] {
       font-size: .85em;
       margin-left: 1em;
       display: flex;
+      @media (max-width: $tablet) {
+        flex-direction: column;
+      }
       select, input {
         font-size: .85em;
         padding: .5em;
@@ -85,6 +88,9 @@ div.contact {
     }
     li {
       font-size: .85em;
+      &::marker {
+        font-size: 1em;
+      }
       &:first-child:not(:empty)::before {
         content: "Activités";
         margin-top:-1.25em;
