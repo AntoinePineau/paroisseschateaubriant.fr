@@ -1,42 +1,65 @@
 {
 	"titre": "Les équipes de coordination",
 	"blocs": [
-		{			
+		{
 			"titre": "Une équipe pastorale",
 			"paragraphe": [
 				{
 					"titre": "Des prêtres à votre service:",
 					"contact": [
-						{ "id": "patrice-eon" },
-						{ "id": "jean-louis-gomis" }
+						{
+							"id": "patrice-eon"
+						},
+						{
+							"id": "jean-louis-gomis"
+						}
 					]
 				},
 				{
 					"titre": "Des diacres à votre service:",
 					"contact": [
-						{ "id": "joel-macario" },
-						{ "id": "alain-esnault" },
-						{ "id": "jean-paul-horhant" }
+						{
+							"id": "joel-macario"
+						},
+						{
+							"id": "alain-esnault"
+						},
+						{
+							"id": "jean-paul-horhant"
+						}
 					]
 				},
 				{
 					"titre": "Des LEMES (Laïcs En Mission Ecclésiale) à votre service:",
 					"contact": [
-						{ "id": "anne-laure-fresson" },
-						{ "id": "marie-claire-fougere" }
+						{
+							"id": "anne-laure-fresson"
+						},
+						{
+							"id": "marie-claire-fougere"
+						}
 					]
 				},
 				{
 					"titre": "Une personne chargée de l'accueil et du secrétariat:",
 					"contact": [
-						{ "id": "beatrice-macario" }
+						{
+							"id": "beatrice-macario"
+						}
 					]
 				}
 			]
 		},
 		{
 			"titre": "Un Conseil Pastoral d'Evangélisation",
-			"description": "<p>Le Conseil Pastoral d'Evangélisation, comme son nom l'indique, a pour but de conseiller le curé dans la conduite de la paroisse. C'est Jésus, le Bon Pasteur, qui, par son Esprit doit diriger notre paroisse. C'est donc sa vision, sa volonté sur notre communauté paroissiale, que le Conseil essaye de discerner et de mettre en œuvre. Il discerne les axes pastoraux pour l'année - et les années - à venir, ainsi que les moyens à prendre pour leur réalisation. Il passe aussi en revue, les grands domaines de la vie paroissiale, pour en faire une évaluation. C'est en quelque sorte, le Conseil d'Orientation de la paroisse. Il rassemble les prêtres, les diacres, les LEMES, et d'autres laïcs des deux paroisses.</p>"
+			"description": "<p><img src=\"../res/img/contents/conseil-diocesain.jpg\" alt=\"Sonseil Pastoral\" width=\"500\" height=\"413\" /></p>\n<p>Le Conseil Pastoral d'Evang&eacute;lisation, comme son nom l'indique, a pour but de conseiller le cur&eacute; dans la conduite de la paroisse. C'est J&eacute;sus, le Bon Pasteur, qui, par son Esprit doit diriger notre paroisse. C'est donc sa vision, sa volont&eacute; sur notre communaut&eacute; paroissiale, que le Conseil essaye de discerner et de mettre en &oelig;uvre. Il discerne les axes pastoraux pour l'ann&eacute;e - et les ann&eacute;es - &agrave; venir, ainsi que les moyens &agrave; prendre pour leur r&eacute;alisation. Il passe aussi en revue, les grands domaines de la vie paroissiale, pour en faire une &eacute;valuation. C'est en quelque sorte, le Conseil d'Orientation de la paroisse. Il rassemble les pr&ecirc;tres, les diacres, les LEMES, et d'autres la&iuml;cs des deux paroisses.</p>",
+			"paragraphe": [
+				{
+					"contact": [
+						{}
+					]
+				}
+			]
 		},
 		{
 			"titre": "Les deux Conseils pour les Affaires Économiques Paroissiales",
@@ -45,115 +68,158 @@
 				{
 					"titre": "Châteaubriant",
 					"contact": [
-						{ "id": "damien-carette" },
-						{ "id": "charles-de-la-bretesche" }
+						{
+							"id": "damien-carette"
+						},
+						{
+							"id": "charles-de-la-bretesche"
+						}
 					]
 				},
 				{
 					"titre": "Ruffigné et Saint-Aubin des Châteaux",
 					"contact": [
-						{ "id": "patrick-briand" }
+						{
+							"id": "patrick-briand"
+						}
 					]
 				},
 				{
 					"titre": "Rougé",
 					"contact": [
-						{ "id": "jean-yves-ferron" }
+						{
+							"id": "jean-yves-ferron"
+						}
 					]
 				},
 				{
 					"titre": "Fercé",
 					"contact": [
-						{ "id": "anne-jegard" }
+						{
+							"id": "anne-jegard"
+						}
 					]
 				},
 				{
 					"titre": "Soulvache",
 					"contact": [
-						{ "id": "marie-noelle-rinfray" }
+						{
+							"id": "marie-noelle-rinfray"
+						}
 					]
 				},
 				{
 					"titre": "Soudan",
 					"contact": [
-						{ "id": "remy-menard" }
+						{
+							"id": "remy-menard"
+						}
 					]
 				},
 				{
 					"titre": "Villepôt",
 					"contact": [
-						{ "id": "marie-claude-luette" },
-						{ "id": "bernard-minier" }
+						{
+							"id": "marie-claude-luette"
+						},
+						{
+							"id": "bernard-minier"
+						}
 					]
 				},
 				{
 					"titre": "Noyal-sur-Brutz",
 					"contact": [
-						{ "id": "marie-paule-boisnard" }
+						{
+							"id": "marie-paule-boisnard"
+						}
 					]
 				},
 				{
 					"titre": "Louisfert",
 					"contact": [
-						{ "id": "anne-guerin" }
+						{
+							"id": "anne-guerin"
+						}
 					]
 				},
 				{
 					"titre": "Saint-Vincent-des-Landes",
 					"contact": [
-						{ "id": "jean-claude-bizeul" }
+						{
+							"id": "jean-claude-bizeul"
+						}
 					]
 				},
 				{
 					"titre": "Issé",
 					"contact": [
-						{ "id": "jean-moise-gledel" }
+						{
+							"id": "jean-moise-gledel"
+						}
 					]
 				},
 				{
 					"titre": "Moisdon la Rivière",
 					"contact": [
-						{ "id": "loic-roul" }
+						{
+							"id": "loic-roul"
+						}
 					]
 				},
 				{
 					"titre": "La Meilleraye de Bretagne",
 					"contact": [
-						{ "id": "yannick-chantome" }
+						{
+							"id": "yannick-chantome"
+						}
 					]
 				},
 				{
 					"titre": "Grand Auverné et Petit Auverné",
 					"contact": [
-						{ "id": "didier-gautier" }
+						{
+							"id": "didier-gautier"
+						}
 					]
 				},
 				{
 					"titre": "Erbray",
 					"contact": [
-						{ "id": "joseph-jannault" }
+						{
+							"id": "joseph-jannault"
+						}
 					]
 				},
 				{
 					"titre": "La Chapelle Glain",
 					"contact": [
-						{ "id": "stephane-hubert" }
+						{
+							"id": "stephane-hubert"
+						}
 					]
 				},
 				{
 					"titre": "Saint-Julien de Vouvantes",
 					"contact": [
-						{ "id": "morgane-cousin" }
+						{
+							"id": "morgane-cousin"
+						}
 					]
 				},
 				{
 					"titre": "Juigné-des-Moutiers",
 					"contact": [
-						{ "id": "marcel-angel" }
+						{
+							"id": "marcel-angel"
+						}
 					]
 				},
 				{
-					"texte": "La vie des prêtres et les frais de fonctionnement de la paroisse sont assurés exclusivement par les dons des fidèles (Denier de l'Église, quêtes), par les offrandes faites à l'occasion des célébrations (baptêmes, mariages, sépultures, messes), ou par des legs. Les dons versés pour le Denier de l'Église bénéficient d'une réduction d'impôt pouvant aller jusqu'à 66%. Les chèques sont à libeller à l'ordre de  <i>« Paroisse Sainte Croix en Châteaubriant »</i>  ou <i>« Paroisse Saint Joseph du Don »</i>. Consulter le site du diocèse <a href=\"https://diocese44.fr/\" target=\"_blank\">https://diocese44.fr/</a>"
+					"texte": "La vie des prêtres et les frais de fonctionnement de la paroisse sont assurés exclusivement par les dons des fidèles (Denier de l'Église, quêtes), par les offrandes faites à l'occasion des célébrations (baptêmes, mariages, sépultures, messes), ou par des legs. Les dons versés pour le Denier de l'Église bénéficient d'une réduction d'impôt pouvant aller jusqu'à 66%. Les chèques sont à libeller à l'ordre de  <i>« Paroisse Sainte Croix en Châteaubriant »</i>  ou <i>« Paroisse Saint Joseph du Don »</i>. Consulter le site du diocèse <a href=\"https://diocese44.fr/\" target=\"_blank\">https://diocese44.fr/</a>",
+					"contact": [
+						{}
+					]
 				}
 			]
 		},
@@ -162,20 +228,32 @@
 			"paragraphe": [
 				{
 					"titre": "« Le Souffle des paroisses »",
-					"texte": "<p>bulletin paroissial qui paraît toutes les deux semaines</p><p>Abonnement (envoi postal ou par mail) : pour s'abonner contactez <a href=\"mailto:sccsjd@gmail.com\">sccsjd@gmail.com</a></p>"
+					"texte": "<p><img src=\"../res/img/contents/souffle.png\" alt=\"Le Souffle des Paroisses\" width=\"720\" height=\"256\" /></p>\n<p>bulletin paroissial qui para&icirc;t toutes les deux semaines</p>\n<p>Abonnement (envoi postal ou par mail) : pour s'abonner contactez <a href=\"mailto:sccsjd@gmail.com\">sccsjd@gmail.com</a></p>",
+					"contact": [
+						{}
+					]
 				},
 				{
 					"titre": "le site internet paroissial",
-					"texte": "<p><a href=\"https://www.paroisseschateaubriant.fr\">https://www.paroisseschateaubriant.fr</a></p>"
+					"texte": "<p><a href=\"https://www.paroisseschateaubriant.fr\">https://www.paroisseschateaubriant.fr</a></p>",
+					"contact": [
+						{}
+					]
 				},
 				{
 					"titre": "la page Facebook",
-					"texte": "<p><a href=\"https://www.facebook.com/pages/Sainte-Croix-en-Ch%C3%A2teaubriant/161344020586714\" target=\"_blank\">Paroisses du pays de Châteaubriant</a></p>"
+					"texte": "<p><a href=\"https://www.facebook.com/pages/Sainte-Croix-en-Ch%C3%A2teaubriant/161344020586714\" target=\"_blank\">Paroisses du pays de Châteaubriant</a></p>",
+					"contact": [
+						{}
+					]
 				},
 				{
-					"texte": "<p>Pour passer une annonce sur le Souffle, écrire à <a href=\"mailto:sccsjd@gmail.com\">sccsjd@gmail.com</a></p><p>Pour passer une annonce sur les réseaux sociaux, écrire à <a href=\"mailto:comm.paroissechateaubriant@gmail.com\">comm.paroissechateaubriant@gmail.com</a></p>"
+					"texte": "<p>Pour passer une annonce sur le Souffle, écrire à <a href=\"mailto:sccsjd@gmail.com\">sccsjd@gmail.com</a></p><p>Pour passer une annonce sur les réseaux sociaux, écrire à <a href=\"mailto:comm.paroissechateaubriant@gmail.com\">comm.paroissechateaubriant@gmail.com</a></p>",
+					"contact": [
+						{}
+					]
 				}
-			]			
+			]
 		}
-	]	
+	]
 }
