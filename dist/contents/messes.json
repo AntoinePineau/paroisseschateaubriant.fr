@@ -1,6 +1,6 @@
 {
 	"titre": "Horaires des messes",
-	"description": "Le grand rendez-vous de notre communauté paroissiale, c'est l'eucharistie du dimanche. C'est là que se tisse entre nous une communion fraternelle dans le Christ. Et c'est là que nous puisons des énergies nouvelles pour repartir évangéliser nos milieux de vie.",
+	"description": "<p>Le grand rendez-vous de notre communaut&eacute; paroissiale, c'est l'eucharistie du dimanche. C'est l&agrave; que se tisse entre nous une communion fraternelle dans le Christ. Et c'est l&agrave; que nous puisons des &eacute;nergies nouvelles pour repartir &eacute;vang&eacute;liser nos milieux de vie.</p>\n<p><img src=\"../res/img/contents/messe.jpg\" alt=\"Messe\" width=\"720\" height=\"540\" /></p>",
 	"dimanches": [
 		{
 			"titre": "1<sup>er</sup> dimanche du mois",
@@ -69,6 +69,9 @@
 	"semaine": {
 		"titre": "Les messes de la semaine",
 		"jour": [
+			{
+				"messe": "<p><img src=\"../res/img/contents/messe-familles.jpg\" alt=\"Messe des familles\" width=\"500\" height=\"333\" /></p>"
+			},
 			{
 				"titre": "Le mardi",
 				"messe": "<p>Messe à <b>9h00</b> à Soudan<br/>Messe à <b>18h30</b> à l'église de Béré de Châteaubriant</p>"
