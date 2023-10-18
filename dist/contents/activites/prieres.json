@@ -6,9 +6,13 @@
 			"titre": "La prière de Laudes",
 			"paragraphe": [
 				{
-					"texte": "<p>chaque matin (sauf dimanche) de 8h20 &agrave; 8h35 &agrave; l'&eacute;glise Saint-Nicolas de Ch&acirc;teaubriant</p>"
+					"texte": "<p>chaque matin (sauf dimanche) de 8h20 &agrave; 8h35 &agrave; l'&eacute;glise Saint-Nicolas de Ch&acirc;teaubriant</p>",
+					"contact": [
+						{}
+					]
 				}
-			]
+			],
+			"description": "<p><img src=\"../../res/img/contents/priere.jpg\" alt=\"Pri&egrave;re\" width=\"500\" height=\"281\" /></p>"
 		},
 		{
 			"titre": "La prière d'adoration",
@@ -22,7 +26,10 @@
 					]
 				},
 				{
-					"texte": "Le 1<sup>er</sup> mercredi du mois, il y a aussi adoration à La Meilleraye de Bretagne, à 17h45."
+					"texte": "Le 1<sup>er</sup> mercredi du mois, il y a aussi adoration à La Meilleraye de Bretagne, à 17h45.",
+					"contact": [
+						{}
+					]
 				}
 			]
 		},
@@ -63,7 +70,8 @@
 						}
 					]
 				}
-			]
+			],
+			"description": "<p><img src=\"../../res/img/contents/prieres-defunts.jpg\" alt=\"Pri&egrave;re pour les D&eacute;funts\" width=\"500\" height=\"262\" /></p>"
 		},
 		{
 			"titre": "La prière des Mères",
@@ -76,7 +84,8 @@
 						}
 					]
 				}
-			]
+			],
+			"description": "<p><img src=\"../../res/img/contents/priere-interieure.jpg\" alt=\"Pri&egrave;re de M&egrave;res\" width=\"500\" height=\"262\" /></p>"
 		},
 		{
 			"titre": "La prière œcuménique",
@@ -128,7 +137,8 @@
 						}
 					]
 				}
-			]
+			],
+			"description": "<p><img src=\"../../res/img/contents/maisons-de-marie.jpg\" alt=\"Les Maisons de Marie\" width=\"500\" height=\"281\" /></p>"
 		}
 	]
 }
