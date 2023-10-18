@@ -61,7 +61,7 @@
 		},
 		{
 			"titre": "Le groupe « Goûter ensemble la Parole de Dieu »",
-			"description": "Se réunit 1 lundi soir tous les mois pour une lecture priée de la Parole.",
+			"description": "<p><img src=\"../../res/img/contents/gouter-la-parole.jpg\" alt=\"Go&ucirc;ter la Parole\" width=\"222\" height=\"181\" /></p>\n<p>Se r&eacute;unit 1 lundi soir tous les mois pour une lecture pri&eacute;e de la Parole.</p>",
 			"paragraphe": [
 				{
 					"contact": [
@@ -86,7 +86,7 @@
 			]
 		},
 		{
-			"description": "<div class=\"highlight\">En dehors de ces groupes réguliers, la paroisse organise des rencontres fraternelles ponctuelles qui soudent la « famille paroissiale »: </div>",
+			"description": "<div class=\"highlight\">En dehors de ces groupes r&eacute;guliers, la paroisse organise des rencontres fraternelles ponctuelles qui soudent la &laquo; famille paroissiale &raquo;:</div>",
 			"paragraphe": [
 				{
 					"contact": [
@@ -97,7 +97,7 @@
 		},
 		{
 			"titre": "La Pause Café",
-			"description": "Le 1er dimanche du mois, un après-midi convivial autour de jeux de société à la Maison de Marie.",
+			"description": "<p><img src=\"../../res/img/contents/pause-cafe.jpg\" alt=\"Pause Caf&eacute;\" width=\"500\" height=\"333\" /></p>\n<p>Le 1er dimanche du mois, un apr&egrave;s-midi convivial autour de jeux de soci&eacute;t&eacute; &agrave; la Maison de Marie.</p>",
 			"paragraphe": [
 				{
 					"contact": [
@@ -110,7 +110,7 @@
 		},
 		{
 			"titre": "Les pèlerinages",
-			"description": "Trois pèlerinages d'1 jour sont organisés dans l'année. Ainsi que la participation au pèlerinage diocésain à Lourdes.",
+			"description": "<p><img src=\"../../res/img/contents/pelerinage.jpg\" alt=\"P&eacute;lerinage\" width=\"500\" height=\"333\" /></p>\n<p>Trois p&egrave;lerinages d'1 jour sont organis&eacute;s dans l'ann&eacute;e. Ainsi que la participation au p&egrave;lerinage dioc&eacute;sain &agrave; Lourdes.</p>",
 			"paragraphe": [
 				{
 					"contact": [
@@ -136,7 +136,7 @@
 		},
 		{
 			"titre": "Les rencontres du cinéma chrétien",
-			"description": "En partenariat avec le cinéma de Châteaubriant, la paroisse organise plusieurs projections de films à dimension chrétienne, suivies de témoignages-débats",
+			"description": "<p><img src=\"../../res/img/contents/cinema-chretien.jpg\" alt=\"Cin&eacute;ma Chr&eacute;tien\" width=\"350\" height=\"499\" /></p>\n<p>En partenariat avec le cin&eacute;ma de Ch&acirc;teaubriant, la paroisse organise plusieurs projections de films &agrave; dimension chr&eacute;tienne, suivies de t&eacute;moignages-d&eacute;bats</p>",
 			"paragraphe": [
 				{
 					"contact": [
@@ -160,7 +160,7 @@
 		},
 		{
 			"titre": "Rencontre avec la communauté musulmane",
-			"description": "Une famille véritable garde sa porte ouverte pour accueillir largement. Les chrétiens de la paroisse sont ainsi heureux de cultiver des liens d'amitié fraternelle avec la communauté musulmane de Châteaubriant (visite mutuelle, repas, action commune).",
+			"description": "<p>Une famille v&eacute;ritable garde sa porte ouverte pour accueillir largement. Les chr&eacute;tiens de la paroisse sont ainsi heureux de cultiver des liens d'amiti&eacute; fraternelle avec la communaut&eacute; musulmane de Ch&acirc;teaubriant (visite mutuelle, repas, action commune).</p>\n<p><img src=\"../../res/img/contents/office-interreligieux-reconciliation.jpg\" alt=\"Office Interreligieux\" width=\"450\" height=\"300\" /></p>",
 			"paragraphe": [
 				{
 					"contact": [
