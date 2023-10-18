@@ -3,7 +3,7 @@
 		{
 			"permanence": [
 				{
-					"titre": "Permanences Sainte-Croix",
+					"titre": "Permanences Sainte-Croix en Châteaubriant",
 					"url_google_maps": "https://goo.gl/maps/Doxdq8tjsZw",
 					"adresse": [
 						"Presbytère",
@@ -12,14 +12,14 @@
 					],
 					"phone": "02 40 81 02 92",
 					"mail": "paroisse.chateaubriant@gmail.com",
-					"horaires": "<p>Du lundi au samedi de 9h30 &agrave; 11h30</p>\n<p><img src=\"https://paroissechateaubriant.netlify.app/res/img/contents/sainte-croix-en-chateaubriant.png\" alt=\"sainte-Croix en Ch&acirc;teaubriant\" /></p>"
+					"horaires": "<p>Du lundi au samedi de 9h30 &agrave; 11h30</p>\n<p><img src=\"https://paroissechateaubriant.netlify.app/res/img/contents/sainte-croix-en-chateaubriant.png\" alt=\"Sainte-Croix en Ch&acirc;teaubriant\" /></p>"
 				}
 			]
 		},
 		{
 			"permanence": [
 				{
-					"titre": "Permanences Saint-Joseph",
+					"titre": "Permanences Saint-Joseph du Don",
 					"url_google_maps": "https://goo.gl/maps/gJemsMKAbY92",
 					"adresse": [
 						"Maison paroissiale",
