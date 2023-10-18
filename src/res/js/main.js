@@ -131,6 +131,7 @@ function search(text, annee, temps, id, type) {
 var fullSearchIndex, fullSearchData;
 
 function fullSearch(text) {
+  text = decodeURIComponent(text);
   Array.from(document.querySelectorAll('input[type=text][name=texte]')).forEach(i=>{
     i.value = text
   })
