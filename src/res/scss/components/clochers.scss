@@ -3,6 +3,9 @@ main[mv-app=clochers] {
     text-align: center;
     figure {
         text-align: center;
+        @media (max-width: $tablet) {
+            margin: 0;
+        }
         img {
             max-width: 100%
         }
