@@ -2,17 +2,9 @@
 <!-- @@block main -->
     <main mv-app="clochers" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/clochers.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
-      <figure>
-        <img src="/res/img/contents/carte-clochers.png" title="Sainte-Croix en Châteaubriant et de Saint-Joseph du Don" alt="Carte des clochers de Sainte-Croix en Châteaubriant et de Saint-Joseph du Don"/>
-        <figcaption>
-          En <span style="color:blue">bleu</span> les clochers de <a href="#sainte-croix-en-chateaubriant">Sainte-Croix en Châteaubriant</a>.<br/>
-          En <span style="color:red">rouge</span> les clochers de <a href="#saint-joseph-du-don">Saint-Joseph du Don</a>.
-        </figcaption>
-      </figure>
-      <h2>Référents de clochers</h2>
-      <div>
-        Dans chaque clocher, un référent assure le lien avec la coordinatrice paroissiale, et est, aux yeux de la municipalité et de la communauté chrétienne, le délégué paroissial pour le clocher.
-      </div>
+      <div property="description" class="tinymce"></div>      
+      <h2 property="soustitre"></h2>
+      <div property="texte" class="tinymce"></div>
       <section property="paroisse" mv-list>
         <div mv-list-item>
           <h3 id="[idify(nom)]" property="nom"></h3>
@@ -30,5 +22,14 @@
           </ul>
         </div>
       </section>
+      <div mv-list="paragraphe">
+        <h3 property="titre"></h3>
+        <div property="texte" class="tinymce"></div>
+        <aside mv-list="contact">
+          <div mv-list-items>
+            <span property="id" mv-editor-list="contacts" class="loggued"></span>
+          </div>
+        </aside>
+      </div>
     </main>
 <!-- @@close -->
