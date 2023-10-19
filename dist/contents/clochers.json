@@ -152,7 +152,7 @@
 		},
 		{
 			"titre": "Abbaye Notre Dame de Melleray",
-			"texte": "<p>Sur le territoire de la paroisse St Joseph du Don, l'Abbaye Notre Dame de Melleray, confiée à la Communauté du Chemin Neuf, accueille pour un temps de prière, de recueillement ou de réflexion tous ceux qui le désirent.</p><p>L'eucharistie y est célébrée : le dimanche et les solennités à 11h30, les jours ordinaires à 12h00.</p><p>Pour les horaires des offices, l'ouverture du magasin ou tout autre renseignement :  <a href=\"tel:+33240552600\">02 40 55 26 00</a> | <a href=\"mailto:melleray@wanadoo.fr\">melleray@wanadoo.fr</a> | <a href=\"https://melleray.chemin-neuf.fr/\" target=\"_blank\">https://melleray.chemin-neuf.fr/</a>"
+			"texte": "<p>Sur le territoire de la paroisse St Joseph du Don, l'Abbaye Notre Dame de Melleray, confiée à la Communauté du Chemin Neuf, accueille pour un temps de prière, de recueillement ou de réflexion tous ceux qui le désirent.</p><p>L'eucharistie y est célébrée : le dimanche et les solennités à 11h30, les jours ordinaires à 12h00.</p><p>Pour les horaires des offices, l'ouverture du magasin ou tout autre renseignement :<br/><a href=\"tel:+33240552600\"><span class=\"fa-solid fa-phone\">02 40 55 26 00</span></a> | <a href=\"mailto:melleray@wanadoo.fr\"><span class=\"fa-solid fa-envelope\">melleray@wanadoo.fr</span></a> | <a href=\"https://melleray.chemin-neuf.fr/\" target=\"_blank\"><span class=\"fa-solid fa-link\">https://melleray.chemin-neuf.fr/</span></a>"
 		}
 	]
 }
