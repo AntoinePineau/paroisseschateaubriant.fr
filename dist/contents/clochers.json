@@ -1,5 +1,8 @@
 {
 	"titre": "Les clochers du Pays de Châteaubriant",
+	"description": "<figure><img src=\"/res/img/contents/carte-clochers.png\" title=\"Sainte-Croix en Châteaubriant et de Saint-Joseph du Don\" alt=\"Carte des clochers de Sainte-Croix en Châteaubriant et de Saint-Joseph du Don\"/><figcaption>En <span style=\"color:blue\">bleu</span> les clochers de <a href=\"#sainte-croix-en-chateaubriant\">Sainte-Croix en Châteaubriant</a>.<br/>En <span style=\"color:red\">rouge</span> les clochers de <a href=\"#saint-joseph-du-don\">Saint-Joseph du Don</a>.</figcaption></figure>",
+	"soustitre": "Référents de clochers",
+	"texte": "Dans chaque clocher, un référent assure le lien avec la coordinatrice paroissiale, et est, aux yeux de la municipalité et de la communauté chrétienne, le délégué paroissial pour le clocher.",
 	"paroisse": [
 		{
 			"nom": "Sainte-Croix en Châteaubriant",
@@ -137,7 +140,7 @@
 	"paragraphe": [
 		{
 			"titre": "Communautés religieuses apostoliques",
-			"texte": "Des <b>communautés religieuses apostoliques</b> vivent sur la commune de Moisdon. Elles sont, auprès des habitants de notre région, une présence accueillante et priante.",
+			"texte": "<p>Des <b>communautés religieuses apostoliques</b> vivent sur la commune de Moisdon. Elles sont, auprès des habitants de notre région, une présence accueillante et priante.</p>",
 			"contact": [
 				{
 					"id": "soeurs-de-saint-gildas"
@@ -149,7 +152,7 @@
 		},
 		{
 			"titre": "Abbaye Notre Dame de Melleray",
-			"texte": "Sur le territoire de la paroisse St Joseph du Don, l'Abbaye Notre Dame de Melleray, confiée à la Communauté du Chemin Neuf, accueille pour un temps de prière, de recueillement ou de réflexion tous ceux qui le désirent. L'eucharistie y est célébrée : le dimanche et les solennités à 11h30, les jours ordinaires à 12h00. Pour les horaires des offices, l'ouverture du magasin ou tout autre renseignement :  <a href=\"tel:+33240552600\">02 40 55 26 00</a> | <a href=\"mailto:melleray@wanadoo.fr\">melleray@wanadoo.fr</a> | <a href=\"https://melleray.chemin-neuf.fr/\" target=\"_blank\">https://melleray.chemin-neuf.fr/</a>"
+			"texte": "<p>Sur le territoire de la paroisse St Joseph du Don, l'Abbaye Notre Dame de Melleray, confiée à la Communauté du Chemin Neuf, accueille pour un temps de prière, de recueillement ou de réflexion tous ceux qui le désirent.</p><p>L'eucharistie y est célébrée : le dimanche et les solennités à 11h30, les jours ordinaires à 12h00.</p><p>Pour les horaires des offices, l'ouverture du magasin ou tout autre renseignement :  <a href=\"tel:+33240552600\">02 40 55 26 00</a> | <a href=\"mailto:melleray@wanadoo.fr\">melleray@wanadoo.fr</a> | <a href=\"https://melleray.chemin-neuf.fr/\" target=\"_blank\">https://melleray.chemin-neuf.fr/</a>"
 		}
 	]
 }
