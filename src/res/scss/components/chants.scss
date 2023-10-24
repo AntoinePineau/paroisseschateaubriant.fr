@@ -1,0 +1,58 @@
+
+:root {
+    --accordion-min-height: 56px;
+    --accordion-max-height: 300px;
+}
+
+main[mv-app=chants] {
+
+    details {
+        summary {
+            background: $gris;
+            cursor: pointer;
+            padding: 1em;
+            border-radius: 5px;
+            font-weight: bold;
+            &::marker {
+                display:none;
+            }
+            &:before {
+                content: '❯';
+                position: absolute;
+                height: 24px;
+                width: 24px;
+                top: 1rem;
+                right: 1rem;
+                transform: rotate(0deg);
+                transition: .25s transform ease;
+            }
+        }
+        animation-name: accordion-close;
+        animation-duration: 0.4s;
+        animation-timing-function: ease-in-out;
+        transform-origin: top;
+        &[open] {
+            animation-name: accordion-master;
+            animation-duration: 0.3s;
+            animation-timing-function: ease-in-out;
+            transform-origin: top;
+            & > summary:before {
+                transform: rotate(270deg);
+            }
+        }
+    }
+
+    
+
+    
+    @keyframes accordion-master {
+        from {max-height: var(--accordion-min-height);}
+        to {max-height: var(--accordion-max-height);}
+    }
+    
+    @keyframes accordion-close {
+        from {min-height: var(--accordion-max-height);}
+        to {min-height: var(--accordion-min-height);}
+    }
+    
+}
