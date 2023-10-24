@@ -79,7 +79,7 @@
 			},
 			{
 				"titre": "Le mercredi",
-				"messe": "<p>Messe à <b>9h00</b> à l'église Saint-Nicolas de Châteaubriant<br/>Messe à <b>18h30</b> à la Meilleraye de Bretagne</p>"
+				"messe": "<p>Messe &agrave;&nbsp;<strong>9h00</strong>&nbsp;&agrave; l'&eacute;glise Saint-Nicolas de Ch&acirc;teaubriant<br />Messe &agrave;&nbsp;<strong>18h30</strong> &agrave; la Meilleraye de Bretagne <em>(<strong>18h00</strong> du 1<sup>er</sup> novembre &agrave; P&acirc;ques)</em></p>"
 			},
 			{
 				"titre": "Le jeudi",
