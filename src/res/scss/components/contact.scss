@@ -19,9 +19,6 @@ main[mv-app=contact], main[mv-app=recherche], main[mv-app=chants] {
       font-size: .85em;
       margin-left: 1em;
       display: flex;
-      @media (max-width: $tablet) {
-        flex-direction: column;
-      }
       select, input {
         font-size: .85em;
         padding: .5em;
@@ -104,5 +101,13 @@ div.contact {
 @media (min-width: $tablet) {
   div.contact {
     margin: 1em;
+  }
+}
+
+main[mv-app=contact] {
+  .search-fields {    
+    @media (max-width: $tablet) {
+      flex-direction: column;
+    }
   }
 }

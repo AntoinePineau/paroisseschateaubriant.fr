@@ -34,4 +34,12 @@ main[mv-app=messes] {
     section[property=semaine], #dernieres-messes {
         margin-top: 2em;
     }
+    
+    @media (max-width: $tablet) {
+        #dernieres-messes {
+            iframe {
+                width: 100%;
+            }
+        }
+    }
 }
