@@ -2,6 +2,7 @@
 	"titre": "Les personnes investies dans nos paroisses",
 	"contact": [		
 		{
+			"id": "agnes-labrune",
 			"nom": "Agnès LABRUNE",
 			"fonction": "Bénévole",
 			"activite": [
