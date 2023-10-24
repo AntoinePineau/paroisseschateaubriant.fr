@@ -61,7 +61,7 @@ sudo apt install libxss1 libxdamage1 libnss3 lipbcups2 libasound2 libatk-bridge2
 node plugins/netlify-plugin-lunr-indexer/src/generate-index.js
 ```
 
-# Optimize images
+## Optimize images
 
 ```
 find . -type f \( -iname \*.jpg -o -iname \*.JPG -o -iname \*.jpeg -o -iname \*.JPEG \) -exec jpegoptim -m100 -o --strip-all {} \;
