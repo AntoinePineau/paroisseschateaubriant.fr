@@ -1,6 +1,14 @@
 {
 	"titre": "Les personnes investies dans nos paroisses",
-	"contact": [
+	"contact": [		
+		{
+			"nom": "Agnès LABRUNE",
+			"fonction": "Bénévole",
+			"activite": [
+				"Ateliers produits ménagers bio"
+			],
+			"email": "agneslabrune@gmail.com"
+		},
 		{
 			"id": "alain-esnault",
 			"nom": "Alain ESNAULT",
@@ -691,14 +699,6 @@
 				"Membre pour La Meilleraye de Bretagne du conseil pour les Affaires Economiques Paroissiales"
 			],
 			"fonction": "Bénévole"
-		},
-		{
-			"nom": "Agnès LABRUNE",
-			"fonction": "Bénévole",
-			"activite": [
-				"Ateliers produits ménagers bio"
-			],
-			"email": "agneslabrune@gmail.com"
 		}
 	]
 }
