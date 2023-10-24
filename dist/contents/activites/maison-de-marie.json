@@ -25,10 +25,19 @@
 				},
 				{
 					"titre": "Des ateliers de produits ménagers bio",
-					"texte": "<p>Venez :</p>\n<ul>\n<li>confectionner vos produits m&eacute;nagers bio (lessive au bicarbonate,&nbsp; poudre pour le lave-vaisselle, anti-moustiques, etc.)</li>\n<li>d&eacute;couvrir les produits z&eacute;ro d&eacute;chet pour respecter notre sant&eacute;</li>\n<li>&eacute;changer des comp&eacute;tences, les recettes de&nbsp;fabrication</li>\n<li>tisser des liens d&rsquo;amiti&eacute; dans un esprit fraternel.</li>\n</ul>\n<p><strong>Ouvert &agrave; tous</strong></p>\n<p>Apporter des r&eacute;cipients avec couvercle.</p>\n<p>Inscription :</p>",
+					"texte": "<p><img src=\"../../res/img/contents/produits-bio.jpg\" alt=\"Produits Bio\" width=\"500\" height=\"500\" /></p>\n<p>Venez :</p>\n<ul>\n<li>confectionner vos produits m&eacute;nagers bio (lessive au bicarbonate,&nbsp; poudre pour le lave-vaisselle, anti-moustiques, etc.)</li>\n<li>d&eacute;couvrir les produits z&eacute;ro d&eacute;chet pour respecter notre sant&eacute;</li>\n<li>&eacute;changer des comp&eacute;tences, les recettes de&nbsp;fabrication</li>\n<li>tisser des liens d&rsquo;amiti&eacute; dans un esprit fraternel.</li>\n</ul>\n<p><strong>Ouvert &agrave; tous</strong></p>\n<p>Apporter des r&eacute;cipients avec couvercle.</p>\n<p>Inscription :</p>",
 					"contact": [
 						{
 							"id": "agnes-labrune"
+						}
+					]
+				},
+				{
+					"titre": "Des ateliers tricot et couture",
+					"texte": "<p>Le jeudi matin, tous les 15 jours.</p>\n<p>Echange de savoir en r&eacute;alisant des ouvrages simples pour b&eacute;b&eacute;s<em> (bonnet, layette, chaussons, barboteuse, ...)</em> ou pour SDF, &agrave; offrir &agrave; l&rsquo;h&ocirc;pital ou &agrave; diverses&nbsp;associations<em> (Ordre de Malte...)</em>.</p>\n<p>Si vous avez, vous pouvez&nbsp;apporter vos aiguilles, votre laine et le n&eacute;cessaire de couture de base.</p>\n<p>Inscription :</p>",
+					"contact": [
+						{
+							"id": "didier-blanc"
 						}
 					]
 				}
