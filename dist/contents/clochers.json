@@ -132,6 +132,12 @@
 					"nom": "Jean-Yves CHARLES",
 					"telephone": "06 30 01 43 13",
 					"email": "jean-yves.charles0169@orange.fr"
+				},
+				{
+					"ville": "Saint-Vincent-des-Landes",
+					"nom": "Ginette REYNARD",
+					"telephone": "07 70 99 96 23",
+					"email": "ginette.reynard44@gmail.com"
 				}
 			],
 			"texte": "<img src=\"../res/img/contents/eglise-saint-jouin-moisdon-la-riviere.jpg\" alt=\"Eglise Saint-Jouin &agrave; Moisdon-la-Rivi&egrave;re\" width=\"500\" height=\"331\" />"
@@ -152,7 +158,10 @@
 		},
 		{
 			"titre": "Abbaye Notre Dame de Melleray",
-			"texte": "<p>Sur le territoire de la paroisse St Joseph du Don, l'Abbaye Notre Dame de Melleray, confiée à la Communauté du Chemin Neuf, accueille pour un temps de prière, de recueillement ou de réflexion tous ceux qui le désirent.</p><p>L'eucharistie y est célébrée : le dimanche et les solennités à 11h30, les jours ordinaires à 12h00.</p><p>Pour les horaires des offices, l'ouverture du magasin ou tout autre renseignement :<div class=\"contact\"><a href=\"tel:+33240552600\"><span class=\"fa-solid fa-phone\">02 40 55 26 00</span></a><a href=\"mailto:melleray@wanadoo.fr\"><span class=\"fa-solid fa-envelope\">melleray@wanadoo.fr</span></a><a href=\"https://melleray.chemin-neuf.fr/\" target=\"_blank\"><span class=\"fa-solid fa-link\">https://melleray.chemin-neuf.fr/</span></div></a>"
+			"texte": "<p>Sur le territoire de la paroisse St Joseph du Don, l'Abbaye Notre Dame de Melleray, confiée à la Communauté du Chemin Neuf, accueille pour un temps de prière, de recueillement ou de réflexion tous ceux qui le désirent.</p><p>L'eucharistie y est célébrée : le dimanche et les solennités à 11h30, les jours ordinaires à 12h00.</p><p>Pour les horaires des offices, l'ouverture du magasin ou tout autre renseignement :<div class=\"contact\"><a href=\"tel:+33240552600\"><span class=\"fa-solid fa-phone\">02 40 55 26 00</span></a><a href=\"mailto:melleray@wanadoo.fr\"><span class=\"fa-solid fa-envelope\">melleray@wanadoo.fr</span></a><a href=\"https://melleray.chemin-neuf.fr/\" target=\"_blank\"><span class=\"fa-solid fa-link\">https://melleray.chemin-neuf.fr/</span></div></a>",
+			"contact": [
+				{}
+			]
 		}
 	]
 }
