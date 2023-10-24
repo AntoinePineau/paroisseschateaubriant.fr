@@ -63,7 +63,8 @@
 				{
 					"id": "beatrice-macario"
 				}
-			]
+			],
+			"texte": "<p><img src=\"../res/img/contents/orgue.jpg\" alt=\"Animation - Orgue\" width=\"600\" height=\"341\" /></p>"
 		}
 	],
 	"semaine": {
