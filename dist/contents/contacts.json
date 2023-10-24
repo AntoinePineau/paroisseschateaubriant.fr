@@ -310,12 +310,7 @@
 			"id": "jean-louis-gomis",
 			"nom": "Père Jean-Louis GOMIS",
 			"fonction": "Prêtre coopérateur",
-			"activite": [
-				"Préparation au Baptême et 1ère communion",
-				"Les servants d'autel",
-				"Nombreuses activités avec les jeunes",
-				"Soirées de louange"
-			],
+			"activite": [],
 			"telephone": "02 40 81 02 92",
 			"email": "gomis.jeanlouis@outlook.fr"
 		},
@@ -605,9 +600,7 @@
 			"fonction": "Prêtre, Curé",
 			"email": "patrice.eon@free.fr",
 			"telephone": "02 40 81 02 92",
-			"activite": [
-				"Initiation à la Doctrine Sociale de l'Église"
-			]
+			"activite": []
 		},
 		{
 			"id": "patrick-briand",
