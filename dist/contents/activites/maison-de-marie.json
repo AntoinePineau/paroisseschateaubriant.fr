@@ -20,7 +20,7 @@
 							"id": "didier-blanc"
 						}
 					],
-					"texte": "<p><img src=\"../../res/img/contents/repas-partage.jpg\" alt=\"Repas partag&eacute;\" width=\"500\" height=\"667\" /></p>\n<p>Dans un esprit fraternel avec un accueil convivial :</p>\n<ul>\n<li>cuisiner ensemble,</li>\n<li>d&eacute;couvrir des recettes, &eacute;changer des comp&eacute;tences, cr&eacute;er des liens d&rsquo;amiti&eacute;,</li>\n<li>partager un repas.</li>\n</ul>\n<p><strong>Ouvert &agrave; tous</strong>, nous vous invitons le jeudi tous les 15 jours de 9h30 &agrave; 14h00. Inscription :</p>",
+					"texte": "<p><img src=\"../../res/img/contents/repas-partage.jpg\" alt=\"Repas partag&eacute;\" width=\"400\" height=\"534\" /></p>\n<p>Dans un esprit fraternel avec un accueil convivial :</p>\n<ul>\n<li>cuisiner ensemble,</li>\n<li>d&eacute;couvrir des recettes, &eacute;changer des comp&eacute;tences, cr&eacute;er des liens d&rsquo;amiti&eacute;,</li>\n<li>partager un repas.</li>\n</ul>\n<p><strong>Ouvert &agrave; tous</strong>, nous vous invitons le jeudi tous les 15 jours de 9h30 &agrave; 14h00. Inscription :</p>",
 					"titre": "Des ateliers de repas partagé"
 				},
 				{
@@ -34,7 +34,7 @@
 				},
 				{
 					"titre": "Des ateliers tricot et couture",
-					"texte": "<p><img src=\"../../res/img/contents/tricot.jpg\" alt=\"Aterliers Tricot\" /></p>\n<p>Le jeudi matin, tous les 15 jours.</p>\n<p>Echange de savoir en r&eacute;alisant des ouvrages simples pour b&eacute;b&eacute;s<em> (bonnet, layette, chaussons, barboteuse, ...)</em> ou pour SDF, &agrave; offrir &agrave; l&rsquo;h&ocirc;pital ou &agrave; diverses&nbsp;associations<em> (Ordre de Malte...)</em>.</p>\n<p>Si vous avez, vous pouvez&nbsp;apporter vos aiguilles, votre laine et le n&eacute;cessaire de couture de base.</p>\n<p>Inscription :</p>",
+					"texte": "<p><img src=\"../../res/img/contents/tricot.jpg\" alt=\"Ateliers Tricot\" width=\"500\" /></p>\n<p>Le jeudi matin, tous les 15 jours.</p>\n<p>Echange de savoir en r&eacute;alisant des ouvrages simples pour b&eacute;b&eacute;s<em> (bonnet, layette, chaussons, barboteuse, ...)</em> ou pour SDF, &agrave; offrir &agrave; l&rsquo;h&ocirc;pital ou &agrave; diverses&nbsp;associations<em> (Ordre de Malte...)</em>.</p>\n<p>Si vous avez, vous pouvez&nbsp;apporter vos aiguilles, votre laine et le n&eacute;cessaire de couture de base.</p>\n<p>Inscription :</p>",
 					"contact": [
 						{
 							"id": "didier-blanc"
