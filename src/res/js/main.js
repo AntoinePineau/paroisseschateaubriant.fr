@@ -1,12 +1,3 @@
-// parce que les regex, c'est la vie!
-String.prototype.replaceAll=function(s,r){return this.replace(new RegExp(s,'gm'),r)};
-
-function openCalendar(url, w, h) {
-  var t=screen.availTop + (screen.availHeight - h) / 2,
-  l=screen.availLeft + (screen.availWidth - w) / 2;
-  window.open(url, 'calendrier', 'menubar=no,status=no,location=no,resizable=no,scrollbars=no,toolbar=no,width='+w+',height='+h+',top='+t+',left='+l);
-}
-
 document.addEventListener('DOMContentLoaded',()=>{
   
     if(document.querySelector('main[mv-app=chants]')) {
