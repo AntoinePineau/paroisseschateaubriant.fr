@@ -18,7 +18,9 @@ $tablet: 768px;
 @mixin font2() {
   font-family: 'Candara', 'Cambria', Arial, Helvetica, sans-serif;
 }
-
+.center {
+  text-align: center;
+}
 .sr-only {
   position:absolute;
   left:-10000px;

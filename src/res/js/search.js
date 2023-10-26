@@ -1,6 +1,10 @@
+// parce que les regex, c'est la vie!
+String.prototype.replaceAll=function(s,r){return this.replace(new RegExp(s,'gm'),r)};
+
 var fullSearchIndex, fullSearchData;
 
 function fullSearch(text) {
+  if(!text) return;
   text = decodeURIComponent(text);
   Array.from(document.querySelectorAll('input[type=text][name=texte]')).forEach(i=>{
     i.value = text
@@ -20,11 +24,21 @@ function fullSearch(text) {
         });
     });
     var ol = document.createElement('ol');
-    fullSearchIndex.search('*'+text+'*').map(item => fullSearchData.find(doc => item.ref === doc.i)).forEach(r=>{
+    var results = fullSearchIndex.search('*'+text+'*').map(item => fullSearchData.find(doc => item.ref === doc.i));
+    var resultsSection = document.getElementById('results');
+    if(!results.length) {
+      resultsSection.innerHTML = '<h2 property="pasderesultats" class="center">Pas de résultat</h2>';
+      return;
+    } 
+    results.forEach(r=>{
         var result = document.createElement('li');
-        result.innerHTML = '<article class="result"><h3><a href="'+r.i+'">'+r.t+'</a></h3><span>'+JSON.parse(r.c).description+'</span></article>';
+        var description = JSON.parse(r.c).description || "";
+        description = description.replaceAll("<img [^>]+>", "");
+        result.innerHTML = '<article class="result"><h3><a href="'+r.i+'">'+r.t+'</a></h3><span>'+description+'</span></article>';
         ol.append(result);
     });
-    document.getElementById('results').append(ol);
+    var resultsSection = document.getElementById('results');
+    resultsSection.innerHTML = '<h2 property="resultats">Résultats:</h2>';
+    resultsSection.append(ol);
   });
 }
