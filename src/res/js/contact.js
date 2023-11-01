@@ -16,7 +16,7 @@ function loadContacts() {
     }
     let $datalist = document.getElementById('contacts');
     if($datalist) {
-        fetch('/contents/contacts.json')
+        fetch('/contents/annuaire.json')
         .then(r => r.json())
         .then(r => {
             let contacts = {};
