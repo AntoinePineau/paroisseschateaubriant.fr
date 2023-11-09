@@ -88,7 +88,7 @@
 			"paragraphe": [
 				{
 					"titre": "La société Saint Vincent de Paul",
-					"texte": "9 rue du Prieuré de Béré, Châteaubriant ; chaque mardi : de 8h30 à 11h30 , réception de vêtements, bibelots ou divers. De 13h30 à 16h30 : accueil des familles. Le 3ème samedi de chaque mois : de 9h à 12h, ouverture du  vestiaire à tous.",
+					"texte": "<p>9 rue du Prieur&eacute; de B&eacute;r&eacute;, Ch&acirc;teaubriant ; chaque mardi : de 8h30 &agrave; 11h30 , r&eacute;ception de v&ecirc;tements, bibelots ou divers. De 13h30 &agrave; 16h30 : accueil des familles. Le 3&egrave;me samedi de chaque mois : de 9h &agrave; 12h, ouverture du vestiaire &agrave; tous.</p>",
 					"contact": [
 						{
 							"id": "societe-saint-vincent-de-paul"
@@ -97,8 +97,11 @@
 				},
 				{
 					"titre": "Le Secours Catholique",
-					"texte": "A Châteaubriant, le local est rue Pasteur (en face MMA), contactez le <a href=\"tel:+33786496075\">07 86 49 60 75. Sur Saint Joseph du Don, contacter Nicole Massé",
+					"texte": "<p>A Ch&acirc;teaubriant, le local est rue Pasteur (en face MMA), contactez le <a href=\"tel:+33786496075\">07 86 49 60 75</a><br />Sur Sainte-Croix en Ch&acirc;teaubriant, contacter Christiane L&eacute;picier<br />Sur Saint-Joseph du Don, contacter Nicole Mass&eacute;</p>",
 					"contact": [
+						{
+							"id": "christiane-lepicier"
+						},
 						{
 							"id": "nicole-masse"
 						}
