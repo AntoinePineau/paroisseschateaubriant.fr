@@ -91,13 +91,9 @@
 							"id": "genevieve"
 						}
 					]
-				}
-			]
-		},
-		{
-			"description": "<div class=\"highlight\">En dehors de ces groupes r&eacute;guliers, la paroisse organise des rencontres fraternelles ponctuelles qui soudent la &laquo; famille paroissiale &raquo;:</div>",
-			"paragraphe": [
+				},
 				{
+					"texte": "<p><span style=\"font-size: 17.6px;\">En dehors de ces groupes r&eacute;guliers, la paroisse organise des rencontres fraternelles ponctuelles qui soudent la &laquo; famille paroissiale &raquo;:</span></p>",
 					"contact": [
 						{}
 					]
