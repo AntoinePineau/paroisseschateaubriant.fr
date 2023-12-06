@@ -134,6 +134,15 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "bernard-remy",
+			"nom": "Bernard REMY",
+			"telephone": "02 40 55 12 31",
+			"activite": [
+				"La prière pour les défunts"
+			],
+			"fonction": "Bénévole"
+		},
+		{
 			"id": "catherine-bretaudeau",
 			"nom": "Catherine BRETAUDEAU",
 			"activite": [
@@ -272,6 +281,15 @@
 			"email": "gouterlaparole@free.fr",
 			"activite": [
 				"Groupe « Goûter ensemble la Parole de Dieu »"
+			],
+			"fonction": "Bénévole"
+		},
+		{
+			"id": "genretif",
+			"nom": "Geneviève",
+			"email": "genretif@orange.fr",
+			"activite": [
+				"Groupe « Église verte »"
 			],
 			"fonction": "Bénévole"
 		},
@@ -461,6 +479,15 @@
 			],
 			"email": "aumoneriechato@gmail.com",
 			"telephone": "07 49 55 92 27"
+		},
+		{
+			"id": "marie-claire-morla",
+			"nom": "Marie-Claire MORLA",
+			"fonction": "Bénévole",
+			"activite": [
+				"Le réseau de prière pour les vocations"
+			],
+			"email": "m-claire.morla@orange.fr"
 		},
 		{
 			"id": "marie-claude-luette",

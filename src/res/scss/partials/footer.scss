@@ -127,13 +127,30 @@ footer {
             background: #ff0000;
           }
     }
-    #copyright {
+    #subfooter {
         text-align: center;
         vertical-align: middle;
         background: $noir;
         color: $blanc;
         font-size: 0.85em;
         padding: 1em 0;
+        &> * {
+            display: inline-grid;
+            &:not(:first-child) {
+                &::before {
+                    content: ' |';
+                    padding-right: 1em;
+                }
+
+            }
+        }
+        #links {
+            text-align: center;
+            width: auto;
+            a {            
+                color: $blanc;
+            }
+        }
     }
 }
 
