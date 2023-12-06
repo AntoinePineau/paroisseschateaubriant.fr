@@ -103,5 +103,15 @@
 			"lien": "https://www.youtube.com/@paroissechateaubriant8873",
 			"titre": "Plus de vidéos"
 		}
-	}
+	},
+	"blocs": [
+		{
+			"titre": "Intention de messes",
+			"paragraphe": [
+				{
+					"texte": "Si vous désirez faire célébrer des messes à une intention particulière, contactez les permanences d'accueil de Châteaubriant et Moisdon."
+				}
+			]
+		}
+	]
 }
