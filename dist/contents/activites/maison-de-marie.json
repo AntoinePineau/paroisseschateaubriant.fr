@@ -43,7 +43,7 @@
 				},
 				{
 					"titre": "L'atelier Dessin pour les enfants",
-					"texte": "<p><img src=\"../../res/img/contents/atelier-dessin.jpg\" alt=\"Atelier Dessin\" width=\"500\" /></p>",
+					"texte": "<p><img src=\"../../res/img/contents/atelier-dessin.jpg\" alt=\"Atelier Dessin\" width=\"500\" /></p>\n<p>Inscription :</p>",
 					"contact": [
 						{
 							"id": "marie-delpech"
