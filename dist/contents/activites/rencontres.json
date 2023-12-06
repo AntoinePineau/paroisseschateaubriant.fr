@@ -100,7 +100,9 @@
 			"paragraphe": [
 				{
 					"contact": [
-						{}
+						{
+							"id": "genretif"
+						}
 					]
 				}
 			]
