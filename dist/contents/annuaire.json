@@ -257,16 +257,6 @@
 			"fonction": "Bénévole"
 		},
 		{
-			"id": "evelyne-denieul",
-			"nom": "Evelyne DENIEUL",
-			"email": "evelyne.denieul@hotmail.fr",
-			"telephone": "06 28 54 18 83",
-			"activite": [
-				"Réseau de prière pour les vocations"
-			],
-			"fonction": "Bénévole"
-		},
-		{
 			"id": "gabrielle-caro",
 			"nom": "Gabrielle CARO",
 			"email": "gabrielle.caro@sfr.fr",
@@ -559,15 +549,6 @@
 			"telephone": "07 71 04 62 32",
 			"activite": [
 				"Eveil à la foi"
-			],
-			"fonction": "Bénévole"
-		},
-		{
-			"id": "marie-mousseau",
-			"nom": "Marie MOUSSEAU",
-			"telephone": "02 40 55 06 50",
-			"activite": [
-				"Prière pour les défunts (Monligeon)"
 			],
 			"fonction": "Bénévole"
 		},
