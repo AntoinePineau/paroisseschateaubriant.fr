@@ -82,6 +82,15 @@
 							"id": "david"
 						}
 					]
+				},
+				{
+					"titre": "Le groupe « Église Verte »",
+					"texte": "<p><span style=\"font-size: 17.6px;\">se r&eacute;unit pour r&eacute;fl&eacute;chir et agir au c&oelig;ur de la paroisse dans l&rsquo;esprit de &laquo; Laudato Si &raquo;.</span></p>",
+					"contact": [
+						{
+							"id": "genevieve"
+						}
+					]
 				}
 			]
 		},
