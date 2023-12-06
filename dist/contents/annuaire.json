@@ -513,6 +513,16 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "marie-delpech",
+			"nom": "Marie DELPECH",
+			"email": "mariedelpech2014@gmail.com",
+			"telephone": "06 10 60 31 42",
+			"activite": [
+				"Atelier de peinture et de dessin pour les enfants"
+			],
+			"fonction": "Bénévole"
+		},
+		{
 			"id": "marie-france-menard",
 			"nom": "Marie-France MÉNARD",
 			"email": "mariefran44@free.fr",
