@@ -109,7 +109,10 @@
 			"titre": "Intention de messes",
 			"paragraphe": [
 				{
-					"texte": "Si vous désirez faire célébrer des messes à une intention particulière, contactez les permanences d'accueil de Châteaubriant et Moisdon."
+					"texte": "Si vous désirez faire célébrer des messes à une intention particulière, contactez les permanences d'accueil de Châteaubriant et Moisdon.",
+					"contact": [
+						{}
+					]
 				}
 			]
 		}
