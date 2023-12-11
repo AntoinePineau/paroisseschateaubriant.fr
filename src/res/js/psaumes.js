@@ -35,6 +35,7 @@ function nbJours(d1, d2) {
 }
 
 function determinerTempsLiturgique(date) {
+    date.setHours(0);
     var annee = date.getFullYear();
 
     // Calculer les dates clés
@@ -72,19 +73,19 @@ function determinerTempsLiturgique(date) {
     // de Noël jusqu'au dimanche  qui suit le 6 janvier => temps de Noël
     else if(date>=dateNoel && date<=dimancheQuiSuitLEpiphanie) {
       tempsLiturgique = "Noël";
-      if(date==new Date(date.getFullYear(),11,25)) { // 25 décembre
+      if(date.getTime()==new Date(date.getFullYear(),11,25).getTime()) { // 25 décembre
         numeroSemaine = 'Nativité du Seigneur';
       }
-      else if(date==new Date(date.getFullYear(),11,31)) { // 31 décembre
+      else if(date.getTime()==new Date(date.getFullYear(),11,31).getTime()) { // 31 décembre
         numeroSemaine = 'La Sainte Famille';
       }
-      else if(date==new Date(date.getFullYear(),0,1)) { // 1er janvier
+      else if(date.getTime()==new Date(date.getFullYear(),0,1).getTime()) { // 1er janvier
         numeroSemaine = 'Sainte Marie, Mère de Dieu';
       }
-      else if(date>=dimancheQuiSuitLEpiphanie && date<=dimancheQuiSuitLEpiphanie) { // Epiphanie
+      else if(date.getTime()==dimancheQuiSuitLEpiphanie.getTime()) { // Epiphanie
         numeroSemaine = 'L\'Epiphanie du Seigneur';
       }
-      else if(date==new Date(dimancheQuiSuitLEpiphanie.getFullYear(),dimancheQuiSuitLEpiphanie.getMonth(),dimancheQuiSuitLEpiphanie.getDate()+1)) { // le lundi qui suit l'Epihpanie
+      else if(date.getTime()==new Date(dimancheQuiSuitLEpiphanie.getFullYear(),dimancheQuiSuitLEpiphanie.getMonth(),dimancheQuiSuitLEpiphanie.getDate()+1).getTime()) { // le lundi qui suit l'Epihpanie
         numeroSemaine = 'Le Baptême du Seigneur';
       }
       else {
@@ -101,19 +102,19 @@ function determinerTempsLiturgique(date) {
     // du mercredi des cendres jusqu'à Pâques exclus => temps du carême
     else if(date>=dateMercrediCendres && date<datePaques) {
       tempsLiturgique = "Carême";
-      if(date==new Date(datePaques.getFullYear(),datePaques.getMonth(),datePaques.getDate()-1)) { // Samedi saint
+      if(date.getTime()==new Date(datePaques.getFullYear(),datePaques.getMonth(),datePaques.getDate()-1).getTime()) { // Samedi saint
         numeroSemaine = 'Veillée pascale';
       }
-      else if(date==new Date(datePaques.getFullYear(),datePaques.getMonth(),datePaques.getDate()-2)) { // Vendredi saint
+      else if(date.getTime()==new Date(datePaques.getFullYear(),datePaques.getMonth(),datePaques.getDate()-2).getTime()) { // Vendredi saint
         numeroSemaine = 'Vendredi saint';
       }
-      else if(date==new Date(datePaques.getFullYear(),datePaques.getMonth(),datePaques.getDate()-3)) { // Jeudi saint
+      else if(date.getTime()==new Date(datePaques.getFullYear(),datePaques.getMonth(),datePaques.getDate()-3).getTime()) { // Jeudi saint
         numeroSemaine = 'Jeudi saint';
       }
-      else if(date==new Date(datePaques.getFullYear(),datePaques.getMonth(),datePaques.getDate()-7)) { // le dimanche qui précède Pâques
+      else if(date.getTime()==new Date(datePaques.getFullYear(),datePaques.getMonth(),datePaques.getDate()-7).getTime()) { // le dimanche qui précède Pâques
         numeroSemaine = 'Dimanche des Rameaux et de la Passion';
       }
-      else if(date==dateMercrediCendres) { // Mercredi des Cendres
+      else if(date.getTime()==dateMercrediCendres.getTime()) { // Mercredi des Cendres
         numeroSemaine = 'Mercredi des Cendres';
       }
       /*else if(date==new Date(datePaques.getFullYear(),datePaques.getMonth(),datePaques.getDate()-3)) { // Le jeudi saint au matin
@@ -128,13 +129,13 @@ function determinerTempsLiturgique(date) {
     // du dimanche de pâques au dimanche de la pentecôte => temps pascal
     else if(date>=datePaques && date<=datePentecote) {
       tempsLiturgique = "Pascal";
-      if(date == datePaques) { // Pâques
+      if(date.getTime() == datePaques.getTime()) { // Pâques
         numeroSemaine = 'Dimanche de la Résurrection';
       }
-      else if(date==new Date(datePaques.getFullYear(),datePaques.getMonth(),datePaques.getDate()+39)) { // 39 jours après Pâques
+      else if(date.getTime()==new Date(datePaques.getFullYear(),datePaques.getMonth(),datePaques.getDate()+39).getTime()) { // 39 jours après Pâques
         numeroSemaine = 'Ascension du Seigneur';
       }
-      else if(date==datePentecote) { // Pentecôte
+      else if(date.getTime()==datePentecote.getTime()) { // Pentecôte
         numeroSemaine = 'Pentecôte';
       }
       else {
@@ -146,13 +147,13 @@ function determinerTempsLiturgique(date) {
     else {
       tempsLiturgique = "Ordinaire";
 
-      if(date==new Date(datePentecote.getFullYear(),datePentecote.getMonth(),datePentecote.getDate()+7)) { // 7 jours après la Pentecôte
+      if(date.getTime()==new Date(datePentecote.getFullYear(),datePentecote.getMonth(),datePentecote.getDate()+7).getTime()) { // 7 jours après la Pentecôte
         numeroSemaine = 'Sainte Trinité';
       }
-      else if(date==new Date(datePentecote.getFullYear(),datePentecote.getMonth(),datePentecote.getDate()+14)) { // 14 jours après la Pentecôte
+      else if(date.getTime()==new Date(datePentecote.getFullYear(),datePentecote.getMonth(),datePentecote.getDate()+14).getTime()) { // 14 jours après la Pentecôte
         numeroSemaine = 'Saint Sacrement';
       }
-      else if(date==new Date(datePentecote.getFullYear(),datePentecote.getMonth(),datePentecote.getDate()+19)) { // 19 jours après la Pentecôte
+      else if(date.getTime()==new Date(datePentecote.getFullYear(),datePentecote.getMonth(),datePentecote.getDate()+19).getTime()) { // 19 jours après la Pentecôte
         numeroSemaine = 'Sacré-Cœur de Jésus';
       }
       else {
@@ -170,18 +171,41 @@ function determinerTempsLiturgique(date) {
 }
 
 function idifyPsaume(annee, temps, id) {
+    id = (id+'').replaceAll(' ','');
     return `${id}(${annee})${temps}`
 }
 
-function renderDateliturgique(tempsLiturgique) {
+function renderDateLiturgique(tempsLiturgique) {
     var a = tempsLiturgique.anneeLiturgique;
     var t = tempsLiturgique.tempsLiturgique;
     var s = tempsLiturgique.numeroSemaine;
-    return s+"e semaine du temps "+t+" année "+a;
+    if(s=='1') s += 'ère semaine';
+    if(/\d+/.test(s)) s += 'e semaine';
+    if(t=='Carême') t = 'du '+t;
+    if(t=='Noël') t = 'de '+t;
+    if(t=='Avent') t = 'de l\''+t;
+    return s+" du temps "+t+" année "+a;
 }
 
 function renderPsaume(psaume) {
-    return psaume.nom+' - '+psaume.titre+' <a href="'+psaume.pdf+'" target="_blank">PDF</a><a href="'+psaume.mp3+'" target="_blank">MP3</a>'
+    var s = '<table>';
+    s += '<thead><tr>';
+    s += '<th>Nom</th>';
+    s += '<th>Titre</th>';    
+    s += '<th>Partition</th>';
+    s += '<th>Musique</th></thead>';
+    s+= '<tbody><tr>';
+    s+= `<td>${psaume.nom}</td>`;
+    s+= `<td>${psaume.titre}</td>`;
+    s+= `<td><a href="${psaume.pdf}" target="_blank">PDF</a></td>`;
+    s+= '<td>';
+    psaume.mp3.forEach(m=>{
+      s+= `<a href="${m.file}" target="_blank">${m.nom}</a><br/>`;
+    })
+    s+= '<td>';
+    s+= '</tr></tbody>';
+    s+= '</table>';
+    return s
 }
 
 var psaumeIndex, psaumeData;
@@ -214,7 +238,7 @@ function initPsaumes() {
     var t = determinerTempsLiturgique(date);
     var psaume = searchPsaume('', t.anneeLiturgique, t.tempsLiturgique, t.numeroSemaine)[0];
     var html = date.toLocaleDateString("fr-FR",{ weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-    html += ' - '+renderDateliturgique(t);
+    html += ' - '+renderDateLiturgique(t);
     html += ' : '+renderPsaume(psaume);
     document.getElementById('psaumesResults').innerHTML = html;
 
