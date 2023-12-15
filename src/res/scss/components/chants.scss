@@ -52,9 +52,13 @@ main[mv-app=chants] {
         from {min-height: var(--accordion-max-height);}
         to {min-height: var(--accordion-min-height);}
     }
+
+    aside {
+        text-align: center;
+    }
     
     ul.tabs {
-        display: flex;
+        display: inline-flex;
         li {
             padding: 1em;
             color: $bleu;
@@ -71,13 +75,12 @@ main[mv-app=chants] {
     form {
         text-align: center;
         * {
-            margin: 1em 3em;
+            margin: 1em;
             padding: 1em;
         }
     }
     table {
-        width: calc(100% - 6em);
-        margin: 3em;
+        width: 100%;
         caption {
             padding: 0.5em;
             font-weight: bold;
