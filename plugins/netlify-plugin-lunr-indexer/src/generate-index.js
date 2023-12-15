@@ -6,8 +6,8 @@ const path = require('path');
 /* REMOVE TO TEST*/
 var process = { 
   env : {
-    JSON_PATH: "dist/contents/",
-    INDEX_PATH: "dist/index/full-search.json"
+    JSON_PATH: /*"dist/index/bible/",//*/"dist/contents/",
+    INDEX_PATH: /*"dist/index/bible.json"//*/"dist/index/full-search.json"
   }
 };
 /**/
