@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded',()=>{
   
     if(document.querySelector('main[mv-app=chants]')) {
-      initPsaumes();
+      initChants();
     }
 
     if(document.querySelector('main[mv-app=recherche]'))

@@ -3,23 +3,39 @@
     <main mv-app="chants" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/chants.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
       
-      <details>
+      <details id="psaumes">
         <summary>Psaumes</summary>
-        <aside class="search-form">
-          <form id="search" class="search-fields">
-            <ul id="tabs">
-              <li><a href="#dateTab">Par date</a></li>
-              <li><a href="#multiTab">Multi-critères</a></li>
-            </ul>
-            <div id="dateTab">
-              <input type="date" name="date" />
-            </div>
-            <div id="multiTab">
-              <input type="text" name="texte" />
-            </div>
+        <aside>
+          <ul class="tabs">
+            <li data-tab="psaumeDateTab" class="active">Par date</li>
+            <li data-tab="psaumeTextTab">Par texte</li>
+          </ul>
+          <form id="psaumeDateTab" class="search-fields active">
+            <input type="date" name="date" />
+          </form>
+          <form id="psaumeTextTab" class="search-fields">
+            <input type="text" name="texte" />
           </form>
         </aside>
         <section id="psaumesResults">
+          
+        </section>
+      </details>
+      <details id="autres">
+        <summary>Autres chants</summary>
+        <aside>
+          <ul class="tabs">
+            <li data-tab="textTab" class="active">Par texte</li>
+            <!--li data-tab="categoryTab">Par catégorie</li-->
+          </ul>
+          <form id="textTab" class="search-fields active">
+            <input type="text" name="texte" />
+          </form>
+          <form id="categoryTab" class="search-fields">
+            <input type="date" name="date" />
+          </form>
+        </aside>
+        <section id="chantsResults">
           
         </section>
       </details>
