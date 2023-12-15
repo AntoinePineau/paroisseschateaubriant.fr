@@ -15,8 +15,8 @@
       })(window,document,'script','dataLayer','GTM-K2K2XKXP');</script>
     <!-- end of Google Tag Manager-->
 
-    <title>Chants | Paroisses du Pays de Châteaubriant</title>
-    <meta name="description" content="Rechercher des chants">
+    <title>La Bible | Paroisses du Pays de Châteaubriant</title>
+    <meta name="description" content="Rechercher ou lire dans la Bible">
 <!-- start metas.html-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -78,42 +78,10 @@
     </header>
 <!-- end header.html-->
 <!-- start main -->
-    <main mv-app="chants" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/chants.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
+    <main mv-app="bible" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/bible.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
       
-      <details id="psaumes">
-        <summary>Psaumes</summary>
-        <aside>
-          <ul class="tabs">
-            <li data-tab="psaumeDateTab" class="active">Par date</li>
-            <li data-tab="psaumeTextTab">Par texte</li>
-          </ul>
-          <form id="psaumeDateTab" class="search-fields active">
-            <input type="date" name="date" />
-          </form>
-          <form id="psaumeTextTab" class="search-fields">
-            <input type="text" name="texte" />
-          </form>
-        </aside>
-        <section id="psaumesResults">
-          
-        </section>
-      </details>
-      <details id="autres">
-        <summary>Autres chants</summary>
-        <aside>
-          <ul class="tabs">
-            <li data-tab="textTab" class="active">Par texte</li>
-            <!--li data-tab="categoryTab">Par catégorie</li-->
-          </ul>
-          <form id="textTab" class="search-fields active">
-            <input type="text" name="texte" />
-          </form>
-          <form id="categoryTab" class="search-fields">
-            <input type="date" name="date" />
-          </form>
-        </aside>
-        <section id="chantsResults">
+        <section id="results">
           
         </section>
       </details>

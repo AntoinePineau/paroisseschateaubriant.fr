@@ -180,30 +180,38 @@ function renderDateLiturgique(tempsLiturgique) {
     var t = tempsLiturgique.tempsLiturgique;
     var s = tempsLiturgique.numeroSemaine;
     if(s=='1') s += 'ère semaine';
-    if(/\d+/.test(s)) s += 'e semaine';
+    else if(/\d+/.test(s)) s += 'e semaine';
     if(t=='Carême') t = 'du '+t;
     if(t=='Noël') t = 'de '+t;
     if(t=='Avent') t = 'de l\''+t;
     return s+" du temps "+t+" année "+a;
 }
 
-function renderPsaume(psaume) {
-    var s = '<table>';
-    s += '<thead><tr>';
-    s += '<th>Nom</th>';
-    s += '<th>Titre</th>';    
-    s += '<th>Partition</th>';
-    s += '<th>Musique</th></thead>';
-    s+= '<tbody><tr>';
-    s+= `<td>${psaume.nom}</td>`;
-    s+= `<td>${psaume.titre}</td>`;
-    s+= `<td><a href="${psaume.pdf}" target="_blank">PDF</a></td>`;
-    s+= '<td>';
-    psaume.mp3.forEach(m=>{
-      s+= `<a href="${m.file}" target="_blank">${m.nom}</a><br/>`;
+function renderPsaumes(psaumes, caption) {
+    console.log(psaumes);
+    var s = '<table cellpadding="0" cellspacing="0">';
+    s+= '<caption>'+caption+'</caption>';
+    s+= '<thead><tr>';
+    s+= '<th>Année</th>'; 
+    s+= '<th>Nom</th>';
+    s+= '<th>Titre</th>';    
+    s+= '<th>Partition</th>';
+    s+= '<th>Musique</th></thead>';
+    s+= '<tbody>';
+    psaumes.forEach(psaume=>{
+      s+= '<tr>';
+      s+= `<td>${psaume.annee}</td>`;
+      s+= `<td>${psaume.nom}</td>`;
+      s+= `<td>${psaume.titre}</td>`;
+      s+= `<td><a href="${psaume.pdf}" target="_blank">PDF</a></td>`;
+      s+= '<td>';
+      psaume.mp3.forEach(m=>{
+        s+= `<a href="${m.file}" target="_blank">${m.nom}</a><br/>`;
+      })
+      s+= '</td>';
+      s+= '</tr>';
     })
-    s+= '<td>';
-    s+= '</tr></tbody>';
+    s+= '</tbody>';
     s+= '</table>';
     return s
 }
@@ -233,15 +241,17 @@ function initPsaumes() {
     });
   })
 
-  document.querySelector('input[name="date"]').addEventListener('change', (e)=>{
+  document.querySelector('#psaumes input[name="date"]').addEventListener('change', e =>{
     var date = new Date(e.target.value);
     var t = determinerTempsLiturgique(date);
     var psaume = searchPsaume('', t.anneeLiturgique, t.tempsLiturgique, t.numeroSemaine)[0];
-    var html = date.toLocaleDateString("fr-FR",{ weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-    html += ' - '+renderDateLiturgique(t);
-    html += ' : '+renderPsaume(psaume);
+    var html = renderPsaumes([psaume], date.toLocaleDateString("fr-FR",{ weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) + ' : ' + renderDateLiturgique(t));
     document.getElementById('psaumesResults').innerHTML = html;
-
+  })
+  document.querySelector('#psaumes input[name="texte"]').addEventListener('input', e =>{
+    var psaumes = searchPsaume(e.target.value);
+    var html = renderPsaumes(psaumes, 'Résultats pour <em>'+e.target.value+'</em>');
+    document.getElementById('psaumesResults').innerHTML = html;
   })
 }
   
@@ -258,4 +268,101 @@ function searchPsaume(texte, annee, temps, id) {
   }
   console.log(q);
   return psaumeIndex.search(q).map(i=>psaumeData.find(d => i.ref==idifyPsaume(d.annee, d.temps, d.id)))
+}
+
+// ↑ PSAUMES
+// ------------------------------------------------------------------------------------------------------------------------------
+// ↓ AUTRE CHANTS
+
+
+function renderAutresChants(chants, caption) {
+  console.log(chants);
+  var s = '<table cellpadding="0" cellspacing="0">';
+  s+= '<caption>'+caption+'</caption>';
+  s+= '<thead><tr>';
+  s+= '<th>Titre</th>';    
+  s+= '<th>Partition</th>';
+  s+= '<th>Catégories</th></thead>';
+  s+= '<tbody>';
+  chants.forEach(chant=>{
+    s+= '<tr>';
+    s+= `<td>${chant.titre}</td>`;
+    s+= `<td><a href="${chant.pdf}" target="_blank">PDF</a></td>`;
+    s+= '<td>';
+    chant.tag.forEach(m=>{
+      s+= `${m}  `;
+    })
+    s+= '</td>';
+    s+= '</tr>';
+  })
+  s+= '</tbody>';
+  s+= '</table>';
+  return s
+}
+
+var autresChantsIndex, autresChantsData;
+function initAutresChants() {
+  fetch("/index/chants.json").then(r => r.json()).then(function(data) {    
+    autresChantsData = data;
+    autresChantsIndex = lunr(function() {
+      this.ref("ref");
+      this.field("ref", {boost: 1});
+      this.field("id", {boost: 10});
+      this.field("tag", {boost: 10});
+      this.field("titre", {boost: 10});
+      this.field("text", {boost: 1});
+      this.field("pdf", {boost: 1});
+      idx = this;
+      autresChantsData.forEach(function(page, index, array) {
+        page.ref = page.id
+        idx.add(page);
+      });
+    });
+  })
+  document.querySelector('#autres input[name="texte"]').addEventListener('input', e =>{
+    var psaumes = searchAutresChants(e.target.value);
+    var html = renderAutresChants(psaumes, 'Résultats pour <em>'+e.target.value+'</em>');
+    document.getElementById('chantsResults').innerHTML = html;
+  })
+}
+
+function searchAutresChants(texte, tag) {
+    var q = '';
+    if(tag) q += `+tag:${tag} `;
+    if(texte) q += `+${texte}`;
+    console.log(q);
+    return autresChantsIndex.search(q).map(i=>autresChantsData.find(d => i.ref==d.id))
+}
+
+// ↑ AUTRE CHANTS
+// ------------------------------------------------------------------------------------------------------------------------------
+// ↓ INIT
+
+
+function initChants() {
+  initPsaumes();
+  initAutresChants();
+  Array.from(document.querySelectorAll('form')).forEach(f=>{
+    f.classList.add('hide');
+  })
+  Array.from(document.querySelectorAll('form.active')).forEach(f=>{
+    f.classList.remove('hide');
+  })
+  Array.from(document.querySelectorAll('form.active')).forEach(f=>{
+    f.classList.remove('hide');
+  })
+  Array.from(document.querySelectorAll('.tabs>li')).forEach(li=>{
+    li.addEventListener('click', function(){
+      Array.from(li.parentElement.parentElement.querySelectorAll('form')).forEach(f=>{
+        f.classList.add('hide');
+      });
+      Array.from(li.parentElement.querySelectorAll('li')).forEach(li=>{
+        li.classList.remove('active');
+      })
+      f = document.getElementById(li.attributes['data-tab'].value);
+      f.classList.remove('hide');
+      li.classList.add('active');
+      
+    })
+  })
 }

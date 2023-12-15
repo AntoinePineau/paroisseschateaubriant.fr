@@ -7,6 +7,7 @@
 main[mv-app=chants] {
 
     details {
+        margin-top: 1em;
         summary {
             background: $gris;
             cursor: pointer;
@@ -41,9 +42,6 @@ main[mv-app=chants] {
             }
         }
     }
-
-    
-
     
     @keyframes accordion-master {
         from {max-height: var(--accordion-min-height);}
@@ -55,4 +53,48 @@ main[mv-app=chants] {
         to {min-height: var(--accordion-min-height);}
     }
     
+    ul.tabs {
+        display: flex;
+        li {
+            padding: 1em;
+            color: $bleu;
+            background-color: $jaune;
+            border-radius: 10px 10px 0 0;
+            margin-right: 1em;
+            cursor: pointer;
+            &.active,&:hover {
+                color: $jaune;
+                background-color: $bleu;
+            }
+        }
+    }
+    form {
+        text-align: center;
+        * {
+            margin: 1em 3em;
+            padding: 1em;
+        }
+    }
+    table {
+        width: calc(100% - 6em);
+        margin: 3em;
+        caption {
+            padding: 0.5em;
+            font-weight: bold;
+            color: $blanc;
+            background-color: $noir;
+            border: solid 1px $noir;
+            em {
+                color: $jaune;
+            }
+        }
+        th {
+            color: $bleu;
+            background-color: $jaune;
+        }
+        td, th {
+            text-align: center;           
+            border: solid 1px $noir;
+        }
+    }
 }
