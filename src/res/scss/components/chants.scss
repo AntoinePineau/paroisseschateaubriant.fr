@@ -59,16 +59,19 @@ main[mv-app=chants] {
     
     ul.tabs {
         display: inline-flex;
+        padding: 0;
         li {
             padding: 1em;
             color: $bleu;
             background-color: $jaune;
             border-radius: 10px 10px 0 0;
-            margin-right: 1em;
             cursor: pointer;
             &.active,&:hover {
                 color: $jaune;
                 background-color: $bleu;
+            }
+            &:not(:last-child) {
+                margin-right: 1em;
             }
         }
     }
