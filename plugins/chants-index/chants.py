@@ -185,28 +185,19 @@ def add_chant_to_index(titre, pdf, tag=[]):
 def add_categories_to_chant_in_index(titre, tag=[]):
     '''
     Examples: 
-    python3 chants.py add_chant_to_index "Demeurez en mon amour - Accords" "1Bh2ZIJliBezjOtDLUGK4EOkf2kiqjpHU" "COM"
-    python3 chants.py add_chant_to_index "Debout resplendis - Accords" "1Bi-mojca0KLn2lhbcbTJGqdNp_EIc5Md" "EN"
-    python3 chants.py add_chant_to_index "Gloria (Messe de la Trinité)" "1BiJHyphvZgjnLj5pedAihhh1EXokCk5d" "GL"
+    python3 chants.py add_categories_to_chant_in_index "Demeurez en mon amour - Accords" "COM"
     '''
     indexFile = "../../dist/index/chants.json"
     f = open(indexFile)
     chants = json.load(f)
     f.close()
-    nextId = chants[-1]['id'] + 1
-    tmpFile = '/tmp/'+titre+'.pdf'
-    drive = authenticate()
-    download_file_from_google_drive(drive, pdf, tmpFile)
-    wait_for_file(tmpFile)
-    text = get_pdf_text(tmpFile)
-    os.remove(tmpFile)
-    chants.append({
-        "id": nextId,
-        "tag": tag.split(','),
-        "titre": titre,
-        "pdf": pdf,
-        "text": text
-    })
+    for chant in chants:
+        if chant['titre'].lower() == titre.lower():
+            tags = chant['tag']
+            for t in tag.split(','):
+                tags.append(t)
+            chant['tag'] = tags
+            break
     with open(indexFile, "w", encoding= 'utf-8') as f:
         json.dump(chants, f, ensure_ascii=False)
 
