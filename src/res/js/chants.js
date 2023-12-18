@@ -250,7 +250,7 @@ function initPsaumes() {
   })
   document.querySelector('#psaumes input[name="texte"]').addEventListener('input', e =>{
     var psaumes = searchPsaume(e.target.value);
-    var html = renderPsaumes(psaumes, 'Résultats pour <em>'+e.target.value+'</em>');
+    var html = renderPsaumes(psaumes, `<em>${psaumes.length}</em> résultats pour <em>${e.target.value}</em>`);
     document.getElementById('psaumesResults').innerHTML = html;
   })
 }
@@ -320,8 +320,8 @@ function initAutresChants() {
     });
   })
   document.querySelector('#autres input[name="texte"]').addEventListener('input', e =>{
-    var psaumes = searchAutresChants(e.target.value);
-    var html = renderAutresChants(psaumes, 'Résultats pour <em>'+e.target.value+'</em>');
+    var chants = searchAutresChants(e.target.value);
+    var html = renderAutresChants(chants, `<em>${chants.length}</em> résultats pour <em>${e.target.value}</em>`);
     document.getElementById('chantsResults').innerHTML = html;
   })
 }
