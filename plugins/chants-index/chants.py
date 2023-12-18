@@ -1,5 +1,6 @@
 
 import re
+import os
 import json
 
 
@@ -12,7 +13,6 @@ def get_all_pdf_from_folder(folder_path):
     Get all PDF files from given folder
     '''
     import glob
-    import os
     # List all files in the folder and its subfolders recursively
     all_files = glob.glob(os.path.join(folder_path, '**', '*'), recursive=True)
     # Filter only PDF files
@@ -56,6 +56,43 @@ def authenticate():
         print(f"An HTTP error occurred: {e}")
         print(f"Error details: {e.content}")
         return None
+
+
+def download_file_from_google_drive(drive, file_id, destination):
+    """
+    Download a file from Google Drive using its file ID.
+    
+    Parameters:
+    - file_id: The Google Drive file ID (you can get it from the shareable link).
+    - destination: The local path where the file should be saved.
+    """
+    # Get the file
+    file = drive.CreateFile({'id': file_id})
+    
+    # Download the file to the specified destination
+    file.GetContentFile(destination)
+
+
+def wait_for_file(file_path, timeout=300, interval=5):
+    """
+    Wait for a file to exist before proceeding.
+
+    Parameters:
+    - file_path (str): The path to the file.
+    - timeout (int): Maximum time to wait in seconds. Default is 300 seconds (5 minutes).
+    - interval (int): Time between checks in seconds. Default is 5 seconds.
+    """
+    import time
+    start_time = time.time()
+
+    while not os.path.exists(file_path):
+        if time.time() - start_time > timeout:
+            print(f"Timeout reached. File '{file_path}' not found.")
+            break
+
+        time.sleep(interval)
+
+    print(f"File '{file_path}' found.")
 
 
 def get_pdf_text(pdf_path):
@@ -113,6 +150,64 @@ def create_index():
         id+=1
 
     with open("chantsIndex.json", "w", encoding= 'utf-8') as f:
+        json.dump(chants, f, ensure_ascii=False)
+
+
+def add_chant_to_index(titre, pdf, tag=[]):
+    '''
+    Examples: 
+    python3 chants.py add_chant_to_index "Demeurez en mon amour - Accords" "1Bh2ZIJliBezjOtDLUGK4EOkf2kiqjpHU" "COM"
+    python3 chants.py add_chant_to_index "Debout resplendis - Accords" "1Bi-mojca0KLn2lhbcbTJGqdNp_EIc5Md" "EN"
+    python3 chants.py add_chant_to_index "Gloria (Messe de la Trinité)" "1BiJHyphvZgjnLj5pedAihhh1EXokCk5d" "GL"
+    '''
+    indexFile = "../../dist/index/chants.json"
+    f = open(indexFile)
+    chants = json.load(f)
+    f.close()
+    nextId = chants[-1]['id'] + 1
+    tmpFile = '/tmp/'+titre+'.pdf'
+    drive = authenticate()
+    download_file_from_google_drive(drive, pdf, tmpFile)
+    wait_for_file(tmpFile)
+    text = get_pdf_text(tmpFile)
+    os.remove(tmpFile)
+    chants.append({
+        "id": nextId,
+        "tag": tag.split(','),
+        "titre": titre,
+        "pdf": pdf,
+        "text": text
+    })
+    with open(indexFile, "w", encoding= 'utf-8') as f:
+        json.dump(chants, f, ensure_ascii=False)
+
+
+def add_categories_to_chant_in_index(titre, tag=[]):
+    '''
+    Examples: 
+    python3 chants.py add_chant_to_index "Demeurez en mon amour - Accords" "1Bh2ZIJliBezjOtDLUGK4EOkf2kiqjpHU" "COM"
+    python3 chants.py add_chant_to_index "Debout resplendis - Accords" "1Bi-mojca0KLn2lhbcbTJGqdNp_EIc5Md" "EN"
+    python3 chants.py add_chant_to_index "Gloria (Messe de la Trinité)" "1BiJHyphvZgjnLj5pedAihhh1EXokCk5d" "GL"
+    '''
+    indexFile = "../../dist/index/chants.json"
+    f = open(indexFile)
+    chants = json.load(f)
+    f.close()
+    nextId = chants[-1]['id'] + 1
+    tmpFile = '/tmp/'+titre+'.pdf'
+    drive = authenticate()
+    download_file_from_google_drive(drive, pdf, tmpFile)
+    wait_for_file(tmpFile)
+    text = get_pdf_text(tmpFile)
+    os.remove(tmpFile)
+    chants.append({
+        "id": nextId,
+        "tag": tag.split(','),
+        "titre": titre,
+        "pdf": pdf,
+        "text": text
+    })
+    with open(indexFile, "w", encoding= 'utf-8') as f:
         json.dump(chants, f, ensure_ascii=False)
 
 
