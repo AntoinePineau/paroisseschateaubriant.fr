@@ -274,6 +274,15 @@ function searchPsaume(texte, annee, temps, id) {
 // ------------------------------------------------------------------------------------------------------------------------------
 // ↓ AUTRE CHANTS
 
+function getLabelForTag(tag) {
+  try {
+    return document.querySelector('#autres select option[value="'+tag.trim()+'"]').innerText
+  }
+  catch(e) {
+    console.error(`Cannot find ${tag}`)
+    return '';
+  }
+}
 
 function renderAutresChants(chants, caption) {
   console.log(chants);
@@ -289,9 +298,11 @@ function renderAutresChants(chants, caption) {
     s+= `<td>${chant.titre}</td>`;
     s+= `<td><a href="${chant.pdf}" target="_blank">PDF</a></td>`;
     s+= '<td>';
+    labels = '';
     chant.tag.forEach(m=>{
-      s+= `${m}  `;
+      labels+= `${getLabelForTag(m)} - `;
     })
+    s += labels.replaceAll('^(.*) - $', '$1');
     s+= '</td>';
     s+= '</tr>';
   })
@@ -324,11 +335,27 @@ function initAutresChants() {
     var html = renderAutresChants(chants, `<em>${chants.length}</em> résultats pour <em>${e.target.value}</em>`);
     document.getElementById('chantsResults').innerHTML = html;
   })
+  Array.from(document.querySelectorAll('#autres select')).forEach(s=>{
+    s.addEventListener('change', e =>{
+      var temps = document.querySelector('#autres select[name="temps"]').value;
+      var etape = document.querySelector('#autres select[name="etape"]').value;
+      var tags = temps=="_"?[etape]:etape=="_"?[temps]:[temps,etape];
+      var labels = temps=="_"?getLabelForTag(etape):etape=="_"?getLabelForTag(temps):getLabelForTag(temps)+ " - "+getLabelForTag(etape);
+      console.log(temps, etape)
+      var chants = searchAutresChants('', tags);
+      var html = renderAutresChants(chants, `<em>${chants.length}</em> résultats pour <em>${labels}</em>`);
+      document.getElementById('chantsResults').innerHTML = html;
+    })
+  })
 }
 
 function searchAutresChants(texte, tag) {
     var q = '';
-    if(tag) q += `+tag:${tag} `;
+    if(tag) {
+      tag.forEach(t=>{
+        q += `+tag:${t} `;
+      })
+    }
     if(texte) q += `+${texte}`;
     console.log(q);
     return autresChantsIndex.search(q).map(i=>autresChantsData.find(d => i.ref==d.id))

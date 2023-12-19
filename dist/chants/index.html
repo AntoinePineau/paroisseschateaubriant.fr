@@ -104,13 +104,54 @@
         <aside>
           <ul class="tabs">
             <li data-tab="textTab" class="active">Par texte</li>
-            <!--li data-tab="categoryTab">Par catégorie</li-->
+            <li data-tab="categoryTab">Par catégorie</li>
           </ul>
           <form id="textTab" class="search-fields active">
             <input type="text" name="texte" />
           </form>
           <form id="categoryTab" class="search-fields">
-            <input type="date" name="date" />
+            <div>
+              <select name="temps">
+                <option value="_">Temps de l'année liturgique</option>
+                <option value="CAR">Carême</option>
+                <option value="P">Pâques</option>
+                <!--option value="A">Ascencion	</option-->
+                <option value="PEN">Pentecôte</option>
+                <option value="M">Marie</option>
+                <!--option value="TOU">Toussaint</option-->
+                <option value="AV">Avent</option>
+                <option value="N">Noël</option>
+                <option value="EP">Epiphanie</option>
+                <!--option value="ME">Ordinaires de messe</option-->
+                <option value="PRO">Profane</option>
+                <!--option value="D">Divers</option-->
+                <option value="BAP">Baptême</option>
+                <option value="FET">Fêtes</option>
+                <option value="SEM">Messe en semaine</option>
+                <!--option value="TO">Temps ordinaire</option-->
+              </select>
+              <select name="etape">
+                <option value="_">Etape de la célébration</option>
+                <option value="EN">Entrée / ouverture</option>
+                <option value="K">Kyrie / chant de pénitence</option>
+                <option value="GL">Gloria</option>
+                <option value="PS">Psaume</option>
+                <option value="AL">Alléluia / acclamation de l'Evangile</option>
+                <option value="HO">Chant après l'homélie</option>
+                <!--option value="CR">Credo / profession de foi</option-->
+                <option value="PU">Prière universelle</option>
+                <!--option value="OF">Offertoire / offrandes</option-->
+                <option value="S">Sanctus / Hosanna / louange eucharistique</option>
+                <!--option value="AN">Anamnèse</option-->
+                <option value="DOX">Doxologie</option>
+                <option value="NP">Notre Père</option>
+                <option value="AG">Agneau de Dieu / Agnus Dei</option>
+                <option value="COM">Communion / Eucharistie</option>
+                <option value="AC">Action de grâce / Laudate Dominum</option>
+                <option value="M">Chant à Marie</option>
+                <option value="FIN">Envoi / final</option>
+              </select>
+            </div>
           </form>
         </aside>
         <section id="chantsResults">
