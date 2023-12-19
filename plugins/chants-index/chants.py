@@ -111,16 +111,12 @@ def get_pdf_text(pdf_path):
 
 def get_mapping():
     '''
-    parses the chants.csv file to get the mapping of categories for each chant
+    parses the chants-categorises.json file to get the mapping of categories for each chant
     '''
-    import csv
-    mapping = {}
-    with open("chants.csv", 'r') as f:
-        csv_reader = csv.reader(f, delimiter=';')
-        for row in csv_reader:
-            if len(row)>1:
-                categories = re.split('[ /]', row[0])
-                mapping[row[1].lower()] = categories
+    mapping = {}    
+    f = open("chants-categorises.json")
+    mapping = json.load(f)
+    f.close()
     return mapping
 
 
@@ -194,12 +190,39 @@ def add_categories_to_chant_in_index(titre, tag=[]):
     for chant in chants:
         if chant['titre'].lower() == titre.lower():
             tags = chant['tag']
-            for t in tag.split(','):
-                tags.append(t)
+            if type(tag)=='str':
+                for t in tag.split(','):
+                    tags.append(t)
+            else:
+                for t in tag:
+                    tags.append(t)
             chant['tag'] = tags
             break
     with open(indexFile, "w", encoding= 'utf-8') as f:
         json.dump(chants, f, ensure_ascii=False)
+
+
+def prepare_categories():
+    '''
+    '''
+    import csv
+    filename = 'chants-additionnels.csv'
+    chants={}
+    with open(filename, 'r') as f:
+        csv_reader = csv.reader(f, delimiter=';')
+        for row in csv_reader:
+            categories = row[0].split('/')
+            titre = re.sub('^(.*?) ?\(.*\)$', r'\1', row[1]).lower()
+            if titre in chants:
+                for c in categories:
+                    if c not in chants[titre]:
+                        chants[titre].append(c)
+            else:
+                chants[titre] = categories
+    print(str(len(chants))+' chants')
+    with open('chants-categorises.json', "w", encoding= 'utf-8') as f:
+        json.dump(chants, f, ensure_ascii=False)
+    
 
 
 if __name__ == "__main__":
@@ -219,30 +242,36 @@ if __name__ == "__main__":
         else:
             print(function_name, "is not a valid function name")
     else:
+        indexFile = "../../dist/index/chants.json"
+        f = open(indexFile)
+        chants = json.load(f)
+        f.close()
+
         usedMapping = []
         categoryNotFound = []
         mapping = get_mapping()
-        pdf_file = ''
-        pdf_name = re.sub('.*/(.*?)( [(-].*)?\.pdf', r'\1', pdf_file).lower()
-        categories = mapping.get(pdf_name, [])
-        if not categories:
-            if re.match('.*[Aa]gn(eau|us).*', pdf_name):
+
+        for chant in chants:
+            pdf_name = re.sub('^(.*?) ?(\(|-).*$', r'\1', chant['titre']).lower()
+            categories = mapping.get(pdf_name, [])
+            if not categories:
+                categories = []
+            if 'AG' not in categories and re.match('.*[Aa]gn(eau|us).*', chant['titre']):
                 categories.append('AG')
-            if re.match('.*(Vierge|Mari[ea]).*', pdf_name):
+            if 'M' not in categories and re.match('.*(Vierge|Mari[ea]).*', chant['titre']):
                 categories.append('M')
-            if re.match('.*[Aa]ll.lu.a.*', pdf_name):
-                categories.append('AL')
-            if re.match('^[G]lo(ire|ria).*', pdf_name):
+            if 'GL' not in categories and re.match('^[G]lo(ire|ria).*', chant['titre']):
                 categories.append('GL')
-            if re.match('.*[Aa]namn.se.*', pdf_name):
+            if 'AN' not in categories and re.match('.*[Aa]namn.se.*', chant['titre']):
                 categories.append('AN')
-            if re.match('.*[Mm]esse.*', pdf_name):
+            if 'ME' not in categories and re.match('.*[Mm]esse.*', chant['titre']):
                 categories.append('ME')
-        if categories and pdf_name not in usedMapping:
-            usedMapping.append(pdf_file) 
-        elif not categories:
-            categoryNotFound.append(pdf_file)
-            print(pdf_name, "[NOT FOUND]")
+            if categories and pdf_name not in usedMapping:
+                usedMapping.append(chant['titre']) 
+            elif not categories:
+                categoryNotFound.append(chant['titre'])
+                print(pdf_name, "[NOT FOUND]")
+            add_categories_to_chant_in_index(chant['titre'], categories)
 
         with open("usedMapping.txt", "w", encoding= 'utf-8') as f:
             for i in usedMapping:
@@ -250,3 +279,4 @@ if __name__ == "__main__":
         with open("categoryNotFound.txt", "w", encoding= 'utf-8') as f:
             for i in categoryNotFound:
                 f.write(str(i) + '\n')
+        
