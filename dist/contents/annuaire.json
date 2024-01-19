@@ -257,6 +257,15 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "evelyne-denieul",
+			"nom": "Evelyne DENIEUL",
+			"activite": [
+				"Le réseau de prière pour les vocations"
+			],
+			"telephone": "06 28 54 18 83",
+			"fonction": "Bénévole"
+		},
+		{
 			"id": "gabrielle-caro",
 			"nom": "Gabrielle CARO",
 			"email": "gabrielle.caro@sfr.fr",
@@ -477,7 +486,7 @@
 			"activite": [
 				"Le réseau de prière pour les vocations"
 			],
-			"email": "m-claire.morla@orange.fr"
+			"email": "apv44110@gmail.com"
 		},
 		{
 			"id": "marie-claude-luette",
