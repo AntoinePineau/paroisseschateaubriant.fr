@@ -4,6 +4,10 @@ document.addEventListener('DOMContentLoaded',()=>{
       initChants();
     }
 
+    if(document.querySelector('main[mv-app=bible]')) {
+      initBible();
+    }
+
     if(document.querySelector('main[mv-app=recherche]'))
       fullSearch(document.location.href.split('texte=')[1]);
 

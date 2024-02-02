@@ -2,10 +2,36 @@
 <!-- @@block main -->
     <main mv-app="bible" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/bible.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
       <h1 property="titre"></h1>
-      
-        <section id="results">
-          
-        </section>
-      </details>
+    
+      <aside id="filters">
+        <ul class="tabs">
+          <li data-tab="dateTab" class="active">Textes par date</li>
+          <li data-tab="chapterTab">Par livre / chapitre</li>
+          <li data-tab="idTab">Par identifiant</li>
+        </ul>
+        <form id="dateTab" class="search-fields active">
+          <input type="date" name="date" />
+        </form>
+        <form id="chapterTab" class="search-fields">
+          <select name="type">
+            <option value="">Choisir un type...</option>
+            <option value="ancien">Ancien testament</option>
+            <option value="nouveau">Nouveau testament</option>
+            <option value="psaumes">Psaumes</option>
+          </select>
+          <select name="book" class="hide">
+            <option value="">Choisir un livre...</option>
+          </select>
+          <select name="chapter" class="hide">
+            <option value="">Choisir un numéro / chapitre...</option>
+          </select>
+        </form>
+        <form id="idTab" class="search-fields">
+          <input type="text" name="id" />
+        </form>
+      </aside>
+      <section id="results">
+        
+      </section>
     </main>
 <!-- @@close -->
