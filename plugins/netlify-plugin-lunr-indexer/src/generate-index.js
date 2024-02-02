@@ -31,7 +31,7 @@ function readJsonFilesFromDirectory(directoryPath, callback) {
           if (stats.isDirectory()) {
             // If it's a directory, recursively call the function
             readJsonFilesFromDirectory(filePath, callback);
-          } else if (path.extname(filePath).toLowerCase() === '.json' && filePath.indexOf('/index/')<0 && filePath.indexOf('footer')<0 && filePath.indexOf('header')<0) {
+          } else if (path.extname(filePath).toLowerCase() === '.json' && filePath.indexOf('/index/')<0 && filePath.indexOf('/functions/')<0 && filePath.indexOf('footer')<0 && filePath.indexOf('header')<0) {
             // If it's a JSON file and not an index, read and process it
             fs.readFile(filePath, 'utf8', (error, data) => {
               if (error) {
