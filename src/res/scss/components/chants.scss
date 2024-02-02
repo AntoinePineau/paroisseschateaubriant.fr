@@ -4,30 +4,10 @@
     --accordion-max-height: 300px;
 }
 
-main[mv-app=chants] {
+main[mv-app=chants],main[mv-app=bible] {
 
     details {
         margin-top: 1em;
-        summary {
-            background: $gris;
-            cursor: pointer;
-            padding: 1em;
-            border-radius: 5px;
-            font-weight: bold;
-            &::marker {
-                display:none;
-            }
-            &:before {
-                content: '❯';
-                position: absolute;
-                height: 24px;
-                width: 24px;
-                top: 1rem;
-                right: 1rem;
-                transform: rotate(0deg);
-                transition: .25s transform ease;
-            }
-        }
         animation-name: accordion-close;
         animation-duration: 0.4s;
         animation-timing-function: ease-in-out;
@@ -40,6 +20,27 @@ main[mv-app=chants] {
             & > summary:before {
                 transform: rotate(270deg);
             }
+        }
+    }
+    
+    summary {
+        background: $gris;
+        cursor: pointer;
+        padding: 1em;
+        border-radius: 5px;
+        font-weight: bold;
+        &::marker {
+            display:none;
+        }
+        &:before {
+            content: '❯';
+            position: absolute;
+            height: 24px;
+            width: 24px;
+            top: 1rem;
+            right: 1rem;
+            transform: rotate(0deg);
+            transition: .25s transform ease;
         }
     }
     

@@ -25,5 +25,10 @@
     "sass": "^1.63.5",
     "yargs": "^13.2.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@netlify/functions": "^2.5.1",
+    "fs": "0.0.1-security",
+    "lunr": "^2.3.9",
+    "os": "^0.1.2"
+  }
 }

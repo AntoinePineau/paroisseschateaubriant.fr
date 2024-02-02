@@ -64,6 +64,7 @@ def determiner_temps_liturgique(date):
     date_paques = calculer_date_paques(annee)
     date_mercredi_cendres = date_paques - timedelta(days=46)
     date_pentecote = date_paques + timedelta(days=49)
+    bapteme_du_seigneur = dimanche_qui_suit_lepiphanie + timedelta(days=1)
 
     temps_liturgique = ""
     numero_semaine = 0
@@ -72,7 +73,7 @@ def determiner_temps_liturgique(date):
         temps_liturgique = "Avent"
         nb = nb_jours(date_avent, date)
         numero_semaine = nb // 7 + 1
-    elif date_noel <= date <= dimanche_qui_suit_lepiphanie:
+    elif date_noel <= date <= bapteme_du_seigneur:
         temps_liturgique = "Noël"
         if date == date_noel:
             numero_semaine = 'Nativité du Seigneur'
@@ -82,14 +83,14 @@ def determiner_temps_liturgique(date):
             numero_semaine = 'Sainte Marie, Mère de Dieu'
         elif date == dimanche_qui_suit_lepiphanie:
             numero_semaine = 'L\'Epiphanie du Seigneur'
-        elif date == dimanche_qui_suit_lepiphanie + timedelta(days=1):
+        elif date == bapteme_du_seigneur:
             numero_semaine = 'Le Baptême du Seigneur'
         else:
             nb = nb_jours(date_noel, date)
             numero_semaine = nb // 7 + 1
     elif dimanche_qui_suit_lepiphanie < date < date_mercredi_cendres:
         temps_liturgique = "Ordinaire"
-        nb = nb_jours(dimanche_qui_suit_lepiphanie + timedelta(days=1), date)
+        nb = nb_jours(dimanche_qui_suit_lepiphanie, date)
         numero_semaine = nb // 7 + 1
     elif date_mercredi_cendres <= date < date_paques:
         temps_liturgique = 'Carême'
@@ -104,8 +105,7 @@ def determiner_temps_liturgique(date):
         elif date == date_mercredi_cendres:
             numero_semaine = 'Mercredi des Cendres'
         else:
-            premier_dimanche_de_careme = date_mercredi_cendres + timedelta(days=5)
-            nb = nb_jours(premier_dimanche_de_careme, date)
+            nb = nb_jours(date_mercredi_cendres, date)
             numero_semaine = nb // 7 + 1
     elif date_paques <= date <= date_pentecote:
         temps_liturgique = 'Pascal'
@@ -151,7 +151,7 @@ def scrap_aelf(date, id=0):
         if not lectureId:
             continue
         type = lectureId.find('h4').text
-        if type == 'Psaume':
+        if type == 'Psaume' or type == 'Cantique':
             lecture = lectureId.find('h5').text # découper  (1, 1-2, 3, 4.6)
             lecture_titre = lectureId.find('p').find('strong').text # interpréter R/ Qui marche à ta suite, Seigneur,<br> aura la lumière de la vie.<br/> &nbsp;
             lectures.append({
@@ -167,7 +167,6 @@ def scrap_aelf(date, id=0):
                 "id": re.sub(regex, r'\2', re.sub(' ', ' ', lecture)),
                 "titre": re.sub(regex, r'\1', re.sub(' ', ' ', lecture))
             })
-
     id = id+1
     temps_liturgique = determiner_temps_liturgique(date)
     return {
@@ -185,8 +184,11 @@ def scrap_aelf(date, id=0):
 def iterate_through_dates(start_date=datetime(2019,1,1), end_date=datetime(2021,12,31)):
     datas = []
     current_date = start_date
+    id = 1
     while current_date <= end_date:
-        datas.append(scrap_aelf(current_date.strftime("%Y-%m-%d")))
+        data = scrap_aelf(current_date.strftime("%Y-%m-%d"), id)
+        datas.append(data)
+        id = data['id']
         current_date += timedelta(days=1)   
     return datas
 

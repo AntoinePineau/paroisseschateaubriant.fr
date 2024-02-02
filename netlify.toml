@@ -8,3 +8,7 @@
   for = "/*"
   [header.values]
     X-Frame-Options= "ALLOWALL"
+
+[build]
+functions = "./functions"
+publish = "dist"

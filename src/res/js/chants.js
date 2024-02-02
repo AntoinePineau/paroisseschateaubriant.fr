@@ -8,6 +8,16 @@ function calculer1erDimancheAvent(annee) {
     return date;
 }
 
+const frenchDays = [
+  "Dimanche", // Sunday
+  "Lundi",    // Monday
+  "Mardi",    // Tuesday
+  "Mercredi", // Wednesday
+  "Jeudi",    // Thursday
+  "Vendredi", // Friday
+  "Samedi"    // Saturday
+];
+
 function calculerDatePaques(annee) {
     var a = annee % 19;
     var b = Math.floor(annee / 100);
@@ -37,6 +47,7 @@ function nbJours(d1, d2) {
 function determinerTempsLiturgique(date) {
     date.setHours(0);
     var annee = date.getFullYear();
+    var jour = (date.getDay()+6)%7; // (Monday is 0, Sunday is 6)
 
     // Calculer les dates clés
     var dateAvent = calculer1erDimancheAvent(annee);
@@ -164,6 +175,7 @@ function determinerTempsLiturgique(date) {
     }
 
     return {
+        jourSemaine: jour,
         numeroSemaine: numeroSemaine,
         tempsLiturgique: tempsLiturgique,
         anneeLiturgique: anneeLiturgique
@@ -179,12 +191,14 @@ function renderDateLiturgique(tempsLiturgique) {
     var a = tempsLiturgique.anneeLiturgique;
     var t = tempsLiturgique.tempsLiturgique;
     var s = tempsLiturgique.numeroSemaine;
+    var j = tempsLiturgique.jourSemaine;
+    
     if(s=='1') s += 'ère semaine';
     else if(/\d+/.test(s)) s += 'e semaine';
     if(t=='Carême') t = 'du '+t;
     if(t=='Noël') t = 'de '+t;
     if(t=='Avent') t = 'de l\''+t;
-    return s+" du temps "+t+" année "+a;
+    return frenchDays[(j+1)%7]+', '+s+" du temps "+t+" année "+a;
 }
 
 function renderPsaumes(psaumes, caption) {
@@ -363,7 +377,7 @@ function searchAutresChants(texte, tag) {
 
 // ↑ AUTRE CHANTS
 // ------------------------------------------------------------------------------------------------------------------------------
-// ↓ INIT
+// ↓ INIT CHANTS
 
 
 function initChants() {
@@ -371,13 +385,10 @@ function initChants() {
   initAutresChants();
   Array.from(document.querySelectorAll('form')).forEach(f=>{
     f.classList.add('hide');
-  })
+  });
   Array.from(document.querySelectorAll('form.active')).forEach(f=>{
     f.classList.remove('hide');
-  })
-  Array.from(document.querySelectorAll('form.active')).forEach(f=>{
-    f.classList.remove('hide');
-  })
+  });
   Array.from(document.querySelectorAll('.tabs>li')).forEach(li=>{
     li.addEventListener('click', function(){
       Array.from(li.parentElement.parentElement.querySelectorAll('form')).forEach(f=>{
@@ -390,6 +401,143 @@ function initChants() {
       f.classList.remove('hide');
       li.classList.add('active');
       
+    })
+  })
+}
+
+// ↑ INIT CHANTS
+// ------------------------------------------------------------------------------------------------------------------------------
+// ↓ INIT BIBLE
+
+
+
+function idifyLecture(annee, temps, semaine, jour) {
+  return `${jour},${semaine}(${annee})${temps}`
+}
+
+function renderLectures(lectures, caption) {
+  console.log(lectures);
+  var s = '<table cellpadding="0" cellspacing="0">';
+  s+= '<caption>'+caption+'</caption>';
+  s+= '<thead><tr>';
+  s+= '<th>Lecture de la messe</th>'; 
+  s+= '<th>Titre</th>';
+  s+= '<th>Identifiant</th>';    
+  s+= '<tbody>';
+  lectures.forEach(l=>{
+    s+= '<tr>';
+    s+= `<td>${l.type}</td>`;
+    s+= `<td>${l.titre}</td>`;
+    s+= `<td>${l.id}</td>`;
+    s+= '</tr>';
+  })
+  s+= '</tbody>';
+  s+= '</table>';
+  return s
+}
+
+var bibleIndex, bibleData, lecturesIndex, lecturesData;
+function initBibleIndex() {
+  fetch("/index/bible/livres.json").then(r => r.json()).then(function(data) {    
+    bibleData = data;
+    bibleIndex = lunr(function() {
+      this.ref("ref");
+      this.field("ref", {boost: 1});
+      this.field("id", {boost: 10});
+      this.field("type", {boost: 10});
+      this.field("temps", {boost: 5});
+      this.field("annee", {boost: 1});
+      this.field("date", {boost: 2});
+      this.field("nom", {boost: 8});
+      this.field("titre", {boost: 10});
+      this.field("text", {boost: 1});
+      this.field("pdf", {boost: 1});
+      idx = this;
+      bibleData.forEach(function(page, index, array) {
+        page.ref = idifyLecture(page.annee,page.temps,page.semaine,page.jour)
+        idx.add(page);
+      });
+    });
+  })
+  fetch("/index/lectures.json").then(r => r.json()).then(function(data) {    
+    lecturesData = data;
+    lecturesIndex = lunr(function() {
+      this.ref("ref");
+      this.field("ref", {boost: 1});
+      this.field("id", {boost: 10});
+      this.field("annee", {boost: 10});
+      this.field("temps", {boost: 5});
+      this.field("semaine", {boost: 1});
+      this.field("jour", {boost: 2});
+      this.field("date", {boost: 8});
+      this.field("originalDate", {boost: 10});
+      this.field("lectures", {boost: 1});
+      idx = this;
+      lecturesData.forEach(function(page, index, array) {
+        page.ref = idifyLecture(page.annee,page.temps,page.semaine,page.jour)
+        idx.add(page);
+      });
+    });
+  })
+
+  document.querySelector('#filters input[name="date"]').addEventListener('change', e =>{
+    var date = new Date(e.target.value);
+    var t = determinerTempsLiturgique(date);
+    var result = searchLecturesByTempsLiturgique(t)[0];
+    console.log('result', result);
+    var html = renderLectures(result.lectures, date.toLocaleDateString("fr-FR",{ weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) + ' : ' + renderDateLiturgique(t));
+    document.getElementById('results').innerHTML = html;
+  });
+  
+  document.querySelector('#filters input[name="id"]').addEventListener('input', e =>{
+    var result = searchLecturesById(e.target.value);
+    console.log('result', result);
+    var html = renderLectures(result.lectures, `Lectures pour <em>${e.target.value}</em>`);
+    document.getElementById('results').innerHTML = html;
+  });
+  
+  document.querySelector('#filters select[name="type"]').addEventListener('input', e =>{
+    var result = searchLecturesByText(e.target.value);
+    console.log('result', result);
+    var html = renderLectures(result.lectures, `Lectures pour <em>${e.target.value}</em>`);
+    document.getElementById('results').innerHTML = html;
+  });
+}
+
+function searchLecturesByTempsLiturgique(t) {  
+  var q = `+ref:${idifyLecture(t.anneeLiturgique, t.tempsLiturgique, t.numeroSemaine, t.jourSemaine)}`;
+  return searchLectures(q);
+}
+
+function searchLecturesById(id) {  
+  var q = `+id=${id}`;
+  return searchLectures(q);
+}
+
+function searchLectures(q) {
+  console.log(q);
+  return lecturesIndex.search(q).map(i=>lecturesData.find(d => i.ref==idifyLecture(d.annee, d.temps, d.semaine, d.jour)))
+}
+
+function initBible() {
+  initBibleIndex();
+  Array.from(document.querySelectorAll('form')).forEach(f=>{
+    f.classList.add('hide');
+  });
+  Array.from(document.querySelectorAll('form.active')).forEach(f=>{
+    f.classList.remove('hide');
+  });
+  Array.from(document.querySelectorAll('.tabs>li')).forEach(li=>{
+    li.addEventListener('click', function(){
+      Array.from(li.parentElement.parentElement.querySelectorAll('form')).forEach(f=>{
+        f.classList.add('hide');
+      });
+      Array.from(li.parentElement.querySelectorAll('li')).forEach(li=>{
+        li.classList.remove('active');
+      })
+      f = document.getElementById(li.attributes['data-tab'].value);
+      f.classList.remove('hide');
+      li.classList.add('active');      
     })
   })
 }
