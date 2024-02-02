@@ -10,5 +10,6 @@
     X-Frame-Options= "ALLOWALL"
 
 [build]
-functions = "./functions"
-publish = "dist"
+  functions = "./functions"
+  publish = "dist"
+  command = "npm i"
