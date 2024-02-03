@@ -14,7 +14,7 @@ exports.handler = async function (event, context) {
     };
   }
   const {fullsearchIndex, fullsearchData} = await initFullsearch();
-  var results = search(fullsearchIndex, fullsearchData, texte);
+  var results = search(fullsearchIndex, fullsearchData, decodeURIComponent(texte));
   return {
     statusCode: 200,
     body: JSON.stringify(results)
@@ -38,5 +38,5 @@ async function initFullsearch() {
   return {fullsearchIndex, fullsearchData};
 }
 function search(fullsearchIndex, fullsearchData, texte) {
-  return fullSearchIndex.search('*'+texte+'*').map(item => fullSearchData.find(doc => item.ref === doc.i))
+  return fullsearchIndex.search('*'+texte+'*').map(item => fullsearchData.find(doc => item.ref === doc.i))
 }
