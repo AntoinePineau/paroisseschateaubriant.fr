@@ -2,7 +2,7 @@ const lunr = require('lunr');
 
 exports.handler = async function (event, context) {
   const { texte, annee, temps, semaine, jour } = event.queryStringParameters;
-  if(!jour && !annee && !temps && !semaine) {
+  if(!texte && !jour && !annee && !temps && !semaine) {
     return {
       statusCode: 200,
       body: JSON.stringify({
@@ -18,7 +18,7 @@ exports.handler = async function (event, context) {
     };
   }
   const {lecturesIndex, lecturesData} = await initLecturesIndex();
-  var lectures = searchLecturesByTempsLiturgique(lecturesIndex, lecturesData, texte, annee, temps, semaine, jour);
+  var lectures = searchLectures(lecturesIndex, lecturesData, texte, annee, temps, semaine, jour);
   return {
     statusCode: 200,
     body: JSON.stringify(lectures)
@@ -53,7 +53,7 @@ async function initLecturesIndex() {
   return {lecturesIndex, lecturesData}
 }
 
-function searchLecturesByTempsLiturgique(lecturesIndex, lecturesData, texte, annee, temps, semaine, jour) {
+function searchLectures(lecturesIndex, lecturesData, texte, annee, temps, semaine, jour) {
   var q = '';
   if(jour&&semaine&&temps&&annee) {
     q = `+ref:${idifyLecture(annee, temps, semaine, jour)}`
