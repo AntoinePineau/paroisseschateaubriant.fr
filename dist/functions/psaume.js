@@ -17,10 +17,10 @@ exports.handler = async function (event, context) {
     };
   }
   const {psaumeIndex, psaumeData} = await initPsaumes();
-  var psaume = searchPsaume(psaumeIndex, psaumeData, texte, annee, temps,semaine);
+  var psaumes = searchPsaume(psaumeIndex, psaumeData, texte, annee, temps,semaine);
   return {
     statusCode: 200,
-    body: JSON.stringify(psaume)
+    body: JSON.stringify(psaumes)
   };
 };
 
@@ -63,7 +63,7 @@ function searchPsaume(psaumeIndex, psaumeData, texte, annee, temps, id) {
     if(id) q += `+id:${id} `;
     if(temps) q += `+temps:${temps} `;
     if(annee) q += `+annee:${annee} `;
-    if(texte) q += `+"${texte}"`;
+    if(texte) q += `+${texte}`;
   }
   return psaumeIndex.search(q).map(i=>psaumeData.find(d => i.ref==idifyPsaume(d.annee, d.temps, d.id)))
 }

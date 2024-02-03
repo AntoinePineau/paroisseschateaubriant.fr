@@ -6,6 +6,7 @@ exports.handler = async function (event, context) {
       statusCode: 200,
       body: JSON.stringify({
         help: 'query string parameter "date" is missing or does not contain a date with format dd/MM/yyyy',
+        given_parameters: event.queryStringParameters,
         available_parameters:[
           {date: 'date in dd/MM/yyyy format'},
           {debug: 'debug boolean value to add more information in the calculation. default: 0'}

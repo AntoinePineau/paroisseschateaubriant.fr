@@ -1,30 +1,15 @@
 // parce que les regex, c'est la vie!
 String.prototype.replaceAll=function(s,r){return this.replace(new RegExp(s,'gm'),r)};
 
-var fullSearchIndex, fullSearchData;
-
 function fullSearch(text) {
   if(!text) return;
-  text = decodeURIComponent(text);
   Array.from(document.querySelectorAll('input[type=text][name=texte]')).forEach(i=>{
-    i.value = text
+    i.value = decodeURIComponent(text)
   })
-  fetch('/index/full-search.json')
+  fetch(`/.netlify/functions/recherche/?texte=${text}`, { mode: 'no-cors' })
   .then(r => r.json())
-  .then(data => {
-    fullSearchData = data;
-    fullSearchIndex = lunr(function() {
-        this.ref("i");
-        this.field("i", {boost: 10});
-        this.field("t", {boost: 10});
-        this.field("c", {boost: 5});
-        idx = this;
-        data.forEach(function(page, index, array) {
-          idx.add(page);
-        });
-    });
+  .then(results => {    
     var ol = document.createElement('ol');
-    var results = fullSearchIndex.search('*'+text+'*').map(item => fullSearchData.find(doc => item.ref === doc.i));
     var resultsSection = document.getElementById('results');
     if(!results.length) {
       resultsSection.innerHTML = '<h2 property="pasderesultats" class="center">Pas de résultat</h2>';
