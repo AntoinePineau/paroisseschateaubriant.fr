@@ -8,6 +8,12 @@
   for = "/*"
   [header.values]
     X-Frame-Options= "ALLOWALL"
+  
+  for = "/.netlify/functions/*"  # Adjust the path according to your function
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type"
 
 [build]
   functions = "./functions"
