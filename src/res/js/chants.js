@@ -98,27 +98,13 @@ function renderAutresChants(chants, caption) {
 
 var autresChantsIndex, autresChantsData;
 function initAutresChants() {
-  fetch("/index/chants.json").then(r => r.json()).then(function(data) {    
-    autresChantsData = data;
-    autresChantsIndex = lunr(function() {
-      this.ref("ref");
-      this.field("ref", {boost: 1});
-      this.field("id", {boost: 10});
-      this.field("tag", {boost: 10});
-      this.field("titre", {boost: 10});
-      this.field("text", {boost: 1});
-      this.field("pdf", {boost: 1});
-      idx = this;
-      autresChantsData.forEach(function(page, index, array) {
-        page.ref = page.id
-        idx.add(page);
-      });
-    });
-  })
   document.querySelector('#autres input[name="texte"]').addEventListener('input', e =>{
-    var chants = searchAutresChants(e.target.value);
-    var html = renderAutresChants(chants, `<em>${chants.length}</em> résultats pour <em>${e.target.value}</em>`);
-    document.getElementById('chantsResults').innerHTML = html;
+    fetch(`/.netlify/functions/chants/?texte=${e.target.value}`, { mode: 'no-cors' })
+    .then(r => r.json())
+    .then(chants => {      
+      var html = renderAutresChants(chants, `<em>${chants.length}</em> résultats pour <em>${e.target.value}</em>`);
+      document.getElementById('chantsResults').innerHTML = html;
+    })
   })
   Array.from(document.querySelectorAll('#autres select')).forEach(s=>{
     s.addEventListener('change', e =>{
@@ -126,10 +112,13 @@ function initAutresChants() {
       var etape = document.querySelector('#autres select[name="etape"]').value;
       var tags = temps=="_"?[etape]:etape=="_"?[temps]:[temps,etape];
       var labels = temps=="_"?getLabelForTag(etape):etape=="_"?getLabelForTag(temps):getLabelForTag(temps)+ " - "+getLabelForTag(etape);
-      console.log(temps, etape)
-      var chants = searchAutresChants('', tags);
-      var html = renderAutresChants(chants, `<em>${chants.length}</em> résultats pour <em>${labels}</em>`);
-      document.getElementById('chantsResults').innerHTML = html;
+      console.log(temps, etape)      
+      fetch(`/.netlify/functions/chants/?tag=${tags}`, { mode: 'no-cors' })
+      .then(r => r.json())
+      .then(chants => {
+        var html = renderAutresChants(chants, `<em>${chants.length}</em> résultats pour <em>${labels}</em>`);
+        document.getElementById('chantsResults').innerHTML = html;
+      })
     })
   })
 }
