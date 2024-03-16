@@ -60,6 +60,20 @@
 			]
 		},
 		{
+			"titre": "La Fraternité paysanne",
+			"description": "La Fraternité paysanne du Pays de la Mée se réunit un dimanche tous les deux mois pour un temps de partage, d'amitié, de prière et de réflexion. Elle se compose d'éleveurs et d'agriculteurs chrétiens qui sont heureux de se soutenir fraternellement dans leur vocation commune. Conscients que la crise actuelle du monde agricole est complexe, ils désirent vous partager le fruit de leur réflexion, et les sentiments qui les habitent.",
+			"paragraphe": [
+				{
+					"description": "Plus d'informations en téléchargeant les <a href=\"/res/docs/Temoignages-Fraternite-Paysanne.pdf\" download=\"Témoignages-Fraternité-Paysanne.pdf\">Témoignages</a> de la Fraternité paysanne",
+					"contact": [
+						{
+							"id": "marie-vignon"
+						}
+					]
+				}
+			]
+		},
+		{
 			"titre": "Le groupe « Goûter ensemble la Parole de Dieu »",
 			"description": "<p><img src=\"../../res/img/contents/gouter-la-parole.jpg\" alt=\"Go&ucirc;ter la Parole\" width=\"222\" height=\"181\" /></p>\n<p>Se r&eacute;unit 1 lundi soir tous les mois pour une lecture pri&eacute;e de la Parole.</p>",
 			"paragraphe": [
