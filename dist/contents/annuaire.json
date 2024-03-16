@@ -522,6 +522,16 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "marie-vignon",
+			"nom": "Marie et René VIGNON",
+			"email": "marie-vignon@sfr.fr",
+			"telephone": "06 01 36 96 98",
+			"activite": [
+				"Fraternité paysanne"
+			],
+			"fonction": "Bénévole"
+		},
+		{
 			"id": "marie-france-menard",
 			"nom": "Marie-France MÉNARD",
 			"email": "mariefran44@free.fr",
@@ -682,7 +692,7 @@
 			"id": "soeur-imelda-piton",
 			"nom": "Sœur Imelda Piton",
 			"email": "imelda.piton@hotmail.fr",
-			"telephone": "06 78 97 26 02",
+			"telephone": "06 83 24 77 76",
 			"activite": [
 				"Visite à domicile des malades et personnes âgées"
 			],
