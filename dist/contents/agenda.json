@@ -1,5 +1,7 @@
 {
 	"titre": "Le calendrier de nos paroisses",
 	"blocs": [],
-	"calendrier": "https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23f3a539&ctz=Europe/Paris&showTz=0&showPrint=1&showDate=1&showTitle=0&src=sccsjd%40gmail.com&color=%23EF6C00"
+	"calendrier": {
+		"URL": "https://calendar.google.com/calendar/embed?src=g95g8ormjagl9uoi4ovmu846l8emocid%40import.calendar.google.com&ctz=Europe%2FParis&color=%23f3a539&showTitle=0&showDate=1&showTz=1&showPrint=1"
+	}
 }
