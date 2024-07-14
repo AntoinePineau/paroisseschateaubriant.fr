@@ -2,6 +2,12 @@
 	"titre": "Paroisses du Pays de Châteaubriant",	
 	"teaser": [
 		{
+			"titre": "28 Septembre !",
+			"texte": "Ne loupez pas la rentrée paroissiale et le Congrès Mission !",
+			"lien": "/28-septembre-rentree-paroissiale-congres-mission/",
+			"type": "promo"
+		},
+		{
 			"titre": "Messes",
 			"texte": "Les horaires des messes dominicales et en semaine",
 			"lien": "/messes/"
