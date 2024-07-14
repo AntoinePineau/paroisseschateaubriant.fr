@@ -8,8 +8,8 @@ section[property=teaser] {
     flex-grow: 1;
     margin: 0 2em 2em;
     padding: 0 1em;
-    border: solid 5px rgba(10, 17, 40, $transparency);//$bleu;
     border-radius: 20px;
+    border: solid 5px rgba(10, 17, 40, $transparency);//$bleu;
     background-color: rgba(243, 165, 57, $transparency);//$jaune;
     height: fit-content;
     @include transition();
@@ -24,6 +24,23 @@ section[property=teaser] {
         color: $jaune;
         &:hover {
           background-color: transparent;
+        }
+      }
+    }
+    &.promo{
+      border: solid 5px rgba(67, 157, 72, $transparency);//$promo;
+      background-color: rgba(254, 252, 251, $transparency);//$blanc;
+      a {
+        color: $promo;      
+      }
+      &:hover {
+        border-color: rgba(254, 252, 251, $transparency);//$blanc;
+        background-color: rgba(67, 157, 72, $transparency);//$promo
+        a {
+          color: $blanc;
+          &:hover {
+            background-color: transparent;
+          }
         }
       }
     }
