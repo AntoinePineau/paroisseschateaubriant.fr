@@ -1,5 +1,5 @@
 {
-	"titre": "Paroisses du Pays de Châteaubriant",	
+	"titre": "Paroisses du Pays de Châteaubriant",
 	"teaser": [
 		{
 			"titre": "28 Septembre !",
@@ -41,6 +41,7 @@
 			"titre": "Actualités",
 			"texte": "Les dernières actualités de nos paroisses",
 			"lien": "/actualites/"
-		}
+		},
+		{}
 	]
 }
