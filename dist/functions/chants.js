@@ -15,10 +15,10 @@ exports.handler = async function (event, context) {
     };
   }
   const {chantsIndex, chantsData} = await initChants();
-  var chantss = searchChant(chantsIndex, chantsData, texte, annee, temps,semaine);
+  var chants = searchChant(chantsIndex, chantsData, texte, tag);
   return {
     statusCode: 200,
-    body: JSON.stringify(chantss)
+    body: JSON.stringify(chants)
   };
 };
 
@@ -34,7 +34,7 @@ async function initChants() {
         this.field("text", {boost: 1});
         this.field("pdf", {boost: 1});
         idx = this;
-        autresChantsData.forEach(function(page, index, array) {
+        ChantsData.forEach(function(page, index, array) {
             page.ref = page.id
             idx.add(page);
         });
