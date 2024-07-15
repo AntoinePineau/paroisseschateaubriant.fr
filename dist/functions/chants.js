@@ -34,7 +34,7 @@ async function initChants() {
         this.field("text", {boost: 1});
         this.field("pdf", {boost: 1});
         idx = this;
-        ChantsData.forEach(function(page, index, array) {
+        chantsData.forEach(function(page, index, array) {
             page.ref = page.id
             idx.add(page);
         });
