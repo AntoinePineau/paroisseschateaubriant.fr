@@ -23,15 +23,15 @@
 			"lien": "/activites/"
 		},
 		{
+			"titre": "Agenda",
+			"texte": "Les rendez-vous 2024-2025",
+			"lien": "/agenda/"
+		},
+		{
 			"titre": "Cérémonie d'ouverture des JO",
 			"texte": "Réaction à la cérémonie d'ouverture des Jeux Olympiques de Paris 2024",
 			"lien": "/ceremonie-ouverture-jo/",
 			"type": "promo"
-		},
-		{
-			"titre": "Agenda",
-			"texte": "Les rendez-vous 2023-2024",
-			"lien": "/agenda/"
 		},
 		{
 			"titre": "Équipes de coordination",
