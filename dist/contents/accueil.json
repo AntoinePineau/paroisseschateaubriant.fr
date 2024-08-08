@@ -18,15 +18,15 @@
 			"lien": "/annuaire/"
 		},
 		{
+			"titre": "Activités Paroissiales",
+			"texte": "Les rencontres, les célébrations, les formations, les prières et les services au sein de nos paroisses",
+			"lien": "/activites/"
+		},
+		{
 			"titre": "Cérémonie d'ouverture des JO",
 			"texte": "Réaction à la cérémonie d'ouverture des Jeux Olympiques de Paris 2024",
 			"lien": "/ceremonie-ouverture-jo/",
 			"type": "promo"
-		},
-		{
-			"titre": "Activités Paroissiales",
-			"texte": "Les rencontres, les célébrations, les formations, les prières et les services au sein de nos paroisses",
-			"lien": "/activites/"
 		},
 		{
 			"titre": "Agenda",
