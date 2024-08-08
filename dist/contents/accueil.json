@@ -13,14 +13,15 @@
 			"lien": "/messes/"
 		},
 		{
-			"titre": "Cérémonie d'ouverture des JO",
-			"texte": "Réaction à la cérémonie d'ouverture des Jeux Olympiques de Paris 2024",
-			"lien": "/ceremonie-ouverture-jo/"
-		},
-		{
 			"titre": "Annuaire",
 			"texte": "Les acteurs de nos paroisses",
 			"lien": "/annuaire/"
+		},
+		{
+			"titre": "Cérémonie d'ouverture des JO",
+			"texte": "Réaction à la cérémonie d'ouverture des Jeux Olympiques de Paris 2024",
+			"lien": "/ceremonie-ouverture-jo/",
+			"type": "promo"
 		},
 		{
 			"titre": "Activités Paroissiales",
