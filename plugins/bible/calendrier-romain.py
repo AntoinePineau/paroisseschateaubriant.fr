@@ -145,6 +145,7 @@ def scrap_aelf(date, id=0):
     soup = BeautifulSoup(resp.text, 'html.parser')
     
     dateLiturgique = re.sub('^[— -]*(.*?)[— -]*$', r'\1', soup.find(class_='heading-day').find(class_='m-b-0').find('strong').text)
+    couleur = re.sub('Couleur liturgique : (.*)', r'\1', soup.find(class_='heading-day').find(class_='m-b-0').find(class_='span-color').attrs['title'])
     lectures = []
     for i in range(1, 5):
         lectureId = soup.find(id='messe1_lecture'+str(i))
@@ -162,6 +163,15 @@ def scrap_aelf(date, id=0):
         else:
             regex = '^[\s «]*(.*?)[\s »]*?\\((.*)\\) *'
             lecture = lectureId.find('h5').text # découper « Si tu avais prêté attention à mes commandements ! » (Is 48, 17-19)
+            if type == 'Évangile':
+                alleluia = re.sub('  ', r' ', re.sub('\n', r' ', lectureId.find('p').text))
+                print(re.sub('.*\((cf. ?)?(.*)\)', r'\2', alleluia))
+                print(re.sub('Alléluia[,. ]+|\(.*?\)', r'', alleluia))
+                lectures.append({
+                    "type": 'Alléluia',
+                    "id": re.sub('.*\((cf. ?)?(.*)\)', r'\2', alleluia),
+                    "titre": re.sub('Alléluia. ?|\(.*?\)', r'', alleluia)
+                })
             lectures.append({
                 "type": type,
                 "id": re.sub(regex, r'\2', re.sub(' ', ' ', lecture)),
@@ -174,6 +184,7 @@ def scrap_aelf(date, id=0):
         "annee" : temps_liturgique['anneeLiturgique'],
         "temps" : temps_liturgique['tempsLiturgique'],
         "semaine" : temps_liturgique['numeroSemaine'],
+        "couleur" : couleur,
         "jour" : datetime.strptime(date, '%Y-%m-%d').weekday(), # (Monday is 0, Sunday is 6)
         "date": dateLiturgique,
         "originalDate": date,
