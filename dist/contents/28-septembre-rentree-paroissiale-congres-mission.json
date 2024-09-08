@@ -86,7 +86,7 @@
 				},
 				{
 					"titre": "Visite commentée de l'église Saint-Nicolas",
-					"texte": "<table style=\"width: 100%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 22px;\" border=\"0\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 100%; height: 22px;\">\n<p><strong><span style=\"font-size: 17.6px;\">Samedi, 14h30 et 16h</span></strong></p>\n<p><span style=\"font-size: 17.6px;\">Venez (Re)d&eacute;couvrir l&rsquo;&eacute;glise St Nicolas !</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+					"texte": "<table style=\"width: 100%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 22px;\" border=\"0\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 100%; height: 22px;\">\n<p><strong><span style=\"font-size: 17.6px;\">Samedi, 14h30 et 16h</span></strong></p>\n<p><span style=\"font-size: 17.6px;\">Venez (re)d&eacute;couvrir l&rsquo;&eacute;glise St Nicolas !</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
 					"contact": [
 						{}
 					]
