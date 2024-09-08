@@ -104,48 +104,6 @@
 					"contact": [
 						{}
 					]
-				},
-				{
-					"titre": "14h30 - 16h45",
-					"texte": "<table style=\"width: 100%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 22px;\" border=\"0\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 100%; height: 22px;\">cin&eacute;ma chr&eacute;tien avec Fidesco, film &ldquo;A nos enfants&rdquo;</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
-					"contact": [
-						{}
-					]
-				},
-				{
-					"titre": "14h - 17h",
-					"texte": "<table style=\"width: 100%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 22px;\" border=\"0\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 100%; height: 22px;\">adoration dans la chapelle de semaine</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
-					"contact": [
-						{}
-					]
-				},
-				{
-					"titre": "15h - 17h",
-					"texte": "<table style=\"width: 100%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 22px;\" border=\"0\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 100%; height: 22px;\">t&eacute;moignage J. Leb&egrave;ze</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
-					"contact": [
-						{}
-					]
-				},
-				{
-					"titre": "18h",
-					"texte": "<table style=\"width: 100%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 22px;\" border=\"0\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 100%; height: 22px;\">messe</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
-					"contact": [
-						{}
-					]
-				},
-				{
-					"titre": "19h30 - 20h30",
-					"texte": "<table style=\"width: 100%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 22px;\" border=\"0\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 100%; height: 22px;\">repas partag&eacute;</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
-					"contact": [
-						{}
-					]
-				},
-				{
-					"titre": "20h45",
-					"texte": "<table style=\"width: 100%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 22px;\" border=\"0\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 100%; height: 22px;\">concert</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
-					"contact": [
-						{}
-					]
 				}
 			]
 		},
