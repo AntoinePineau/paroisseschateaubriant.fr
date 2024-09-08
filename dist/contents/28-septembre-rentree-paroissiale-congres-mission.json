@@ -159,7 +159,7 @@
 				},
 				{
 					"titre": "Adoration",
-					"texte": "<p><span style=\"font-size: 17.6px;\">Samedi, en continu de 14h &agrave; 17h</span></p>\n<p><span style=\"font-size: 17.6px;\">Adoration dans la chapelle de semaine</span></p>",
+					"texte": "<p><strong><span style=\"font-size: 17.6px;\">Samedi, en continu de 14h &agrave; 17h</span></strong></p>\n<p><span style=\"font-size: 17.6px;\">Adoration dans la chapelle de semaine</span></p>",
 					"contact": [
 						{}
 					]
