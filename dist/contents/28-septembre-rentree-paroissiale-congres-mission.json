@@ -45,6 +45,7 @@
 				},
 				{
 					"titre": "Une buvette\nDes foodtrucks",
+					"texte": "<p><span style=\"font-size: 17.6px;\">et la possibilit&eacute; d&rsquo;apporter son propre repas,</span></p>\n<p><span style=\"font-size: 17.6px;\">Rendez-vous pour un repas partag&eacute; &agrave; partir de 12h30 et 19h30 !</span></p>",
 					"contact": [
 						{}
 					]
