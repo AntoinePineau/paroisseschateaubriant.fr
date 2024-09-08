@@ -79,7 +79,7 @@
 				},
 				{
 					"titre": "Ciné - Débat",
-					"texte": "<table style=\"width: 100%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 22px;\" border=\"0\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 100%; height: 22px;\">avec FIDESCO et E</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+					"texte": "<table style=\"width: 100%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 22px;\" border=\"0\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 100%; height: 22px;\">avec FIDESCO et &Eacute;meraude c</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
 					"contact": [
 						{}
 					]
