@@ -23,7 +23,7 @@ exports.handler = async function (event, context) {
 };
 
 async function initChants() {
-  await fetch("https://paroisseschateaubriant.fr/index/chants.json").then(r => r.json()).then(function(data) {    
+  await fetch("https://saintefamille44.fr/index/chants.json").then(r => r.json()).then(function(data) {    
     chantsData = data;
     chantsIndex = lunr(function() {
         this.ref("ref");
