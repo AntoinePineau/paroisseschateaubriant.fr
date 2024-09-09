@@ -30,7 +30,7 @@ function idifyLecture(annee, temps, semaine, jour) {
 }
 
 async function initLecturesIndex() {
-  await fetch("https://paroisseschateaubriant.fr/index/lectures.json").then(r => r.json()).then(function(data) {    
+  await fetch("https://saintefamille44.fr/index/lectures.json").then(r => r.json()).then(function(data) {    
     lecturesData = data;
     lecturesIndex = lunr(function() {
       this.ref("ref");

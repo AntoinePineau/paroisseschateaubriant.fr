@@ -22,7 +22,7 @@ exports.handler = async function (event, context) {
 };
 
 async function initFullsearch() {
-  await fetch("https://paroisseschateaubriant.fr/index/full-search.json").then(r => r.json()).then(function(data) {    
+  await fetch("https://saintefamille44.fr/index/full-search.json").then(r => r.json()).then(function(data) {    
     fullsearchData = data;
     fullsearchIndex = lunr(function() {
       this.ref("i");

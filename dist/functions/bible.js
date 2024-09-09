@@ -22,7 +22,7 @@ exports.handler = async function (event, context) {
 };
 
 async function initBibleIndex() {
-  await fetch("https://paroisseschateaubriant.fr/index/bible/livres.json").then(r => r.json()).then(function(data) {    
+  await fetch("https://saintefamille44.fr/index/bible/livres.json").then(r => r.json()).then(function(data) {    
     bibleData = data;
     bibleIndex = lunr(function() {
       this.ref("ref");

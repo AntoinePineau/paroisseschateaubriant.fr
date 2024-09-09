@@ -30,7 +30,7 @@ function idifyPsaume(annee, temps, id) {
   return `${id}(${annee})${temps}`
 }
 async function initPsaumes() {
-  await fetch("https://paroisseschateaubriant.fr/index/psaumes.json").then(r => r.json()).then(function(data) {    
+  await fetch("https://saintefamille44.fr/index/psaumes.json").then(r => r.json()).then(function(data) {    
     psaumeData = data;
     psaumeIndex = lunr(function() {
       this.ref("ref");
