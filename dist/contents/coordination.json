@@ -44,7 +44,7 @@
 					"titre": "Une personne chargée de l'accueil et du secrétariat:",
 					"contact": [
 						{
-							"id": "beatrice-macario"
+							"id": "annick-marie-bucquet"
 						}
 					]
 				}
@@ -64,7 +64,7 @@
 		},
 		{
 			"titre": "Les deux Conseils pour les Affaires Économiques Paroissiales",
-			"description": "<p>Leur mission est de suivre la vie matérielle et financière de nos deux paroisses.</p><ul><li>Le responsable pour Sainte Croix en Châteaubriant : Damien CARETTE <a href=\"mailto:damien.carette@free.fr\">damien.carette@free.fr</a></li><li>Le responsable pour Saint Joseph du Don : Patrick de VERNON <a href=\"mailto:patricketclaudie.devernon@wanadoo.fr\">patricketclaudie.devernon@wanadoo.fr</a></li></ul><p>Dans chaque <a href=\"/clochers/\">clocher</a>, un membre du Conseil s'occupe localement des affaires matérielles de la paroisse et assure, en ce domaine, le lien avec la municipalité.</p>",
+			"description": "<p>Leur mission est de suivre la vie matérielle et financière de nos deux paroisses.</p><ul><li>Les responsables : Damien CARETTE et Patrick de VERNON</li></ul><p>Dans chaque <a href=\"/clochers/\">clocher</a>, un membre du Conseil s'occupe localement des affaires matérielles de la paroisse et assure, en ce domaine, le lien avec la municipalité.</p>",
 			"paragraphe": [
 				{
 					"titre": "Châteaubriant",
@@ -229,14 +229,14 @@
 			"paragraphe": [
 				{
 					"titre": "« Le Souffle des paroisses »",
-					"texte": "<p><img src=\"../res/img/contents/souffle.png\" alt=\"Le Souffle des Paroisses\" width=\"720\" height=\"256\" /></p>\n<p>bulletin paroissial qui para&icirc;t toutes les deux semaines</p>\n<p>Abonnement (envoi postal ou par mail) : pour s'abonner contactez <a href=\"mailto:sccsjd@gmail.com\">sccsjd@gmail.com</a></p>",
+					"texte": "<p><img src=\"../res/img/contents/souffle.png\" alt=\"Le Souffle des Paroisses\" width=\"720\" height=\"256\" /></p>\n<p>bulletin paroissial qui para&icirc;t toutes les deux semaines</p>\n<p>Abonnement (envoi postal ou par mail) : pour s'abonner contactez <a href=\"mailto:souffle@saintefamille44.fr\">souffle@saintefamille44.fr</a></p>",
 					"contact": [
 						{}
 					]
 				},
 				{
 					"titre": "le site internet paroissial",
-					"texte": "<p><a href=\"https://www.paroisseschateaubriant.fr\">https://www.paroisseschateaubriant.fr</a></p>",
+					"texte": "<p><a href=\"https://saintefamille44.fr/\">https://saintefamille44.fr/</a></p>",
 					"contact": [
 						{}
 					]

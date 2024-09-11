@@ -1,14 +1,19 @@
 {
-    "name": "Paroisses Ch\u00e2teaubriant",
-    "short_name": "Paroisses Ch\u00e2teaubriant",
+    "name": "Paroisse Sainte-Famille",
+    "short_name": "Paroisse Sainte-Famille",
     "icons": [
         {
-            "src": "/res/img/android-chrome-144x144.png",
-            "sizes": "144x144",
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-384x384.png",
+            "sizes": "384x384",
             "type": "image/png"
         }
     ],
-    "theme_color": "#0a1128",
-    "background_color": "#0a1128",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
