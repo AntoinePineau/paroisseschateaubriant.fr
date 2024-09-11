@@ -56,16 +56,16 @@
 				"Responsable de la catéchèse",
 				"Préparation à la 1ère communion"
 			],
-			"email": "ktparoissial@gmail.com",
+			"email": "catechese@saintefamille44.fr",
 			"telephone": "07 81 78 99 06"
 		},
 		{
 			"id": "annick-marie-bucquet",
 			"nom": "Annick-Marie BUCQUET",
 			"activite": [
-				"Aumônerie de l'hôpital"
+				"Coordinatrice Paroissiale"
 			],
-			"email": "aumonerie.chateaubriant@ch-cnp.fr",
+			"email": "coordination@saintefamille44.fr",
 			"telephone": "06 42 09 80 17",
 			"fonction": "Bénévole"
 		},
@@ -97,7 +97,6 @@
 			"nom": "Béatrice MACARIO",
 			"fonction": "Accueil - Secrétariat",
 			"activite": [
-				"Coordinatrice Paroissiale",
 				"Onction des malades",
 				"Pèlerinages"
 			],
@@ -183,16 +182,16 @@
 		{
 			"id": "damien-carette",
 			"nom": "Damien Carette",
-			"email": "damien.carette@free.fr",
+			"email": "econome@saintefamille44.fr",
 			"activite": [
-				"Responsable pour Sainte-Croix en Châteaubriant du conseil pour les Affaires Economiques Paroissiales"
+				"Responsable du conseil pour les Affaires Economiques Paroissiales"
 			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "damien-girardeau",
 			"nom": "Damien GIRARDEAU",
-			"email": "comm.paroissechateaubriant@gmail.com",
+			"email": "communication@saintefamille44.fr",
 			"telephone": "06 17 42 01 03",
 			"activite": [
 				"Rencontres du cinéma chrétien"
@@ -252,7 +251,7 @@
 			"activite": [
 				"Préparation au mariage"
 			],
-			"email": "etiennedbl@wanadoo.fr",
+			"email": "mariage@saintefamille44.fr",
 			"telephone": "06 12 93 35 51",
 			"fonction": "Bénévole"
 		},
@@ -299,7 +298,7 @@
 				"Baptême des petits enfants (bébés + maternelles)",
 				"Référente Clocher Noyal-sur-Brutz"
 			],
-			"email": "sccsjdbaptemes@gmail.com",
+			"email": "bapteme@saintefamille44.fr",
 			"telephone": "06 72 08 98 09",
 			"fonction": "Bénévole"
 		},
@@ -338,7 +337,7 @@
 			"fonction": "Prêtre coopérateur",
 			"activite": [],
 			"telephone": "02 40 81 02 92",
-			"email": "gomis.jeanlouis@outlook.fr"
+			"email": "pastojeunes@saintefamille44.fr"
 		},
 		{
 			"id": "jean-moise-gledel",
@@ -458,6 +457,16 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "marie-anne-minier",
+			"nom": "Marie-Anne MINIER",
+			"activite": [
+				"Aumônerie de l'hôpital"
+			],
+			"email": "aumonerie@saintefamille44.fr",
+			"telephone": "06 84 54 59 68",
+			"fonction": "Bénévole"
+		},
+		{
 			"id": "marie-annick-marceteau",
 			"nom": "Marie-Annick MARCETEAU",
 			"email": "marie-annick_marceteau@hotmail.fr",
@@ -476,7 +485,7 @@
 			"activite": [
 				"Responsable de la préparation à la Profession de foi et la Confirmation"
 			],
-			"email": "aumoneriechato@gmail.com",
+			"email": "professiondefoi@saintefamille44.fr",
 			"telephone": "07 49 55 92 27"
 		},
 		{
@@ -486,7 +495,7 @@
 			"activite": [
 				"Le réseau de prière pour les vocations"
 			],
-			"email": "apv44110@gmail.com"
+			"email": "vocations@saintefamille44.fr"
 		},
 		{
 			"id": "marie-claude-luette",
@@ -603,7 +612,7 @@
 		{
 			"id": "marie-therese-roux",
 			"nom": "Marie-Thérèse ROUX",
-			"email": "lagelardiere@wanadoo.fr",
+			"email": "adoration@saintefamille44.fr",
 			"telephone": "06 72 85 47 13",
 			"activite": [
 				"Prière d'adoration",
@@ -644,7 +653,7 @@
 			"id": "patrice-eon",
 			"nom": "Père Patrice EON",
 			"fonction": "Prêtre, Curé",
-			"email": "patrice.eon@free.fr",
+			"email": "paroise@saintefamille44.fr",
 			"telephone": "02 40 81 02 92",
 			"activite": []
 		},
@@ -655,6 +664,16 @@
 			"activite": [
 				"Membre pour Ruffigné et Saint-Aubin des Châteaux du conseil pour les Affaires Economiques Paroissiales"
 			],
+			"fonction": "Bénévole"
+		},
+		{
+			"id": "patricia-brehier",
+			"nom": "Patricia BREHIER",
+			"activite": [
+				"Coordinatrice de la Liturgie"
+			],
+			"email": "liturgie@saintefamille44.fr",
+			"telephone": "06 60 89 82 58",
 			"fonction": "Bénévole"
 		},
 		{

@@ -1,5 +1,5 @@
 {
-	"titre": "Paroisses du Pays de Châteaubriant",
+	"titre": "Paroisse Sainte Famille en Pays de la Mée",
 	"teaser": [
 		{
 			"titre": "28 Septembre !",
@@ -14,12 +14,12 @@
 		},
 		{
 			"titre": "Annuaire",
-			"texte": "Les acteurs de nos paroisses",
+			"texte": "Les acteurs de notre paroisse",
 			"lien": "/annuaire/"
 		},
 		{
 			"titre": "Activités Paroissiales",
-			"texte": "Les rencontres, les célébrations, les formations, les prières et les services au sein de nos paroisses",
+			"texte": "Les rencontres, les célébrations, les formations, les prières et les services au sein de notre paroisse",
 			"lien": "/activites/"
 		},
 		{
@@ -35,17 +35,17 @@
 		},
 		{
 			"titre": "Équipes de coordination",
-			"texte": "Les équipes à votre service pour coordonner les activités de nos paroisses",
+			"texte": "Les équipes à votre service pour coordonner les activités de notre paroisse",
 			"lien": "/coordination/"
 		},
 		{
 			"titre": "Clochers",
-			"texte": "Les clochers de nos paroisses",
+			"texte": "Les clochers de notre paroisse",
 			"lien": "/clochers/"
 		},
 		{
 			"titre": "Actualités",
-			"texte": "Les dernières actualités de nos paroisses",
+			"texte": "Les dernières actualités de notre paroisse",
 			"lien": "/actualites/"
 		}
 	]
