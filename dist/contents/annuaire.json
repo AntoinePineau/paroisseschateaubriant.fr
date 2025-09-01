@@ -67,7 +67,7 @@
 			],
 			"email": "coordination@saintefamille44.fr",
 			"telephone": "06 42 09 80 17",
-			"fonction": "Bénévole"
+			"fonction": "LEME"
 		},
 		{
 			"id": "annie-halet",
@@ -481,7 +481,7 @@
 			],
 			"email": "aumonerie@saintefamille44.fr",
 			"telephone": "06 84 54 59 68",
-			"fonction": "Bénévole"
+			"fonction": "LEME"
 		},
 		{
 			"id": "marie-annick-marceteau",
@@ -498,7 +498,7 @@
 		{
 			"id": "marie-claire-fougere",
 			"nom": "Marie-Claire FOUGÈRE",
-			"fonction": "LEME",
+			"fonction": "Bénévole",
 			"activite": [
 				"Responsable de la préparation à la Profession de foi et la Confirmation"
 			],
