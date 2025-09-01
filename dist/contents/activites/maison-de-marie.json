@@ -12,12 +12,12 @@
 						}
 					],
 					"texte": "<p><img src=\"../../res/img/contents/jardin-paroissial.jpg\" alt=\"Jardin Paroissial\" width=\"512\" height=\"236\" /></p><p><strong><span style=\"font-size: 17.6px;\">tous les samedis matins</span></strong></p><p>Le \"Jardin de Marie\" est g&eacute;r&eacute;, anim&eacute; collectivement.<br />On y d&eacute;veloppe des comp&eacute;tences, des rencontres et des liens d&rsquo;amiti&eacute;. <br />On peut y venir semer, planter, partager les r&eacute;coltes, tous les samedis, de 10h00 &agrave; 12h00. <br />Contacter:</p>",
-					"titre": "Un jardin paroissial"
+					"titre": "Un jardin partagé"
 				},
 				{
 					"contact": [
 						{
-							"id": "didier-blanc"
+							"id": "catherine-viguerie"
 						}
 					],
 					"texte": "<p><img src=\"../../res/img/contents/repas-partage.jpg\" alt=\"Repas partag&eacute;\" width=\"400\" height=\"534\" /></p>\n<p><strong><span style=\"font-size: 17.6px;\">le jeudi matin tous les 15 jours</span></strong></p>\n<p>Dans un esprit fraternel avec un accueil convivial, venez :</p>\n<ul>\n<li>cuisiner ensemble,</li>\n<li>d&eacute;couvrir des recettes, &eacute;changer des comp&eacute;tences, cr&eacute;er des liens d&rsquo;amiti&eacute;,</li>\n<li>partager un repas.</li>\n</ul>\n<p><strong>Ouvert &agrave; tous</strong>, nous vous invitons le jeudi tous les 15 jours de 9h30 &agrave; 14h00. Inscription :</p>",
@@ -43,7 +43,7 @@
 				},
 				{
 					"titre": "L'atelier Dessin pour les enfants",
-					"texte": "<p><img src=\"../../res/img/contents/atelier-dessin.jpg\" alt=\"Atelier Dessin\" width=\"500\" /></p>\n<p>Inscription :</p>",
+					"texte": "<p><!--img src=\"../../res/img/contents/atelier-dessin.jpg\" alt=\"Atelier Dessin\" width=\"500\" /--></p>\n<p>Inscription :</p>",
 					"contact": [
 						{
 							"id": "marie-delpech"

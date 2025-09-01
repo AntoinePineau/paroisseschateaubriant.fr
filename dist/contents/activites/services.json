@@ -12,9 +12,6 @@
 							"id": "christiane-lepicier"
 						},
 						{
-							"id": "annick-marie-bucquet"
-						},
-						{
 							"id": "soeur-imelda-piton"
 						},
 						{
@@ -38,7 +35,7 @@
 					"texte": "Il existe une aumônerie à l'hôpital de Châteaubriant",
 					"contact": [
 						{
-							"id": "annick-marie-bucquet"
+							"id": "marie-anne-minier"
 						}
 					]
 				}
@@ -73,7 +70,7 @@
 			"titre": "Au service des personnes handicapées",
 			"paragraphe": [
 				{
-					"texte": "La PPH (Pastorale des personnes handicapées) se réunit régulièrement pour des temps d'échanges et pour participer ensemble à l'eucharistie dominicale.",
+					"texte": "La PPH (Pastorale des personnes handicapées) se réunit régulièrement pour des temps d'échanges et pour participer ensemble à l'eucharistie dominicale.<br/><a href=\"/messes/\">Messes signées mensuelles</a>",
 					"contact": [
 						{
 							"id": "alain-esnault"
