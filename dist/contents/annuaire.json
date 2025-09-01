@@ -706,13 +706,6 @@
 			"fonction": "Bénévole"
 		},
 		{
-			"id": "roger-roul",
-			"nom": "Père Roger ROUL",
-			"telephone": "02 40 55 10 80",
-			"activite": [],
-			"fonction": "Prêtre auxilliaire"
-		},
-		{
 			"id": "service-diocesain-des-vocations",
 			"nom": "Service diocésain des vocations",
 			"email": "vocations44@nantes.cef.fr",
