@@ -50,7 +50,7 @@
 	],
 	"paragraphe": [
 		{
-			"texte": "Un dimanche par mois, la messe est traduite en langue des signes.",
+			"texte": "Un dimanche par mois, la messe est traduite en langue des signes.<br/>Voici les dates de ces messes à l'église Saint-Nicolas<ul><li>Dimanche 12 octobre 2025</li><li>Dimanche 16 novembre 2025</li><li>Dimanche 14 décembre 2025</li><li>Dimanche 25 janvier 2026</li><li>Dimanche 15 février 2026</li><li>Dimanche 22 mars 2026</li><li>Dimanche 12 avril 2026</li><li>Dimanche 24 mai 2026</li></ul>",
 			"contact": [
 				{
 					"id": "alain-esnault"

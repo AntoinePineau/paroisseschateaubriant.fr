@@ -49,11 +49,11 @@
 					]
 				}
 			],
-			"description": "<p><img src=\"../res/img/contents/equipe-pastorale.jpg\" alt=\"L'&eacute;quipe pastorale\" width=\"600\" height=\"450\" /></p>"
+			"description": "<p><!--img src=\"../res/img/contents/equipe-pastorale.jpg\" alt=\"L'&eacute;quipe pastorale\" width=\"600\" height=\"450\" /--></p>"
 		},
 		{
 			"titre": "Un Conseil Pastoral d'Evangélisation",
-			"description": "<p><img src=\"../res/img/contents/conseil-diocesain.jpg\" alt=\"Sonseil Pastoral\" width=\"500\" height=\"413\" /></p>\n<p>Le Conseil Pastoral d'Evang&eacute;lisation, comme son nom l'indique, a pour but de conseiller le cur&eacute; dans la conduite de la paroisse. C'est J&eacute;sus, le Bon Pasteur, qui, par son Esprit doit diriger notre paroisse. C'est donc sa vision, sa volont&eacute; sur notre communaut&eacute; paroissiale, que le Conseil essaye de discerner et de mettre en &oelig;uvre. Il discerne les axes pastoraux pour l'ann&eacute;e - et les ann&eacute;es - &agrave; venir, ainsi que les moyens &agrave; prendre pour leur r&eacute;alisation. Il passe aussi en revue, les grands domaines de la vie paroissiale, pour en faire une &eacute;valuation. C'est en quelque sorte, le Conseil d'Orientation de la paroisse. Il rassemble les pr&ecirc;tres, les diacres, les LEMES, et d'autres la&iuml;cs des deux paroisses.</p>",
+			"description": "<p><!--img src=\"../res/img/contents/conseil-diocesain.jpg\" alt=\"Sonseil Pastoral\" width=\"500\" height=\"413\" /--></p>\n<p>Le Conseil Pastoral d'Evang&eacute;lisation, comme son nom l'indique, a pour but de conseiller le cur&eacute; dans la conduite de la paroisse. C'est J&eacute;sus, le Bon Pasteur, qui, par son Esprit doit diriger notre paroisse. C'est donc sa vision, sa volont&eacute; sur notre communaut&eacute; paroissiale, que le Conseil essaye de discerner et de mettre en &oelig;uvre. Il discerne les axes pastoraux pour l'ann&eacute;e - et les ann&eacute;es - &agrave; venir, ainsi que les moyens &agrave; prendre pour leur r&eacute;alisation. Il passe aussi en revue, les grands domaines de la vie paroissiale, pour en faire une &eacute;valuation. C'est en quelque sorte, le Conseil d'Orientation de la paroisse. Il rassemble les pr&ecirc;tres, les diacres, les LEMES, et d'autres la&iuml;cs des deux paroisses.</p>",
 			"paragraphe": [
 				{
 					"contact": [
@@ -243,15 +243,21 @@
 				},
 				{
 					"titre": "la page Facebook",
-					"texte": "<p><a href=\"https://www.facebook.com/pages/Sainte-Croix-en-Ch%C3%A2teaubriant/161344020586714\" target=\"_blank\">Paroisses du pays de Châteaubriant</a></p>",
+					"texte": "<p><a href=\"https://www.facebook.com/pages/Sainte-Croix-en-Ch%C3%A2teaubriant/161344020586714\" target=\"_blank\">Paroisse Sainte Famille en Pays de la Mée</a></p>",
 					"contact": [
 						{}
 					]
 				},
 				{
-					"texte": "<p>Pour passer une annonce sur le Souffle, écrire à <a href=\"mailto:sccsjd@gmail.com\">sccsjd@gmail.com</a></p><p>Pour passer une annonce sur les réseaux sociaux, écrire à <a href=\"mailto:comm.paroissechateaubriant@gmail.com\">comm.paroissechateaubriant@gmail.com</a></p>",
+					"texte": "<p>Pour passer une annonce sur le Souffle, écrire à <a href=\"mailto:souffle@saintefamille44.fr\">souffle@saintefamille44.fr</a></p><p>Pour passer une annonce sur les réseaux sociaux, écrire à <a href=\"mailto:communication@saintefamille44.fr\">communication@saintefamille44.fr</a></p>",
 					"contact": [
 						{}
+					]
+				},
+				{
+					"texte": "<p>Référent distribution du Souffle</p>",
+					"contact": [
+						{"id": "bernard-moulin"}
 					]
 				}
 			]

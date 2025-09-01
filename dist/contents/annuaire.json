@@ -133,6 +133,16 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "bernard-moulin",
+			"nom": "Bernard MOULIN",
+			"email": "moulindom@live.fr",
+			"telephone": "06 25 11 60 81",
+			"activite": [
+				"Référent Distribution du Souffle"
+			],
+			"fonction": "Bénévole"
+		},
+		{
 			"id": "bernard-remy",
 			"nom": "Bernard REMY",
 			"telephone": "02 40 55 12 31",
@@ -181,6 +191,16 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "clotilde-gary",
+			"nom": "Clotilde GARY",
+			"telephone": "06 11 87 87 70",
+			"email": "crg14@vivalvi.net",
+			"activite": [
+				"Référente Cinéma Chrétien"
+			],
+			"fonction": "Bénévole"
+		},
+		{
 			"id": "damien-carette",
 			"nom": "Damien Carette",
 			"email": "econome@saintefamille44.fr",
@@ -225,6 +245,16 @@
 			"email": "didiergautier7@yahoo.fr",
 			"activite": [
 				"Membre pour Grand Auverné et Petit Auverné du conseil pour les Affaires Economiques Paroissiales"
+			],
+			"fonction": "Bénévole"
+		},
+		{
+			"id": "dominique-moulin",
+			"nom": "Dominique MOULIN",
+			"email": "moulindom@live.fr",
+			"telephone": "06 25 11 60 81",
+			"activite": [
+				"Référente Tricot partagé"
 			],
 			"fonction": "Bénévole"
 		},
