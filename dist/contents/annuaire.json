@@ -155,7 +155,8 @@
 			"id": "catherine-viguerie",
 			"nom": "Catherine VIGUERIE",
 			"activite": [
-				"Préparation au Baptême et à la 1ère communion des adultes"
+				"Préparation au Baptême et à la 1ère communion des adultes",
+				"Référente repas partagés"
 			],
 			"email": "catherineviguerie44@gmail.com",
 			"telephone": "06 19 71 91 69",
@@ -194,14 +195,15 @@
 			"email": "communication@saintefamille44.fr",
 			"telephone": "06 17 42 01 03",
 			"activite": [
-				"Rencontres du cinéma chrétien"
+				"Communication paroissiale"
 			],
 			"fonction": "Bénévole"
 		},
 		{
-			"id": "david",
-			"nom": "David",
+			"id": "david-marechal",
+			"nom": "David MARÉCHAL",
 			"email": "oralite@free.fr",
+			"telephone": "06 68 49 21 25",
 			"activite": [
 				"Groupe « Oralité : mémorisation de l'évangile, mettre la Parole de Dieu au cœur de nos vies »"
 			],
@@ -209,20 +211,11 @@
 		},
 		{
 			"id": "david-et-anne",
-			"nom": "David et Anne",
+			"nom": "David et Anne MARÉCHAL",
 			"email": "maisonsmarie@free.fr",
+			"telephone": "06 14 30 16 19",
 			"activite": [
 				"Les Maisons de Marie"
-			],
-			"fonction": "Bénévole"
-		},
-		{
-			"id": "didier-blanc",
-			"nom": "Didier BLANC",
-			"email": "sabbaghgitton@gmail.com",
-			"telephone": "06 44 07 14 97",
-			"activite": [
-				"Ateliers de couture, de tricot, de produits ménagers bios et de cuisine"
 			],
 			"fonction": "Bénévole"
 		},
@@ -256,15 +249,6 @@
 			"fonction": "Bénévole"
 		},
 		{
-			"id": "evelyne-denieul",
-			"nom": "Evelyne DENIEUL",
-			"activite": [
-				"Le réseau de prière pour les vocations"
-			],
-			"telephone": "06 28 54 18 83",
-			"fonction": "Bénévole"
-		},
-		{
 			"id": "gabrielle-caro",
 			"nom": "Gabrielle CARO",
 			"email": "gabrielle.caro@sfr.fr",
@@ -274,8 +258,8 @@
 			"fonction": "Bénévole"
 		},
 		{
-			"id": "genevieve",
-			"nom": "Geneviève",
+			"id": "genevieve-retif",
+			"nom": "Geneviève RÉTIF",
 			"email": "gouterlaparole@free.fr",
 			"activite": [
 				"Groupe « Goûter ensemble la Parole de Dieu »"
@@ -284,7 +268,7 @@
 		},
 		{
 			"id": "genretif",
-			"nom": "Geneviève",
+			"nom": "Geneviève RÉTIF",
 			"email": "genretif@orange.fr",
 			"activite": [
 				"Groupe « Église verte »"
@@ -369,7 +353,7 @@
 			"email": "jptho35@wanadoo.fr",
 			"telephone": "06 07 44 92 27",
 			"activite": [
-				"Jardin paroissial"
+				"Jardin partagé"
 			],
 			"fonction": "Bénévole"
 		},
@@ -432,8 +416,8 @@
 			"fonction": "Bénévole"
 		},
 		{
-			"id": "marcel-angel",
-			"nom": "Marcel ANGEL",
+			"id": "marcel-angel-dereix",
+			"nom": "Marcel ANGEL DEREIX",
 			"email": "marcel.angel.dereix@gmail.com",
 			"activite": [
 				"Membre pour Juigné-des-Moutiers du conseil pour les Affaires Economiques Paroissiales"
@@ -569,7 +553,8 @@
 			"email": "mboissinot@aliceadsl.fr",
 			"telephone": "06 19 67 04 83",
 			"activite": [
-				"Visite à domicile des malades et personnes âgées"
+				"Visite à domicile des malades et personnes âgées",
+				"Référente SEM (Service Évangélique des Malades)"
 			],
 			"fonction": "Bénévole"
 		},
@@ -625,7 +610,7 @@
 		},
 		{
 			"id": "morgane-cousin",
-			"nom": "M.Morgane COUSIN",
+			"nom": "Morgane COUSIN",
 			"email": "morgane.cousin86@gmail.com",
 			"activite": [
 				"Membre pour Saint-Julien de Vouvante du conseil pour les Affaires Economiques Paroissiales"
@@ -665,15 +650,17 @@
 			"nom": "Patrick BRIAND",
 			"email": "mpbriand@orange.fr",
 			"activite": [
-				"Membre pour Ruffigné et Saint-Aubin des Châteaux du conseil pour les Affaires Economiques Paroissiales"
+				"Membre pour Ruffigné et Saint-Aubin des Châteaux du conseil pour les Affaires Economiques Paroissiales",
+				"Référent des commandes de cierges"
 			],
 			"fonction": "Bénévole"
 		},
 		{
 			"id": "patricia-brehier",
-			"nom": "Patricia BREHIER",
+			"nom": "Patricia BRÉHIER",
 			"activite": [
-				"Coordinatrice de la Liturgie"
+				"Coordinatrice de la Liturgie",
+				"Référente Saint-Vincent de Paul"
 			],
 			"email": "liturgie@saintefamille44.fr",
 			"telephone": "06 60 89 82 58",
