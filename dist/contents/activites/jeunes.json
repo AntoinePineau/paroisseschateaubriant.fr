@@ -29,7 +29,7 @@
 					"titre": "La Pastorale Scolaire",
 					"contact": [
 						{
-							"id": "jean-paul-horhant"
+							"id": "marie-noel-henry"
 						}
 					]
 				},
@@ -45,7 +45,7 @@
 					"titre": "Le Pélé-Flash à Paris",
 					"contact": [
 						{
-							"id": "jean-paul-horhant"
+							"id": "marie-noel-henry"
 						}
 					]
 				},
@@ -103,6 +103,15 @@
 				{
 					"titre": "La Fraternité JM (jeunes majeurs…)",
 					"texte": "Pour les étudiants et les jeunes professionnels",
+					"contact": [
+						{
+							"id": "jean-louis-gomis"
+						}
+					]
+				},
+				{
+					"titre": "Ecole de prière",
+					"texte": "7 jours pour grandir dans la foi",
 					"contact": [
 						{
 							"id": "jean-louis-gomis"

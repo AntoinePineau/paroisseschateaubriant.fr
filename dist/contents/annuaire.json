@@ -15,7 +15,8 @@
 			"nom": "Alain ESNAULT",
 			"fonction": "Diacre",
 			"activite": [
-				"Pastorale des personnes handicapées"
+				"Pastorale des personnes handicapées",
+				"Atelier apprentissage langue des signes"
 			],
 			"email": "alain.esn@gmail.com",
 			"telephone": "06 72 08 98 09"
@@ -63,7 +64,7 @@
 			"id": "annick-marie-bucquet",
 			"nom": "Annick-Marie BUCQUET",
 			"activite": [
-				"Coordinatrice Paroissiale"
+				"Coordinatrice Pastorale et Paroissiale"
 			],
 			"email": "coordination@saintefamille44.fr",
 			"telephone": "07 66 48 48 73",
@@ -104,16 +105,6 @@
 			"telephone": "07 66 48 48 73"
 		},
 		{
-			"id": "beatrice-yonger",
-			"nom": "Béatrice YONGER",
-			"activite": [
-				"Confirmation des adultes"
-			],
-			"email": "beatrice.yonger@wanadoo.fr",
-			"telephone": "06 12 84 40 22",
-			"fonction": "Bénévole"
-		},
-		{
 			"id": "bernard-albert",
 			"nom": "Bernard ALBERT",
 			"email": "bernardchristine.albert@orange.fr",
@@ -138,7 +129,7 @@
 			"email": "moulindom@live.fr",
 			"telephone": "06 25 11 60 81",
 			"activite": [
-				"Référent Distribution du Souffle"
+				"Référent Abonnements et Distribution du Souffle"
 			],
 			"fonction": "Bénévole"
 		},
@@ -317,9 +308,6 @@
 			"fonction": "Bénévole"
 		},
 		{
-			"activite": []
-		},
-		{
 			"id": "jean-claude-bizeul",
 			"nom": "Jean-Claude BIZEUL",
 			"email": "bizeul.jean-claude@orange.fr",
@@ -373,19 +361,18 @@
 			"telephone": "06 28 30 72 44",
 			"activite": [
 				"Conférences-témoignages",
-				"La Pastorale Scolaire",
 				"Rencontre avec la communauté musulmane"
 			]
 		},
 		{
-			"id": "jean-paul-thomas",
-			"nom": "Jean-Paul Thomas",
-			"email": "jptho35@wanadoo.fr",
-			"telephone": "06 07 44 92 27",
+			"id": "marie-noel-henry",
+			"nom": "Marie-Noël HENRY",
+			"fonction": "Adjointe en Pastorale Scolaire",
+			"email": "mhenry@stjo-chateaubriant.fr",
+			"telephone": "07 85 89 75 85",
 			"activite": [
-				"Jardin partagé"
-			],
-			"fonction": "Bénévole"
+				"La Pastorale Scolaire"
+			]
 		},
 		{
 			"id": "jean-pierre-legrais",
@@ -412,7 +399,8 @@
 			"fonction": "Diacre",
 			"activite": [
 				"Pôle Solidarité",
-				"Visite à domicile des malades et personnes âgées"
+				"Visite à domicile des malades et personnes âgées",
+				"Secours Catholique"
 			],
 			"email": "joel-macario@orange.fr",
 			"telephone": "06 61 45 80 91"
@@ -634,7 +622,8 @@
 			"telephone": "06 72 85 47 13",
 			"activite": [
 				"Prière d'adoration",
-				"Prière des Mères"
+				"Prière des Mères",
+				"Jardin partagé"
 			],
 			"fonction": "Bénévole"
 		},
@@ -643,18 +632,18 @@
 			"nom": "Morgane COUSIN",
 			"email": "morgane.cousin86@gmail.com",
 			"activite": [
-				"Membre pour Saint-Julien de Vouvante du conseil pour les Affaires Economiques Paroissiales"
+				"Membre pour Saint-Julien de Vouvantes du conseil pour les Affaires Economiques Paroissiales"
 			],
 			"fonction": "Bénévole"
 		},
 		{
-			"id": "morgane-pineau-morin",
-			"nom": "Morgane et Antoine PINEAU-MORIN",
+			"id": "antoine-pineau-morin",
+			"nom": "Antoine PINEAU-MORIN",
 			"activite": [
-				"Parcours Alpha Parents"
+				"Webmaster Site Paroissial"
 			],
 			"email": "famille@pineau.pm",
-			"telephone": "06 08 36 64 03",
+			"telephone": "06 61 45 86 09",
 			"fonction": "Bénévole"
 		},
 		{

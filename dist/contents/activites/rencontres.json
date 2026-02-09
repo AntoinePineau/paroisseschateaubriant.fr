@@ -138,13 +138,6 @@
 			"description": "<p><img src=\"../../res/img/contents/pelerinage.jpg\" alt=\"P&eacute;lerinage\" width=\"500\" height=\"333\" /></p>\n<p>Trois p&egrave;lerinages d'1 jour sont organis&eacute;s dans l'ann&eacute;e.</p>",
 			"paragraphe": [
 				{
-					"contact": [
-						{
-							"id": "beatrice-macario"
-						}
-					]
-				},
-				{
 					"texte": "<p><span style=\"font-size: 17.6px;\">Ainsi que la participation au p&egrave;lerinage dioc&eacute;sain &agrave; Lourdes.</span></p>",
 					"contact": [
 						{
@@ -174,7 +167,7 @@
 				{
 					"contact": [
 						{
-							"id": "damien-girardeau"
+							"id": "clotilde-gary"
 						}
 					]
 				}
@@ -182,7 +175,7 @@
 		},
 		{
 			"titre": "Les verres de l'amitié",
-			"description": "Après les messes des familles",
+			"description": "Après les messes des familles, chaque 1er dimanche du mois",
 			"paragraphe": [
 				{
 					"contact": [
