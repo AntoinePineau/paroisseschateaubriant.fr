@@ -91,6 +91,12 @@
 			]
 		},
 		{
+			"url": "/colocation-etudiante/",
+			"sousmenu": [
+				{}
+			]
+		},
+		{
 			"sousmenu": [
 				{}
 			]
