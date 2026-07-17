@@ -452,6 +452,15 @@
 			"fonction": "Bénévole"
 		},
 		{
+			"id": "marieauderoman",
+			"nom": "Marie-Aude et Roman JEDRZEJCZAK",
+			"email": "marieauderoman@laposte.net",
+			"activite": [
+				"Colocation Etudiante Catholique"
+			],
+			"fonction": "Bénévole"
+		},
+		{
 			"id": "marie-ange-burin",
 			"nom": "Marie-Ange BURIN",
 			"email": "marieangeburin44@gmail.com",

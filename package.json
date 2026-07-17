@@ -21,8 +21,10 @@
     "gulp-uglify": "^3.0.2",
     "http-proxy": "^1.17.0",
     "netlify-plugin-lunr-indexer": "^1.0.0-0",
+    "path": "^0.12.7",
     "puppeteer": "^1.14.0",
     "sass": "^1.63.5",
+    "through2": "^5.0.5",
     "yargs": "^13.2.2"
   },
   "dependencies": {

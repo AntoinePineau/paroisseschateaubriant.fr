@@ -15,8 +15,8 @@
       })(window,document,'script','dataLayer','GTM-K2K2XKXP');</script>
     <!-- end of Google Tag Manager-->
 
-    <title>Adultes | Paroisses du Pays de Châteaubriant</title>
-    <meta name="description" content="Une paroisse qui forme les adultes à l'intelligence de la foi">
+    <title>Colocation Etudiante | Paroisses du Pays de Châteaubriant</title>
+    <meta name="description" content="Une paroisse qui propose une colocation étudiante tout en (re)découvrant la foi chrétienne">
 <!-- start metas.html-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -78,27 +78,29 @@
     </header>
 <!-- end header.html-->
 <!-- start main -->
-    <main mv-app="activites" mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/activites/adultes.json" mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
-      <h1 property="titre"></h1>
+<main mv-app="activites"
+  mv-storage="https://github.com/AntoinePineau/paroisseschateaubriant.fr/dist/contents/colocation-etudiante.json"
+  mv-autosave="1" mv-upload-url="https://paroissechateaubriant.netlify.app">
+  <h1 property="titre"></h1>
+  <div property="description" class="tinymce"></div>
+  <section mv-list="blocs">
+    <div mv-list-items>
+      <h2 property="titre"></h2>
       <div property="description" class="tinymce"></div>
-      <section mv-list="blocs">
-        <div mv-list-items>
-          <h2 property="titre"></h2>
-          <div property="description" class="tinymce"></div>
-          <div mv-list="paragraphe">
-            <h3 property="titre"></h3>
-            <div property="texte" class="tinymce"></div>
-            <aside mv-list="contact">
-              <div mv-list-items>
-                <span property="id" mv-editor-list="contacts" class="loggued"></span>
-              </div>
-            </aside>
+      <div mv-list="paragraphe">
+        <h3 property="titre"></h3>
+        <div property="texte" class="tinymce"></div>
+        <aside mv-list="contact">
+          <div mv-list-items>
+            <span property="id" mv-editor-list="contacts" class="loggued"></span>
           </div>
-        </div>
-      </section>
-      <datalist id="contacts">
-      </datalist>
-    </main>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <datalist id="contacts">
+  </datalist>
+</main>
 
 <!-- end main -->
 <!-- start footer.html-->
