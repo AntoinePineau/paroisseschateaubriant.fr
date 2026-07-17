@@ -90,7 +90,8 @@
 			]
 		},
 		{
-			"url": "Colocation Etudiante",
+			"libelle": "Colocation Etudiante",
+			"url": "/colocation-etudiante/",
 			"sousmenu": [
 				{}
 			]

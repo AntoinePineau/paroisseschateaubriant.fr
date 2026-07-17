@@ -35,6 +35,11 @@
 			"titre": "Actualités",
 			"texte": "Les dernières actualités de notre paroisse",
 			"lien": "/actualites/"
+		},
+		{
+			"titre": "Colocation Etudiante",
+			"texte": "A partir de Septembre 2026",
+			"lien": "/colocation-etudiante/"
 		}
 	]
 }
