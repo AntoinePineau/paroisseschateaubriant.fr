@@ -48,7 +48,7 @@ function addContactsSearch() {
     if($select) {
         let options = [];
         // on cherche toutes les fonctions uniques
-        Array.from(document.querySelectorAll('div[property="contact"] div[property="fonction"]:not(:empty)')).forEach(f=>{
+        Array.from(document.querySelectorAll('#contact div[property="fonction"]:not(:empty)')).forEach(f=>{
             let o = f.innerText.split(/[, ]/)[0];
             if(!options.includes(o)) options.push(o)
         });
