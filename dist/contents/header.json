@@ -85,18 +85,8 @@
 			]
 		},
 		{
-			"sousmenu": [
-				{}
-			]
-		},
-		{
 			"libelle": "Colocation Etudiante",
 			"url": "/colocation-etudiante/",
-			"sousmenu": [
-				{}
-			]
-		},
-		{
 			"sousmenu": [
 				{}
 			]
